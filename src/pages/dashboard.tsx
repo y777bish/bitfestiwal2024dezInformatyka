@@ -32,37 +32,71 @@ export default function Dashboard() {
 
   return (
     <Layout>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" role="main">
         {/* Sekcja statystyk */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-          <div className="bg-white rounded-lg shadow p-6">
-            <h3 className="text-lg font-medium text-gray-900">
-              Ukończenie profilu
-            </h3>
-            <p className="mt-2 text-3xl font-semibold text-indigo-600">85%</p>
+        <section aria-labelledby="stats-heading">
+          <h2 id="stats-heading" className="sr-only">
+            Twoje statystyki
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div className="bg-white rounded-lg shadow p-6" role="status">
+              <h3 className="text-lg font-medium text-gray-900">
+                Ukończenie profilu
+              </h3>
+              <p
+                className="mt-2 text-3xl font-semibold text-indigo-600"
+                aria-label="85 procent ukończenia profilu"
+              >
+                85%
+              </p>
+            </div>
+            <div className="bg-white rounded-lg shadow p-6" role="status">
+              <h3 className="text-lg font-medium text-gray-900">
+                Aktywne hobby
+              </h3>
+              <p
+                className="mt-2 text-3xl font-semibold text-indigo-600"
+                aria-label={`${userHobbies.length} aktywnych hobby`}
+              >
+                {userHobbies.length}
+              </p>
+            </div>
+            <div className="bg-white rounded-lg shadow p-6" role="status">
+              <h3 className="text-lg font-medium text-gray-900">
+                Dni aktywności
+              </h3>
+              <p
+                className="mt-2 text-3xl font-semibold text-indigo-600"
+                aria-label="7 dni aktywności"
+              >
+                7
+              </p>
+            </div>
           </div>
-          <div className="bg-white rounded-lg shadow p-6">
-            <h3 className="text-lg font-medium text-gray-900">Aktywne hobby</h3>
-            <p className="mt-2 text-3xl font-semibold text-indigo-600">
-              {userHobbies.length}
-            </p>
-          </div>
-          <div className="bg-white rounded-lg shadow p-6">
-            <h3 className="text-lg font-medium text-gray-900">
-              Dni aktywności
-            </h3>
-            <p className="mt-2 text-3xl font-semibold text-indigo-600">7</p>
-          </div>
-        </div>
+        </section>
 
         {/* Sekcja hobby */}
-        <div>
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Twoje hobby</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <section aria-labelledby="hobbies-heading">
+          <h2
+            id="hobbies-heading"
+            className="text-2xl font-bold text-gray-900 mb-6"
+          >
+            Twoje hobby
+          </h2>
+          <div
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+            role="list"
+          >
             {userHobbies.map((hobby) => (
               <div
                 key={hobby.id}
                 onClick={() => handleHobbyClick(hobby.id)}
+                onKeyPress={(e) =>
+                  e.key === "Enter" && handleHobbyClick(hobby.id)
+                }
+                tabIndex={0}
+                role="button"
+                aria-label={`${hobby.name}: ${hobby.description}. Postęp: ${hobby.progress}%. Kliknij aby zobaczyć szczegóły.`}
                 className="bg-white rounded-lg shadow p-6 cursor-pointer 
                          hover:shadow-lg transition-all duration-300 
                          transform hover:-translate-y-1 active:translate-y-0
@@ -71,6 +105,7 @@ export default function Dashboard() {
                 <div
                   className="absolute inset-0 bg-indigo-500 opacity-0 
                               group-hover:opacity-5 rounded-lg transition-opacity"
+                  aria-hidden="true"
                 />
                 <h3 className="text-lg font-medium text-gray-900 mb-2">
                   {hobby.name}
@@ -84,12 +119,21 @@ export default function Dashboard() {
                       </span>
                     </div>
                     <div className="text-right">
-                      <span className="text-xs font-semibold inline-block text-indigo-600">
+                      <span
+                        className="text-xs font-semibold inline-block text-indigo-600"
+                        aria-label={`${hobby.progress} procent ukończenia`}
+                      >
                         {hobby.progress}%
                       </span>
                     </div>
                   </div>
-                  <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-indigo-200">
+                  <div
+                    className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-indigo-200"
+                    role="progressbar"
+                    aria-valuenow={hobby.progress}
+                    aria-valuemin={0}
+                    aria-valuemax={100}
+                  >
                     <div
                       style={{ width: `${hobby.progress}%` }}
                       className="shadow-none flex flex-col text-center whitespace-nowrap 
@@ -102,6 +146,7 @@ export default function Dashboard() {
                 <div
                   className="flex items-center justify-end mt-2 text-indigo-600 
                               opacity-0 group-hover:opacity-100 transition-opacity"
+                  aria-hidden="true"
                 >
                   <span className="text-sm mr-1">Zobacz szczegóły</span>
                   <svg
@@ -124,6 +169,10 @@ export default function Dashboard() {
             {/* Kafelek dodawania nowego hobby */}
             <div
               onClick={() => router.push("/quiz")}
+              onKeyPress={(e) => e.key === "Enter" && router.push("/quiz")}
+              tabIndex={0}
+              role="button"
+              aria-label="Odkryj nowe hobby. Kliknij aby przejść do quizu."
               className="bg-white rounded-lg shadow p-6 border-2 border-dashed 
                        border-gray-300 hover:border-indigo-500 cursor-pointer 
                        flex items-center justify-center group hover:shadow-lg 
@@ -133,6 +182,7 @@ export default function Dashboard() {
                 <div
                   className="mx-auto h-12 w-12 text-gray-400 group-hover:text-indigo-500 
                               transition-colors duration-300"
+                  aria-hidden="true"
                 >
                   <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path
@@ -149,7 +199,7 @@ export default function Dashboard() {
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </Layout>
   );

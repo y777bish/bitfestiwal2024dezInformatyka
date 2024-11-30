@@ -18,8 +18,6 @@ export default function HobbyDetail() {
   const [tasks, setTasks] = useState<Task[]>([]);
   const hobby = hobbiesData[id as string];
 
-  console.log(Object.keys(hobbiesData).length);
-
   useEffect(() => {
     if (hobby) {
       setTasks(hobby.tasks);
@@ -29,8 +27,12 @@ export default function HobbyDetail() {
   if (!hobby) {
     return (
       <Layout>
-        <div className="min-h-screen flex items-center justify-center">
-          <p className="text-gray-500 text-xl">Hobby not found</p>
+        <div
+          className="min-h-screen flex items-center justify-center"
+          role="alert"
+          aria-live="polite"
+        >
+          <p className="text-gray-500 text-xl">Hobby nie zostało znalezione</p>
         </div>
       </Layout>
     );
@@ -39,47 +41,81 @@ export default function HobbyDetail() {
   const handleToggleTask = (taskId: string) => {
     setTasks((currentTasks) =>
       currentTasks.map((task) =>
-        task.id === taskId ? { ...task, isCompleted: !task.isCompleted } : task,
-      ),
+        task.id === taskId ? { ...task, isCompleted: !task.isCompleted } : task
+      )
     );
   };
 
   return (
     <Layout>
-      <div className="max-w-4xl mx-auto px-4 py-8 space-y-8">
+      <main
+        className="max-w-4xl mx-auto px-4 py-8 space-y-8"
+        role="main"
+        aria-labelledby="hobby-title"
+      >
         {/* Hero Section */}
         <div className="relative h-64 md:h-96 rounded-xl overflow-hidden shadow-lg">
           <Image
             src={hobby.imageUrl}
-            alt={hobby.name}
+            alt={`Zdjęcie przedstawiające ${hobby.name}`}
             fill
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-          <h1 className="absolute bottom-6 left-6 text-4xl font-bold text-white">
+          <div
+            className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"
+            aria-hidden="true"
+          />
+          <h1
+            id="hobby-title"
+            className="absolute bottom-6 left-6 text-4xl font-bold text-white"
+          >
             {hobby.name}
           </h1>
         </div>
 
         {/* Attributes Grid */}
-        <div className="bg-white rounded-xl shadow-lg p-6">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        <section
+          className="bg-white rounded-xl shadow-lg p-6"
+          aria-labelledby="attributes-heading"
+        >
+          <h2
+            id="attributes-heading"
+            className="text-2xl font-bold text-gray-900 mb-4"
+          >
             Charakterystyka hobby
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <div
+            className="grid grid-cols-2 md:grid-cols-3 gap-4"
+            role="list"
+            aria-label="Lista charakterystyk hobby"
+          >
             {Object.entries(hobby.attributes).map(([key, value]) => (
-              <div key={key} className="p-3 bg-gray-50 rounded-lg">
+              <div
+                key={key}
+                className="p-3 bg-gray-50 rounded-lg"
+                role="listitem"
+              >
                 <div className="text-sm text-gray-500 capitalize">
                   {translateToPolish(key.trim() as keyof HobbyAttributes)}
                 </div>
-                <div className="mt-1 flex items-center">
+                <div
+                  className="mt-1 flex items-center"
+                  role="meter"
+                  aria-label={`Poziom ${translateToPolish(
+                    key.trim() as keyof HobbyAttributes
+                  )}`}
+                  aria-valuenow={value}
+                  aria-valuemin={0}
+                  aria-valuemax={5}
+                >
                   {[1, 2, 3, 4, 5].map((level) => (
                     <div
                       key={level}
                       className={`h-2 w-4 mr-1 rounded-full ${
                         level <= value ? "bg-indigo-500" : "bg-gray-200"
                       }`}
+                      aria-hidden="true"
                     />
                   ))}
                   <span className="ml-2 text-sm font-medium text-gray-700">
@@ -89,23 +125,44 @@ export default function HobbyDetail() {
               </div>
             ))}
           </div>
-        </div>
+        </section>
 
         {/* Description Section */}
-        <div className="bg-white rounded-xl shadow-lg p-6">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">O tym hobby</h2>
+        <section
+          className="bg-white rounded-xl shadow-lg p-6"
+          aria-labelledby="description-heading"
+        >
+          <h2
+            id="description-heading"
+            className="text-2xl font-bold text-gray-900 mb-4"
+          >
+            O tym hobby
+          </h2>
           <p className="text-gray-600 leading-relaxed">{hobby.description}</p>
-        </div>
+        </section>
 
         {/* Tasks Section */}
-        <div className="bg-white rounded-xl shadow-lg p-6">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Lista zadań</h2>
-          <div className="space-y-3">
+        <section
+          className="bg-white rounded-xl shadow-lg p-6"
+          aria-labelledby="tasks-heading"
+        >
+          <h2
+            id="tasks-heading"
+            className="text-2xl font-bold text-gray-900 mb-4"
+          >
+            Lista zadań
+          </h2>
+          <div
+            className="space-y-3"
+            role="list"
+            aria-label="Lista zadań do wykonania"
+          >
             {tasks.map((task) => (
               <div
                 key={task.id}
                 className="flex items-center space-x-3 p-3 rounded-lg hover:bg-gray-50 
                          transition-colors duration-200"
+                role="listitem"
               >
                 <input
                   type="checkbox"
@@ -113,6 +170,7 @@ export default function HobbyDetail() {
                   onChange={() => handleToggleTask(task.id)}
                   className="w-5 h-5 text-indigo-600 border-gray-300 rounded 
                            focus:ring-indigo-500 cursor-pointer transition-colors"
+                  aria-label={`Zadanie: ${task.title}`}
                 />
                 <span
                   className={`flex-1 ${
@@ -126,14 +184,24 @@ export default function HobbyDetail() {
               </div>
             ))}
           </div>
-        </div>
+        </section>
 
         {/* Resources Section */}
-        <div className="bg-white rounded-xl shadow-lg p-6">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        <section
+          className="bg-white rounded-xl shadow-lg p-6"
+          aria-labelledby="resources-heading"
+        >
+          <h2
+            id="resources-heading"
+            className="text-2xl font-bold text-gray-900 mb-4"
+          >
             Źródła do nauki
           </h2>
-          <div className="space-y-4">
+          <div
+            className="space-y-4"
+            role="list"
+            aria-label="Lista źródeł do nauki"
+          >
             {hobby.sources.map((source) => (
               <a
                 key={source.id}
@@ -141,7 +209,9 @@ export default function HobbyDetail() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block p-4 rounded-lg hover:bg-gray-50 transition-all 
-                         duration-200 hover:shadow-md"
+                         duration-200 hover:shadow-md focus:outline-none focus:ring-2 
+                         focus:ring-indigo-500 focus:ring-offset-2"
+                aria-label={`${source.name}: ${source.description}. Otwiera się w nowej karcie.`}
               >
                 <div className="flex items-center space-x-4">
                   {source.type === "youtube" ? (
@@ -149,6 +219,8 @@ export default function HobbyDetail() {
                       className="w-6 h-6 text-red-600"
                       fill="currentColor"
                       viewBox="0 0 24 24"
+                      aria-hidden="true"
+                      role="img"
                     >
                       <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
                     </svg>
@@ -157,6 +229,8 @@ export default function HobbyDetail() {
                       className="w-6 h-6 text-gray-600"
                       fill="currentColor"
                       viewBox="0 0 24 24"
+                      aria-hidden="true"
+                      role="img"
                     >
                       <path d="M12.09 13.119c-.936 1.932-2.217 4.548-2.853 5.728-.616 1.074-1.127.931-1.532.029-1.406-3.321-4.293-9.144-5.651-12.409-.251-.601-.441-.987-.619-1.139-.181-.15-.554-.24-1.122-.271-.329-.026-.494-.078-.494-.348 0-.145.111-.271.335-.271.223 0 1.354.07 2.679.07 1.326 0 2.327-.07 2.551-.07.223 0 .335.124.335.271 0 .27-.166.322-.493.348-.68.044-1.02.142-1.02.494 0 .128.036.281.106.462.935 2.403 2.812 7.016 3.518 8.687.164.386.333.392.494.008.904-2.051 2.786-6.329 3.458-8.424.119-.371.183-.651.183-.832 0-.379-.314-.493-.941-.536-.329-.026-.494-.078-.494-.348 0-.145.111-.271.335-.271.223 0 1.354.07 2.679.07 1.326 0 2.327-.07 2.551-.07.223 0 .335.124.335.271z" />
                     </svg>
@@ -166,6 +240,8 @@ export default function HobbyDetail() {
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
+                      aria-hidden="true"
+                      role="img"
                     >
                       <path
                         strokeLinecap="round"
@@ -188,6 +264,8 @@ export default function HobbyDetail() {
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
+                    aria-hidden="true"
+                    role="img"
                   >
                     <path
                       strokeLinecap="round"
@@ -200,8 +278,8 @@ export default function HobbyDetail() {
               </a>
             ))}
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
     </Layout>
   );
 }
