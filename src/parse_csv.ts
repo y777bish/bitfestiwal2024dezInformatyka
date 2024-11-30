@@ -87,17 +87,17 @@ const createHobbyId = (name: string): string => {
 };
 
 // Read and parse CSV files
-const hobbiesData = parse(fs.readFileSync("hobbies.csv"), {
+const hobbiesData = parse(fs.readFileSync("hobbies.csv", "utf-8"), {
   columns: true,
   skip_empty_lines: true,
 }) as CSVHobbyRow[];
 
-const tasksData = parse(fs.readFileSync("tasks.csv"), {
+const tasksData = parse(fs.readFileSync("tasks.csv", "utf-8"), {
   columns: true,
   skip_empty_lines: true,
 }) as CSVTaskRow[];
 
-const sourcesData = parse(fs.readFileSync("sources.csv"), {
+const sourcesData = parse(fs.readFileSync("sources.csv", "utf-8"), {
   columns: true,
   skip_empty_lines: true,
 }) as CSVSourceRow[];

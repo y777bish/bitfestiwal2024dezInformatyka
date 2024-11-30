@@ -1,9 +1,16 @@
-import { readFile } from "fs/promises";
+import { hobbiesData } from "@/data/hobbies";
 import { KNN } from "./knn";
-import { parseCSV } from "./parse-csv";
 
-const csvData = await readFile("../hobbies.csv", "utf-8");
-const { features, targets, headers } = parseCSV(csvData);
+const rows = Object.keys(hobbiesData);
+
+const features = rows.map((row) => {
+  return Object.values(hobbiesData[row].attributes);
+});
+
+const targets = Object.keys(hobbiesData);
+
+console.log({ rows, features, targets });
+
 const NEAREST_NEIGHBOR = 5;
 const knn = new KNN(NEAREST_NEIGHBOR); // Ustawienie liczby sąsiadów na 3
 knn.train(features, targets);
@@ -16,4 +23,6 @@ export const predictHobby = async (g: number[]) => {
   const left = knn.elliminateVisual(g);
   console.log({ neighbors });
   console.log(left.length);
+
+  return neighbors;
 };

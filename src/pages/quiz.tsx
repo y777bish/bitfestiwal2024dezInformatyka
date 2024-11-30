@@ -1,3 +1,4 @@
+import { predictHobby } from "@/utils/predict-hobby";
 import { useAuth } from "@clerk/nextjs";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
@@ -23,6 +24,9 @@ export default function Quiz() {
   const handleAnswer = async (answer: number) => {
     // setAnswers({ ...answers, [currentQuestion]: answer });
     currentAnswers.push(answer as unknown as number);
+
+    const chuj = await predictHobby(currentAnswers);
+    console.log({ chuj });
 
     if (currentAnswers.length === questions.length) {
       router.push({
