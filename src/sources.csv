@@ -1,0 +1,169 @@
+Hobby,Source ID,Name,Description,URL,Type
+Gotowanie,1,Kuchnia Lidla,Podstawowe przepisy i techniki kulinarne,https://youtube.com/kuchnia-lidla,youtube
+Gotowanie,2,Kwestia Smaku,Kompleksowa baza przepisów i porad,https://kwestiasmaku.com,article
+Gotowanie,3,Sztuka Kulinarna,Historia i techniki gotowania,https://wikipedia.org/wiki/Sztuka_kulinarna,wikipedia
+Pieczenie,1,Wypiekacz,Profesjonalne porady piekarnicze,https://youtube.com/wypiekacz,youtube
+Pieczenie,2,Mojewypieki.com,Przepisy i techniki pieczenia,https://mojewypieki.com,article
+Pieczenie,3,Piekarstwo,Podstawy i historia piekarstwa,https://wikipedia.org/wiki/Piekarstwo,wikipedia
+Malowanie,1,Art Sherpa PL,Tutorials malarskie dla początkujących,https://youtube.com/art-sherpa-pl,youtube
+Malowanie,2,Akademia Rysunku,Techniki i porady malarskie,https://akademiarysunku.pl,article
+Malowanie,3,Malarstwo,Historia i techniki malarskie,https://wikipedia.org/wiki/Malarstwo,wikipedia
+Rysowanie,1,Proko PL,Profesjonalne tutoriale rysunku,https://youtube.com/proko-pl,youtube
+Rysowanie,2,Kurs Rysunku,Kompendium wiedzy o rysowaniu,https://kursrysunku.com.pl,article
+Rysowanie,3,Rysunek,Techniki i podstawy rysunku,https://wikipedia.org/wiki/Rysunek,wikipedia
+Fotografia,1,Krzysztof Gonciarz,Porady fotograficzne i sprzętowe,https://youtube.com/kgonciarz,youtube
+Fotografia,2,Szeroki Kadr,Portal o fotografii,https://szerokikadr.pl,article
+Fotografia,3,Fotografia,Historia i techniki fotografii,https://wikipedia.org/wiki/Fotografia,wikipedia
+Gra na gitarze,1,Pasja Gitary,Kompleksowe lekcje gitary online,https://youtube.com/pasjagitary,youtube
+Gra na gitarze,2,TopGuitar,Portal dla gitarzystów,https://topguitar.pl,article
+Gra na gitarze,3,Gitara,Techniki gry i historia instrumentu,https://wikipedia.org/wiki/Gitara,wikipedia
+Gra na pianinie,1,Szkoła Pianina,Lekcje gry na pianinie,https://youtube.com/szkolapianina,youtube
+Gra na pianinie,2,Piano.pl,Portal dla pianistów,https://piano.pl,article
+Gra na pianinie,3,Fortepian,Historia i techniki gry,https://wikipedia.org/wiki/Fortepian,wikipedia
+Gra na perkusji,1,Drumeo PL,Profesjonalne lekcje perkusji,https://youtube.com/drumeo-pl,youtube
+Gra na perkusji,2,BeatIt,Portal perkusyjny,https://beatit.pl,article
+Gra na perkusji,3,Perkusja,Techniki gry na perkusji,https://wikipedia.org/wiki/Perkusja,wikipedia
+Czytanie książek,1,Książkowe Recenzje,Recenzje i polecenia książek,https://youtube.com/ksiazkowerecenzje,youtube
+Czytanie książek,2,Lubimyczytać,Społeczność czytelników,https://lubimyczytac.pl,article
+Czytanie książek,3,Literatura,Historia i gatunki literackie,https://wikipedia.org/wiki/Literatura,wikipedia
+Pisanie poezji,1,Poetycka Przestrzeń,Warsztaty poetyckie online,https://youtube.com/poetycka-przestrzen,youtube
+Pisanie poezji,2,Poezja Polska,Portal poetycki,https://poezja-polska.pl,article
+Pisanie poezji,3,Poezja,Formy i techniki poetyckie,https://wikipedia.org/wiki/Poezja,wikipedia
+Pisanie opowiadań,1,Szkoła Pisania,Techniki pisarskie i warsztaty,https://youtube.com/szkolapisania,youtube
+Pisanie opowiadań,2,Pisanie.pl,Portal dla pisarzy,https://pisanie.pl,article
+Pisanie opowiadań,3,Twórczość literacka,Techniki narracji,https://wikipedia.org/wiki/Twórczość_literacka,wikipedia
+Gry komputerowe,1,TVGry,Recenzje i poradniki gamingowe,https://youtube.com/tvgry,youtube
+Gry komputerowe,2,Gry-Online,Portal o grach,https://gry-online.pl,article
+Gry komputerowe,3,Gry komputerowe,Historia i gatunki gier,https://wikipedia.org/wiki/Gry_komputerowe,wikipedia
+Gry planszowe,1,Board Game Geek PL,Recenzje gier planszowych,https://youtube.com/boardgamegeek-pl,youtube
+Gry planszowe,2,Planszowy.pl,Portal o grach planszowych,https://planszowy.pl,article
+Gry planszowe,3,Gry planszowe,Historia i rodzaje gier,https://wikipedia.org/wiki/Gry_planszowe,wikipedia
+Układanie puzzli,1,Puzzle Masters,Techniki układania puzzli,https://youtube.com/puzzle-masters,youtube
+Układanie puzzli,2,Puzzlowanie.pl,Portal dla miłośników puzzli,https://puzzlowanie.pl,article
+Układanie puzzli,3,Puzzle,Historia i rodzaje puzzli,https://wikipedia.org/wiki/Puzzle,wikipedia
+Oglądanie filmów,1,Na Gałęzi,Recenzje filmowe i analizy,https://youtube.com/nagalezi,youtube
+Oglądanie filmów,2,Filmweb,Portal filmowy z recenzjami,https://filmweb.pl,article
+Oglądanie filmów,3,Kinematografia,Historia i teoria filmu,https://wikipedia.org/wiki/Kinematografia,wikipedia
+Oglądanie seriali,1,Serial Killers,Recenzje i polecenia seriali,https://youtube.com/serialkillers,youtube
+Oglądanie seriali,2,Serialowa,Portal o serialach,https://serialowa.pl,article
+Oglądanie seriali,3,Serial telewizyjny,Historia i gatunki seriali,https://wikipedia.org/wiki/Serial_telewizyjny,wikipedia
+Słuchanie muzyki,1,NewOnce,Wywiady i recenzje muzyczne,https://youtube.com/newonce,youtube
+Słuchanie muzyki,2,Musicology,Portal muzyczny,https://musicology.pl,article
+Słuchanie muzyki,3,Muzyka,Historia i teoria muzyki,https://wikipedia.org/wiki/Muzyka,wikipedia
+Medytacja,1,Spokój Umysłu,Przewodnik po medytacji,https://youtube.com/spokoj-umyslu,youtube
+Medytacja,2,Medytacja.pl,Techniki medytacyjne,https://medytacja.pl,article
+Medytacja,3,Medytacja,Historia i rodzaje medytacji,https://wikipedia.org/wiki/Medytacja,wikipedia
+Joga,1,Joga w domu,Praktyczne zajęcia jogi,https://youtube.com/jogawdomu,youtube
+Joga,2,Joga Portal,Wiedza o jodze,https://jogaportal.pl,article
+Joga,3,Joga,Historia i style jogi,https://wikipedia.org/wiki/Joga,wikipedia
+Wędkowanie,1,Wędkarski Świat,Techniki i porady wędkarskie,https://youtube.com/wedkarski-swiat,youtube
+Wędkowanie,2,Wędkarz Polski,Portal wędkarski,https://wedkarz-polski.pl,article
+Wędkowanie,3,Wędkarstwo,Metody i techniki wędkowania,https://wikipedia.org/wiki/Wędkarstwo,wikipedia
+Wspinaczka górska,1,Wspinanie.pl TV,Porady wspinaczkowe,https://youtube.com/wspinanie-tv,youtube
+Wspinaczka górska,2,8a.pl,Portal wspinaczkowy,https://8a.pl,article
+Wspinaczka górska,3,Wspinaczka,Techniki wspinaczkowe,https://wikipedia.org/wiki/Wspinaczka,wikipedia
+Pływanie,1,Swim.pl,Techniki pływackie,https://youtube.com/swim-pl,youtube
+Pływanie,2,Pływanie Sport,Portal o pływaniu,https://plywanie-sport.pl,article
+Pływanie,3,Pływanie,Style i techniki pływania,https://wikipedia.org/wiki/Pływanie,wikipedia
+Bieganie,1,Bieganie.pl TV,Porady dla biegaczy,https://youtube.com/bieganie-tv,youtube
+Bieganie,2,Bieganie.pl,Portal biegowy,https://bieganie.pl,article
+Bieganie,3,Bieganie,Techniki i historia biegania,https://wikipedia.org/wiki/Bieganie,wikipedia
+Jazda na rowerze,1,MTB-XC.pl,Porady rowerowe,https://youtube.com/mtb-xc,youtube
+Jazda na rowerze,2,BikeWorld,Portal rowerowy,https://bikeworld.pl,article
+Jazda na rowerze,3,Kolarstwo,Historia i techniki jazdy,https://wikipedia.org/wiki/Kolarstwo,wikipedia
+Jazda na rolkach,1,Roller School,Szkoła jazdy na rolkach,https://youtube.com/roller-school,youtube
+Jazda na rolkach,2,Rolki Online,Portal o rolkach,https://rolki-online.pl,article
+Jazda na rolkach,3,Wrotkarstwo,Techniki jazdy na rolkach,https://wikipedia.org/wiki/Wrotkarstwo,wikipedia
+Jazda na deskorolce,1,Skate School PL,Nauka trików na deskorolce,https://youtube.com/skateschool-pl,youtube
+Jazda na deskorolce,2,SkateBoard.pl,Portal deskorolkowy,https://skateboard.pl,article
+Jazda na deskorolce,3,Skateboarding,Historia i techniki jazdy,https://wikipedia.org/wiki/Skateboarding,wikipedia
+Spacery w naturze,1,Leśne Wędrówki,Przewodnik po szlakach,https://youtube.com/lesne-wedrowki,youtube
+Spacery w naturze,2,Poznaj Naturę,Portal przyrodniczy,https://poznajnature.pl,article
+Spacery w naturze,3,Nordic Walking,Techniki chodzenia,https://wikipedia.org/wiki/Nordic_walking,wikipedia
+Pielęgnacja ogrodu,1,Twój Ogród,Porady ogrodnicze,https://youtube.com/twoj-ogrod,youtube
+Pielęgnacja ogrodu,2,Ogrodnik Online,Portal ogrodniczy,https://ogrodnik-online.pl,article
+Pielęgnacja ogrodu,3,Ogrodnictwo,Techniki ogrodnicze,https://wikipedia.org/wiki/Ogrodnictwo,wikipedia
+Uprawa roślin domowych,1,Rośliny Doniczkowe,Pielęgnacja roślin domowych,https://youtube.com/rosliny-doniczkowe,youtube
+Uprawa roślin domowych,2,Zielony Parapet,Portal o roślinach domowych,https://zielonyparapet.pl,article
+Uprawa roślin domowych,3,Rośliny pokojowe,Gatunki i pielęgnacja,https://wikipedia.org/wiki/Rośliny_pokojowe,wikipedia
+Kolekcjonowanie znaczków,1,Filatelistyka PL,Świat znaczków pocztowych,https://youtube.com/filatelistyka-pl,youtube
+Kolekcjonowanie znaczków,2,Polski Związek Filatelistów,Portal filatelistyczny,https://pzf.pl,article
+Kolekcjonowanie znaczków,3,Filatelistyka,Historia i rodzaje znaczków,https://wikipedia.org/wiki/Filatelistyka,wikipedia
+Kolekcjonowanie monet,1,Numizmatyka TV,Świat monet,https://youtube.com/numizmatyka-tv,youtube
+Kolekcjonowanie monet,2,Numizmatyka Online,Portal numizmatyczny,https://numizmatyka-online.pl,article
+Kolekcjonowanie monet,3,Numizmatyka,Historia i rodzaje monet,https://wikipedia.org/wiki/Numizmatyka,wikipedia
+Kolekcjonowanie figurek,1,Figurkowy Świat,Recenzje i kolekcje figurek,https://youtube.com/figurkowy-swiat,youtube
+Kolekcjonowanie figurek,2,Hobby Figurki,Portal kolekcjonerski,https://hobbyfigurki.pl,article
+Kolekcjonowanie figurek,3,Kolekcjonerstwo,Podstawy kolekcjonerstwa,https://wikipedia.org/wiki/Kolekcjonerstwo,wikipedia
+Szachy,1,Szachowa Szkoła,Lekcje szachowe,https://youtube.com/szachowa-szkola,youtube
+Szachy,2,Szachy.pl,Portal szachowy,https://szachy.pl,article
+Szachy,3,Szachy,Historia i zasady gry,https://wikipedia.org/wiki/Szachy,wikipedia
+Warcaby,1,Warcaby Online,Nauka gry w warcaby,https://youtube.com/warcaby-online,youtube
+Warcaby,2,Warcaby.pl,Portal o warcabach,https://warcaby.pl,article
+Warcaby,3,Warcaby,Zasady i strategie gry,https://wikipedia.org/wiki/Warcaby,wikipedia
+Nauka języków obcych,1,Poliglota,Metody nauki języków,https://youtube.com/poliglota,youtube
+Nauka języków obcych,2,Językowy Portal,Materiały do nauki,https://jezykowy.pl,article
+Nauka języków obcych,3,Glottodydaktyka,Metody nauczania języków,https://wikipedia.org/wiki/Glottodydaktyka,wikipedia
+Jazda na deskorolce,1,Skate School PL,Nauka trików na deskorolce,https://youtube.com/skateschool-pl,youtube
+Jazda na deskorolce,2,SkateBoard.pl,Portal deskorolkowy,https://skateboard.pl,article
+Jazda na deskorolce,3,Skateboarding,Historia i techniki jazdy,https://wikipedia.org/wiki/Skateboarding,wikipedia
+Spacery w naturze,1,Leśne Wędrówki,Przewodnik po szlakach,https://youtube.com/lesne-wedrowki,youtube
+Spacery w naturze,2,Poznaj Naturę,Portal przyrodniczy,https://poznajnature.pl,article
+Spacery w naturze,3,Nordic Walking,Techniki chodzenia,https://wikipedia.org/wiki/Nordic_walking,wikipedia
+Pielęgnacja ogrodu,1,Twój Ogród,Porady ogrodnicze,https://youtube.com/twoj-ogrod,youtube
+Pielęgnacja ogrodu,2,Ogrodnik Online,Portal ogrodniczy,https://ogrodnik-online.pl,article
+Pielęgnacja ogrodu,3,Ogrodnictwo,Techniki ogrodnicze,https://wikipedia.org/wiki/Ogrodnictwo,wikipedia
+Uprawa roślin domowych,1,Rośliny Doniczkowe,Pielęgnacja roślin domowych,https://youtube.com/rosliny-doniczkowe,youtube
+Uprawa roślin domowych,2,Zielony Parapet,Portal o roślinach domowych,https://zielonyparapet.pl,article
+Uprawa roślin domowych,3,Rośliny pokojowe,Gatunki i pielęgnacja,https://wikipedia.org/wiki/Rośliny_pokojowe,wikipedia
+Kolekcjonowanie znaczków,1,Filatelistyka PL,Świat znaczków pocztowych,https://youtube.com/filatelistyka-pl,youtube
+Kolekcjonowanie znaczków,2,Polski Związek Filatelistów,Portal filatelistyczny,https://pzf.pl,article
+Kolekcjonowanie znaczków,3,Filatelistyka,Historia i rodzaje znaczków,https://wikipedia.org/wiki/Filatelistyka,wikipedia
+Kolekcjonowanie monet,1,Numizmatyka TV,Świat monet,https://youtube.com/numizmatyka-tv,youtube
+Kolekcjonowanie monet,2,Numizmatyka Online,Portal numizmatyczny,https://numizmatyka-online.pl,article
+Kolekcjonowanie monet,3,Numizmatyka,Historia i rodzaje monet,https://wikipedia.org/wiki/Numizmatyka,wikipedia
+Kolekcjonowanie figurek,1,Figurkowy Świat,Recenzje i kolekcje figurek,https://youtube.com/figurkowy-swiat,youtube
+Kolekcjonowanie figurek,2,Hobby Figurki,Portal kolekcjonerski,https://hobbyfigurki.pl,article
+Kolekcjonowanie figurek,3,Kolekcjonerstwo,Podstawy kolekcjonerstwa,https://wikipedia.org/wiki/Kolekcjonerstwo,wikipedia
+Szachy,1,Szachowa Szkoła,Lekcje szachowe,https://youtube.com/szachowa-szkola,youtube
+Szachy,2,Szachy.pl,Portal szachowy,https://szachy.pl,article
+Szachy,3,Szachy,Historia i zasady gry,https://wikipedia.org/wiki/Szachy,wikipedia
+Warcaby,1,Warcaby Online,Nauka gry w warcaby,https://youtube.com/warcaby-online,youtube
+Warcaby,2,Warcaby.pl,Portal o warcabach,https://warcaby.pl,article
+Warcaby,3,Warcaby,Zasady i strategie gry,https://wikipedia.org/wiki/Warcaby,wikipedia
+Nauka języków obcych,1,Poliglota,Metody nauki języków,https://youtube.com/poliglota,youtube
+Nauka języków obcych,2,Językowy Portal,Materiały do nauki,https://jezykowy.pl,article
+Nauka języków obcych,3,Glottodydaktyka,Metody nauczania języków,https://wikipedia.org/wiki/Glottodydaktyka,wikipedia
+Taniec,1,Szkoła Tańca Online,Kursy różnych stylów tańca,https://youtube.com/szkola-tanca,youtube
+Taniec,2,Taniec.pl,Portal taneczny,https://taniec.pl,article
+Taniec,3,Taniec,Historia i style tańca,https://wikipedia.org/wiki/Taniec,wikipedia
+Fitness,1,Fitness po polsku,Treningi i porady,https://youtube.com/fitness-po-polsku,youtube
+Fitness,2,Fabryka Siły,Portal fitness,https://fabrykasily.pl,article
+Fitness,3,Fitness,Metody treningu,https://wikipedia.org/wiki/Fitness,wikipedia
+Pilates,1,Pilates w domu,Ćwiczenia pilates,https://youtube.com/pilates-w-domu,youtube
+Pilates,2,Pilates Portal,Techniki i porady,https://pilatesportal.pl,article
+Pilates,3,Pilates,Metoda i zasady,https://wikipedia.org/wiki/Pilates,wikipedia
+Łucznictwo,1,Łucznik TV,Techniki strzelania z łuku,https://youtube.com/lucznik-tv,youtube
+Łucznictwo,2,Łucznictwo Sport,Portal łuczniczy,https://lucznictwo-sport.pl,article
+Łucznictwo,3,Łucznictwo,Historia i techniki,https://wikipedia.org/wiki/Łucznictwo,wikipedia
+Strzelectwo,1,Strzelectwo Sportowe,Porady strzeleckie,https://youtube.com/strzelectwo-sportowe,youtube
+Strzelectwo,2,Strzelnica.pl,Portal strzelecki,https://strzelnica.pl,article
+Strzelectwo,3,Strzelectwo sportowe,Zasady i techniki,https://wikipedia.org/wiki/Strzelectwo_sportowe,wikipedia
+Boks,1,Boks Polska,Techniki bokserskie,https://youtube.com/boks-polska,youtube
+Boks,2,Boxing.pl,Portal bokserski,https://boxing.pl,article
+Boks,3,Boks,Historia i techniki,https://wikipedia.org/wiki/Boks,wikipedia
+Karate,1,Karate Way,Droga karate,https://youtube.com/karate-way,youtube
+Karate,2,Karate Portal,Sztuki walki,https://karateportal.pl,article
+Karate,3,Karate,Style i techniki,https://wikipedia.org/wiki/Karate,wikipedia
+Kickboxing,1,Kickboxing PL,Treningi i techniki,https://youtube.com/kickboxing-pl,youtube
+Kickboxing,2,Fight Portal,Portal sportów walki,https://fightportal.pl,article
+Kickboxing,3,Kickboxing,Zasady i techniki,https://wikipedia.org/wiki/Kickboxing,wikipedia
+Judo,1,Judo TV,Techniki judo,https://youtube.com/judo-tv,youtube
+Judo,2,Judo Sport,Portal judoków,https://judosport.pl,article
+Judo,3,Judo,Historia i techniki,https://wikipedia.org/wiki/Judo,wikipedia
+Modelarstwo,1,Modelarz PL,Porady modelarskie,https://youtube.com/modelarz-pl,youtube
+Modelarstwo,2,Modelarstwo.pl,Portal modelarski,https://modelarstwo.pl,article
+Modelarstwo,3,Modelarstwo,Techniki i rodzaje,https://wikipedia.org/wiki/Modelarstwo,wikipedia
+Budowanie domków dla ptaków,1,Ptasi Azyl,Projekty budek lęgowych,https://youtube.com/ptasi-azyl,youtube
+Budowanie domków dla ptaków,2,Ptasia Edukacja,Porady ornitologiczne,https://ptasiaedukacja.pl,article
+Budowanie domków dla ptaków,3,Budki lęgowe,Rodzaje i konstrukcja,https://wikipedia.org/wiki/Budka_lęgowa,wikipedia
