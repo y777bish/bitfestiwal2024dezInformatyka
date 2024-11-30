@@ -1,3 +1,4 @@
+import Layout from "@/components/Layout";
 import { useAuth } from "@clerk/nextjs";
 import Link from "next/link";
 
@@ -5,32 +6,7 @@ export default function Home() {
   const { isSignedIn } = useAuth();
 
   return (
-    <div className="min-h-screen bg-gray-100">
-      <nav className="bg-white shadow-lg">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center">
-              <span className="text-xl font-semibold">HobbyFinder</span>
-            </div>
-            <div>
-              {!isSignedIn ? (
-                <Link href="/sign-in">
-                  <span className="bg-blue-500 text-white px-4 py-2 rounded-md">
-                    Sign In
-                  </span>
-                </Link>
-              ) : (
-                <Link href="/dashboard">
-                  <span className="bg-green-500 text-white px-4 py-2 rounded-md">
-                    My Dashboard
-                  </span>
-                </Link>
-              )}
-            </div>
-          </div>
-        </div>
-      </nav>
-
+    <Layout>
       <main className="max-w-6xl mx-auto px-4 py-8">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
@@ -47,6 +23,6 @@ export default function Home() {
           </Link>
         </div>
       </main>
-    </div>
+    </Layout>
   );
 }
