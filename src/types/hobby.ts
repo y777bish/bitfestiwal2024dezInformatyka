@@ -1,10 +1,10 @@
-interface Task {
+export interface Task {
   id: string;
   title: string;
   isCompleted: boolean;
 }
 
-interface Source {
+export interface Source {
   id: string;
   name: string;
   description: string;
@@ -33,6 +33,7 @@ export interface HobbyDetail {
   id: string;
   name: string;
   description: string;
+  category: string;
   imageUrl: string;
   attributes: HobbyAttributes;
   tasks: Task[];

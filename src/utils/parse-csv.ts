@@ -3,6 +3,7 @@ export function parseCSV(data: string): {
   targets: string[];
   headers: string[];
 } {
+  // THIS PROBABLY DOES NOT WORK AFTER ADDING CATEGORY!!
   const rows = data.trim().split("\n");
   const headers = rows[0].split(",").slice(1);
   const dataRows = rows.slice(1);

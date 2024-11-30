@@ -7,6 +7,12 @@ const features = rows.map((row) => {
   return Object.values(hobbiesData[row].attributes);
 });
 
+const categories = rows.map((row) => {
+  return hobbiesData[row].category;
+});
+
+console.log([...new Set(categories)]);
+
 const targets = Object.keys(hobbiesData);
 
 console.log({ rows, features, targets });

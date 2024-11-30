@@ -1,49 +1,10 @@
 import { parse } from "csv-parse/sync";
 import fs from "fs";
-
-interface Task {
-  id: string;
-  title: string;
-  isCompleted: boolean;
-}
-
-interface Source {
-  id: string;
-  name: string;
-  description: string;
-  url: string;
-  type: "youtube" | "article" | "wikipedia";
-}
-
-interface HobbyAttributes {
-  physicalActivityLevel: number; // Level of physical activity
-  timeConsumption: number; // How time-consuming
-  sociability: number; // Level of social interaction
-  mobility: number; // How mobile you need to be
-  competition: number; // Level of competition involved
-  relaxationLevel: number; // How relaxing
-  monetizationPotential: number; // Potential to earn money
-  noiseLevel: number; // How noisy
-  environmentalImpact: number; // Impact on environment
-  mentalHealthImpact: number; // Impact on mental health
-  physicalHealthImpact: number; // Impact on physical health
-  artisticExpression: number; // Level of artistic expression
-  initialCost: number; // Starting cost
-  ongoingCost: number; // Maintenance cost
-}
-
-export interface HobbyDetail {
-  id: string;
-  name: string;
-  description: string;
-  imageUrl: string;
-  attributes: HobbyAttributes;
-  tasks: Task[];
-  sources: Source[];
-}
+import { HobbyAttributes, HobbyDetail, Source, Task } from "./types/hobby";
 
 interface CSVHobbyRow {
   Hobby: string;
+  Category: string;
   "Physical Activity Level": string;
   "Time Consumption": string;
   Sociability: string;
@@ -76,30 +37,30 @@ interface CSVSourceRow {
   Type: "youtube" | "article" | "wikipedia";
 }
 
-// Function to create consistent hobby IDs
 const createHobbyId = (name: string): string => {
   return name
     .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "") // Remove diacritics
-    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/[^a-zA-Z0-9ąćęłńóśźżĄĆĘŁŃÓŚŹŻ]+/g, "_") // Allow Polish characters
     .replace(/(^_|_$)/g, "");
 };
 
 // Read and parse CSV files
-const hobbiesData = parse(fs.readFileSync("hobbies.csv", "utf-8"), {
+const hobbiesData = parse(fs.readFileSync("hobbies.csv", "utf8"), {
   columns: true,
   skip_empty_lines: true,
+  encoding: "utf8",
 }) as CSVHobbyRow[];
 
-const tasksData = parse(fs.readFileSync("tasks.csv", "utf-8"), {
+const tasksData = parse(fs.readFileSync("tasks.csv", "utf8"), {
   columns: true,
   skip_empty_lines: true,
+  encoding: "utf8",
 }) as CSVTaskRow[];
 
-const sourcesData = parse(fs.readFileSync("sources.csv", "utf-8"), {
+const sourcesData = parse(fs.readFileSync("sources.csv", "utf8"), {
   columns: true,
   skip_empty_lines: true,
+  encoding: "utf8",
 }) as CSVSourceRow[];
 
 // Create the hobby details object
@@ -147,10 +108,13 @@ hobbiesData.forEach((row) => {
       type: source.Type,
     }));
 
+  console.log(hobbyId);
+
   // Create the hobby detail object
   hobbyDetails[hobbyId] = {
     id: hobbyId,
     name: row.Hobby,
+    category: createHobbyId(row.Category),
     description: `${row.Hobby} to fascynujące hobby, które pozwala...`, // Placeholder description
     imageUrl: `/api/placeholder/800/400`,
     attributes,
@@ -166,6 +130,7 @@ fs.writeFileSync(
     `export const hobbiesData: Record<string, HobbyDetail> = ` +
     JSON.stringify(hobbyDetails, null, 2) +
     `;\n`,
+  { encoding: "utf8" },
 );
 
 console.log("Conversion completed successfully!");
