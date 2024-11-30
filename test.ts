@@ -51,13 +51,16 @@ class KNN {
     this.trainLabels = labels;
   }
 
-  elliminateVisual(target: number[]): typeof this.trainFeatures {
-    return this.trainFeatures.filter((feature) =>
-      target.every(
-        (targetValue, idx) => Math.abs(targetValue - feature[idx]) >= 1,
-      ),
-    );
-  }
+
+  elliminateVisual(target: number[]): string[] {
+    const displayedTargets = []
+    for (let i = 0; i < this.trainFeatures.length; i++) {
+        if (target.every((targetValue, idx) => Math.abs(targetValue - features[i][idx]) >= 1)) {
+            displayedTargets.push(this.trainLabels[i])
+        }
+    };
+    return displayedTargets;
+}
 
   /**
    * Dokonuje predykcji dla pojedynczego przykładu
