@@ -1,3 +1,5 @@
+import { readFile } from "fs";
+
 type DistanceMetric = 'euclidean'
 type Result = {
     distance: number,
@@ -331,10 +333,10 @@ const g = []
 for (let i = 0; i < features[0].length; i++) {
     const v = prompt(`${headers[i]}:`);
     g.push(Number(v));
-    const predictionsWithNeighbors = knn.predict(g);
-    let a = knn.elliminateVisual(g)
-    console.log({ a: a.length })
-    console.log({ c: predictionsWithNeighbors.neighbors })
+    const neighbors = knn.predict(g);
+    const left = knn.elliminateVisual(g)
+    console.log({ neighbors })
+    console.log({ left })
 }
 } else {
 // we were require()d from somewhere else
