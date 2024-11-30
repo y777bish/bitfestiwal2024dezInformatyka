@@ -5,7 +5,7 @@ export default function SignInPage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex flex-col items-center justify-center p-4">
       <div className="mb-8 text-center">
         <h1 className="text-3xl font-bold text-gray-800 mb-2">
-          Welcome to HobbyFinder
+          Witaj w HobbyFinder
         </h1>
         <p className="text-gray-600">Sign in to discover your perfect hobby</p>
       </div>

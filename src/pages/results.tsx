@@ -31,7 +31,7 @@ function Results() {
             onClick={() => router.push("/quiz")}
             className="bg-blue-500 text-white px-6 py-3 rounded-lg"
           >
-            Retake Quiz
+            Powtórz Quiz
           </button>
         </div>
       </div>

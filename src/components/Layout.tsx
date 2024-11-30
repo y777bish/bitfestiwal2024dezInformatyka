@@ -55,15 +55,17 @@ export default function Layout({ children }: LayoutProps) {
                       : "text-gray-500 hover:text-gray-700"
                   } px-3 py-2 rounded-md text-sm font-medium`}
                 >
-                  Take Quiz
+                  Weź Quiz
                 </Link>
               </div>
             </div>
             <div className="flex items-center space-x-4">
               <span className="text-gray-700">
-                {user?.emailAddresses[0]
-                  ? `Welcome, ${user.emailAddresses[0]}`
-                  : "Welcome!"}
+                {user?.emailAddresses[0]?.emailAddress?.split("@")[0]
+                  ? `Witaj, ${
+                      user.emailAddresses[0]?.emailAddress?.split("@")[0]
+                    }`
+                  : "Witaj!"}
               </span>
               <button
                 onClick={handleSignOut}

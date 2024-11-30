@@ -4,28 +4,7 @@ type Result = {
   label: string;
 };
 
-function columnAverages(matrix: number[][]) {
-  // Get the number of rows and columns
-  const numRows = matrix.length;
-  const numCols = matrix[0].length;
-
-  // Initialize an array to store column averages
-  const averages = new Array(numCols).fill(0);
-
-  // Sum each column
-  for (let col = 0; col < numCols; col++) {
-    let sum = 0;
-    for (let row = 0; row < numRows; row++) {
-      sum += matrix[row][col];
-    }
-    // Compute the average for this column
-    averages[col] = sum / numRows;
-  }
-
-  return averages;
-}
-
-class KNN {
+export class KNN {
   private trainFeatures: number[][] = [];
   private trainLabels: string[] = [];
   private k: number;
@@ -40,13 +19,34 @@ class KNN {
     this.distanceMetric = distanceMetric;
   }
 
+  columnAverages(matrix: number[][]) {
+    // Get the number of rows and columns
+    const numRows = matrix.length;
+    const numCols = matrix[0].length;
+
+    // Initialize an array to store column averages
+    const averages = new Array(numCols).fill(0);
+
+    // Sum each column
+    for (let col = 0; col < numCols; col++) {
+      let sum = 0;
+      for (let row = 0; row < numRows; row++) {
+        sum += matrix[row][col];
+      }
+      // Compute the average for this column
+      averages[col] = sum / numRows;
+    }
+
+    return averages;
+  }
+
   /**
    * Trenuje model na podstawie danych wejściowych
    * @param features - Dane wejściowe (macierz cech)
    * @param labels - Wartości docelowe (wektor etykiet lub wartości ciągłych)
    */
   train(features: number[][], labels: string[]): void {
-    this.trainAverageFeatures = columnAverages(features);
+    this.trainAverageFeatures = this.columnAverages(features);
     this.trainFeatures = features;
     this.trainLabels = labels;
   }
@@ -83,7 +83,7 @@ class KNN {
   }
 
   /**
-   * Oblicza odległość między dwoma punktami
+   *  * Oblicza odległość między dwoma punktami
    * @param a - Pierwszy punkt
    * @param b - Drugi punkt
    * @returns Odległość między punktami
@@ -101,50 +101,4 @@ class KNN {
       throw new Error(`Nieznana metryka odległości: ${this.distanceMetric}`);
     }
   }
-}
-
-import { readFile } from "fs/promises";
-
-const csvData = await readFile("src/hobbies.csv", "utf-8");
-
-function parseCSV(data: string): {
-  features: number[][];
-  targets: string[];
-  headers: string[];
-} {
-  const rows = data.trim().split("\n");
-  const headers = rows[0].split(",").slice(1);
-  const dataRows = rows.slice(1);
-  const features: number[][] = [];
-  const targets: string[] = [];
-
-  for (const row of dataRows) {
-    const [l, ...f] = row.split(",");
-    features.push(f.map(Number));
-    targets.push(l);
-  }
-
-  return { features, targets, headers };
-}
-
-const { features, targets, headers } = parseCSV(csvData);
-
-const NEAREST_NEIGHBOR = 5;
-// Użycie klasy KNN
-const knn = new KNN(NEAREST_NEIGHBOR); // Ustawienie liczby sąsiadów na 3
-knn.train(features, targets);
-
-if (import.meta.main) {
-  // this is the main module
-  const g = [];
-  for (let i = 0; i < features[0].length; i++) {
-    const v = prompt(`${headers[i]}:`);
-    g.push(Number(v));
-    const neighbors = knn.predict(g);
-    const left = knn.elliminateVisual(g);
-    console.log({ neighbors });
-    console.log(left.length);
-  }
-} else {
-  // we were require()d from somewhere else
 }
