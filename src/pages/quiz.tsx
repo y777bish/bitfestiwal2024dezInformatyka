@@ -11,22 +11,18 @@ export default function Quiz() {
   const { isLoaded, userId } = useAuth();
   const currentQuestionIndex = currentAnswers.length;
   const currentQuestion = questions[currentQuestionIndex];
+  const progress = (currentQuestionIndex / questions.length) * 100;
 
-  // Sync URL with current question
   useEffect(() => {
     const currentAnswers = router.query.answers
       ? JSON.parse(router.query.answers as string)
       : [];
     setCurrentAnswers(currentAnswers);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router.query.answers]);
 
   const handleAnswer = async (answer: number) => {
-    // setAnswers({ ...answers, [currentQuestion]: answer });
     currentAnswers.push(answer as unknown as number);
-
-    const chuj = await predictHobby(currentAnswers);
-    console.log({ chuj });
+    const result = await predictHobby(currentAnswers);
 
     if (currentAnswers.length === questions.length) {
       router.push({
@@ -43,18 +39,22 @@ export default function Quiz() {
         query: { answers: JSON.stringify(currentAnswers) },
       },
       undefined,
-      { shallow: true },
+      { shallow: true }
     );
   };
 
   const handleBack = () => {
-    // if (currentQuestion > 0) {
-    //   setIsTransitioning(true);
-    //   setTimeout(() => {
-    //     setCurrentQuestion(currentQuestion - 1);
-    //     setIsTransitioning(false);
-    //   }, 300);
-    // }
+    if (currentAnswers.length > 0) {
+      const newAnswers = currentAnswers.slice(0, -1);
+      router.push(
+        {
+          pathname: "/quiz",
+          query: { answers: JSON.stringify(newAnswers) },
+        },
+        undefined,
+        { shallow: true }
+      );
+    }
   };
 
   if (!isLoaded || !userId) {
@@ -63,18 +63,40 @@ export default function Quiz() {
 
   return (
     <Layout>
-      <div className="min-h-[80vh] flex flex-col items-center justify-center py-12 px-4">
+      <div
+        className="min-h-[80vh] flex flex-col items-center justify-center py-12 px-4"
+        role="main"
+        aria-labelledby="quiz-heading"
+      >
         <div className="w-full max-w-2xl">
           {/* Progress Bar */}
-          <div className="mb-8">
+          <div
+            className="mb-8"
+            role="progressbar"
+            aria-valuemin={0}
+            aria-valuemax={100}
+            aria-valuenow={progress}
+          >
             <div className="flex justify-between mb-2">
-              <span className="text-sm font-medium text-gray-500"></span>
-              <span className="text-sm font-medium text-indigo-600"></span>
+              <span
+                className="text-sm font-medium text-gray-500"
+                aria-label={`Pytanie ${currentQuestionIndex + 1} z ${
+                  questions.length
+                }`}
+              >
+                {`Pytanie ${currentQuestionIndex + 1} z ${questions.length}`}
+              </span>
+              <span
+                className="text-sm font-medium text-indigo-600"
+                aria-hidden="true"
+              >
+                {`${Math.round(progress)}%`}
+              </span>
             </div>
             <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
               <div
                 className="h-full bg-indigo-600 rounded-full transition-all duration-500 ease-out"
-                style={{}}
+                style={{ width: `${progress}%` }}
               />
             </div>
           </div>
@@ -83,13 +105,15 @@ export default function Quiz() {
           {currentAnswers.length > 0 && (
             <button
               onClick={handleBack}
-              className="mb-4 flex items-center text-indigo-600 hover:text-indigo-800 transition-colors"
+              className="mb-4 flex items-center text-indigo-600 hover:text-indigo-800 transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+              aria-label="Wróć do poprzedniego pytania"
             >
               <svg
                 className="w-5 h-5 mr-2"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
+                aria-hidden="true"
               >
                 <path
                   strokeLinecap="round"
@@ -104,48 +128,44 @@ export default function Quiz() {
 
           {/* Question Card */}
           <div
-            className={`bg-white rounded-xl shadow-lg p-8 transition-opacity duration-300`}
+            className="bg-white rounded-xl shadow-lg p-8 transition-opacity duration-300"
+            role="form"
+            aria-labelledby="current-question"
           >
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">
+            <h2
+              id="current-question"
+              className="text-2xl font-bold text-gray-900 mb-8"
+            >
               {currentQuestion.question}
             </h2>
 
-            <div className="space-y-4">
+            <div
+              className="space-y-4"
+              role="radiogroup"
+              aria-labelledby="current-question"
+            >
               {currentQuestion.options.map((option, index) => (
                 <button
                   key={index}
                   onClick={() => handleAnswer(index + 1)}
-                  className={`w-full p-4 text-left rounded-lg border-2 
-                    ${
-                      ""
-                      // answers[currentQuestion] === option
-                      //   ? "border-indigo-500 bg-indigo-50"
-                      //   : "border-gray-200 hover:border-indigo-500 hover:bg-indigo-50"
-                    }
-                    focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2
-                    transition-all duration-200 relative group`}
+                  className="w-full p-4 text-left rounded-lg border-2 border-gray-200 
+                           hover:border-indigo-500 hover:bg-indigo-50
+                           focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2
+                           transition-all duration-200 relative group"
+                  role="radio"
+                  aria-checked="false"
+                  aria-label={option}
                 >
                   <div className="flex items-center justify-between">
-                    <span
-                      className={`font-medium ${
-                        ""
-                        // answers[currentQuestion] === option
-                        //   ? "text-indigo-600"
-                        //   : "text-gray-900 group-hover:text-indigo-600"
-                      }`}
-                    >
+                    <span className="font-medium text-gray-900 group-hover:text-indigo-600">
                       {option}
                     </span>
                     <svg
-                      className={`w-5 h-5 ${
-                        ""
-                        // answers[currentQuestion] === option
-                        //   ? "text-indigo-500"
-                        //   : "text-gray-400 group-hover:text-indigo-500"
-                      }`}
+                      className="w-5 h-5 text-gray-400 group-hover:text-indigo-500"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
+                      aria-hidden="true"
                     >
                       <path
                         strokeLinecap="round"
@@ -161,17 +181,23 @@ export default function Quiz() {
           </div>
 
           {/* Navigation Dots */}
-          <div className="flex justify-center space-x-2 mt-8">
+          <div
+            className="flex justify-center space-x-2 mt-8"
+            role="tablist"
+            aria-label="Postęp quizu"
+          >
             {questions.map((_, index) => (
               <div
                 key={index}
+                role="tab"
+                aria-selected={index === currentQuestionIndex}
+                aria-label={`Pytanie ${index + 1}`}
                 className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                  ""
-                  // index === currentQuestion
-                  //   ? "bg-indigo-600 w-4"
-                  //   : index < currentQuestion
-                  //   ? "bg-indigo-300"
-                  //   : "bg-gray-300"
+                  index === currentQuestionIndex
+                    ? "bg-indigo-600 w-4"
+                    : index < currentQuestionIndex
+                    ? "bg-indigo-300"
+                    : "bg-gray-300"
                 }`}
               />
             ))}
