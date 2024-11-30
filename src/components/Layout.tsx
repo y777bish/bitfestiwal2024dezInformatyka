@@ -69,7 +69,7 @@ export default function Layout({ children }: LayoutProps) {
                 onClick={handleSignOut}
                 className="text-gray-500 hover:text-red-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
               >
-                Sign Out
+                Wyloguj
               </button>
             </div>
           </div>
