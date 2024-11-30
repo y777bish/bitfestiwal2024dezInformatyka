@@ -38,9 +38,9 @@ export default function Layout({ children }: LayoutProps) {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-white">
       <nav
-        className="bg-white shadow-sm"
+        className="bg-sunset shadow-sm"
         role="navigation"
         aria-label="Menu główne"
       >
@@ -49,7 +49,7 @@ export default function Layout({ children }: LayoutProps) {
             <div className="flex items-center space-x-8">
               <Link
                 href="/"
-                className="text-xl font-semibold"
+                className="text-xl font-semibold text-forest"
                 aria-label="Strona główna HobbyFinder"
               >
                 HobbyFinder
@@ -61,8 +61,8 @@ export default function Layout({ children }: LayoutProps) {
                   href="/dashboard"
                   className={`${
                     router.pathname === "/dashboard"
-                      ? "text-indigo-600"
-                      : "text-gray-500 hover:text-gray-700"
+                      ? "text-forest"
+                      : "text-forest hover:text-gray-700"
                   } px-3 py-2 rounded-md text-sm font-medium`}
                   aria-current={
                     router.pathname === "/dashboard" ? "page" : undefined
@@ -74,14 +74,14 @@ export default function Layout({ children }: LayoutProps) {
                   href="/quiz"
                   className={`${
                     router.pathname === "/quiz"
-                      ? "text-indigo-600"
+                      ? "text-forest"
                       : "text-gray-500 hover:text-gray-700"
                   } px-3 py-2 rounded-md text-sm font-medium`}
                   aria-current={
                     router.pathname === "/quiz" ? "page" : undefined
                   }
                 >
-                  Weź Quiz
+                  Quiz
                 </Link>
               </div>
             </div>
@@ -109,7 +109,6 @@ export default function Layout({ children }: LayoutProps) {
               <button
                 onClick={handleSignOut}
                 className="text-gray-500 hover:text-red-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
-                aria-label="Wyloguj się"
               >
                 Wyloguj
               </button>
@@ -128,7 +127,7 @@ export default function Layout({ children }: LayoutProps) {
                 href="/dashboard"
                 className={`${
                   router.pathname === "/dashboard"
-                    ? "bg-indigo-50 text-indigo-600"
+                    ? "bg-indigo-50 text-forest"
                     : "text-gray-500 hover:text-gray-700 hover:bg-gray-50"
                 } block px-3 py-2 rounded-md text-base font-medium`}
                 aria-current={
@@ -143,7 +142,7 @@ export default function Layout({ children }: LayoutProps) {
                 href="/quiz"
                 className={`${
                   router.pathname === "/quiz"
-                    ? "bg-indigo-50 text-indigo-600"
+                    ? "bg-indigo-50 text-forest"
                     : "text-gray-500 hover:text-gray-700 hover:bg-gray-50"
                 } block px-3 py-2 rounded-md text-base font-medium`}
                 aria-current={router.pathname === "/quiz" ? "page" : undefined}

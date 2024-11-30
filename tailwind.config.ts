@@ -12,13 +12,16 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         forest: {
-          DEFAULT: "#004225", // czarny/ciemny zielony
+          DEFAULT: "#002E1A", // czarny/ciemny zielony
         },
         sunset: {
-          DEFAULT: "#FFB000", // pomarańczowy
+          DEFAULT: "#FFBF66", // pomarańczowy
         },
         cream: {
-          DEFAULT: "#F5F5DC", // biały/beżowy tło
+          DEFAULT: "#F7E8C1", // biały/beżowy tło
+        },
+        inka: {
+          DEFAULT: "#F9EDDD",
         },
       },
     },

@@ -39,34 +39,34 @@ export default function Dashboard() {
             Twoje statystyki
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="bg-white rounded-lg shadow p-6" role="status">
-              <h3 className="text-lg font-medium text-gray-900">
+            <div className="bg-inka rounded-lg shadow p-6" role="status">
+              <h3 className="text-lg font-medium text-forest">
                 Ukończenie profilu
               </h3>
               <p
-                className="mt-2 text-3xl font-semibold text-indigo-600"
+                className="mt-2 text-3xl font-semibold text-forest"
                 aria-label="85 procent ukończenia profilu"
               >
                 85%
               </p>
             </div>
-            <div className="bg-white rounded-lg shadow p-6" role="status">
-              <h3 className="text-lg font-medium text-gray-900">
+            <div className="bg-inka rounded-lg shadow p-6" role="status">
+              <h3 className="text-lg font-medium text-forest">
                 Aktywne hobby
               </h3>
               <p
-                className="mt-2 text-3xl font-semibold text-indigo-600"
+                className="mt-2 text-3xl font-semibold text-forest"
                 aria-label={`${userHobbies.length} aktywnych hobby`}
               >
                 {userHobbies.length}
               </p>
             </div>
-            <div className="bg-white rounded-lg shadow p-6" role="status">
-              <h3 className="text-lg font-medium text-gray-900">
+            <div className="bg-inka rounded-lg shadow p-6" role="status">
+              <h3 className="text-lg font-medium text-forest">
                 Dni aktywności
               </h3>
               <p
-                className="mt-2 text-3xl font-semibold text-indigo-600"
+                className="mt-2 text-3xl font-semibold text-forest"
                 aria-label="7 dni aktywności"
               >
                 7
@@ -79,7 +79,7 @@ export default function Dashboard() {
         <section aria-labelledby="hobbies-heading">
           <h2
             id="hobbies-heading"
-            className="text-2xl font-bold text-gray-900 mb-6"
+            className="text-2xl font-bold text-forest mb-6"
           >
             Twoje hobby
           </h2>
@@ -97,30 +97,30 @@ export default function Dashboard() {
                 tabIndex={0}
                 role="button"
                 aria-label={`${hobby.name}: ${hobby.description}. Postęp: ${hobby.progress}%. Kliknij aby zobaczyć szczegóły.`}
-                className="bg-white rounded-lg shadow p-6 cursor-pointer 
+                className="bg-inka rounded-lg shadow p-6 cursor-pointer 
                          hover:shadow-lg transition-all duration-300 
                          transform hover:-translate-y-1 active:translate-y-0
                          active:shadow-md relative group"
               >
                 <div
-                  className="absolute inset-0 bg-indigo-500 opacity-0 
+                  className="absolute inset-0 bg-forest opacity-0 
                               group-hover:opacity-5 rounded-lg transition-opacity"
                   aria-hidden="true"
                 />
-                <h3 className="text-lg font-medium text-gray-900 mb-2">
+                <h3 className="text-lg font-medium text-forest mb-2">
                   {hobby.name}
                 </h3>
-                <p className="text-gray-600 mb-4">{hobby.description}</p>
+                <p className="text-forest mb-4">{hobby.description}</p>
                 <div className="relative pt-1">
                   <div className="flex mb-2 items-center justify-between">
                     <div>
-                      <span className="text-xs font-semibold inline-block text-indigo-600">
+                      <span className="text-xs font-semibold inline-block text-forest">
                         Postęp
                       </span>
                     </div>
                     <div className="text-right">
                       <span
-                        className="text-xs font-semibold inline-block text-indigo-600"
+                        className="text-xs font-semibold inline-block text-forest"
                         aria-label={`${hobby.progress} procent ukończenia`}
                       >
                         {hobby.progress}%
@@ -137,14 +137,14 @@ export default function Dashboard() {
                     <div
                       style={{ width: `${hobby.progress}%` }}
                       className="shadow-none flex flex-col text-center whitespace-nowrap 
-                               text-white justify-center bg-indigo-600 transition-all duration-500"
+                               text-white justify-center bg-forest transition-all duration-500"
                     />
                   </div>
                 </div>
 
                 {/* Wskaźnik kliknięcia */}
                 <div
-                  className="flex items-center justify-end mt-2 text-indigo-600 
+                  className="flex items-center justify-end mt-2 text-forest 
                               opacity-0 group-hover:opacity-100 transition-opacity"
                   aria-hidden="true"
                 >
@@ -174,13 +174,13 @@ export default function Dashboard() {
               role="button"
               aria-label="Odkryj nowe hobby. Kliknij aby przejść do quizu."
               className="bg-white rounded-lg shadow p-6 border-2 border-dashed 
-                       border-gray-300 hover:border-indigo-500 cursor-pointer 
+                       border-forest hover:border-forest cursor-pointer 
                        flex items-center justify-center group hover:shadow-lg 
                        transition-all duration-300"
             >
               <div className="text-center">
                 <div
-                  className="mx-auto h-12 w-12 text-gray-400 group-hover:text-indigo-500 
+                  className="mx-auto h-12 w-12 text-forest group-hover:text-forest 
                               transition-colors duration-300"
                   aria-hidden="true"
                 >
@@ -193,7 +193,7 @@ export default function Dashboard() {
                     />
                   </svg>
                 </div>
-                <span className="mt-2 block text-sm font-medium text-gray-900">
+                <span className="mt-2 block text-sm font-medium text-forest">
                   Odkryj nowe hobby
                 </span>
               </div>

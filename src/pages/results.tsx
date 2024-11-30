@@ -10,11 +10,9 @@ function Results() {
       <div className="max-w-2xl mx-auto">
         <h1
           id="results-heading"
-          className="text-3xl font-bold text-center mb-8"
+          className="text-3xl font-bold text-center mb-8 text-forest"
           aria-label="Twoje rekomendowane hobby"
-        >
-          Your Recommended Hobbies
-        </h1>
+        >          Your Recommended Hobbies</h1>
 
         <div
           className="grid grid-cols-1 md:grid-cols-2 gap-6"
@@ -52,7 +50,7 @@ function Results() {
         <div className="mt-8 text-center">
           <button
             onClick={() => router.push("/quiz")}
-            className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors"
+            className="bg-sunset text-forest px-6 py-3 rounded-lg hover:bg-sunset focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors"
             aria-label="Powtórz quiz, aby znaleźć inne hobby"
           >
             Powtórz Quiz

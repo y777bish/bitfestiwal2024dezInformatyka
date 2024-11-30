@@ -87,7 +87,7 @@ export default function Quiz() {
                 {`Pytanie ${currentQuestionIndex + 1} z ${questions.length}`}
               </span>
               <span
-                className="text-sm font-medium text-indigo-600"
+                className="text-sm font-medium text-forest"
                 aria-hidden="true"
               >
                 {`${Math.round(progress)}%`}
@@ -95,7 +95,7 @@ export default function Quiz() {
             </div>
             <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
               <div
-                className="h-full bg-indigo-600 rounded-full transition-all duration-500 ease-out"
+                className="h-full bg-forest rounded-full transition-all duration-500 ease-out"
                 style={{ width: `${progress}%` }}
               />
             </div>
@@ -105,7 +105,7 @@ export default function Quiz() {
           {currentAnswers.length > 0 && (
             <button
               onClick={handleBack}
-              className="mb-4 flex items-center text-indigo-600 hover:text-indigo-800 transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+              className="mb-4 flex items-center text-forest hover:text-forest transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               aria-label="Wróć do poprzedniego pytania"
             >
               <svg
@@ -128,7 +128,7 @@ export default function Quiz() {
 
           {/* Question Card */}
           <div
-            className="bg-white rounded-xl shadow-lg p-8 transition-opacity duration-300"
+            className="bg-inka rounded-xl shadow-lg p-8 transition-opacity duration-300"
             role="form"
             aria-labelledby="current-question"
           >
@@ -149,19 +149,19 @@ export default function Quiz() {
                   key={index}
                   onClick={() => handleAnswer(index + 1)}
                   className="w-full p-4 text-left rounded-lg border-2 border-gray-200 
-                           hover:border-indigo-500 hover:bg-indigo-50
-                           focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2
+                           hover:border-forest hover:bg-indigo-50
+                           focus:outline-none focus:ring-2 focus:ring-forest focus:ring-offset-2
                            transition-all duration-200 relative group"
                   role="radio"
                   aria-checked="false"
                   aria-label={option}
                 >
                   <div className="flex items-center justify-between">
-                    <span className="font-medium text-gray-900 group-hover:text-indigo-600">
+                    <span className="font-medium text-gray-900 group-hover:text-forest">
                       {option}
                     </span>
                     <svg
-                      className="w-5 h-5 text-gray-400 group-hover:text-indigo-500"
+                      className="w-5 h-5 text-gray-400 group-hover:text-forest"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"

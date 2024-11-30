@@ -31,7 +31,7 @@ export default function Home() {
                 ? "Start quiz to find your perfect hobby"
                 : "Sign in to start the quiz"
             }
-            className="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors"
+            className="inline-block bg-forest text-white px-6 py-3 rounded-lg text-lg hover:bg-forest focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors"
           >
             <span>Start Quiz</span>
           </Link>

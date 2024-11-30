@@ -36,7 +36,7 @@ export default function SignInPage() {
           appearance={{
             elements: {
               formButtonPrimary:
-                "bg-indigo-600 hover:bg-indigo-700 text-sm normal-case focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2",
+                "bg-indigo-600 hover:bg-forest text-sm normal-case focus:outline-none focus:ring-2 focus:ring-forest focus:ring-offset-2",
               card: "bg-white",
               headerTitle: "text-2xl font-bold",
               headerSubtitle: "text-gray-600 text-base",

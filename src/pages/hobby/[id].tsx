@@ -168,8 +168,8 @@ export default function HobbyDetail() {
                   type="checkbox"
                   checked={task.isCompleted}
                   onChange={() => handleToggleTask(task.id)}
-                  className="w-5 h-5 text-indigo-600 border-gray-300 rounded 
-                           focus:ring-indigo-500 cursor-pointer transition-colors"
+                  className="w-5 h-5 text-forest border-forest rounded 
+                           focus:ring-forest cursor-pointer transition-colors"
                   aria-label={`Zadanie: ${task.title}`}
                 />
                 <span
