@@ -23,7 +23,7 @@ export default function Layout({ children }: LayoutProps) {
   }
 
   if (!userId) {
-    router.push("/sign-in");
+    router.push("/landing");
     return null;
   }
 
