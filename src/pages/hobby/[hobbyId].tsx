@@ -2,7 +2,7 @@ import { HobbyAttributes } from "@/types/hobby";
 import { translateToPolish } from "@/utils/translate-to-polish";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Layout from "../../components/Layout";
 import { hobbiesData } from "../../data/hobbies";
 
@@ -14,15 +14,9 @@ interface Task {
 
 export default function HobbyDetail() {
   const router = useRouter();
-  const { id } = router.query;
+  const { hobbyId } = router.query;
   const [tasks, setTasks] = useState<Task[]>([]);
-  const hobby = hobbiesData[id as string];
-
-  useEffect(() => {
-    if (hobby) {
-      setTasks(hobby.tasks);
-    }
-  }, [hobby]);
+  const hobby = Object.values(hobbiesData).find(({ id }: { id: string }) => id === hobbyId);
 
   if (!hobby) {
     return (

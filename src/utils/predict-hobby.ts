@@ -23,10 +23,12 @@ knn.train(features, targets);
 
 // g = [] - array of indices of answers
 
+export const getKnn = () => knn;
+
 // predict is run at the end
 export const predictHobby = async (g: number[]) => {
   const neighbors = knn.predict(g);
-  const left = knn.elliminateVisual(g);
+  const left = knn.eliminateVisual(g);
   console.log({ neighbors });
   console.log(left.length);
 

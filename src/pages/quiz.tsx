@@ -1,38 +1,47 @@
-import { predictHobby } from "@/utils/predict-hobby";
 import { useAuth } from "@clerk/nextjs";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Layout from "../components/Layout";
 import { questions } from "../data/questions";
+import { getKnn } from "@/utils/predict-hobby";
+
+const knn = getKnn()
+import { useAutoAnimate } from '@formkit/auto-animate/react';
 
 export default function Quiz() {
   const [currentAnswers, setCurrentAnswers] = useState<number[]>([]);
   const router = useRouter();
   const { isLoaded, userId } = useAuth();
+  const [treeData, setTreeData] = useState(knn.eliminateWithPredicted(currentAnswers))
   const currentQuestionIndex = currentAnswers.length;
   const currentQuestion = questions[currentQuestionIndex];
   const progress = (currentQuestionIndex / questions.length) * 100;
+  const [animationParent] = useAutoAnimate();
 
   useEffect(() => {
     const currentAnswers = router.query.answers
       ? JSON.parse(router.query.answers as string)
       : [];
     setCurrentAnswers(currentAnswers);
+    setTreeData(knn.eliminateWithPredicted(currentAnswers));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router.query.answers]);
 
   const handleAnswer = async (answer: number) => {
     currentAnswers.push(answer as unknown as number);
-    const result = await predictHobby(currentAnswers);
 
     if (currentAnswers.length === questions.length) {
+      const knnresults = knn.predict(currentAnswers);
       router.push({
-        pathname: "/results",
+        pathname: `/results`,
         query: {
           answers: JSON.stringify(currentAnswers),
+          knnResult: JSON.stringify(knnresults),
         },
       });
       return;
     }
+    setTreeData(knn.eliminateWithPredicted(currentAnswers));
     router.push(
       {
         pathname: "/quiz",
@@ -44,17 +53,15 @@ export default function Quiz() {
   };
 
   const handleBack = () => {
-    if (currentAnswers.length > 0) {
-      const newAnswers = currentAnswers.slice(0, -1);
-      router.push(
-        {
-          pathname: "/quiz",
-          query: { answers: JSON.stringify(newAnswers) },
-        },
-        undefined,
-        { shallow: true }
-      );
-    }
+    currentAnswers.pop();
+    router.push(
+      {
+        pathname: "/quiz",
+        query: { answers: JSON.stringify(currentAnswers) },
+      },
+      undefined,
+      { shallow: true },
+    );
   };
 
   if (!isLoaded || !userId) {
@@ -64,14 +71,14 @@ export default function Quiz() {
   return (
     <Layout>
       <div
-        className="min-h-[80vh] flex flex-col items-center justify-center py-12 px-4"
+        className="min-h-[80vh] flex flex-row py-12 px-4 gap-12 relative justify-center w-2xl"
         role="main"
         aria-labelledby="quiz-heading"
       >
-        <div className="w-full max-w-2xl">
+        <div className="w-full flex-[3] sticky top-1">
           {/* Progress Bar */}
           <div
-            className="mb-8"
+            className="mb-8 min-h-10"
             role="progressbar"
             aria-valuemin={0}
             aria-valuemax={100}
@@ -142,7 +149,7 @@ export default function Quiz() {
             <div
               className="space-y-4"
               role="radiogroup"
-              aria-labelledby="current-question"
+              aria-labelledby="current-questions"
             >
               {currentQuestion.options.map((option, index) => (
                 <button
@@ -180,6 +187,29 @@ export default function Quiz() {
             </div>
           </div>
 
+          {/* Back Button */}
+          {currentAnswers.length > 0 && (
+            <button
+              onClick={handleBack}
+              className="mt-4 flex items-center text-indigo-600 hover:text-indigo-800 transition-colors"
+            >
+              <svg
+                className="w-5 h-5 mr-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M15 19l-7-7 7-7"
+                />
+              </svg>
+              Previous Question
+            </button>
+          )}
+
           {/* Navigation Dots */}
           <div
             className="flex justify-center space-x-2 mt-8"
@@ -200,6 +230,20 @@ export default function Quiz() {
                     : "bg-gray-300"
                 }`}
               />
+            ))}
+          </div>
+        </div>
+
+        <div className="flex-[2]  ">
+          Znaleźliśmy {treeData.length} hobby dopasowanych do Twoich wymagań
+          <div ref={animationParent} className="flex flex-col gap-4  w-2xl">
+            {treeData.map(v => (
+              <div
+                className="outline outline-emerald-600 p-4 rounded"
+                key={v}
+              >
+                {v[0].toUpperCase()}{v.replace('_', ' ').slice(1)}
+              </div>
             ))}
           </div>
         </div>

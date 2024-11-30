@@ -52,7 +52,7 @@ class KNN {
   }
 
 
-  elliminateVisual(target: number[]): string[] {
+  eliminateVisual(target: number[]): string[] {
     const displayedTargets = []
     for (let i = 0; i < this.trainFeatures.length; i++) {
         if (target.every((targetValue, idx) => Math.abs(targetValue - features[i][idx]) >= 1)) {
@@ -137,6 +137,8 @@ const NEAREST_NEIGHBOR = 5;
 const knn = new KNN(NEAREST_NEIGHBOR); // Ustawienie liczby sąsiadów na 3
 knn.train(features, targets);
 
+export const getKnn = () => knn;
+
 if (import.meta.main) {
   // this is the main module
   const g = [];
@@ -144,7 +146,7 @@ if (import.meta.main) {
     const v = prompt(`${headers[i]}:`);
     g.push(Number(v));
     const neighbors = knn.predict(g);
-    const left = knn.elliminateVisual(g);
+    const left = knn.eliminateVisual(g);
     console.log({ neighbors });
     console.log(left.length);
   }

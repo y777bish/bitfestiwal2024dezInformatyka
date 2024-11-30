@@ -1,5 +1,5 @@
 type DistanceMetric = "euclidean";
-type Result = {
+export type KnnResult = {
   distance: number;
   label: string;
 };
@@ -51,12 +51,15 @@ export class KNN {
     this.trainLabels = labels;
   }
 
-  elliminateVisual(target: number[]): typeof this.trainFeatures {
-    return this.trainFeatures.filter((feature) =>
-      target.every(
-        (targetValue, idx) => Math.abs(targetValue - feature[idx]) >= 1,
-      ),
-    );
+  
+  eliminateVisual(target: number[]): string[] {
+    const displayedTargets = []
+    for (let i = 0; i < this.trainFeatures.length; i++) {
+        if (target.every((targetValue, idx) => Math.abs(targetValue - this.trainFeatures[i][idx]) <= 1)) {
+            displayedTargets.push(this.trainLabels[i])
+        }
+    };
+    return displayedTargets;
   }
 
   /**
@@ -64,7 +67,7 @@ export class KNN {
    * @param sample - Pojedynczy przykład wejściowy
    * @returns Obiekt zawierający przewidywaną wartość oraz najbliższych sąsiadów
    */
-  predict(sample: number[]): Result[] {
+  predict(sample: number[]): KnnResult[] {
     const distances = this.trainFeatures.map((trainSample, index) => ({
       distance: this.calculateDistance(
         sample,
@@ -77,9 +80,17 @@ export class KNN {
     distances.sort((a, b) => a.distance - b.distance);
 
     // Wybierz k najbliższych sąsiadów
-    const nearestNeighbors = distances.slice(0, this.k) as Result[];
+    const nearestNeighbors = distances.slice(0, this.k) as KnnResult[];
 
     return nearestNeighbors;
+  }
+
+  eliminateWithPredicted(target: number[]): string[] {
+    const labels = this.eliminateVisual(target);
+    const predictions = this.predict(target);
+    const possibleLabels = [...new Set([...labels, ...predictions.map((v) => v.label)])];
+    possibleLabels.sort((a, b) => a.localeCompare(b))
+    return possibleLabels;
   }
 
   /**
