@@ -1,4 +1,4 @@
-import { HobbyCategories, Question } from "../types";
+import { Question } from "../types";
 
 export const questions: Question[] = [
   {
@@ -139,22 +139,3 @@ export const questions: Question[] = [
     ],
   },
 ];
-
-export const hobbies: HobbyCategories = {
-  indoorsSolitary: ["Reading", "Painting", "Writing", "Meditation"],
-  indoorsSocial: ["Board Games", "Cooking Classes", "Book Club", "Chess Club"],
-  outdoorsSolitary: ["Gardening", "Photography", "Hiking", "Bird Watching"],
-  outdoorsSocial: [
-    "Team Sports",
-    "Rock Climbing",
-    "Group Hiking",
-    "Volunteering",
-  ],
-  virtualSolitary: ["Programming", "Digital Art", "Blogging", "Online Courses"],
-  virtualSocial: [
-    "Online Gaming",
-    "Virtual Book Clubs",
-    "Language Exchange",
-    "Online DnD",
-  ],
-};
