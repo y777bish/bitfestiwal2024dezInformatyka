@@ -24,34 +24,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "LogicGames",
-        "description": "Największa kolekcja łamigłówek online",
-        "url": "https://youtube.com/logicgames",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Łamigłówki.pl",
-        "description": "Portal z zagadkami logicznymi",
-        "url": "https://lamiglowki.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Łamigłówki logiczne",
-        "description": "Historia i rodzaje łamigłówek",
-        "url": "https://wikipedia.org/wiki/Lamiglowki",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "narciarstwo": {
     "id": "narciarstwo",
     "name": "Narciarstwo",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Narciarstwo to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -71,34 +49,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "SkiMaster",
-        "description": "Techniki narciarskie dla początkujących i zaawansowanych",
-        "url": "https://youtube.com/skimaster",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "NartyOnline",
-        "description": "Kompendium wiedzy o narciarstwie",
-        "url": "https://nartyonline.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Narciarstwo",
-        "description": "Historia i techniki narciarskie",
-        "url": "https://wikipedia.org/wiki/Narciarstwo",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "wyrób_świec_mydeł": {
     "id": "wyrób_świec_mydeł",
     "name": "Wyrób świec / mydeł",
-    "category": "rzemiosło",
+    "category": "sztuka_i_rzemioslo",
     "description": "Wyrób świec / mydeł to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -118,34 +74,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "CandleCrafts",
-        "description": "Tutoriale wyrobu świec i mydeł",
-        "url": "https://youtube.com/candlecrafts",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "HandmadeSoap",
-        "description": "Portal o wyrobie mydła i świec",
-        "url": "https://handmadesoap.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Mydlarstwo",
-        "description": "Historia i techniki wyrobu mydeł",
-        "url": "https://wikipedia.org/wiki/Mydlarstwo",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "windsurfing": {
     "id": "windsurfing",
     "name": "Windsurfing",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Windsurfing to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -165,34 +99,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "WindsurfPro",
-        "description": "Nauka windsurfingu krok po kroku",
-        "url": "https://youtube.com/windsurfpro",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Windsurfing.pl",
-        "description": "Portal dla miłośników windsurfingu",
-        "url": "https://windsurfing.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Windsurfing",
-        "description": "Historia i techniki windsurfingu",
-        "url": "https://wikipedia.org/wiki/Windsurfing",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "tradycyjne_sporty_walki": {
     "id": "tradycyjne_sporty_walki",
     "name": "Tradycyjne sporty walki",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Tradycyjne sporty walki to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -212,34 +124,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "MartialArtsWorld",
-        "description": "Techniki sztuk walki",
-        "url": "https://youtube.com/martialartsworld",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "SztukiWalki.pl",
-        "description": "Portal o sportach walki",
-        "url": "https://sztukiwalki.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Sztuki walki",
-        "description": "Historia i rodzaje sztuk walki",
-        "url": "https://wikipedia.org/wiki/Sztuki_walki",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "degustacja_kawy_herbaty": {
     "id": "degustacja_kawy_herbaty",
     "name": "Degustacja kawy/herbaty",
-    "category": "kulinaria",
+    "category": "kulinaria_i_napoje",
     "description": "Degustacja kawy/herbaty to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -259,34 +149,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 4
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "TeaCoffeemaster",
-        "description": "Sekrety parzenia kawy i herbaty",
-        "url": "https://youtube.com/teacoffeemaster",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "KawaHerbata.pl",
-        "description": "Portal dla miłośników kawy i herbaty",
-        "url": "https://kawaherbata.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Herbaciarstwo",
-        "description": "Historia herbaty i kawy",
-        "url": "https://wikipedia.org/wiki/Herbaciarstwo",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "kolekcjonowanie_figurek": {
     "id": "kolekcjonowanie_figurek",
     "name": "Kolekcjonowanie figurek",
-    "category": "kolekcjonerstwo",
+    "category": "kolekcjonerstwo_i_antyki",
     "description": "Kolekcjonowanie figurek to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -309,22 +177,43 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "FigureCollector",
-        "description": "Świat kolekcjonowania figurek",
-        "url": "https://youtube.com/figurecollector",
+        "name": "Figurkowy Świat",
+        "description": "Recenzje i kolekcje figurek",
+        "url": "https://youtube.com/figurkowy-swiat",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Figurki.net",
+        "name": "Hobby Figurki",
         "description": "Portal kolekcjonerski",
-        "url": "https://figurki.net",
+        "url": "https://hobbyfigurki.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Kolekcjonerstwo",
-        "description": "Historia kolekcjonerstwa figurek",
+        "description": "Podstawy kolekcjonerstwa",
+        "url": "https://wikipedia.org/wiki/Kolekcjonerstwo",
+        "type": "wikipedia"
+      },
+      {
+        "id": "1",
+        "name": "Figurkowy Świat",
+        "description": "Recenzje i kolekcje figurek",
+        "url": "https://youtube.com/figurkowy-swiat",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "Hobby Figurki",
+        "description": "Portal kolekcjonerski",
+        "url": "https://hobbyfigurki.pl",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Kolekcjonerstwo",
+        "description": "Podstawy kolekcjonerstwa",
         "url": "https://wikipedia.org/wiki/Kolekcjonerstwo",
         "type": "wikipedia"
       }
@@ -333,7 +222,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "kolekcjonowanie_monet": {
     "id": "kolekcjonowanie_monet",
     "name": "Kolekcjonowanie monet",
-    "category": "kolekcjonerstwo",
+    "category": "kolekcjonerstwo_i_antyki",
     "description": "Kolekcjonowanie monet to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -356,22 +245,43 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "CoinExpert",
-        "description": "Numizmatyka dla początkujących",
-        "url": "https://youtube.com/coinexpert",
+        "name": "Numizmatyka TV",
+        "description": "Świat monet",
+        "url": "https://youtube.com/numizmatyka-tv",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Monety.pl",
+        "name": "Numizmatyka Online",
         "description": "Portal numizmatyczny",
-        "url": "https://monety.pl",
+        "url": "https://numizmatyka-online.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Numizmatyka",
-        "description": "Historia i zasady numizmatyki",
+        "description": "Historia i rodzaje monet",
+        "url": "https://wikipedia.org/wiki/Numizmatyka",
+        "type": "wikipedia"
+      },
+      {
+        "id": "1",
+        "name": "Numizmatyka TV",
+        "description": "Świat monet",
+        "url": "https://youtube.com/numizmatyka-tv",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "Numizmatyka Online",
+        "description": "Portal numizmatyczny",
+        "url": "https://numizmatyka-online.pl",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Numizmatyka",
+        "description": "Historia i rodzaje monet",
         "url": "https://wikipedia.org/wiki/Numizmatyka",
         "type": "wikipedia"
       }
@@ -380,7 +290,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "robótki_ręczne_szydełkowanie_haftowanie": {
     "id": "robótki_ręczne_szydełkowanie_haftowanie",
     "name": "Robótki ręczne (szydełkowanie haftowanie)",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Robótki ręczne (szydełkowanie haftowanie) to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -400,34 +310,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "CrochetMaster",
-        "description": "Nauka szydełkowania i haftowania",
-        "url": "https://youtube.com/crochetmaster",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Robotki.pl",
-        "description": "Portal o robótkach ręcznych",
-        "url": "https://robotki.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Rękodzieło",
-        "description": "Historia robótek ręcznych",
-        "url": "https://wikipedia.org/wiki/Rekodzielo",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "tworzenie_aplikacji_mobilnych": {
     "id": "tworzenie_aplikacji_mobilnych",
     "name": "Tworzenie aplikacji mobilnych",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Tworzenie aplikacji mobilnych to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -447,34 +335,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "AppDevPro",
-        "description": "Kurs tworzenia aplikacji mobilnych",
-        "url": "https://youtube.com/appdevpro",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "MobileDevHub",
-        "description": "Portal dla developerów mobile",
-        "url": "https://mobiledevhub.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Aplikacje mobilne",
-        "description": "Historia i rozwój aplikacji mobilnych",
-        "url": "https://wikipedia.org/wiki/Aplikacje_mobilne",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "tworzenie_stron_internetowych": {
     "id": "tworzenie_stron_internetowych",
     "name": "Tworzenie stron internetowych",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Tworzenie stron internetowych to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -494,29 +360,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "WebDevMaster",
-        "description": "Nauka tworzenia stron internetowych",
-        "url": "https://youtube.com/webdevmaster",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "WebDev.pl",
-        "description": "Portal o tworzeniu stron",
-        "url": "https://webdev.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Webmastering",
-        "description": "Technologie webowe",
-        "url": "https://wikipedia.org/wiki/Webmastering",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "akwarystyka_morska": {
     "id": "akwarystyka_morska",
@@ -541,29 +385,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 4
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ReefKeeper",
-        "description": "Akwarystyka morska od podstaw",
-        "url": "https://youtube.com/reefkeeper",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "AkwariumMorskie.pl",
-        "description": "Portal akwarystyczny",
-        "url": "https://akwariummorskie.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Akwarystyka morska",
-        "description": "Podstawy akwarystyki morskiej",
-        "url": "https://wikipedia.org/wiki/Akwarystyka_morska",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "akwarystyka_słodkowodna": {
     "id": "akwarystyka_słodkowodna",
@@ -588,34 +410,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "FreshwaterTank",
-        "description": "Akwaria słodkowodne krok po kroku",
-        "url": "https://youtube.com/freshwatertank",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Akwarium.pl",
-        "description": "Portal akwarystyczny",
-        "url": "https://akwarium.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Akwarystyka",
-        "description": "Podstawy hodowli ryb",
-        "url": "https://wikipedia.org/wiki/Akwarystyka",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "animacja_poklatkowa": {
     "id": "animacja_poklatkowa",
     "name": "Animacja poklatkowa",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Animacja poklatkowa to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -635,34 +435,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "StopMotionPro",
-        "description": "Techniki animacji poklatkowej",
-        "url": "https://youtube.com/stopmotionpro",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Animacja.art",
-        "description": "Portal o animacji",
-        "url": "https://animacja.art",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Animacja poklatkowa",
-        "description": "Historia i techniki animacji",
-        "url": "https://wikipedia.org/wiki/Animacja_poklatkowa",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "astrofotografia": {
     "id": "astrofotografia",
     "name": "Astrofotografia",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Astrofotografia to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -682,34 +460,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "StarPhotography",
-        "description": "Fotografowanie nocnego nieba",
-        "url": "https://youtube.com/starphotography",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Astrofoto.pl",
-        "description": "Portal astrofotograficzny",
-        "url": "https://astrofoto.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Astrofotografia",
-        "description": "Techniki fotografii astronomicznej",
-        "url": "https://wikipedia.org/wiki/Astrofotografia",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "badanie_archiwów_lokalnych": {
     "id": "badanie_archiwów_lokalnych",
     "name": "Badanie archiwów lokalnych",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Badanie archiwów lokalnych to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -755,29 +511,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ArchiveExplorer",
-        "description": "Odkrywanie historii lokalnej",
-        "url": "https://youtube.com/archiveexplorer",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Archiwa.org",
-        "description": "Portal archiwistyczny",
-        "url": "https://archiwa.org",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Archiwistyka",
-        "description": "Metody badania archiwów",
-        "url": "https://wikipedia.org/wiki/Archiwistyka",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "base_jumping": {
     "id": "base_jumping",
@@ -802,34 +536,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 4
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ExtremeJump",
-        "description": "Techniki i bezpieczeństwo base jumpingu",
-        "url": "https://youtube.com/extremejump",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "BaseJump.com",
-        "description": "Portal o base jumpingu",
-        "url": "https://basejump.com",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Base jumping",
-        "description": "Historia i techniki skoków",
-        "url": "https://wikipedia.org/wiki/Base_jumping",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "bieganie": {
     "id": "bieganie",
     "name": "Bieganie",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Bieganie to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -852,22 +564,22 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "RunAcademy",
-        "description": "Techniki biegania i treningi",
-        "url": "https://youtube.com/runacademy",
+        "name": "Bieganie.pl TV",
+        "description": "Porady dla biegaczy",
+        "url": "https://youtube.com/bieganie-tv",
         "type": "youtube"
       },
       {
         "id": "2",
         "name": "Bieganie.pl",
-        "description": "Portal dla biegaczy",
+        "description": "Portal biegowy",
         "url": "https://bieganie.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Bieganie",
-        "description": "Historia i techniki biegania",
+        "description": "Techniki i historia biegania",
         "url": "https://wikipedia.org/wiki/Bieganie",
         "type": "wikipedia"
       }
@@ -896,34 +608,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "CampMaster",
-        "description": "Poradnik biwakowania",
-        "url": "https://youtube.com/campmaster",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Survival.pl",
-        "description": "Portal survivalowy",
-        "url": "https://survival.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Biwakowanie",
-        "description": "Techniki biwakowania",
-        "url": "https://wikipedia.org/wiki/Biwakowanie",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "boks": {
     "id": "boks",
     "name": "Boks",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Boks to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -946,22 +636,22 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "BoxingSchool",
-        "description": "Techniki bokserskie i treningi",
-        "url": "https://youtube.com/boxingschool",
+        "name": "Boks Polska",
+        "description": "Techniki bokserskie",
+        "url": "https://youtube.com/boks-polska",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "BoxingPortal",
-        "description": "Portal o boksie",
-        "url": "https://boxingportal.pl",
+        "name": "Boxing.pl",
+        "description": "Portal bokserski",
+        "url": "https://boxing.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Boks",
-        "description": "Historia i techniki boksu",
+        "description": "Historia i techniki",
         "url": "https://wikipedia.org/wiki/Boks",
         "type": "wikipedia"
       }
@@ -970,7 +660,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "bookbinding_artystyczny": {
     "id": "bookbinding_artystyczny",
     "name": "Bookbinding artystyczny",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Bookbinding artystyczny to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -990,34 +680,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "BookbindingArt",
-        "description": "Sztuka oprawiania książek",
-        "url": "https://youtube.com/bookbindingart",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Introligator.pl",
-        "description": "Portal o introligatorstwie",
-        "url": "https://introligator.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Introligatorstwo",
-        "description": "Historia i techniki introligatorskie",
-        "url": "https://wikipedia.org/wiki/Introligatorstwo",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "budowanie_domków_dla_ptaków": {
     "id": "budowanie_domków_dla_ptaków",
     "name": "Budowanie domków dla ptaków",
-    "category": "rzemiosło",
+    "category": "sztuka_i_rzemioslo",
     "description": "Budowanie domków dla ptaków to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -1040,23 +708,23 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "BirdHouseCraft",
-        "description": "Projektowanie i budowa domków dla ptaków",
-        "url": "https://youtube.com/birdhousecraft",
+        "name": "Ptasi Azyl",
+        "description": "Projekty budek lęgowych",
+        "url": "https://youtube.com/ptasi-azyl",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Budki.info",
-        "description": "Portal o budkach lęgowych",
-        "url": "https://budki.info",
+        "name": "Ptasia Edukacja",
+        "description": "Porady ornitologiczne",
+        "url": "https://ptasiaedukacja.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Budki lęgowe",
-        "description": "Typy i konstrukcja budek lęgowych",
-        "url": "https://wikipedia.org/wiki/Budki_legowe",
+        "description": "Rodzaje i konstrukcja",
+        "url": "https://wikipedia.org/wiki/Budka_lęgowa",
         "type": "wikipedia"
       }
     ]
@@ -1064,7 +732,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "budowanie_i_malowanie_figurek_do_gier": {
     "id": "budowanie_i_malowanie_figurek_do_gier",
     "name": "Budowanie i malowanie figurek do gier",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Budowanie i malowanie figurek do gier to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -1084,34 +752,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "MiniFigures",
-        "description": "Malowanie i modelowanie figurek",
-        "url": "https://youtube.com/minifigures",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Figurki.pl",
-        "description": "Portal modelarski",
-        "url": "https://figurki.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Modelarstwo",
-        "description": "Techniki modelarskie",
-        "url": "https://wikipedia.org/wiki/Modelarstwo",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "budowanie_modeli_kolejek": {
     "id": "budowanie_modeli_kolejek",
     "name": "Budowanie modeli kolejek",
-    "category": "rzemiosło",
+    "category": "sztuka_i_rzemioslo",
     "description": "Budowanie modeli kolejek to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -1131,34 +777,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ModelTrains",
-        "description": "Modelarstwo kolejowe",
-        "url": "https://youtube.com/modeltrains",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Kolejki.net",
-        "description": "Portal o modelarstwie kolejowym",
-        "url": "https://kolejki.net",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Modelarstwo kolejowe",
-        "description": "Historia kolejek modelarskich",
-        "url": "https://wikipedia.org/wiki/Modelarstwo_kolejowe",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "budowanie_rakiet_amatorskich": {
     "id": "budowanie_rakiet_amatorskich",
     "name": "Budowanie rakiet amatorskich",
-    "category": "rzemiosło",
+    "category": "sztuka_i_rzemioslo",
     "description": "Budowanie rakiet amatorskich to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -1178,29 +802,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "RocketScience",
-        "description": "Budowa rakiet amatorskich",
-        "url": "https://youtube.com/rocketscience",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "RakietyAmatorskie.pl",
-        "description": "Portal rakietowy",
-        "url": "https://rakietyamatorskie.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Rakietnictwo amatorskie",
-        "description": "Podstawy budowy rakiet",
-        "url": "https://wikipedia.org/wiki/Rakietnictwo_amatorskie",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "budowanie_schronień_w_lesie": {
     "id": "budowanie_schronień_w_lesie",
@@ -1225,34 +827,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "BushcraftPL",
-        "description": "Techniki budowy schronień",
-        "url": "https://youtube.com/bushcraftpl",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Survival.edu",
-        "description": "Portal survivalowy",
-        "url": "https://survival.edu",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Bushcraft",
-        "description": "Sztuka przetrwania",
-        "url": "https://wikipedia.org/wiki/Bushcraft",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "chór": {
     "id": "chór",
     "name": "Chór",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Chór to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -1272,34 +852,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ChoralArt",
-        "description": "Techniki śpiewu chóralnego",
-        "url": "https://youtube.com/choralart",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Chor.info",
-        "description": "Portal o muzyce chóralnej",
-        "url": "https://chor.info",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Muzyka chóralna",
-        "description": "Historia i rodzaje chórów",
-        "url": "https://wikipedia.org/wiki/Muzyka_choralna",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "cosplay": {
     "id": "cosplay",
     "name": "Cosplay",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Cosplay to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -1319,34 +877,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "CosplayMaster",
-        "description": "Tworzenie kostiumów i charakteryzacja",
-        "url": "https://youtube.com/cosplaymaster",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Cosplay.pl",
-        "description": "Portal cosplayowy",
-        "url": "https://cosplay.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Cosplay",
-        "description": "Historia i kultura cosplayu",
-        "url": "https://wikipedia.org/wiki/Cosplay",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "czytanie_książek": {
     "id": "czytanie_książek",
     "name": "Czytanie książek",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Czytanie książek to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -1369,22 +905,22 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "BookTuber",
-        "description": "Recenzje i dyskusje o książkach",
-        "url": "https://youtube.com/booktuber",
+        "name": "Książkowe Recenzje",
+        "description": "Recenzje i polecenia książek",
+        "url": "https://youtube.com/ksiazkowerecenzje",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Lubimyczytac.pl",
-        "description": "Portal czytelniczy",
+        "name": "Lubimyczytać",
+        "description": "Społeczność czytelników",
         "url": "https://lubimyczytac.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Literatura",
-        "description": "Historia literatury",
+        "description": "Historia i gatunki literackie",
         "url": "https://wikipedia.org/wiki/Literatura",
         "type": "wikipedia"
       }
@@ -1413,34 +949,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "DnDMaster",
-        "description": "Poradniki dla graczy i mistrzów gry",
-        "url": "https://youtube.com/dndmaster",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "DnD.pl",
-        "description": "Portal o grach fabularnych",
-        "url": "https://dnd.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Dungeons & Dragons",
-        "description": "Historia i zasady D&D",
-        "url": "https://wikipedia.org/wiki/Dungeons_and_Dragons",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "degustacja_win": {
     "id": "degustacja_win",
     "name": "Degustacja win",
-    "category": "kulinaria",
+    "category": "kulinaria_i_napoje",
     "description": "Degustacja win to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -1460,34 +974,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 4
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "WineExpert",
-        "description": "Świat win i degustacji",
-        "url": "https://youtube.com/wineexpert",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Winomania.pl",
-        "description": "Portal o kulturze wina",
-        "url": "https://winomania.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Enologia",
-        "description": "Nauka o winie",
-        "url": "https://wikipedia.org/wiki/Enologia",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "dekorowanie_ciast_artystycznych": {
     "id": "dekorowanie_ciast_artystycznych",
     "name": "Dekorowanie ciast artystycznych",
-    "category": "kulinaria",
+    "category": "kulinaria_i_napoje",
     "description": "Dekorowanie ciast artystycznych to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -1533,34 +1025,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "CakeArt",
-        "description": "Techniki dekoracji tortów",
-        "url": "https://youtube.com/cakeart",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "TortArt.pl",
-        "description": "Portal cukierniczy",
-        "url": "https://tortart.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Cukiernictwo artystyczne",
-        "description": "Sztuka dekoracji ciast",
-        "url": "https://wikipedia.org/wiki/Cukiernictwo",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "destylacja_zapachów": {
     "id": "destylacja_zapachów",
     "name": "Destylacja zapachów",
-    "category": "rzemiosło",
+    "category": "sztuka_i_rzemioslo",
     "description": "Destylacja zapachów to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -1580,34 +1050,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "PerfumeMaking",
-        "description": "Tworzenie perfum i zapachów",
-        "url": "https://youtube.com/perfumemaking",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Aromaty.pl",
-        "description": "Portal o zapachach",
-        "url": "https://aromaty.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Perfumiarstwo",
-        "description": "Historia i techniki perfumiarskie",
-        "url": "https://wikipedia.org/wiki/Perfumiarstwo",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "detekcja_metali_poszukiwanie_skarbów": {
     "id": "detekcja_metali_poszukiwanie_skarbów",
     "name": "Detekcja metali (poszukiwanie skarbów)",
-    "category": "kolekcjonerstwo",
+    "category": "kolekcjonerstwo_i_antyki",
     "description": "Detekcja metali (poszukiwanie skarbów) to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -1632,7 +1080,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "dogtrekking": {
     "id": "dogtrekking",
     "name": "Dogtrekking",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Dogtrekking to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -1678,34 +1126,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "DogSport",
-        "description": "Sporty z psami",
-        "url": "https://youtube.com/dogsport",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Dogtrekking.pl",
-        "description": "Portal o sporcie z psami",
-        "url": "https://dogtrekking.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Dogtrekking",
-        "description": "Zasady i techniki",
-        "url": "https://wikipedia.org/wiki/Dogtrekking",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "eksperymenty_chemiczne": {
     "id": "eksperymenty_chemiczne",
     "name": "Eksperymenty chemiczne",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Eksperymenty chemiczne to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -1725,34 +1151,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ChemLab",
-        "description": "Eksperymenty chemiczne dla amatorów",
-        "url": "https://youtube.com/chemlab",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Chemia.org",
-        "description": "Portal chemiczny",
-        "url": "https://chemia.org",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Chemia doświadczalna",
-        "description": "Podstawy eksperymentów",
-        "url": "https://wikipedia.org/wiki/Chemia_doswiadczalna",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "filmowanie_amatorskie": {
     "id": "filmowanie_amatorskie",
     "name": "Filmowanie amatorskie",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Filmowanie amatorskie to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -1772,34 +1176,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "FilmMaking",
-        "description": "Podstawy filmowania",
-        "url": "https://youtube.com/filmmaking",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Filmowiec.pl",
-        "description": "Portal filmowy",
-        "url": "https://filmowiec.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Kinematografia",
-        "description": "Techniki filmowe",
-        "url": "https://wikipedia.org/wiki/Kinematografia",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "filozofia": {
     "id": "filozofia",
     "name": "Filozofia",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Filozofia to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -1819,34 +1201,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "PhilosophyTube",
-        "description": "Wprowadzenie do filozofii",
-        "url": "https://youtube.com/philosophytube",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Filozofia.org",
-        "description": "Portal filozoficzny",
-        "url": "https://filozofia.org",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Filozofia",
-        "description": "Historia myśli filozoficznej",
-        "url": "https://wikipedia.org/wiki/Filozofia",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "fitness": {
     "id": "fitness",
     "name": "Fitness",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Fitness to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -1869,22 +1229,22 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "FitnessAcademy",
-        "description": "Treningi fitness i porady",
-        "url": "https://youtube.com/fitnessacademy",
+        "name": "Fitness po polsku",
+        "description": "Treningi i porady",
+        "url": "https://youtube.com/fitness-po-polsku",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "FitPortal",
-        "description": "Kompleksowy portal fitness",
-        "url": "https://fitportal.pl",
+        "name": "Fabryka Siły",
+        "description": "Portal fitness",
+        "url": "https://fabrykasily.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Fitness",
-        "description": "Historia i rodzaje treningu fitness",
+        "description": "Metody treningu",
         "url": "https://wikipedia.org/wiki/Fitness",
         "type": "wikipedia"
       }
@@ -1893,7 +1253,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "fotografia": {
     "id": "fotografia",
     "name": "Fotografia",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Fotografia to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -1916,16 +1276,16 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "PhotoMaster",
-        "description": "Techniki fotograficzne i sprzęt",
-        "url": "https://youtube.com/photomaster",
+        "name": "Krzysztof Gonciarz",
+        "description": "Porady fotograficzne i sprzętowe",
+        "url": "https://youtube.com/kgonciarz",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "SwiatObrazu.pl",
-        "description": "Portal fotograficzny",
-        "url": "https://swiatobrazu.pl",
+        "name": "Szeroki Kadr",
+        "description": "Portal o fotografii",
+        "url": "https://szerokikadr.pl",
         "type": "article"
       },
       {
@@ -1940,7 +1300,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "fotografia_analogowa": {
     "id": "fotografia_analogowa",
     "name": "Fotografia analogowa",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Fotografia analogowa to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -1960,29 +1320,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "AnaloguePhoto",
-        "description": "Tajniki fotografii analogowej",
-        "url": "https://youtube.com/analoguephoto",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Analog.pl",
-        "description": "Portal o fotografii analogowej",
-        "url": "https://analog.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Fotografia analogowa",
-        "description": "Techniki fotografii klasycznej",
-        "url": "https://wikipedia.org/wiki/Fotografia_analogowa",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "freediving": {
     "id": "freediving",
@@ -2007,34 +1345,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "FreediveAcademy",
-        "description": "Nauka nurkowania na wstrzymanym oddechu",
-        "url": "https://youtube.com/freediveacademy",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Freediving.pl",
-        "description": "Portal o nurkowaniu swobodnym",
-        "url": "https://freediving.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Freediving",
-        "description": "Zasady i techniki freedivingu",
-        "url": "https://wikipedia.org/wiki/Freediving",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "genealogia": {
     "id": "genealogia",
     "name": "Genealogia",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Genealogia to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -2080,29 +1396,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "FamilyHistory",
-        "description": "Odkrywanie historii rodzinnej",
-        "url": "https://youtube.com/familyhistory",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Genealogia.pl",
-        "description": "Portal genealogiczny",
-        "url": "https://genealogia.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Genealogia",
-        "description": "Metody badań genealogicznych",
-        "url": "https://wikipedia.org/wiki/Genealogia",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "geocaching": {
     "id": "geocaching",
@@ -2127,34 +1421,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "GeocachingPro",
-        "description": "Przewodnik po geocachingu",
-        "url": "https://youtube.com/geocachingpro",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Geocaching.pl",
-        "description": "Portal społeczności geocacherów",
-        "url": "https://geocaching.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Geocaching",
-        "description": "Zasady i historia geocachingu",
-        "url": "https://wikipedia.org/wiki/Geocaching",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "gotowanie": {
     "id": "gotowanie",
     "name": "Gotowanie",
-    "category": "kulinaria",
+    "category": "kulinaria_i_napoje",
     "description": "Gotowanie to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -2177,21 +1449,21 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "KuchniaPlus",
-        "description": "Przepisy i techniki kulinarne",
-        "url": "https://youtube.com/kuchniaplus",
+        "name": "Kuchnia Lidla",
+        "description": "Podstawowe przepisy i techniki kulinarne",
+        "url": "https://youtube.com/kuchnia-lidla",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Kuchnia.pl",
-        "description": "Portal kulinarny",
-        "url": "https://kuchnia.pl",
+        "name": "Kwestia Smaku",
+        "description": "Kompleksowa baza przepisów i porad",
+        "url": "https://kwestiasmaku.com",
         "type": "article"
       },
       {
         "id": "3",
-        "name": "Sztuka kulinarna",
+        "name": "Sztuka Kulinarna",
         "description": "Historia i techniki gotowania",
         "url": "https://wikipedia.org/wiki/Sztuka_kulinarna",
         "type": "wikipedia"
@@ -2201,7 +1473,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "gra_na_gitarze": {
     "id": "gra_na_gitarze",
     "name": "Gra na gitarze",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Gra na gitarze to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -2224,22 +1496,22 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "GuitarMaster",
-        "description": "Lekcje gry na gitarze",
-        "url": "https://youtube.com/guitarmaster",
+        "name": "Pasja Gitary",
+        "description": "Kompleksowe lekcje gitary online",
+        "url": "https://youtube.com/pasjagitary",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Gitarzysta.pl",
+        "name": "TopGuitar",
         "description": "Portal dla gitarzystów",
-        "url": "https://gitarzysta.pl",
+        "url": "https://topguitar.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Gitara",
-        "description": "Historia i techniki gry",
+        "description": "Techniki gry i historia instrumentu",
         "url": "https://wikipedia.org/wiki/Gitara",
         "type": "wikipedia"
       }
@@ -2248,7 +1520,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "gra_na_perkusji": {
     "id": "gra_na_perkusji",
     "name": "Gra na perkusji",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Gra na perkusji to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -2271,16 +1543,16 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "DrumSchool",
-        "description": "Nauka gry na perkusji",
-        "url": "https://youtube.com/drumschool",
+        "name": "Drumeo PL",
+        "description": "Profesjonalne lekcje perkusji",
+        "url": "https://youtube.com/drumeo-pl",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Perkusista.pl",
+        "name": "BeatIt",
         "description": "Portal perkusyjny",
-        "url": "https://perkusista.pl",
+        "url": "https://beatit.pl",
         "type": "article"
       },
       {
@@ -2295,7 +1567,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "gra_na_pianinie": {
     "id": "gra_na_pianinie",
     "name": "Gra na pianinie",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Gra na pianinie to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -2318,16 +1590,16 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "PianoTutorials",
+        "name": "Szkoła Pianina",
         "description": "Lekcje gry na pianinie",
-        "url": "https://youtube.com/pianotutorials",
+        "url": "https://youtube.com/szkolapianina",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Pianista.pl",
-        "description": "Portal pianistyczny",
-        "url": "https://pianista.pl",
+        "name": "Piano.pl",
+        "description": "Portal dla pianistów",
+        "url": "https://piano.pl",
         "type": "article"
       },
       {
@@ -2342,7 +1614,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "gra_na_ukulele": {
     "id": "gra_na_ukulele",
     "name": "Gra na ukulele",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Gra na ukulele to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -2362,34 +1634,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "UkuleleLessons",
-        "description": "Nauka gry na ukulele od podstaw",
-        "url": "https://youtube.com/ukulelelessons",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Ukulele.pl",
-        "description": "Portal o ukulele",
-        "url": "https://ukulele.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Ukulele",
-        "description": "Historia i techniki gry na ukulele",
-        "url": "https://wikipedia.org/wiki/Ukulele",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "grafika_komputerowa": {
     "id": "grafika_komputerowa",
     "name": "Grafika komputerowa",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Grafika komputerowa to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -2409,34 +1659,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "DigitalArtPro",
-        "description": "Tutoriale grafiki komputerowej",
-        "url": "https://youtube.com/digitalartpro",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Grafika.art",
-        "description": "Portal o grafice cyfrowej",
-        "url": "https://grafika.art",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Grafika komputerowa",
-        "description": "Techniki i narzędzia graficzne",
-        "url": "https://wikipedia.org/wiki/Grafika_komputerowa",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "grafika_warsztatowa": {
     "id": "grafika_warsztatowa",
     "name": "Grafika warsztatowa",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Grafika warsztatowa to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -2456,29 +1684,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "PrintMaking",
-        "description": "Techniki druku artystycznego",
-        "url": "https://youtube.com/printmaking",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Grafika.edu",
-        "description": "Portal o grafice artystycznej",
-        "url": "https://grafika.edu",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Grafika warsztatowa",
-        "description": "Historia i techniki graficzne",
-        "url": "https://wikipedia.org/wiki/Grafika_warsztatowa",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "gry_komputerowe": {
     "id": "gry_komputerowe",
@@ -2506,9 +1712,9 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "GamersHub",
-        "description": "Recenzje i poradniki gier",
-        "url": "https://youtube.com/gamershub",
+        "name": "TVGry",
+        "description": "Recenzje i poradniki gamingowe",
+        "url": "https://youtube.com/tvgry",
         "type": "youtube"
       },
       {
@@ -2521,7 +1727,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       {
         "id": "3",
         "name": "Gry komputerowe",
-        "description": "Historia i rozwój gier",
+        "description": "Historia i gatunki gier",
         "url": "https://wikipedia.org/wiki/Gry_komputerowe",
         "type": "wikipedia"
       }
@@ -2553,16 +1759,16 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "BoardGameGeek",
+        "name": "Board Game Geek PL",
         "description": "Recenzje gier planszowych",
-        "url": "https://youtube.com/boardgamegeek",
+        "url": "https://youtube.com/boardgamegeek-pl",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Planszowki.pl",
+        "name": "Planszowy.pl",
         "description": "Portal o grach planszowych",
-        "url": "https://planszowki.pl",
+        "url": "https://planszowy.pl",
         "type": "article"
       },
       {
@@ -2577,7 +1783,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "historia_sztuki": {
     "id": "historia_sztuki",
     "name": "Historia sztuki",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Historia sztuki to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -2597,29 +1803,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ArtHistory",
-        "description": "Wykłady o historii sztuki",
-        "url": "https://youtube.com/arthistory",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Artinfo.pl",
-        "description": "Portal o sztuce",
-        "url": "https://artinfo.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Historia sztuki",
-        "description": "Okresy i style w sztuce",
-        "url": "https://wikipedia.org/wiki/Historia_sztuki",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "hodowla_egzotycznych_ptaków": {
     "id": "hodowla_egzotycznych_ptaków",
@@ -2644,29 +1828,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 4
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ExoticBirds",
-        "description": "Hodowla ptaków egzotycznych",
-        "url": "https://youtube.com/exoticbirds",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Ptaki.info",
-        "description": "Portal o ptakach egzotycznych",
-        "url": "https://ptaki.info",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Ptaki egzotyczne",
-        "description": "Gatunki i hodowla",
-        "url": "https://wikipedia.org/wiki/Ptaki_egzotyczne",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "hodowla_gadów": {
     "id": "hodowla_gadów",
@@ -2691,29 +1853,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 4
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ReptileCare",
-        "description": "Opieka nad gadami",
-        "url": "https://youtube.com/reptilecare",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "TerraBlog",
-        "description": "Portal terrarystyczny",
-        "url": "https://terrablog.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Terrarystyka",
-        "description": "Hodowla gadów w terrarium",
-        "url": "https://wikipedia.org/wiki/Terrarystyka",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "hodowla_jedwabników": {
     "id": "hodowla_jedwabników",
@@ -2764,29 +1904,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "SilkwormBreeding",
-        "description": "Hodowla jedwabników krok po kroku",
-        "url": "https://youtube.com/silkwormbreeding",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Jedwabniki.info",
-        "description": "Portal o hodowli jedwabników",
-        "url": "https://jedwabniki.info",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Jedwabnik morwowy",
-        "description": "Biologia i hodowla",
-        "url": "https://wikipedia.org/wiki/Jedwabnik_morwowy",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "hodowla_mikroliści": {
     "id": "hodowla_mikroliści",
@@ -2837,29 +1955,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "MicrogreensGuru",
-        "description": "Uprawa mikroliści w domu",
-        "url": "https://youtube.com/microgeensguru",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Mikrolistki.pl",
-        "description": "Portal o uprawie mikroliści",
-        "url": "https://mikrolistki.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Mikroliście",
-        "description": "Uprawa i zastosowanie",
-        "url": "https://wikipedia.org/wiki/Mikrolistki",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "hodowla_motyli": {
     "id": "hodowla_motyli",
@@ -2910,29 +2006,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ButterflyBreeding",
-        "description": "Hodowla motyli od podstaw",
-        "url": "https://youtube.com/butterflybreeding",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Motyle.net",
-        "description": "Portal o hodowli motyli",
-        "url": "https://motyle.net",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Hodowla motyli",
-        "description": "Techniki hodowli motyli",
-        "url": "https://wikipedia.org/wiki/Hodowla_motyli",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "hodowla_mrówek": {
     "id": "hodowla_mrówek",
@@ -2957,29 +2031,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "AntKeeping",
-        "description": "Formikarium i hodowla mrówek",
-        "url": "https://youtube.com/antkeeping",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Mrowki.pl",
-        "description": "Portal o hodowli mrówek",
-        "url": "https://mrowki.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Mrówki",
-        "description": "Biologia i hodowla mrówek",
-        "url": "https://wikipedia.org/wiki/Mrowki",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "hodowla_pszczół": {
     "id": "hodowla_pszczół",
@@ -3004,34 +2056,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "BeekeepingBasics",
-        "description": "Pszczelarstwo dla początkujących",
-        "url": "https://youtube.com/beekeepingbasics",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Pszczoly.info",
-        "description": "Portal pszczelarski",
-        "url": "https://pszczoly.info",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Pszczelarstwo",
-        "description": "Historia i techniki",
-        "url": "https://wikipedia.org/wiki/Pszczelarstwo",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "inżynieria_dźwięku": {
     "id": "inżynieria_dźwięku",
     "name": "Inżynieria dźwięku",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Inżynieria dźwięku to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -3077,34 +2107,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "SoundEngineering",
-        "description": "Podstawy inżynierii dźwięku",
-        "url": "https://youtube.com/soundengineering",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "AudioTech.pl",
-        "description": "Portal o technice audio",
-        "url": "https://audiotech.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Inżynieria dźwięku",
-        "description": "Techniki i narzędzia",
-        "url": "https://wikipedia.org/wiki/Inzynieria_dzwieku",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "jazda_na_deskorolce": {
     "id": "jazda_na_deskorolce",
     "name": "Jazda na deskorolce",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Jazda na deskorolce to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -3127,22 +2135,43 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "SkateSchool",
-        "description": "Szkoła jazdy na deskorolce",
-        "url": "https://youtube.com/skateschool",
+        "name": "Skate School PL",
+        "description": "Nauka trików na deskorolce",
+        "url": "https://youtube.com/skateschool-pl",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Skate.pl",
+        "name": "SkateBoard.pl",
         "description": "Portal deskorolkowy",
-        "url": "https://skate.pl",
+        "url": "https://skateboard.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Skateboarding",
-        "description": "Historia i techniki",
+        "description": "Historia i techniki jazdy",
+        "url": "https://wikipedia.org/wiki/Skateboarding",
+        "type": "wikipedia"
+      },
+      {
+        "id": "1",
+        "name": "Skate School PL",
+        "description": "Nauka trików na deskorolce",
+        "url": "https://youtube.com/skateschool-pl",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "SkateBoard.pl",
+        "description": "Portal deskorolkowy",
+        "url": "https://skateboard.pl",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Skateboarding",
+        "description": "Historia i techniki jazdy",
         "url": "https://wikipedia.org/wiki/Skateboarding",
         "type": "wikipedia"
       }
@@ -3151,7 +2180,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "jazda_na_monocyklu": {
     "id": "jazda_na_monocyklu",
     "name": "Jazda na monocyklu",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Jazda na monocyklu to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -3197,34 +2226,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "UniCycling",
-        "description": "Nauka jazdy na monocyklu",
-        "url": "https://youtube.com/unicycling",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Monocykl.pl",
-        "description": "Portal o jeździe na monocyklu",
-        "url": "https://monocykl.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Monocykl",
-        "description": "Historia i rodzaje",
-        "url": "https://wikipedia.org/wiki/Monocykl",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "jazda_na_rolkach": {
     "id": "jazda_na_rolkach",
     "name": "Jazda na rolkach",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Jazda na rolkach to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -3247,22 +2254,22 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "InlineSkating",
-        "description": "Techniki jazdy na rolkach",
-        "url": "https://youtube.com/inlineskating",
+        "name": "Roller School",
+        "description": "Szkoła jazdy na rolkach",
+        "url": "https://youtube.com/roller-school",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Rolki.info",
-        "description": "Portal o jeździe na rolkach",
-        "url": "https://rolki.info",
+        "name": "Rolki Online",
+        "description": "Portal o rolkach",
+        "url": "https://rolki-online.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Wrotkarstwo",
-        "description": "Historia i techniki",
+        "description": "Techniki jazdy na rolkach",
         "url": "https://wikipedia.org/wiki/Wrotkarstwo",
         "type": "wikipedia"
       }
@@ -3271,7 +2278,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "jazda_na_rowerze": {
     "id": "jazda_na_rowerze",
     "name": "Jazda na rowerze",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Jazda na rowerze to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -3294,22 +2301,22 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "CyclingPro",
-        "description": "Porady rowerowe i techniki",
-        "url": "https://youtube.com/cyclingpro",
+        "name": "MTB-XC.pl",
+        "description": "Porady rowerowe",
+        "url": "https://youtube.com/mtb-xc",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Rower.com",
+        "name": "BikeWorld",
         "description": "Portal rowerowy",
-        "url": "https://rower.com",
+        "url": "https://bikeworld.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Kolarstwo",
-        "description": "Historia i rodzaje",
+        "description": "Historia i techniki jazdy",
         "url": "https://wikipedia.org/wiki/Kolarstwo",
         "type": "wikipedia"
       }
@@ -3318,7 +2325,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "joga": {
     "id": "joga",
     "name": "Joga",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Joga to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -3341,16 +2348,16 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "YogaSpace",
-        "description": "Praktyka jogi dla każdego",
-        "url": "https://youtube.com/yogaspace",
+        "name": "Joga w domu",
+        "description": "Praktyczne zajęcia jogi",
+        "url": "https://youtube.com/jogawdomu",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "JogaOnline.pl",
-        "description": "Portal o jodze i medytacji",
-        "url": "https://jogaonline.pl",
+        "name": "Joga Portal",
+        "description": "Wiedza o jodze",
+        "url": "https://jogaportal.pl",
         "type": "article"
       },
       {
@@ -3385,34 +2392,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ExtremeKayak",
-        "description": "Techniki kajakarstwa ekstremalnego",
-        "url": "https://youtube.com/extremekayak",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "KajakExtreme.pl",
-        "description": "Portal o kajakarstwie ekstremalnym",
-        "url": "https://kajakextreme.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Kajakarstwo",
-        "description": "Sporty kajakowe",
-        "url": "https://wikipedia.org/wiki/Kajakarstwo",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "kaligrafia": {
     "id": "kaligrafia",
     "name": "Kaligrafia",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Kaligrafia to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -3432,34 +2417,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "CalligraphyArt",
-        "description": "Sztuka kaligrafii",
-        "url": "https://youtube.com/calligraphyart",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Kaligrafia.pl",
-        "description": "Portal o kaligrafii",
-        "url": "https://kaligrafia.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Kaligrafia",
-        "description": "Historia i style pisma",
-        "url": "https://wikipedia.org/wiki/Kaligrafia",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "kartografia_amatorska": {
     "id": "kartografia_amatorska",
     "name": "Kartografia amatorska",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Kartografia amatorska to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -3479,34 +2442,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "MapMaking",
-        "description": "Tworzenie map dla początkujących",
-        "url": "https://youtube.com/mapmaking",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "MapyAmatorskie.pl",
-        "description": "Portal kartograficzny",
-        "url": "https://mapyamatorskie.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Kartografia",
-        "description": "Podstawy tworzenia map",
-        "url": "https://wikipedia.org/wiki/Kartografia",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "kickboxing": {
     "id": "kickboxing",
     "name": "Kickboxing",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Kickboxing to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -3529,22 +2470,22 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "KickboxingAcademy",
-        "description": "Techniki kickboxingu",
-        "url": "https://youtube.com/kickboxingacademy",
+        "name": "Kickboxing PL",
+        "description": "Treningi i techniki",
+        "url": "https://youtube.com/kickboxing-pl",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Kickboxing.pl",
-        "description": "Portal o kickboxingu",
-        "url": "https://kickboxing.pl",
+        "name": "Fight Portal",
+        "description": "Portal sportów walki",
+        "url": "https://fightportal.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Kickboxing",
-        "description": "Historia i style",
+        "description": "Zasady i techniki",
         "url": "https://wikipedia.org/wiki/Kickboxing",
         "type": "wikipedia"
       }
@@ -3553,7 +2494,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "kolarstwo_górskie": {
     "id": "kolarstwo_górskie",
     "name": "Kolarstwo górskie",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Kolarstwo górskie to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -3573,34 +2514,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "MTBTechniques",
-        "description": "Techniki jazdy MTB",
-        "url": "https://youtube.com/mtbtechniques",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "MTBnews.pl",
-        "description": "Portal o kolarstwie górskim",
-        "url": "https://mtbnews.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Kolarstwo górskie",
-        "description": "Historia i dyscypliny",
-        "url": "https://wikipedia.org/wiki/Kolarstwo_gorskie",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "kolekcjonowanie_znaczków": {
     "id": "kolekcjonowanie_znaczków",
     "name": "Kolekcjonowanie znaczków",
-    "category": "kolekcjonerstwo",
+    "category": "kolekcjonerstwo_i_antyki",
     "description": "Kolekcjonowanie znaczków to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -3623,22 +2542,43 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "StampCollecting",
-        "description": "Świat filatelistyki",
-        "url": "https://youtube.com/stampcollecting",
+        "name": "Filatelistyka PL",
+        "description": "Świat znaczków pocztowych",
+        "url": "https://youtube.com/filatelistyka-pl",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Filatelistyka.pl",
+        "name": "Polski Związek Filatelistów",
         "description": "Portal filatelistyczny",
-        "url": "https://filatelistyka.pl",
+        "url": "https://pzf.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Filatelistyka",
-        "description": "Historia znaczków pocztowych",
+        "description": "Historia i rodzaje znaczków",
+        "url": "https://wikipedia.org/wiki/Filatelistyka",
+        "type": "wikipedia"
+      },
+      {
+        "id": "1",
+        "name": "Filatelistyka PL",
+        "description": "Świat znaczków pocztowych",
+        "url": "https://youtube.com/filatelistyka-pl",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "Polski Związek Filatelistów",
+        "description": "Portal filatelistyczny",
+        "url": "https://pzf.pl",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Filatelistyka",
+        "description": "Historia i rodzaje znaczków",
         "url": "https://wikipedia.org/wiki/Filatelistyka",
         "type": "wikipedia"
       }
@@ -3667,34 +2607,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "LARPMaking",
-        "description": "Tworzenie i organizacja LARP-ów",
-        "url": "https://youtube.com/larpmaking",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Larpy.pl",
-        "description": "Portal o grach LARP",
-        "url": "https://larpy.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "LARP",
-        "description": "Historia i rodzaje LARP-ów",
-        "url": "https://wikipedia.org/wiki/LARP",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "lutowanie_i_elektronika": {
     "id": "lutowanie_i_elektronika",
     "name": "Lutowanie i elektronika",
-    "category": "rzemiosło",
+    "category": "sztuka_i_rzemioslo",
     "description": "Lutowanie i elektronika to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -3714,29 +2632,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "SolderMaster",
-        "description": "Techniki lutowania",
-        "url": "https://youtube.com/soldermaster",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Elektronika.net",
-        "description": "Portal elektroniczny",
-        "url": "https://elektronika.net",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Lutowanie",
-        "description": "Techniki lutowania",
-        "url": "https://wikipedia.org/wiki/Lutowanie",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "łowienie_owadów_i_ich_obserwacja": {
     "id": "łowienie_owadów_i_ich_obserwacja",
@@ -3761,34 +2657,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "InsectHunting",
-        "description": "Techniki łowienia i obserwacji owadów",
-        "url": "https://youtube.com/insecthunting",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Entomologia.pl",
-        "description": "Portal entomologiczny",
-        "url": "https://entomologia.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Entomologia",
-        "description": "Nauka o owadach",
-        "url": "https://wikipedia.org/wiki/Entomologia",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "łucznictwo": {
     "id": "łucznictwo",
     "name": "Łucznictwo",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Łucznictwo to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -3811,23 +2685,23 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "ArcheryMaster",
+        "name": "Łucznik TV",
         "description": "Techniki strzelania z łuku",
-        "url": "https://youtube.com/archerymaster",
+        "url": "https://youtube.com/lucznik-tv",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Lucznictwo.net",
+        "name": "Łucznictwo Sport",
         "description": "Portal łuczniczy",
-        "url": "https://lucznictwo.net",
+        "url": "https://lucznictwo-sport.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Łucznictwo",
         "description": "Historia i techniki",
-        "url": "https://wikipedia.org/wiki/Lucznictwo",
+        "url": "https://wikipedia.org/wiki/Łucznictwo",
         "type": "wikipedia"
       }
     ]
@@ -3835,7 +2709,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "majsterkowanie": {
     "id": "majsterkowanie",
     "name": "Majsterkowanie",
-    "category": "rzemiosło",
+    "category": "sztuka_i_rzemioslo",
     "description": "Majsterkowanie to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -3855,34 +2729,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "DIYmaster",
-        "description": "Projekty DIY i majsterkowanie",
-        "url": "https://youtube.com/diymaster",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Majsterkowo.pl",
-        "description": "Portal dla majsterkowiczów",
-        "url": "https://majsterkowo.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Majsterkowanie",
-        "description": "Techniki i narzędzia",
-        "url": "https://wikipedia.org/wiki/Majsterkowanie",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "malowanie": {
     "id": "malowanie",
     "name": "Malowanie",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Malowanie to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -3905,22 +2757,22 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "PaintingTutorials",
-        "description": "Techniki malarskie",
-        "url": "https://youtube.com/paintingtutorials",
+        "name": "Art Sherpa PL",
+        "description": "Tutorials malarskie dla początkujących",
+        "url": "https://youtube.com/art-sherpa-pl",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Malowanie.art",
-        "description": "Portal o malarstwie",
-        "url": "https://malowanie.art",
+        "name": "Akademia Rysunku",
+        "description": "Techniki i porady malarskie",
+        "url": "https://akademiarysunku.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Malarstwo",
-        "description": "Historia i techniki",
+        "description": "Historia i techniki malarskie",
         "url": "https://wikipedia.org/wiki/Malarstwo",
         "type": "wikipedia"
       }
@@ -3929,7 +2781,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "malowanie_akwarelami": {
     "id": "malowanie_akwarelami",
     "name": "Malowanie akwarelami",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Malowanie akwarelami to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -3949,34 +2801,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "WatercolorArt",
-        "description": "Malowanie akwarelą",
-        "url": "https://youtube.com/watercolorart",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Akwarele.pl",
-        "description": "Portal o akwarelach",
-        "url": "https://akwarele.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Akwarela",
-        "description": "Techniki akwarelowe",
-        "url": "https://wikipedia.org/wiki/Akwarela",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "malowanie_olejami": {
     "id": "malowanie_olejami",
     "name": "Malowanie olejami",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Malowanie olejami to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -3996,34 +2826,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "OilPainting",
-        "description": "Techniki malarstwa olejnego",
-        "url": "https://youtube.com/oilpainting",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Oleje.art",
-        "description": "Portal o malarstwie olejnym",
-        "url": "https://oleje.art",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Malarstwo olejne",
-        "description": "Historia i techniki",
-        "url": "https://wikipedia.org/wiki/Malarstwo_olejne",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "medytacja": {
     "id": "medytacja",
     "name": "Medytacja",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Medytacja to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -4046,22 +2854,22 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "MeditationGuide",
+        "name": "Spokój Umysłu",
         "description": "Przewodnik po medytacji",
-        "url": "https://youtube.com/meditationguide",
+        "url": "https://youtube.com/spokoj-umyslu",
         "type": "youtube"
       },
       {
         "id": "2",
         "name": "Medytacja.pl",
-        "description": "Portal o medytacji",
+        "description": "Techniki medytacyjne",
         "url": "https://medytacja.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Medytacja",
-        "description": "Techniki medytacyjne",
+        "description": "Historia i rodzaje medytacji",
         "url": "https://wikipedia.org/wiki/Medytacja",
         "type": "wikipedia"
       }
@@ -4070,7 +2878,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "mikroskopia_amatorska": {
     "id": "mikroskopia_amatorska",
     "name": "Mikroskopia amatorska",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Mikroskopia amatorska to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -4090,34 +2898,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "MicroscopePro",
-        "description": "Świat mikroskopii",
-        "url": "https://youtube.com/microscopepro",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Mikroskopia.net",
-        "description": "Portal mikroskopowy",
-        "url": "https://mikroskopia.net",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Mikroskopia",
-        "description": "Techniki mikroskopowe",
-        "url": "https://wikipedia.org/wiki/Mikroskopia",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "modelarstwo": {
     "id": "modelarstwo",
     "name": "Modelarstwo",
-    "category": "rzemiosło",
+    "category": "sztuka_i_rzemioslo",
     "description": "Modelarstwo to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -4140,22 +2926,22 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "ScaleModeling",
-        "description": "Techniki modelarskie",
-        "url": "https://youtube.com/scalemodeling",
+        "name": "Modelarz PL",
+        "description": "Porady modelarskie",
+        "url": "https://youtube.com/modelarz-pl",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Modelarz.pl",
+        "name": "Modelarstwo.pl",
         "description": "Portal modelarski",
-        "url": "https://modelarz.pl",
+        "url": "https://modelarstwo.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Modelarstwo",
-        "description": "Historia i techniki",
+        "description": "Techniki i rodzaje",
         "url": "https://wikipedia.org/wiki/Modelarstwo",
         "type": "wikipedia"
       }
@@ -4164,7 +2950,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "modelowanie_3d": {
     "id": "modelowanie_3d",
     "name": "Modelowanie 3D",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Modelowanie 3D to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -4184,34 +2970,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "Blender3D",
-        "description": "Modelowanie 3D w Blenderze",
-        "url": "https://youtube.com/blender3d",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "3DModeling.pl",
-        "description": "Portal o modelowaniu 3D",
-        "url": "https://3dmodeling.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Grafika 3D",
-        "description": "Techniki modelowania 3D",
-        "url": "https://wikipedia.org/wiki/Grafika_3D",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "naprawa_starych_mebli": {
     "id": "naprawa_starych_mebli",
     "name": "Naprawa starych mebli",
-    "category": "rzemiosło",
+    "category": "sztuka_i_rzemioslo",
     "description": "Naprawa starych mebli to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -4231,34 +2995,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "FurnitureRestoration",
-        "description": "Renowacja mebli krok po kroku",
-        "url": "https://youtube.com/furniturerestoration",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Renowacje.pl",
-        "description": "Portal o renowacji mebli",
-        "url": "https://renowacje.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Renowacja mebli",
-        "description": "Techniki renowacji",
-        "url": "https://wikipedia.org/wiki/Renowacja_mebli",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "nauka_ai_i_machine_learning": {
     "id": "nauka_ai_i_machine_learning",
     "name": "Nauka AI i machine learning",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Nauka AI i machine learning to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -4278,34 +3020,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "AILearning",
-        "description": "Kurs sztucznej inteligencji",
-        "url": "https://youtube.com/ailearning",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "MachineLearning.pl",
-        "description": "Portal o uczeniu maszynowym",
-        "url": "https://machinelearning.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Sztuczna inteligencja",
-        "description": "Podstawy AI",
-        "url": "https://wikipedia.org/wiki/Sztuczna_inteligencja",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "nauka_języków_obcych": {
     "id": "nauka_języków_obcych",
     "name": "Nauka języków obcych",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Nauka języków obcych to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -4328,22 +3048,43 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "LanguageMaster",
-        "description": "Techniki nauki języków",
-        "url": "https://youtube.com/languagemaster",
+        "name": "Poliglota",
+        "description": "Metody nauki języków",
+        "url": "https://youtube.com/poliglota",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Lingwista.pl",
-        "description": "Portal językowy",
-        "url": "https://lingwista.pl",
+        "name": "Językowy Portal",
+        "description": "Materiały do nauki",
+        "url": "https://jezykowy.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Glottodydaktyka",
-        "description": "Nauka o uczeniu się języków",
+        "description": "Metody nauczania języków",
+        "url": "https://wikipedia.org/wiki/Glottodydaktyka",
+        "type": "wikipedia"
+      },
+      {
+        "id": "1",
+        "name": "Poliglota",
+        "description": "Metody nauki języków",
+        "url": "https://youtube.com/poliglota",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "Językowy Portal",
+        "description": "Materiały do nauki",
+        "url": "https://jezykowy.pl",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Glottodydaktyka",
+        "description": "Metody nauczania języków",
         "url": "https://wikipedia.org/wiki/Glottodydaktyka",
         "type": "wikipedia"
       }
@@ -4352,7 +3093,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "nauka_kodowania": {
     "id": "nauka_kodowania",
     "name": "Nauka kodowania",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Nauka kodowania to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -4372,29 +3113,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "CodeMaster",
-        "description": "Programowanie od podstaw",
-        "url": "https://youtube.com/codemaster",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Kodowanie.pl",
-        "description": "Portal programistyczny",
-        "url": "https://kodowanie.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Programowanie",
-        "description": "Podstawy kodowania",
-        "url": "https://wikipedia.org/wiki/Programowanie",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "nauka_sztuczek_magicznych": {
     "id": "nauka_sztuczek_magicznych",
@@ -4445,29 +3164,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "MagicTricks",
-        "description": "Nauka iluzji i sztuczek",
-        "url": "https://youtube.com/magictricks",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Magia.info",
-        "description": "Portal o iluzji",
-        "url": "https://magia.info",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Iluzjonizm",
-        "description": "Historia i techniki",
-        "url": "https://wikipedia.org/wiki/Iluzjonizm",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "nurkowanie_jaskiniowe": {
     "id": "nurkowanie_jaskiniowe",
@@ -4492,29 +3189,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 4
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "CaveDiving",
-        "description": "Techniki nurkowania jaskiniowego",
-        "url": "https://youtube.com/cavediving",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "JaskinioweDiving.pl",
-        "description": "Portal o nurkowaniu jaskiniowym",
-        "url": "https://jaskiniowediving.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Nurkowanie jaskiniowe",
-        "description": "Zasady bezpieczeństwa",
-        "url": "https://wikipedia.org/wiki/Nurkowanie_jaskiniowe",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "nurkowanie_z_akwalungiem": {
     "id": "nurkowanie_z_akwalungiem",
@@ -4539,34 +3214,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 4
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ScubaPro",
-        "description": "Nauka nurkowania",
-        "url": "https://youtube.com/scubapro",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Nurkowanie.pl",
-        "description": "Portal nurkowy",
-        "url": "https://nurkowanie.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Nurkowanie",
-        "description": "Techniki nurkowania",
-        "url": "https://wikipedia.org/wiki/Nurkowanie",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "obróbka_wideo": {
     "id": "obróbka_wideo",
     "name": "Obróbka wideo",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Obróbka wideo to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -4586,34 +3239,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "VideoEditing",
-        "description": "Montaż i efekty specjalne",
-        "url": "https://youtube.com/videoediting",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Montaz.pl",
-        "description": "Portal o montażu wideo",
-        "url": "https://montaz.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Montaż filmowy",
-        "description": "Techniki montażu",
-        "url": "https://wikipedia.org/wiki/Montaz_filmowy",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "obróbka_zdjęć": {
     "id": "obróbka_zdjęć",
     "name": "Obróbka zdjęć",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Obróbka zdjęć to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -4633,29 +3264,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "PhotoEditPro",
-        "description": "Profesjonalna obróbka zdjęć",
-        "url": "https://youtube.com/photoeditpro",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Fotoblogia.pl",
-        "description": "Portal o edycji zdjęć",
-        "url": "https://fotoblogia.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Fotografia cyfrowa",
-        "description": "Techniki obróbki cyfrowej",
-        "url": "https://wikipedia.org/wiki/Fotografia_cyfrowa",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "obserwacja_dzikich_zwierząt": {
     "id": "obserwacja_dzikich_zwierząt",
@@ -4680,29 +3289,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "WildlifeWatch",
-        "description": "Techniki obserwacji zwierząt",
-        "url": "https://youtube.com/wildlifewatch",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "DzikaPolska.pl",
-        "description": "Portal przyrodniczy",
-        "url": "https://dzikapolska.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Obserwacja przyrody",
-        "description": "Metody obserwacji",
-        "url": "https://wikipedia.org/wiki/Obserwacja_przyrody",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "obserwacja_ptaków": {
     "id": "obserwacja_ptaków",
@@ -4727,29 +3314,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "BirdWatching",
-        "description": "Przewodnik ornitologiczny",
-        "url": "https://youtube.com/birdwatching",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Ptaki.info",
-        "description": "Portal ornitologiczny",
-        "url": "https://ptaki.info",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Ornitologia",
-        "description": "Nauka o ptakach",
-        "url": "https://wikipedia.org/wiki/Ornitologia",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "oglądanie_filmów": {
     "id": "oglądanie_filmów",
@@ -4777,22 +3342,22 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "MovieCritic",
-        "description": "Recenzje i analizy filmowe",
-        "url": "https://youtube.com/moviecritic",
+        "name": "Na Gałęzi",
+        "description": "Recenzje filmowe i analizy",
+        "url": "https://youtube.com/nagalezi",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Filmweb.pl",
-        "description": "Portal filmowy",
+        "name": "Filmweb",
+        "description": "Portal filmowy z recenzjami",
         "url": "https://filmweb.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Kinematografia",
-        "description": "Historia kina",
+        "description": "Historia i teoria filmu",
         "url": "https://wikipedia.org/wiki/Kinematografia",
         "type": "wikipedia"
       }
@@ -4801,7 +3366,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "oglądanie_gwiazd": {
     "id": "oglądanie_gwiazd",
     "name": "Oglądanie gwiazd",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Oglądanie gwiazd to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -4821,29 +3386,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "StarGazing",
-        "description": "Astronomia dla początkujących",
-        "url": "https://youtube.com/stargazing",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Astronomia.pl",
-        "description": "Portal astronomiczny",
-        "url": "https://astronomia.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Astronomia amatorska",
-        "description": "Podstawy obserwacji",
-        "url": "https://wikipedia.org/wiki/Astronomia_amatorska",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "oglądanie_seriali": {
     "id": "oglądanie_seriali",
@@ -4871,14 +3414,14 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "SerialCritic",
-        "description": "Recenzje seriali",
-        "url": "https://youtube.com/serialcritic",
+        "name": "Serial Killers",
+        "description": "Recenzje i polecenia seriali",
+        "url": "https://youtube.com/serialkillers",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Serialowa.pl",
+        "name": "Serialowa",
         "description": "Portal o serialach",
         "url": "https://serialowa.pl",
         "type": "article"
@@ -4886,7 +3429,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       {
         "id": "3",
         "name": "Serial telewizyjny",
-        "description": "Historia seriali",
+        "description": "Historia i gatunki seriali",
         "url": "https://wikipedia.org/wiki/Serial_telewizyjny",
         "type": "wikipedia"
       }
@@ -4915,29 +3458,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "EventPlanning",
-        "description": "Organizacja imprez",
-        "url": "https://youtube.com/eventplanning",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Festyny.info",
-        "description": "Portal eventowy",
-        "url": "https://festyny.info",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Imprezy masowe",
-        "description": "Organizacja wydarzeń",
-        "url": "https://wikipedia.org/wiki/Imprezy_masowe",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "organizowanie_wydarzeń": {
     "id": "organizowanie_wydarzeń",
@@ -4962,34 +3483,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "EventMaster",
-        "description": "Profesjonalna organizacja eventów",
-        "url": "https://youtube.com/eventmaster",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "EventManager.pl",
-        "description": "Portal dla organizatorów",
-        "url": "https://eventmanager.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Event management",
-        "description": "Zarządzanie wydarzeniami",
-        "url": "https://wikipedia.org/wiki/Event_management",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "origami": {
     "id": "origami",
     "name": "Origami",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Origami to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -5009,34 +3508,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "OrigamiArt",
-        "description": "Sztuka składania papieru",
-        "url": "https://youtube.com/origamiart",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Origami.pl",
-        "description": "Portal o origami",
-        "url": "https://origami.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Origami",
-        "description": "Historia i techniki",
-        "url": "https://wikipedia.org/wiki/Origami",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "paleontologia_amatorska": {
     "id": "paleontologia_amatorska",
     "name": "Paleontologia amatorska",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Paleontologia amatorska to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -5056,29 +3533,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "FossilHunting",
-        "description": "Poszukiwanie skamieniałości",
-        "url": "https://youtube.com/fossilhunting",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Paleontologia.org",
-        "description": "Portal paleontologiczny",
-        "url": "https://paleontologia.org",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Paleontologia",
-        "description": "Podstawy paleontologii",
-        "url": "https://wikipedia.org/wiki/Paleontologia",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "paralotniarstwo": {
     "id": "paralotniarstwo",
@@ -5103,34 +3558,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 4
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ParaglideSchool",
-        "description": "Szkoła paralotniarska",
-        "url": "https://youtube.com/paraglideschool",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Paralotnie.pl",
-        "description": "Portal paralotniarzy",
-        "url": "https://paralotnie.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Paralotniarstwo",
-        "description": "Zasady i techniki",
-        "url": "https://wikipedia.org/wiki/Paralotniarstwo",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "parkour": {
     "id": "parkour",
     "name": "Parkour",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Parkour to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -5150,34 +3583,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ParkourAcademy",
-        "description": "Techniki parkour i freerun",
-        "url": "https://youtube.com/parkouracademy",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Parkour.pl",
-        "description": "Portal o parkour",
-        "url": "https://parkour.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Parkour",
-        "description": "Historia i techniki",
-        "url": "https://wikipedia.org/wiki/Parkour",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "pieczenie": {
     "id": "pieczenie",
     "name": "Pieczenie",
-    "category": "kulinaria",
+    "category": "kulinaria_i_napoje",
     "description": "Pieczenie to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -5200,23 +3611,23 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "BakingPro",
-        "description": "Profesjonalne wypieki",
-        "url": "https://youtube.com/bakingpro",
+        "name": "Wypiekacz",
+        "description": "Profesjonalne porady piekarnicze",
+        "url": "https://youtube.com/wypiekacz",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Piekarnia.info",
-        "description": "Portal o pieczeniu",
-        "url": "https://piekarnia.info",
+        "name": "Mojewypieki.com",
+        "description": "Przepisy i techniki pieczenia",
+        "url": "https://mojewypieki.com",
         "type": "article"
       },
       {
         "id": "3",
-        "name": "Piekarnictwo",
-        "description": "Techniki wypieku",
-        "url": "https://wikipedia.org/wiki/Piekarnictwo",
+        "name": "Piekarstwo",
+        "description": "Podstawy i historia piekarstwa",
+        "url": "https://wikipedia.org/wiki/Piekarstwo",
         "type": "wikipedia"
       }
     ]
@@ -5224,7 +3635,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "pieczenie_chleba_na_zakwasie": {
     "id": "pieczenie_chleba_na_zakwasie",
     "name": "Pieczenie chleba na zakwasie",
-    "category": "kulinaria",
+    "category": "kulinaria_i_napoje",
     "description": "Pieczenie chleba na zakwasie to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -5244,29 +3655,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "SourdoughBaking",
-        "description": "Wypiek chleba na zakwasie",
-        "url": "https://youtube.com/sourdoughbaking",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Zakwas.pl",
-        "description": "Portal o chlebie",
-        "url": "https://zakwas.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Chleb na zakwasie",
-        "description": "Historia i techniki",
-        "url": "https://wikipedia.org/wiki/Chleb_na_zakwasie",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "pielęgnacja_ogrodu": {
     "id": "pielęgnacja_ogrodu",
@@ -5294,16 +3683,37 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "GardenMaster",
+        "name": "Twój Ogród",
         "description": "Porady ogrodnicze",
-        "url": "https://youtube.com/gardenmaster",
+        "url": "https://youtube.com/twoj-ogrod",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Ogrodinfo.pl",
+        "name": "Ogrodnik Online",
         "description": "Portal ogrodniczy",
-        "url": "https://ogrodinfo.pl",
+        "url": "https://ogrodnik-online.pl",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Ogrodnictwo",
+        "description": "Techniki ogrodnicze",
+        "url": "https://wikipedia.org/wiki/Ogrodnictwo",
+        "type": "wikipedia"
+      },
+      {
+        "id": "1",
+        "name": "Twój Ogród",
+        "description": "Porady ogrodnicze",
+        "url": "https://youtube.com/twoj-ogrod",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "Ogrodnik Online",
+        "description": "Portal ogrodniczy",
+        "url": "https://ogrodnik-online.pl",
         "type": "article"
       },
       {
@@ -5318,7 +3728,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "pilates": {
     "id": "pilates",
     "name": "Pilates",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Pilates to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -5341,22 +3751,22 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "PilatesStudio",
+        "name": "Pilates w domu",
         "description": "Ćwiczenia pilates",
-        "url": "https://youtube.com/pilatesstudio",
+        "url": "https://youtube.com/pilates-w-domu",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Pilates.pl",
-        "description": "Portal o pilatesie",
-        "url": "https://pilates.pl",
+        "name": "Pilates Portal",
+        "description": "Techniki i porady",
+        "url": "https://pilatesportal.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Pilates",
-        "description": "Metoda i ćwiczenia",
+        "description": "Metoda i zasady",
         "url": "https://wikipedia.org/wiki/Pilates",
         "type": "wikipedia"
       }
@@ -5365,7 +3775,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "pisanie_bloga": {
     "id": "pisanie_bloga",
     "name": "Pisanie bloga",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Pisanie bloga to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -5385,34 +3795,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "BloggingTips",
-        "description": "Porady dla blogerów",
-        "url": "https://youtube.com/bloggingtips",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Blog.pl",
-        "description": "Portal dla blogerów",
-        "url": "https://blog.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Blogowanie",
-        "description": "Podstawy blogowania",
-        "url": "https://wikipedia.org/wiki/Blog",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "pisanie_listów_odręcznych": {
     "id": "pisanie_listów_odręcznych",
     "name": "Pisanie listów odręcznych",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Pisanie listów odręcznych to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -5432,34 +3820,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "HandwritingArt",
-        "description": "Sztuka pisania odręcznego",
-        "url": "https://youtube.com/handwritingart",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Listy.art",
-        "description": "Portal o epistolografii",
-        "url": "https://listy.art",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Epistolografia",
-        "description": "Historia pisania listów",
-        "url": "https://wikipedia.org/wiki/Epistolografia",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "pisanie_opowiadań": {
     "id": "pisanie_opowiadań",
     "name": "Pisanie opowiadań",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Pisanie opowiadań to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -5482,9 +3848,9 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "CreativeWriting",
-        "description": "Warsztaty pisarskie online",
-        "url": "https://youtube.com/creativewriting",
+        "name": "Szkoła Pisania",
+        "description": "Techniki pisarskie i warsztaty",
+        "url": "https://youtube.com/szkolapisania",
         "type": "youtube"
       },
       {
@@ -5497,8 +3863,8 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       {
         "id": "3",
         "name": "Twórczość literacka",
-        "description": "Techniki pisania",
-        "url": "https://wikipedia.org/wiki/Tworczość_literacka",
+        "description": "Techniki narracji",
+        "url": "https://wikipedia.org/wiki/Twórczość_literacka",
         "type": "wikipedia"
       }
     ]
@@ -5506,7 +3872,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "pisanie_poezji": {
     "id": "pisanie_poezji",
     "name": "Pisanie poezji",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Pisanie poezji to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -5529,22 +3895,22 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "PoetryWorkshop",
-        "description": "Warsztaty poetyckie",
-        "url": "https://youtube.com/poetryworkshop",
+        "name": "Poetycka Przestrzeń",
+        "description": "Warsztaty poetyckie online",
+        "url": "https://youtube.com/poetycka-przestrzen",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Poezja.art",
+        "name": "Poezja Polska",
         "description": "Portal poetycki",
-        "url": "https://poezja.art",
+        "url": "https://poezja-polska.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Poezja",
-        "description": "Historia i formy",
+        "description": "Formy i techniki poetyckie",
         "url": "https://wikipedia.org/wiki/Poezja",
         "type": "wikipedia"
       }
@@ -5553,7 +3919,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "pisanie_scenariuszy": {
     "id": "pisanie_scenariuszy",
     "name": "Pisanie scenariuszy",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Pisanie scenariuszy to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -5573,34 +3939,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "Screenwriting",
-        "description": "Nauka pisania scenariuszy",
-        "url": "https://youtube.com/screenwriting",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Scenariusz.pl",
-        "description": "Portal dla scenarzystów",
-        "url": "https://scenariusz.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Scenariusz filmowy",
-        "description": "Zasady pisania",
-        "url": "https://wikipedia.org/wiki/Scenariusz_filmowy",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "pływanie": {
     "id": "pływanie",
     "name": "Pływanie",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Pływanie to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -5623,23 +3967,23 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "SwimTechniques",
+        "name": "Swim.pl",
         "description": "Techniki pływackie",
-        "url": "https://youtube.com/swimtechniques",
+        "url": "https://youtube.com/swim-pl",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Plywanie.pl",
-        "description": "Portal pływacki",
-        "url": "https://plywanie.pl",
+        "name": "Pływanie Sport",
+        "description": "Portal o pływaniu",
+        "url": "https://plywanie-sport.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Pływanie",
-        "description": "Style i techniki",
-        "url": "https://wikipedia.org/wiki/Plywanie",
+        "description": "Style i techniki pływania",
+        "url": "https://wikipedia.org/wiki/Pływanie",
         "type": "wikipedia"
       }
     ]
@@ -5647,7 +3991,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "polowanie_na_zorze_polarne": {
     "id": "polowanie_na_zorze_polarne",
     "name": "Polowanie na zorze polarne",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Polowanie na zorze polarne to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -5667,34 +4011,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 4
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "AuroraHunting",
-        "description": "Fotografowanie zorzy polarnej",
-        "url": "https://youtube.com/aurorahunting",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Zorza.info",
-        "description": "Portal o zorzach",
-        "url": "https://zorza.info",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Zorza polarna",
-        "description": "Zjawisko zorzy",
-        "url": "https://wikipedia.org/wiki/Zorza_polarna",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "produkcja_naturalnych_perfum": {
     "id": "produkcja_naturalnych_perfum",
     "name": "Produkcja naturalnych perfum",
-    "category": "rzemiosło",
+    "category": "sztuka_i_rzemioslo",
     "description": "Produkcja naturalnych perfum to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -5740,34 +4062,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "NaturalPerfumery",
-        "description": "Tworzenie perfum naturalnych",
-        "url": "https://youtube.com/naturalperfumery",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Perfumy.net",
-        "description": "Portal perfumiarski",
-        "url": "https://perfumy.net",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Perfumiarstwo",
-        "description": "Sztuka tworzenia perfum",
-        "url": "https://wikipedia.org/wiki/Perfumiarstwo",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "programowanie": {
     "id": "programowanie",
     "name": "Programowanie",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Programowanie to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -5787,34 +4087,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "CodingGuru",
-        "description": "Nauka programowania",
-        "url": "https://youtube.com/codingguru",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Programista.pl",
-        "description": "Portal programistyczny",
-        "url": "https://programista.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Programowanie komputerów",
-        "description": "Podstawy programowania",
-        "url": "https://wikipedia.org/wiki/Programowanie_komputerow",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "projektowanie_gier": {
     "id": "projektowanie_gier",
     "name": "Projektowanie gier",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Projektowanie gier to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -5834,34 +4112,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "GameDesign",
-        "description": "Projektowanie gier od podstaw",
-        "url": "https://youtube.com/gamedesign",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "GameDev.pl",
-        "description": "Portal twórców gier",
-        "url": "https://gamedev.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Projektowanie gier",
-        "description": "Podstawy game designu",
-        "url": "https://wikipedia.org/wiki/Projektowanie_gier",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "projektowanie_tatuaży": {
     "id": "projektowanie_tatuaży",
     "name": "Projektowanie tatuaży",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Projektowanie tatuaży to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -5881,34 +4137,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "TattooDesign",
-        "description": "Projektowanie tatuaży",
-        "url": "https://youtube.com/tattoodesign",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Tatuaze.art",
-        "description": "Portal o tatuażach",
-        "url": "https://tatuaze.art",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Tatuaż",
-        "description": "Historia i style",
-        "url": "https://wikipedia.org/wiki/Tatuaz",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "projektowanie_ubrań": {
     "id": "projektowanie_ubrań",
     "name": "Projektowanie ubrań",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Projektowanie ubrań to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -5928,34 +4162,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "FashionDesign",
-        "description": "Projektowanie mody od podstaw",
-        "url": "https://youtube.com/fashiondesign",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Moda.net",
-        "description": "Portal o projektowaniu mody",
-        "url": "https://moda.net",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Projektowanie mody",
-        "description": "Historia i techniki",
-        "url": "https://wikipedia.org/wiki/Projektowanie_mody",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "projektowanie_wnętrz": {
     "id": "projektowanie_wnętrz",
     "name": "Projektowanie wnętrz",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Projektowanie wnętrz to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -6001,34 +4213,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "InteriorDesign",
-        "description": "Projektowanie wnętrz dla początkujących",
-        "url": "https://youtube.com/interiordesign",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Wnetrza.pl",
-        "description": "Portal o projektowaniu wnętrz",
-        "url": "https://wnetrza.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Architektura wnętrz",
-        "description": "Zasady projektowania",
-        "url": "https://wikipedia.org/wiki/Architektura_wnetrz",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "projektowanie_zabawek": {
     "id": "projektowanie_zabawek",
     "name": "Projektowanie zabawek",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Projektowanie zabawek to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -6074,29 +4264,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ToyDesign",
-        "description": "Projektowanie zabawek",
-        "url": "https://youtube.com/toydesign",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Zabawki.info",
-        "description": "Portal o zabawkach",
-        "url": "https://zabawki.info",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Zabawki",
-        "description": "Historia i projektowanie",
-        "url": "https://wikipedia.org/wiki/Zabawki",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "prowadzenie_farmy_jedwabników": {
     "id": "prowadzenie_farmy_jedwabników",
@@ -6121,34 +4289,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "SilkFarming",
-        "description": "Hodowla jedwabników",
-        "url": "https://youtube.com/silkfarming",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Jedwab.info",
-        "description": "Portal o hodowli jedwabników",
-        "url": "https://jedwab.info",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Hodowla jedwabników",
-        "description": "Podstawy hodowli",
-        "url": "https://wikipedia.org/wiki/Hodowla_jedwabnikow",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "prowadzenie_kanału_youtube": {
     "id": "prowadzenie_kanału_youtube",
     "name": "Prowadzenie kanału YouTube",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Prowadzenie kanału YouTube to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -6194,34 +4340,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "YouTubeCreators",
-        "description": "Prowadzenie kanału YouTube",
-        "url": "https://youtube.com/youtubecreators",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Creators.pl",
-        "description": "Portal dla twórców",
-        "url": "https://creators.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "YouTube",
-        "description": "Platforma wideo",
-        "url": "https://wikipedia.org/wiki/YouTube",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "prowadzenie_podcastu": {
     "id": "prowadzenie_podcastu",
     "name": "Prowadzenie podcastu",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Prowadzenie podcastu to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -6241,29 +4365,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "PodcastingPro",
-        "description": "Tworzenie podcastów",
-        "url": "https://youtube.com/podcastingpro",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Podcast.pl",
-        "description": "Portal o podcastach",
-        "url": "https://podcast.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Podcasty",
-        "description": "Historia i techniki",
-        "url": "https://wikipedia.org/wiki/Podcast",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "przygody_w_lesie": {
     "id": "przygody_w_lesie",
@@ -6288,29 +4390,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ForestAdventures",
-        "description": "Przygody w lesie",
-        "url": "https://youtube.com/forestadventures",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Survival.pl",
-        "description": "Portal survivalowy",
-        "url": "https://survival.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Survival",
-        "description": "Sztuka przetrwania",
-        "url": "https://wikipedia.org/wiki/Survival",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "rekonstrukcja_historyczna": {
     "id": "rekonstrukcja_historyczna",
@@ -6335,34 +4415,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "HistoricalReenatcment",
-        "description": "Rekonstrukcje historyczne",
-        "url": "https://youtube.com/historicalreenactment",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Rekonstrukcje.pl",
-        "description": "Portal rekonstruktorów",
-        "url": "https://rekonstrukcje.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Rekonstrukcja historyczna",
-        "description": "Historia i metody",
-        "url": "https://wikipedia.org/wiki/Rekonstrukcja_historyczna",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "renowacja_antyków": {
     "id": "renowacja_antyków",
     "name": "Renowacja antyków",
-    "category": "rzemiosło",
+    "category": "sztuka_i_rzemioslo",
     "description": "Renowacja antyków to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -6382,34 +4440,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "AntiqueRestoration",
-        "description": "Renowacja mebli antycznych",
-        "url": "https://youtube.com/antiquerestoration",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Antyki.info",
-        "description": "Portal o renowacji",
-        "url": "https://antyki.info",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Renowacja",
-        "description": "Techniki renowacji",
-        "url": "https://wikipedia.org/wiki/Renowacja",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "ręczne_oprawianie_książek": {
     "id": "ręczne_oprawianie_książek",
     "name": "Ręczne oprawianie książek",
-    "category": "rzemiosło",
+    "category": "sztuka_i_rzemioslo",
     "description": "Ręczne oprawianie książek to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -6429,34 +4465,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "Bookbinding",
-        "description": "Sztuka oprawiania książek",
-        "url": "https://youtube.com/bookbinding",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Introligator.pl",
-        "description": "Portal introligatorski",
-        "url": "https://introligator.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Introligatorstwo",
-        "description": "Historia i techniki",
-        "url": "https://wikipedia.org/wiki/Introligatorstwo",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "ręczne_wytwarzanie_makaronu": {
     "id": "ręczne_wytwarzanie_makaronu",
     "name": "Ręczne wytwarzanie makaronu",
-    "category": "kulinaria",
+    "category": "kulinaria_i_napoje",
     "description": "Ręczne wytwarzanie makaronu to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -6476,34 +4490,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "PastaMaking",
-        "description": "Domowy makaron od podstaw",
-        "url": "https://youtube.com/pastamaking",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Makaron.info",
-        "description": "Portal o makaronie",
-        "url": "https://makaron.info",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Makaron",
-        "description": "Historia i rodzaje",
-        "url": "https://wikipedia.org/wiki/Makaron",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "robienie_albumów_ze_zdjęciami": {
     "id": "robienie_albumów_ze_zdjęciami",
     "name": "Robienie albumów ze zdjęciami",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Robienie albumów ze zdjęciami to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -6523,34 +4515,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "Scrapbooking",
-        "description": "Tworzenie albumów",
-        "url": "https://youtube.com/scrapbooking",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "AlbumyFoto.pl",
-        "description": "Portal o albumach",
-        "url": "https://albumyfoto.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Album fotograficzny",
-        "description": "Techniki tworzenia",
-        "url": "https://wikipedia.org/wiki/Album_fotograficzny",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "robienie_eksperymentów_naukowych_w_domu": {
     "id": "robienie_eksperymentów_naukowych_w_domu",
     "name": "Robienie eksperymentów naukowych w domu",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Robienie eksperymentów naukowych w domu to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -6596,34 +4566,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "HomeScienceLab",
-        "description": "Eksperymenty domowe",
-        "url": "https://youtube.com/homesciencelab",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Eksperymenty.edu",
-        "description": "Portal edukacyjny",
-        "url": "https://eksperymenty.edu",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Eksperymenty naukowe",
-        "description": "Metodologia eksperymentów",
-        "url": "https://wikipedia.org/wiki/Eksperymenty_naukowe",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "robotyka": {
     "id": "robotyka",
     "name": "Robotyka",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Robotyka to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -6643,34 +4591,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "RoboticsMaster",
-        "description": "Podstawy robotyki",
-        "url": "https://youtube.com/roboticsmaster",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Robotyka.info",
-        "description": "Portal robotyczny",
-        "url": "https://robotyka.info",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Robotyka",
-        "description": "Historia i zastosowania",
-        "url": "https://wikipedia.org/wiki/Robotyka",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "rozwiązywanie_starych_zagadek_historycznych": {
     "id": "rozwiązywanie_starych_zagadek_historycznych",
     "name": "Rozwiązywanie starych zagadek historycznych",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Rozwiązywanie starych zagadek historycznych to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -6716,34 +4642,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "HistoricalMysteries",
-        "description": "Zagadki historii",
-        "url": "https://youtube.com/historicalmysteries",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Zagadki.pl",
-        "description": "Portal historyczny",
-        "url": "https://zagadki.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Zagadki historyczne",
-        "description": "Metodologia badań",
-        "url": "https://wikipedia.org/wiki/Zagadki_historyczne",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "rozwój_umiejętności_barmańskich": {
     "id": "rozwój_umiejętności_barmańskich",
     "name": "Rozwój umiejętności barmańskich",
-    "category": "kulinaria",
+    "category": "kulinaria_i_napoje",
     "description": "Rozwój umiejętności barmańskich to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -6789,34 +4693,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "Bartending",
-        "description": "Sztuka barmańska",
-        "url": "https://youtube.com/bartending",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Barman.pl",
-        "description": "Portal barmański",
-        "url": "https://barman.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Bartending",
-        "description": "Historia i techniki",
-        "url": "https://wikipedia.org/wiki/Bartending",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "rysowanie": {
     "id": "rysowanie",
     "name": "Rysowanie",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Rysowanie to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -6839,22 +4721,22 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "DrawingArt",
-        "description": "Techniki rysunku",
-        "url": "https://youtube.com/drawingart",
+        "name": "Proko PL",
+        "description": "Profesjonalne tutoriale rysunku",
+        "url": "https://youtube.com/proko-pl",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Rysunek.art",
-        "description": "Portal o rysunku",
-        "url": "https://rysunek.art",
+        "name": "Kurs Rysunku",
+        "description": "Kompendium wiedzy o rysowaniu",
+        "url": "https://kursrysunku.com.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Rysunek",
-        "description": "Historia i techniki",
+        "description": "Techniki i podstawy rysunku",
         "url": "https://wikipedia.org/wiki/Rysunek",
         "type": "wikipedia"
       }
@@ -6863,7 +4745,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "rysowanie_mandali": {
     "id": "rysowanie_mandali",
     "name": "Rysowanie mandali",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Rysowanie mandali to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -6883,34 +4765,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "MandalaArt",
-        "description": "Sztuka rysowania mandali",
-        "url": "https://youtube.com/mandalaart",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Mandale.pl",
-        "description": "Portal o mandalach",
-        "url": "https://mandale.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Mandala",
-        "description": "Historia i symbolika",
-        "url": "https://wikipedia.org/wiki/Mandala",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "rzeźbienie_w_drewnie": {
     "id": "rzeźbienie_w_drewnie",
     "name": "Rzeźbienie w drewnie",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Rzeźbienie w drewnie to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -6930,34 +4790,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "WoodCarving",
-        "description": "Rzeźbienie w drewnie dla początkujących",
-        "url": "https://youtube.com/woodcarving",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Rzezba.info",
-        "description": "Portal o rzeźbieniu",
-        "url": "https://rzezba.info",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Rzeźbiarstwo w drewnie",
-        "description": "Techniki rzeźbienia",
-        "url": "https://wikipedia.org/wiki/Rzezba_w_drewnie",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "rzeźbienie_w_glinie": {
     "id": "rzeźbienie_w_glinie",
     "name": "Rzeźbienie w glinie",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Rzeźbienie w glinie to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -6977,34 +4815,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ClaySculpting",
-        "description": "Rzeźba w glinie od podstaw",
-        "url": "https://youtube.com/claysculpting",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Ceramika.art",
-        "description": "Portal ceramiczny",
-        "url": "https://ceramika.art",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Ceramika artystyczna",
-        "description": "Historia i techniki",
-        "url": "https://wikipedia.org/wiki/Ceramika_artystyczna",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "scrapbooking": {
     "id": "scrapbooking",
     "name": "Scrapbooking",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Scrapbooking to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -7024,34 +4840,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ScrapbookingArt",
-        "description": "Techniki scrapbookingu",
-        "url": "https://youtube.com/scrapbookingart",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Scrapbooking.pl",
-        "description": "Portal dla scraporów",
-        "url": "https://scrapbooking.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Scrapbooking",
-        "description": "Historia i techniki",
-        "url": "https://wikipedia.org/wiki/Scrapbooking",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "składanie_modeli_z_papieru_papercraft": {
     "id": "składanie_modeli_z_papieru_papercraft",
     "name": "Składanie modeli z papieru (papercraft)",
-    "category": "rzemiosło",
+    "category": "sztuka_i_rzemioslo",
     "description": "Składanie modeli z papieru (papercraft) to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -7071,29 +4865,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "Papercraft",
-        "description": "Modelarstwo papierowe",
-        "url": "https://youtube.com/papercraft",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Papercraft.pl",
-        "description": "Portal modelarski",
-        "url": "https://papercraft.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Modelarstwo papierowe",
-        "description": "Techniki składania",
-        "url": "https://wikipedia.org/wiki/Modelarstwo_papierowe",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "skoki_spadochronowe": {
     "id": "skoki_spadochronowe",
@@ -7118,34 +4890,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 4
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "Skydiving",
-        "description": "Nauka skoków spadochronowych",
-        "url": "https://youtube.com/skydiving",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Spadochron.pl",
-        "description": "Portal spadochronowy",
-        "url": "https://spadochron.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Spadochroniarstwo",
-        "description": "Historia i techniki",
-        "url": "https://wikipedia.org/wiki/Spadochroniarstwo",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "slacklining": {
     "id": "slacklining",
     "name": "Slacklining",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Slacklining to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -7165,29 +4915,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "SlacklinePro",
-        "description": "Nauka slackline",
-        "url": "https://youtube.com/slacklinepro",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Slackline.pl",
-        "description": "Portal o slackline",
-        "url": "https://slackline.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Slacklining",
-        "description": "Techniki i bezpieczeństwo",
-        "url": "https://wikipedia.org/wiki/Slacklining",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "słuchanie_muzyki": {
     "id": "słuchanie_muzyki",
@@ -7215,22 +4943,22 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "MusicAppreciation",
-        "description": "Poznawanie muzyki",
-        "url": "https://youtube.com/musicappreciation",
+        "name": "NewOnce",
+        "description": "Wywiady i recenzje muzyczne",
+        "url": "https://youtube.com/newonce",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Muzyka.info",
+        "name": "Musicology",
         "description": "Portal muzyczny",
-        "url": "https://muzyka.info",
+        "url": "https://musicology.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Muzyka",
-        "description": "Historia i gatunki",
+        "description": "Historia i teoria muzyki",
         "url": "https://wikipedia.org/wiki/Muzyka",
         "type": "wikipedia"
       }
@@ -7262,21 +4990,42 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "NatureWalking",
-        "description": "Spacery i wędrówki",
-        "url": "https://youtube.com/naturewalking",
+        "name": "Leśne Wędrówki",
+        "description": "Przewodnik po szlakach",
+        "url": "https://youtube.com/lesne-wedrowki",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Spacery.pl",
+        "name": "Poznaj Naturę",
         "description": "Portal przyrodniczy",
-        "url": "https://spacery.pl",
+        "url": "https://poznajnature.pl",
         "type": "article"
       },
       {
         "id": "3",
-        "name": "Nordic walking",
+        "name": "Nordic Walking",
+        "description": "Techniki chodzenia",
+        "url": "https://wikipedia.org/wiki/Nordic_walking",
+        "type": "wikipedia"
+      },
+      {
+        "id": "1",
+        "name": "Leśne Wędrówki",
+        "description": "Przewodnik po szlakach",
+        "url": "https://youtube.com/lesne-wedrowki",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "Poznaj Naturę",
+        "description": "Portal przyrodniczy",
+        "url": "https://poznajnature.pl",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Nordic Walking",
         "description": "Techniki chodzenia",
         "url": "https://wikipedia.org/wiki/Nordic_walking",
         "type": "wikipedia"
@@ -7286,7 +5035,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "streamowanie_gier": {
     "id": "streamowanie_gier",
     "name": "Streamowanie gier",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Streamowanie gier to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -7306,34 +5055,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "StreamingPro",
-        "description": "Jak zostać streamerem",
-        "url": "https://youtube.com/streamingpro",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Streaming.pl",
-        "description": "Portal dla streamerów",
-        "url": "https://streaming.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Streaming",
-        "description": "Poradnik streamowania",
-        "url": "https://wikipedia.org/wiki/Streaming",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "strzelectwo": {
     "id": "strzelectwo",
     "name": "Strzelectwo",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Strzelectwo to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -7356,22 +5083,22 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "ShootingSports",
-        "description": "Podstawy strzelectwa sportowego",
-        "url": "https://youtube.com/shootingsports",
+        "name": "Strzelectwo Sportowe",
+        "description": "Porady strzeleckie",
+        "url": "https://youtube.com/strzelectwo-sportowe",
         "type": "youtube"
       },
       {
         "id": "2",
-        "name": "Strzelectwo.pl",
+        "name": "Strzelnica.pl",
         "description": "Portal strzelecki",
-        "url": "https://strzelectwo.pl",
+        "url": "https://strzelnica.pl",
         "type": "article"
       },
       {
         "id": "3",
         "name": "Strzelectwo sportowe",
-        "description": "Historia i techniki",
+        "description": "Zasady i techniki",
         "url": "https://wikipedia.org/wiki/Strzelectwo_sportowe",
         "type": "wikipedia"
       }
@@ -7400,34 +5127,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "SudokuMaster",
-        "description": "Strategie rozwiązywania sudoku",
-        "url": "https://youtube.com/sudokumaster",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Sudoku.pl",
-        "description": "Portal łamigłówek",
-        "url": "https://sudoku.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Sudoku",
-        "description": "Historia i zasady",
-        "url": "https://wikipedia.org/wiki/Sudoku",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "survival": {
     "id": "survival",
     "name": "Survival",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Survival to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -7447,34 +5152,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "SurvivalSkills",
-        "description": "Techniki przetrwania",
-        "url": "https://youtube.com/survivalskills",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Survival.pl",
-        "description": "Portal survivalowy",
-        "url": "https://survival.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Survival",
-        "description": "Sztuka przetrwania",
-        "url": "https://wikipedia.org/wiki/Survival",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "survival_w_górach": {
     "id": "survival_w_górach",
     "name": "Survival w górach",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Survival w górach to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -7494,29 +5177,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "MountainSurvival",
-        "description": "Przetrwanie w górach",
-        "url": "https://youtube.com/mountainsurvival",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "GorskiSurvival.pl",
-        "description": "Portal górski",
-        "url": "https://gorskisurvival.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Turystyka górska",
-        "description": "Bezpieczeństwo w górach",
-        "url": "https://wikipedia.org/wiki/Turystyka_gorska",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "szachy": {
     "id": "szachy",
@@ -7544,9 +5205,9 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "ChessMaster",
-        "description": "Nauka szachów",
-        "url": "https://youtube.com/chessmaster",
+        "name": "Szachowa Szkoła",
+        "description": "Lekcje szachowe",
+        "url": "https://youtube.com/szachowa-szkola",
         "type": "youtube"
       },
       {
@@ -7559,7 +5220,28 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       {
         "id": "3",
         "name": "Szachy",
-        "description": "Historia i strategie",
+        "description": "Historia i zasady gry",
+        "url": "https://wikipedia.org/wiki/Szachy",
+        "type": "wikipedia"
+      },
+      {
+        "id": "1",
+        "name": "Szachowa Szkoła",
+        "description": "Lekcje szachowe",
+        "url": "https://youtube.com/szachowa-szkola",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "Szachy.pl",
+        "description": "Portal szachowy",
+        "url": "https://szachy.pl",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Szachy",
+        "description": "Historia i zasady gry",
         "url": "https://wikipedia.org/wiki/Szachy",
         "type": "wikipedia"
       }
@@ -7568,7 +5250,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "sztuka_kintsugi": {
     "id": "sztuka_kintsugi",
     "name": "Sztuka kintsugi",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Sztuka kintsugi to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -7588,34 +5270,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "KintsugiArt",
-        "description": "Naprawa ceramiki złotem",
-        "url": "https://youtube.com/kintsugiart",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Kintsugi.art",
-        "description": "Portal o kintsugi",
-        "url": "https://kintsugi.art",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Kintsugi",
-        "description": "Japońska sztuka naprawy",
-        "url": "https://wikipedia.org/wiki/Kintsugi",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "sztuka_przetrwania_w_dżungli": {
     "id": "sztuka_przetrwania_w_dżungli",
     "name": "Sztuka przetrwania w dżungli",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Sztuka przetrwania w dżungli to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -7635,34 +5295,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "JungleSurvival",
-        "description": "Przetrwanie w dżungli",
-        "url": "https://youtube.com/junglesurvival",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "JungleCraft.pl",
-        "description": "Portal survivalowy",
-        "url": "https://junglecraft.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Survival w dżungli",
-        "description": "Techniki przetrwania",
-        "url": "https://wikipedia.org/wiki/Survival_w_dzungli",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "szycie": {
     "id": "szycie",
     "name": "Szycie",
-    "category": "rzemiosło",
+    "category": "sztuka_i_rzemioslo",
     "description": "Szycie to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -7682,34 +5320,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "SewingArt",
-        "description": "Nauka szycia",
-        "url": "https://youtube.com/sewingart",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Szycie.pl",
-        "description": "Portal o szyciu",
-        "url": "https://szycie.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Krawiectwo",
-        "description": "Historia i techniki",
-        "url": "https://wikipedia.org/wiki/Krawiectwo",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "taniec": {
     "id": "taniec",
     "name": "Taniec",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Taniec to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -7732,9 +5348,9 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "sources": [
       {
         "id": "1",
-        "name": "DanceAcademy",
-        "description": "Nauka tańca",
-        "url": "https://youtube.com/danceacademy",
+        "name": "Szkoła Tańca Online",
+        "description": "Kursy różnych stylów tańca",
+        "url": "https://youtube.com/szkola-tanca",
         "type": "youtube"
       },
       {
@@ -7747,7 +5363,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       {
         "id": "3",
         "name": "Taniec",
-        "description": "Style i historia",
+        "description": "Historia i style tańca",
         "url": "https://wikipedia.org/wiki/Taniec",
         "type": "wikipedia"
       }
@@ -7756,7 +5372,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "testowanie_kosmetyków_diy": {
     "id": "testowanie_kosmetyków_diy",
     "name": "Testowanie kosmetyków DIY",
-    "category": "rzemiosło",
+    "category": "sztuka_i_rzemioslo",
     "description": "Testowanie kosmetyków DIY to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -7802,34 +5418,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "DIYCosmetics",
-        "description": "Tworzenie kosmetyków domowych",
-        "url": "https://youtube.com/diycosmetics",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "KosmetykiNaturalne.pl",
-        "description": "Portal kosmetyczny",
-        "url": "https://kosmetykinaturalne.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Kosmetyki naturalne",
-        "description": "Składniki i receptury",
-        "url": "https://wikipedia.org/wiki/Kosmetyki_naturalne",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "testowanie_oprogramowania": {
     "id": "testowanie_oprogramowania",
     "name": "Testowanie oprogramowania",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Testowanie oprogramowania to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -7849,34 +5443,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "TestingPro",
-        "description": "Podstawy testowania",
-        "url": "https://youtube.com/testingpro",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Tester.pl",
-        "description": "Portal dla testerów",
-        "url": "https://tester.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Testowanie oprogramowania",
-        "description": "Metodologie testów",
-        "url": "https://wikipedia.org/wiki/Testowanie_oprogramowania",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "tkactwo_artystyczne": {
     "id": "tkactwo_artystyczne",
     "name": "Tkactwo artystyczne",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Tkactwo artystyczne to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -7896,34 +5468,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "WeavingArt",
-        "description": "Sztuka tkania",
-        "url": "https://youtube.com/weavingart",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Tkactwo.art",
-        "description": "Portal tkacki",
-        "url": "https://tkactwo.art",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Tkactwo",
-        "description": "Historia i techniki",
-        "url": "https://wikipedia.org/wiki/Tkactwo",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "tworzenie_biżuterii": {
     "id": "tworzenie_biżuterii",
     "name": "Tworzenie biżuterii",
-    "category": "rzemiosło",
+    "category": "sztuka_i_rzemioslo",
     "description": "Tworzenie biżuterii to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -7943,34 +5493,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "JewelryMaking",
-        "description": "Tworzenie biżuterii",
-        "url": "https://youtube.com/jewelrymaking",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Bizuteria.info",
-        "description": "Portal jubilerski",
-        "url": "https://bizuteria.info",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Jubilerstwo",
-        "description": "Techniki jubilerskie",
-        "url": "https://wikipedia.org/wiki/Jubilerstwo",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "tworzenie_chatbotów": {
     "id": "tworzenie_chatbotów",
     "name": "Tworzenie chatbotów",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Tworzenie chatbotów to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -7990,34 +5518,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ChatbotDev",
-        "description": "Tworzenie chatbotów",
-        "url": "https://youtube.com/chatbotdev",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Chatboty.pl",
-        "description": "Portal o chatbotach",
-        "url": "https://chatboty.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Chatbot",
-        "description": "Technologia chatbotów",
-        "url": "https://wikipedia.org/wiki/Chatbot",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "tworzenie_drzewek_genealogicznych": {
     "id": "tworzenie_drzewek_genealogicznych",
     "name": "Tworzenie drzewek genealogicznych",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Tworzenie drzewek genealogicznych to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -8063,29 +5569,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "FamilyTree",
-        "description": "Genealogia praktyczna",
-        "url": "https://youtube.com/familytree",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Genealogia.pl",
-        "description": "Portal genealogiczny",
-        "url": "https://genealogia.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Genealogia",
-        "description": "Badania genealogiczne",
-        "url": "https://wikipedia.org/wiki/Genealogia",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "tworzenie_escape_roomów": {
     "id": "tworzenie_escape_roomów",
@@ -8110,34 +5594,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "EscapeRoomDesign",
-        "description": "Projektowanie escape roomów",
-        "url": "https://youtube.com/escaperoomdesign",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "EscapeRoom.pl",
-        "description": "Portal o escape roomach",
-        "url": "https://escaperoom.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Escape room",
-        "description": "Historia i projektowanie",
-        "url": "https://wikipedia.org/wiki/Escape_room",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "tworzenie_ilustracji_książkowych": {
     "id": "tworzenie_ilustracji_książkowych",
     "name": "Tworzenie ilustracji książkowych",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Tworzenie ilustracji książkowych to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -8183,34 +5645,12 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "isCompleted": false
       }
     ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "BookIllustration",
-        "description": "Ilustracja książkowa",
-        "url": "https://youtube.com/bookillustration",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Ilustracje.art",
-        "description": "Portal dla ilustratorów",
-        "url": "https://ilustracje.art",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Ilustracja książkowa",
-        "description": "Techniki ilustracji",
-        "url": "https://wikipedia.org/wiki/Ilustracja_ksiazkowa",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "tworzenie_lampionów": {
     "id": "tworzenie_lampionów",
     "name": "Tworzenie lampionów",
-    "category": "rzemiosło",
+    "category": "sztuka_i_rzemioslo",
     "description": "Tworzenie lampionów to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -8230,29 +5670,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "LanternMaking",
-        "description": "Tworzenie lampionów",
-        "url": "https://youtube.com/lanternmaking",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Lampiony.art",
-        "description": "Portal artystyczny",
-        "url": "https://lampiony.art",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Lampiony",
-        "description": "Historia i techniki",
-        "url": "https://wikipedia.org/wiki/Lampiony",
-        "type": "wikipedia"
-      }
-    ]
+    "sources": []
   },
   "tworzenie_quizów": {
     "id": "tworzenie_quizów",
@@ -8282,7 +5700,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "tworzenie_rzeźb_z_metalu": {
     "id": "tworzenie_rzeźb_z_metalu",
     "name": "Tworzenie rzeźb z metalu",
-    "category": "sztuka",
+    "category": "sztuka_i_rzemioslo",
     "description": "Tworzenie rzeźb z metalu to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -8383,7 +5801,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "udział_w_maratonach": {
     "id": "udział_w_maratonach",
     "name": "Udział w maratonach",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Udział w maratonach to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -8453,7 +5871,29 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": []
+    "sources": [
+      {
+        "id": "1",
+        "name": "Puzzle Masters",
+        "description": "Techniki układania puzzli",
+        "url": "https://youtube.com/puzzle-masters",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "Puzzlowanie.pl",
+        "description": "Portal dla miłośników puzzli",
+        "url": "https://puzzlowanie.pl",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Puzzle",
+        "description": "Historia i rodzaje puzzli",
+        "url": "https://wikipedia.org/wiki/Puzzle",
+        "type": "wikipedia"
+      }
+    ]
   },
   "uprawa_bonsai": {
     "id": "uprawa_bonsai",
@@ -8528,7 +5968,50 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 2
     },
     "tasks": [],
-    "sources": []
+    "sources": [
+      {
+        "id": "1",
+        "name": "Rośliny Doniczkowe",
+        "description": "Pielęgnacja roślin domowych",
+        "url": "https://youtube.com/rosliny-doniczkowe",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "Zielony Parapet",
+        "description": "Portal o roślinach domowych",
+        "url": "https://zielonyparapet.pl",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Rośliny pokojowe",
+        "description": "Gatunki i pielęgnacja",
+        "url": "https://wikipedia.org/wiki/Rośliny_pokojowe",
+        "type": "wikipedia"
+      },
+      {
+        "id": "1",
+        "name": "Rośliny Doniczkowe",
+        "description": "Pielęgnacja roślin domowych",
+        "url": "https://youtube.com/rosliny-doniczkowe",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "Zielony Parapet",
+        "description": "Portal o roślinach domowych",
+        "url": "https://zielonyparapet.pl",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Rośliny pokojowe",
+        "description": "Gatunki i pielęgnacja",
+        "url": "https://wikipedia.org/wiki/Rośliny_pokojowe",
+        "type": "wikipedia"
+      }
+    ]
   },
   "uprawa_warzyw_w_domu": {
     "id": "uprawa_warzyw_w_domu",
@@ -8629,12 +6112,55 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 1
     },
     "tasks": [],
-    "sources": []
+    "sources": [
+      {
+        "id": "1",
+        "name": "Warcaby Online",
+        "description": "Nauka gry w warcaby",
+        "url": "https://youtube.com/warcaby-online",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "Warcaby.pl",
+        "description": "Portal o warcabach",
+        "url": "https://warcaby.pl",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Warcaby",
+        "description": "Zasady i strategie gry",
+        "url": "https://wikipedia.org/wiki/Warcaby",
+        "type": "wikipedia"
+      },
+      {
+        "id": "1",
+        "name": "Warcaby Online",
+        "description": "Nauka gry w warcaby",
+        "url": "https://youtube.com/warcaby-online",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "Warcaby.pl",
+        "description": "Portal o warcabach",
+        "url": "https://warcaby.pl",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Warcaby",
+        "description": "Zasady i strategie gry",
+        "url": "https://wikipedia.org/wiki/Warcaby",
+        "type": "wikipedia"
+      }
+    ]
   },
   "wędkowanie": {
     "id": "wędkowanie",
     "name": "Wędkowanie",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Wędkowanie to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -8654,12 +6180,34 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": []
+    "sources": [
+      {
+        "id": "1",
+        "name": "Wędkarski Świat",
+        "description": "Techniki i porady wędkarskie",
+        "url": "https://youtube.com/wedkarski-swiat",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "Wędkarz Polski",
+        "description": "Portal wędkarski",
+        "url": "https://wedkarz-polski.pl",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Wędkarstwo",
+        "description": "Metody i techniki wędkowania",
+        "url": "https://wikipedia.org/wiki/Wędkarstwo",
+        "type": "wikipedia"
+      }
+    ]
   },
   "wolontariat": {
     "id": "wolontariat",
     "name": "Wolontariat",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Wolontariat to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -8704,7 +6252,29 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "ongoingCost": 3
     },
     "tasks": [],
-    "sources": []
+    "sources": [
+      {
+        "id": "1",
+        "name": "Wspinanie.pl TV",
+        "description": "Porady wspinaczkowe",
+        "url": "https://youtube.com/wspinanie-tv",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "8a.pl",
+        "description": "Portal wspinaczkowy",
+        "url": "https://8a.pl",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Wspinaczka",
+        "description": "Techniki wspinaczkowe",
+        "url": "https://wikipedia.org/wiki/Wspinaczka",
+        "type": "wikipedia"
+      }
+    ]
   },
   "wspinaczka_lodowa": {
     "id": "wspinaczka_lodowa",
@@ -8734,7 +6304,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "wspólne_gotowanie": {
     "id": "wspólne_gotowanie",
     "name": "Wspólne gotowanie",
-    "category": "kulinaria",
+    "category": "kulinaria_i_napoje",
     "description": "Wspólne gotowanie to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -8759,7 +6329,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "wyprawy_kajakowe": {
     "id": "wyprawy_kajakowe",
     "name": "Wyprawy kajakowe",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Wyprawy kajakowe to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -8784,7 +6354,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "zajęcia_taneczne_grupowe": {
     "id": "zajęcia_taneczne_grupowe",
     "name": "Zajęcia taneczne grupowe",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Zajęcia taneczne grupowe to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -8809,7 +6379,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "zbieranie_minerałów_i_kamieni_szlachetnych": {
     "id": "zbieranie_minerałów_i_kamieni_szlachetnych",
     "name": "Zbieranie minerałów i kamieni szlachetnych",
-    "category": "kolekcjonerstwo",
+    "category": "kolekcjonerstwo_i_antyki",
     "description": "Zbieranie minerałów i kamieni szlachetnych to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -8859,7 +6429,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "zbieranie_starych_map": {
     "id": "zbieranie_starych_map",
     "name": "Zbieranie starych map",
-    "category": "kolekcjonerstwo",
+    "category": "kolekcjonerstwo_i_antyki",
     "description": "Zbieranie starych map to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -8909,7 +6479,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "złotnictwo": {
     "id": "złotnictwo",
     "name": "Złotnictwo",
-    "category": "rzemiosło",
+    "category": "sztuka_i_rzemioslo",
     "description": "Złotnictwo to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -8934,7 +6504,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "zorbing": {
     "id": "zorbing",
     "name": "Zorbing",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Zorbing to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {
@@ -8959,7 +6529,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "żonglowanie": {
     "id": "żonglowanie",
     "name": "Żonglowanie",
-    "category": "aktywność_fizyczna",
+    "category": "sport_i_aktywnosc_fizyczna",
     "description": "Żonglowanie to fascynujące hobby, które pozwala...",
     "imageUrl": "/api/placeholder/800/400",
     "attributes": {

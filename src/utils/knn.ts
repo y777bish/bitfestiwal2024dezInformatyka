@@ -1,8 +1,24 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { getTreeNodes } from "@/data/categories";
+import { hobbiesData } from "@/data/hobbies";
+
 type DistanceMetric = "euclidean";
 export type KnnResult = {
   distance: number;
   label: string;
 };
+
+type node = {
+  id: string;
+  text: string;
+  nodes: any[];
+  color: {
+      bg: string;
+      hover: string;
+      text: string;
+      indicator: string;
+  };
+}
 
 export class KNN {
   private trainFeatures: number[][] = [];
@@ -85,12 +101,22 @@ export class KNN {
     return nearestNeighbors;
   }
 
-  eliminateWithPredicted(target: number[]): string[] {
+  eliminateWithPredicted(target: number[]): node[] {
     const labels = this.eliminateVisual(target);
     const predictions = this.predict(target);
     const possibleLabels = [...new Set([...labels, ...predictions.map((v) => v.label)])];
-    possibleLabels.sort((a, b) => a.localeCompare(b))
-    return possibleLabels;
+
+    const nodes = getTreeNodes()
+    possibleLabels.forEach((label) => {
+      const hobby = Object.values(hobbiesData).find(({ id }) => id === label);
+      nodes.find(({ id }) => id === hobby?.category)?.nodes.push(hobby)
+    })
+
+    for (const node of nodes) {
+      node.nodes.sort((a, b) => a.name.localeCompare(b.name))
+    }
+
+    return nodes;
   }
 
   /**

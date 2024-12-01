@@ -6,22 +6,22 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 import Layout from "../components/Layout";
 import { hobbiesData } from "../data/hobbies";
+import { categoryLookup } from "@/data/categories";
 
 export default function HobbyDetail() {
   const router = useRouter();
   const knnResultString = router.query.knnResult as string;
   const answersString = router.query.answers as string;
+  const mainResultLabel = router.query.mainResultLabel as string;
+
   const result = knnResultString ? JSON.parse(knnResultString) : [];
   const answers = answersString ? JSON.parse(answersString) : [];
   const [tasks, setTasks] = useState<Task[]>([]);
 
-  const [mainResultIdx] = useState(0);
-
-
   if (!knnResultString) {
     return null
   }
-  const hobbyLabel = result[mainResultIdx].label;
+  const hobbyLabel = mainResultLabel;
   console.log({ hobbyLabel })
   const hobby = Object.values(hobbiesData).find(({ id }) => id === hobbyLabel);
 
@@ -44,6 +44,17 @@ export default function HobbyDetail() {
   };
 
   console.log({ answers })
+
+  const handleSwitchResult = (mainResultLabel: string) => {
+    router.push(
+      {
+        pathname: "/results",
+        query: { ...router.query, mainResultLabel },
+      },
+      undefined,
+      { shallow: true, scroll: true },
+    );
+  }
 
   return (
     <Layout>
@@ -108,6 +119,37 @@ export default function HobbyDetail() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+        <div className="bg-white rounded-xl shadow-lg p-6">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Możesz też polubić</h2>
+          <div className="flex flex-row flex-wrap gap-6">
+            {result.filter(({ label }: any) => label !== mainResultLabel).map((hobby: any) => {
+              const data = hobbiesData[hobby.label];
+              console.log(hobby.label, categoryLookup[data.category])
+              return (
+
+              <div key={hobby.label} onClick={() => handleSwitchResult(hobby.label)} className="min-w-[25%] relative h-40 flex-grow flex-shrink-0 basis-[1/4] bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-110 hover:cursor-pointer">
+                <div className={`p-2 ${categoryLookup[data.category].color.bg}`} />
+                <Image
+                  src={hobby.imageUrl}
+                  alt={hobby.name}
+                  width={80}
+                  height={40}
+                  fill
+                  className="object-cover"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <h1
+                  className="absolute max-w-[80%] bottom-6 left-6 text-xl font-bold text-white"
+                  aria-label="Twoje rekomendowane hobby"
+                >
+                  {data?.name}
+                </h1>
+              </div>
+              )
+            })}
           </div>
         </div>
 

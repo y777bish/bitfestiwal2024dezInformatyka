@@ -17,7 +17,7 @@ const targets = Object.keys(hobbiesData);
 
 console.log({ rows, features, targets });
 
-const NEAREST_NEIGHBOR = 5;
+const NEAREST_NEIGHBOR = 7;
 const knn = new KNN(NEAREST_NEIGHBOR); // Ustawienie liczby sąsiadów na 3
 knn.train(features, targets);
 

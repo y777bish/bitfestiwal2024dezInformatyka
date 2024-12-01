@@ -26,5 +26,10 @@ export default {
       },
     },
   },
+  safelist: [
+    {
+      pattern: /bg-+/, // 👈  This includes bg of all colors and shades
+    },
+  ],
   plugins: [],
 } satisfies Config;
