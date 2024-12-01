@@ -44,10 +44,8 @@ export default function HobbyDetail() {
     );
   };
 
-  console.log({ answers })
 
   const handleQuickHobby = (mainResultLabel: string) => {
-    console.log({ mainResultLabel })
     router.push({
       pathname: `/results`,
       query: {
@@ -69,6 +67,7 @@ export default function HobbyDetail() {
       { shallow: true },
     );
   };
+
 
   return (
     <Layout>
@@ -118,9 +117,11 @@ export default function HobbyDetail() {
           <h2 className="text-2xl font-bold text-gray-900 flex items-center">
             Charakterystyka hobby
           </h2>
-          <h4 className="mb-4 flex items-center gap-2 text-gray-600">
-            Twoja odpowiedź<div className="h-2 w-4 mr-1 rounded-full bg-emerald-500"/>
-          </h4>
+          {answers && (
+            <h4 className="mb-4 flex items-center gap-2 text-gray-600">
+              Twoja odpowiedź<div className="h-2 w-4 mr-1 rounded-full bg-emerald-500"/>
+            </h4>
+          )}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {Object.entries(hobby.attributes).map(([key, value]: [string, unknown], index) => (
               <div key={key} className="p-3 bg-gray-50 rounded-lg">
@@ -164,7 +165,7 @@ export default function HobbyDetail() {
           <div className="flex flex-row flex-wrap gap-6">
             {result.filter(({ label }: any) => label !== mainResultLabel).map((hobby: any) => {
               const data = hobbiesData[hobby.label];
-              console.log(hobby.label, categoryLookup[data.category])
+              console.log(data.id, categoryLookup[data.category])
               return (
 
               <div key={hobby.label} onClick={() => handleQuickHobby(hobby.label)} className="min-w-[25%] relative h-40 flex-grow flex-shrink-0 basis-[1/4] bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-110 hover:cursor-pointer">

@@ -120,7 +120,7 @@ hobbiesData.forEach((row) => {
   hobbyDetails[hobbyId] = {
     id: hobbyId,
     name: row.Hobby,
-    category: row.Category,
+    category: createHobbyId(row.Category),
     description: row.Description,
     imageUrl: `/images/${hobbyId}.jpeg`,
     attributes,

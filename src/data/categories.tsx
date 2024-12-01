@@ -145,7 +145,7 @@ export const categories: Category[] = [
     },
   },
   {
-    id: "sztuka_i_rzemioslo",
+    id: "rzemioslo",
     name: "Sztuka i Rzemiosło",
     description: "Hobby związane z tworzeniem i projektowaniem",
     icon: (

@@ -46,10 +46,9 @@ const Category = () => {
     router.push(
       {
         pathname: "/quiz",
-        query: { answers: JSON.stringify(answers) },
+        query: { answers: savedAnswersString },
       },
       undefined,
-      { shallow: true },
     );
   };
   return (
