@@ -5,6 +5,7 @@ import { HobbyAttributes, HobbyDetail, Source, Task } from "./types/hobby";
 interface CSVHobbyRow {
   Hobby: string;
   Category: string;
+  Description: string;
   "Physical Activity Level": string;
   "Time Consumption": string;
   Sociability: string;
@@ -69,6 +70,7 @@ const hobbyDetails: Record<string, HobbyDetail> = {};
 // Process each hobby
 hobbiesData.forEach((row) => {
   const hobbyId = createHobbyId(row.Hobby);
+  const description = createHobbyId(row.Description);
 
   // Create attributes object
   const attributes: HobbyAttributes = {
@@ -108,14 +110,14 @@ hobbiesData.forEach((row) => {
       type: source.Type,
     }));
 
-  console.log(hobbyId);
+  console.log(createHobbyId(row.Category));
 
   // Create the hobby detail object
   hobbyDetails[hobbyId] = {
     id: hobbyId,
     name: row.Hobby,
     category: createHobbyId(row.Category),
-    description: `${row.Hobby} to fascynujące hobby, które pozwala...`, // Placeholder description
+    description,
     imageUrl: `/api/placeholder/800/400`,
     attributes,
     tasks,
@@ -130,7 +132,7 @@ fs.writeFileSync(
     `export const hobbiesData: Record<string, HobbyDetail> = ` +
     JSON.stringify(hobbyDetails, null, 2) +
     `;\n`,
-  { encoding: "utf8" },
+  { encoding: "utf8" }
 );
 
 console.log("Conversion completed successfully!");
