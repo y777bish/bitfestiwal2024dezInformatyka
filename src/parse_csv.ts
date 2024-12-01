@@ -122,7 +122,7 @@ hobbiesData.forEach((row) => {
     name: row.Hobby,
     category: row.Category,
     description: row.Description,
-    imageUrl: `/api/placeholder/800/400`,
+    imageUrl: `/images/${hobbyId}.jpeg`,
     attributes,
     tasks,
     sources,

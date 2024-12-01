@@ -2,6 +2,7 @@ import { HobbyAttributes } from "@/types/hobby";
 import { translateToPolish } from "@/utils/translate-to-polish";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import * as React from "react";
 import { useState } from "react";
 import Layout from "../../components/Layout";
 import { hobbiesData } from "../../data/hobbies";
@@ -16,7 +17,15 @@ export default function HobbyDetail() {
   const router = useRouter();
   const { hobbyId } = router.query;
   const [tasks, setTasks] = useState<Task[]>([]);
-  const hobby = Object.values(hobbiesData).find(({ id }: { id: string }) => id === hobbyId);
+  const hobby = Object.values(hobbiesData).find(
+    ({ id }: { id: string }) => id === hobbyId,
+  );
+
+  React.useEffect(() => {
+    if (hobby) {
+      setTasks(hobby.tasks);
+    }
+  }, [hobby]);
 
   if (!hobby) {
     return (
@@ -35,8 +44,8 @@ export default function HobbyDetail() {
   const handleToggleTask = (taskId: string) => {
     setTasks((currentTasks) =>
       currentTasks.map((task) =>
-        task.id === taskId ? { ...task, isCompleted: !task.isCompleted } : task
-      )
+        task.id === taskId ? { ...task, isCompleted: !task.isCompleted } : task,
+      ),
     );
   };
 
@@ -97,7 +106,7 @@ export default function HobbyDetail() {
                   className="mt-1 flex items-center"
                   role="meter"
                   aria-label={`Poziom ${translateToPolish(
-                    key.trim() as keyof HobbyAttributes
+                    key.trim() as keyof HobbyAttributes,
                   )}`}
                   aria-valuenow={value}
                   aria-valuemin={0}

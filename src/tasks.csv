@@ -1,116 +1,411 @@
 Hobby,Source ID,Title,IsCompleted
-Inżynieria dźwięku,1,Poznaj podstawy programu do edycji dźwięku (DAW),false
-Inżynieria dźwięku,2,Naucz się prawidłowego ustawiania mikrofonów,false
-Inżynieria dźwięku,3,Przećwicz podstawy miksowania i equalizacji,false
-Inżynieria dźwięku,4,Nagraj i zmiksuj projekt wielościeżkowy,false
-Inżynieria dźwięku,5,Poznaj zasady akustyki pomieszczenia,false
-Uprawa warzyw w domu,1,Wybierz odpowiednie warzywa do uprawy domowej,false
-Uprawa warzyw w domu,2,Przygotuj stanowisko z odpowiednim oświetleniem,false
-Uprawa warzyw w domu,3,Załóż pierwszy ogródek ziołowy,false
-Uprawa warzyw w domu,4,Opracuj harmonogram podlewania i nawożenia,false
-Uprawa warzyw w domu,5,Zbierz pierwsze własne plony,false
-Hodowla mikroliści,1,Wybierz pierwsze odmiany mikroliści do uprawy,false
-Hodowla mikroliści,2,Przygotuj tacki i oświetlenie do uprawy,false
-Hodowla mikroliści,3,Opanuj prawidłowe zagęszczenie wysiewu,false
-Hodowla mikroliści,4,Naucz się technik zbierania mikroliści,false
-Hodowla mikroliści,5,Stwórz harmonogram ciągłej uprawy,false
-Robienie eksperymentów naukowych w domu,1,Zgromadź podstawowy sprzęt laboratoryjny,false
-Robienie eksperymentów naukowych w domu,2,Przeprowadź prosty eksperyment chemiczny,false
-Robienie eksperymentów naukowych w domu,3,Naucz się dokumentować wyniki,false
-Robienie eksperymentów naukowych w domu,4,Stwórz hipotezę i plan badań,false
-Robienie eksperymentów naukowych w domu,5,Zaprezentuj wyniki rodzinie lub znajomym,false
-Rozwój umiejętności barmańskich,1,Naucz się 10 klasycznych przepisów na koktajle,false
-Rozwój umiejętności barmańskich,2,Opanuj techniki prawidłowego nalewania,false
-Rozwój umiejętności barmańskich,3,Poznaj terminologię barmańską,false
-Rozwój umiejętności barmańskich,4,Przećwicz podstawowe triki barmańskie,false
-Rozwój umiejętności barmańskich,5,Stwórz własny przepis na koktajl,false
-Testowanie kosmetyków DIY,1,Poznaj podstawowe składniki do pielęgnacji,false
-Testowanie kosmetyków DIY,2,Zrób własną maseczkę do twarzy,false
-Testowanie kosmetyków DIY,3,Naucz się technik konserwacji kosmetyków,false
-Testowanie kosmetyków DIY,4,Opracuj protokół testowania,false
-Testowanie kosmetyków DIY,5,Prowadź systematyczną dokumentację wyników,false
-Produkcja naturalnych perfum,1,Poznaj podstawy olejków eterycznych,false
-Produkcja naturalnych perfum,2,Stwórz pierwszą prostą kompozycję,false
-Produkcja naturalnych perfum,3,Naucz się klasyfikacji nut zapachowych,false
-Produkcja naturalnych perfum,4,Opanuj proporcje rozcieńczeń,false
-Produkcja naturalnych perfum,5,Stwórz własny charakterystyczny zapach,false
-Dogtrekking,1,Skompletuj odpowiedni sprzęt,false
-Dogtrekking,2,Naucz psa podstawowych komend,false
-Dogtrekking,3,Ukończ trasę 5km z psem,false
-Dogtrekking,4,Poznaj podstawy nawigacji w terenie,false
-Dogtrekking,5,Weź udział w lokalnym wydarzeniu,false
-Hodowla motyli,1,Zbadaj lokalne gatunki motyli,false
-Hodowla motyli,2,Stwórz przyjazne środowisko dla motyli,false
-Hodowla motyli,3,Zasadź rośliny nektarodajne,false
-Hodowla motyli,4,Poznaj cykl życia motyli,false
-Hodowla motyli,5,Wyhoduj pierwsze pokolenie motyli,false
-Żonglowanie,1,Opanuj podstawowy kaskadowy rzut trzema piłkami,false
-Żonglowanie,2,Naucz się wymiany piłek w powietrzu,false
-Żonglowanie,3,Przećwicz odwrócony kaskadowy rzut,false
-Żonglowanie,4,Wprowadź czwartą piłkę do żonglowania,false
-Żonglowanie,5,Wykonaj podstawowy układ żonglerski,false
-Nauka sztuczek magicznych,1,Opanuj podstawową manipulację kartami,false
-Nauka sztuczek magicznych,2,Naucz się pierwszej sztuczki z monetami,false
-Nauka sztuczek magicznych,3,Przećwicz prezentację przed lustrem,false
-Nauka sztuczek magicznych,4,Wykonaj pokaz dla rodziny,false
-Nauka sztuczek magicznych,5,Stwórz własną rutynę magiczną,false
-Jazda na monocyklu,1,Naucz się bezpiecznego wsiadania,false
-Jazda na monocyklu,2,Opanuj utrzymywanie równowagi w miejscu,false
-Jazda na monocyklu,3,Przejedź 10 metrów samodzielnie,false
-Jazda na monocyklu,4,Naucz się skręcać,false
-Jazda na monocyklu,5,Wykonaj podstawowe triki,false
-Prowadzenie kanału YouTube,1,Zaplanuj tematykę swojego kanału,false
-Prowadzenie kanału YouTube,2,Przygotuj podstawowy sprzęt do nagrywania,false
-Prowadzenie kanału YouTube,3,Nagraj i zmontuj pierwszy film,false
-Prowadzenie kanału YouTube,4,Opracuj strategię promocji,false
-Prowadzenie kanału YouTube,5,Zbuduj pierwszą społeczność widzów,false
-Projektowanie wnętrz,1,Poznaj podstawowe zasady kompozycji,false
-Projektowanie wnętrz,2,Stwórz moodboard dla pierwszego projektu,false
-Projektowanie wnętrz,3,Naucz się wykonywać podstawowe pomiary,false
-Projektowanie wnętrz,4,Zaprojektuj pierwsze pomieszczenie,false
-Projektowanie wnętrz,5,Przygotuj profesjonalną wizualizację,false
-Dekorowanie ciast artystycznych,1,Opanuj podstawowe techniki lukrowania,false
-Dekorowanie ciast artystycznych,2,Naucz się robić kwiaty z masy cukrowej,false
-Dekorowanie ciast artystycznych,3,Stwórz własne szablony dekoracyjne,false
-Dekorowanie ciast artystycznych,4,Wykonaj tort piętrowy,false
-Dekorowanie ciast artystycznych,5,Zrób tort na zamówienie,false
-Projektowanie zabawek,1,Naszkicuj pierwsze projekty,false
-Projektowanie zabawek,2,Poznaj zasady bezpieczeństwa zabawek,false
-Projektowanie zabawek,3,Stwórz pierwszy prototyp,false
-Projektowanie zabawek,4,Przetestuj zabawkę z dziećmi,false
-Projektowanie zabawek,5,Przygotuj dokumentację produktu,false
-Rozwiązywanie starych zagadek historycznych,1,Wybierz pierwszą zagadkę do rozwiązania,false
-Rozwiązywanie starych zagadek historycznych,2,Zbierz materiały źródłowe,false
-Rozwiązywanie starych zagadek historycznych,3,Stwórz chronologię wydarzeń,false
-Rozwiązywanie starych zagadek historycznych,4,Przeanalizuj zebrane dane,false
-Rozwiązywanie starych zagadek historycznych,5,Przedstaw własną teorię rozwiązania,false
-Genealogia,1,Zbierz podstawowe informacje o rodzinie,false
-Genealogia,2,Przeprowadź pierwsze wywiady rodzinne,false
-Genealogia,3,Odwiedź archiwum państwowe,false
-Genealogia,4,Stwórz cyfrową bazę danych przodków,false
-Genealogia,5,Opracuj profesjonalne drzewo genealogiczne,false
-Tworzenie drzewek genealogicznych,1,Wybierz odpowiednie oprogramowanie,false
-Tworzenie drzewek genealogicznych,2,Wprowadź dane pierwszych trzech pokoleń,false
-Tworzenie drzewek genealogicznych,3,Dodaj zdjęcia i dokumenty,false
-Tworzenie drzewek genealogicznych,4,Stwórz system oznaczania relacji,false
-Tworzenie drzewek genealogicznych,5,Zaprojektuj estetyczną formę prezentacji,false
+Krzyżówki / Łamigłówki logiczne,1,Rozwiąż pierwszą krzyżówkę panoramiczną,false
+Krzyżówki / Łamigłówki logiczne,2,Opanuj podstawowe zasady rozwiązywania sudoku,false
+Krzyżówki / Łamigłówki logiczne,3,Ukończ serię łamigłówek logicznych dla początkujących,false
+Krzyżówki / Łamigłówki logiczne,4,Stwórz własną prostą krzyżówkę,false
+Krzyżówki / Łamigłówki logiczne,5,Rozwiąż krzyżówkę w języku obcym,false
+Narciarstwo,1,Zapisz się na podstawowy kurs narciarski,false
+Narciarstwo,2,Opanuj podstawową pozycję narciarską,false
+Narciarstwo,3,Naucz się bezpiecznego hamowania,false
+Narciarstwo,4,Wykonaj pierwszy skręt,false
+Narciarstwo,5,Zjedź samodzielnie trasą dla początkujących,false
+Wyrób świec / mydeł,1,Zgromadź podstawowe materiały do wyrobu świec,false
+Wyrób świec / mydeł,2,Wykonaj pierwszą świecę z wosku pszczelego,false
+Wyrób świec / mydeł,3,Stwórz mydło z prostej receptury,false
+Wyrób świec / mydeł,4,Eksperymentuj z zapachami i kolorami,false
+Wyrób świec / mydeł,5,Przygotuj własną formę do świec,false
+Windsurfing,1,Ukończ kurs podstawowy windsurfingu,false
+Windsurfing,2,Naucz się prawidłowo trzymać żagiel,false
+Windsurfing,3,Opanuj podstawy pływania na desce,false
+Windsurfing,4,Wykonaj pierwszy zwrot,false
+Windsurfing,5,Samodzielnie pływaj przy słabym wietrze,false
+Tradycyjne sporty walki,1,Wybierz styl sztuki walki,false
+Tradycyjne sporty walki,2,Zapisz się na zajęcia podstawowe,false
+Tradycyjne sporty walki,3,Naucz się podstawowej postawy,false
+Tradycyjne sporty walki,4,Opanuj pierwsze uderzenia,false
+Tradycyjne sporty walki,5,Zdaj egzamin na pierwszy stopień,false
+Degustacja kawy/herbaty,1,Poznaj podstawowe rodzaje kawy i herbaty,false
+Degustacja kawy/herbaty,2,Naucz się prawidłowego parzenia,false
+Degustacja kawy/herbaty,3,Rozpoznawaj podstawowe nuty smakowe,false
+Degustacja kawy/herbaty,4,Zorganizuj pierwszą degustację,false
+Degustacja kawy/herbaty,5,Stwórz dziennik degustacyjny,false
+Kolekcjonowanie figurek,1,Wybierz tematykę kolekcji,false
+Kolekcjonowanie figurek,2,Zdobądź pierwszą figurkę do kolekcji,false
+Kolekcjonowanie figurek,3,Przygotuj miejsce do ekspozycji,false
+Kolekcjonowanie figurek,4,Dołącz do społeczności kolekcjonerów,false
+Kolekcjonowanie figurek,5,Skataloguj swoją kolekcję,false
+Kolekcjonowanie monet,1,Poznaj podstawy numizmatyki,false
+Kolekcjonowanie monet,2,Zdobądź pierwszą monetę kolekcjonerską,false
+Kolekcjonowanie monet,3,Naucz się oceniać stan monet,false
+Kolekcjonowanie monet,4,Stwórz system katalogowania,false
+Kolekcjonowanie monet,5,Weź udział w giełdzie numizmatycznej,false
+Robótki ręczne (szydełkowanie haftowanie),1,Naucz się podstawowego ściegu,false
+Robótki ręczne (szydełkowanie haftowanie),2,Wykonaj prosty wzór na próbce,false
+Robótki ręczne (szydełkowanie haftowanie),3,Zrób pierwszy mały projekt,false
+Robótki ręczne (szydełkowanie haftowanie),4,Opanuj czytanie schematów,false
+Robótki ręczne (szydełkowanie haftowanie),5,Stwórz własny wzór,false
+Tworzenie aplikacji mobilnych,1,Zainstaluj środowisko programistyczne,false
+Tworzenie aplikacji mobilnych,2,Wykonaj pierwszą aplikację Hello World,false
+Tworzenie aplikacji mobilnych,3,Stwórz prosty interfejs użytkownika,false
+Tworzenie aplikacji mobilnych,4,Dodaj podstawową funkcjonalność,false
+Tworzenie aplikacji mobilnych,5,Opublikuj aplikację w sklepie,false
+Tworzenie stron internetowych,1,Naucz się podstaw HTML,false
+Tworzenie stron internetowych,2,Poznaj CSS,false
+Tworzenie stron internetowych,3,Stwórz pierwszą prostą stronę,false
+Tworzenie stron internetowych,4,Dodaj elementy interaktywne,false
+Tworzenie stron internetowych,5,Opublikuj stronę w internecie,false
+Akwarystyka morska,1,Zaplanuj wielkość akwarium,false
+Akwarystyka morska,2,Przygotuj odpowiedni sprzęt,false
+Akwarystyka morska,3,Uruchom pierwszy zbiornik,false
+Akwarystyka morska,4,Wprowadź pierwsze organizmy,false
+Akwarystyka morska,5,Utrzymuj stabilne parametry wody,false
+Akwarystyka słodkowodna,1,Wybierz odpowiednie akwarium,false
+Akwarystyka słodkowodna,2,Zainstaluj niezbędny sprzęt,false
+Akwarystyka słodkowodna,3,Przygotuj wodę do akwarium,false
+Akwarystyka słodkowodna,4,Zasadź pierwsze rośliny,false
+Akwarystyka słodkowodna,5,Wprowadź pierwsze ryby,false
+Animacja poklatkowa,1,Przygotuj sprzęt do animacji,false
+Animacja poklatkowa,2,Stwórz prosty scenariusz,false
+Animacja poklatkowa,3,Wykonaj pierwszą sekwencję ruchu,false
+Animacja poklatkowa,4,Zmontuj krótką animację,false
+Animacja poklatkowa,5,Dodaj dźwięk do animacji,false
+Astrofotografia,1,Poznaj podstawy fotografii nocnej,false
+Astrofotografia,2,Zdobądź odpowiedni sprzęt,false
+Astrofotografia,3,Wykonaj pierwsze zdjęcie gwiazd,false
+Astrofotografia,4,Sfotografuj Drogę Mleczną,false
+Astrofotografia,5,Zrób zdjęcie obiektów głębokiego nieba,false
 Badanie archiwów lokalnych,1,Poznaj system katalogowania archiwów,false
-Badanie archiwów lokalnych,2,Naucz się czytać stare dokumenty,false
-Badanie archiwów lokalnych,3,Przeprowadź pierwszą kwerendę,false
-Badanie archiwów lokalnych,4,Stwórz system notatek badawczych,false
-Badanie archiwów lokalnych,5,Opracuj pierwsze znalezisko historyczne,false
-Tworzenie ilustracji książkowych,1,Opanuj podstawowe techniki rysunku,false
-Tworzenie ilustracji książkowych,2,Stwórz szkicownik postaci,false
-Tworzenie ilustracji książkowych,3,Zilustruj krótkie opowiadanie,false
-Tworzenie ilustracji książkowych,4,Naucz się technik kolorowania,false
-Tworzenie ilustracji książkowych,5,Przygotuj portfolio ilustracji,false
-Hodowla jedwabników,1,Przygotuj odpowiednie środowisko hodowli,false
-Hodowla jedwabników,2,Zdobądź jaja jedwabników,false
-Hodowla jedwabników,3,Zapewnij świeże liście morwy,false
-Hodowla jedwabników,4,Naucz się rozpoznawać stadia rozwoju,false
-Hodowla jedwabników,5,Zbierz pierwsze kokony,false
-Tworzenie własnych gier karcianych,1,Wymyśl podstawową mechanikę gry,false
-Tworzenie własnych gier karcianych,2,Zaprojektuj pierwsze karty,false
-Tworzenie własnych gier karcianych,3,Przetestuj grę ze znajomymi,false
-Tworzenie własnych gier karcianych,4,Wprowadź poprawki po testach,false
-Tworzenie własnych gier karcianych,5,Przygotuj finalną wersję prototypu,false
+Badanie archiwów lokalnych,2,Odwiedź pierwsze archiwum,false
+Badanie archiwów lokalnych,3,Znajdź interesujący dokument,false
+Badanie archiwów lokalnych,4,Wykonaj pierwszą transkrypcję,false
+Badanie archiwów lokalnych,5,Opracuj własny projekt badawczy,false
+Base jumping,1,Ukończ kurs spadochronowy,false
+Base jumping,2,Wykonaj wymagane skoki spadochronowe,false
+Base jumping,3,Przejdź szkolenie base jumpingowe,false
+Base jumping,4,Wykonaj pierwszy skok base,false
+Base jumping,5,Dołącz do społeczności base jumperów,false
+Bieganie,1,Rozpocznij program Couch to 5K,false
+Bieganie,2,Skompletuj odpowiedni strój i buty,false
+Bieganie,3,Przebież pierwszy dystans 5km,false
+Bieganie,4,Ustal regularny plan treningowy,false
+Bieganie,5,Weź udział w pierwszych zawodach,false
+Biwakowanie,1,Skompletuj podstawowy sprzęt,false
+Biwakowanie,2,Naucz się rozbijać namiot,false
+Biwakowanie,3,Spędź pierwszą noc w terenie,false
+Biwakowanie,4,Przygotuj posiłek na kuchence turystycznej,false
+Biwakowanie,5,Zorganizuj weekend biwakowy,false
+Boks,1,Zapisz się na treningi boksu,false
+Boks,2,Naucz się podstawowej gardy,false
+Boks,3,Opanuj podstawowe ciosy,false
+Boks,4,Rozpocznij trening na worku,false
+Boks,5,Weź udział w pierwszym sparingu,false
+Bookbinding artystyczny,1,Poznaj podstawowe narzędzia introligatorskie,false
+Bookbinding artystyczny,2,Wykonaj pierwszą oprawę zeszytową,false
+Bookbinding artystyczny,3,Naucz się szycia bloku książki,false
+Bookbinding artystyczny,4,Stwórz okładkę artystyczną,false
+Bookbinding artystyczny,5,Opraw pierwszą książkę,false
+Budowanie domków dla ptaków,1,Zaprojektuj prosty domek,false
+Budowanie domków dla ptaków,2,Przygotuj materiały i narzędzia,false
+Budowanie domków dla ptaków,3,Zbuduj pierwszy domek,false
+Budowanie domków dla ptaków,4,Zainstaluj domek w odpowiednim miejscu,false
+Budowanie domków dla ptaków,5,Monitoruj zasiedlenie domku,false
+Budowanie i malowanie figurek do gier,1,Poznaj podstawowe materiały,false
+Budowanie i malowanie figurek do gier,2,Przygotuj figurkę do malowania,false
+Budowanie i malowanie figurek do gier,3,Wykonaj podstawowe malowanie,false
+Budowanie i malowanie figurek do gier,4,Dodaj detale i cieniowanie,false
+Budowanie i malowanie figurek do gier,5,Zabezpiecz pomalowaną figurkę,false
+Budowanie modeli kolejek,1,Zaplanuj układ torów,false
+Budowanie modeli kolejek,2,Zbuduj pierwszą sekcję torów,false
+Budowanie modeli kolejek,3,Dodaj elementy krajobrazu,false
+Budowanie modeli kolejek,4,Zainstaluj elektrykę,false
+Budowanie modeli kolejek,5,Uruchom pierwszą kolejkę,false
+Budowanie rakiet amatorskich,1,Poznaj zasady bezpieczeństwa,false
+Budowanie rakiet amatorskich,2,Zbuduj pierwszą prostą rakietę,false
+Budowanie rakiet amatorskich,3,Wykonaj pierwszy bezpieczny start,false
+Budowanie rakiet amatorskich,4,Zbierz dane z lotu,false
+Budowanie rakiet amatorskich,5,Zbuduj rakietę z elektronicznym systemem odzysku,false
+Budowanie schronień w lesie,1,Poznaj podstawowe typy schronień,false
+Budowanie schronień w lesie,2,Naucz się wybierać lokalizację,false
+Budowanie schronień w lesie,3,Zbuduj proste schronienie,false
+Budowanie schronień w lesie,4,Spędź noc w schronieniu,false
+Budowanie schronień w lesie,5,Zbuduj schronienie długoterminowe,false
+Chór,1,Poznaj swój zakres głosu,false
+Chór,2,Naucz się czytać nuty,false
+Chór,3,Dołącz do chóru,false
+Chór,4,Weź udział w pierwszej próbie,false
+Chór,5,Wystąp na pierwszym koncercie,false
+Cosplay,1,Wybierz postać do odtworzenia,false
+Cosplay,2,Przygotuj projekt kostiumu,false
+Cosplay,3,Naucz się podstaw szycia,false
+Cosplay,4,Stwórz pierwszy element stroju,false
+Cosplay,5,Zaprezentuj się na konwencie,false
+Czytanie książek,1,Stwórz listę książek do przeczytania,false
+Czytanie książek,2,Przeczytaj pierwszą książkę z listy,false
+Czytanie książek,3,Dołącz do klubu książki,false
+Czytanie książek,4,Napisz pierwszą recenzję,false
+Czytanie książek,5,Zorganizuj domową biblioteczkę,false
+D&D,1,Zapoznaj się z podstawowymi zasadami,false
+D&D,2,Stwórz pierwszą postać,false
+D&D,3,Weź udział w pierwszej sesji,false
+D&D,4,Poprowadź krótką przygodę jako DM,false
+D&D,5,Stwórz własną kampanię,false
+Degustacja win,1,Poznaj podstawowe szczepy winogron,false
+Degustacja win,2,Naucz się prawidłowego degustowania,false
+Degustacja win,3,Weź udział w profesjonalnej degustacji,false
+Degustacja win,4,Stwórz dziennik degustacyjny,false
+Degustacja win,5,Zorganizuj własną degustację,false
+Dekorowanie ciast artystycznych,1,Opanuj podstawowe kremy,false
+Dekorowanie ciast artystycznych,2,Naucz się pokrywać tort masą,false
+Dekorowanie ciast artystycznych,3,Wykonaj pierwsze dekoracje z lukru,false
+Dekorowanie ciast artystycznych,4,Stwórz figurki z masy cukrowej,false
+Dekorowanie ciast artystycznych,5,Udekoruj tort na zamówienie,false
+Destylacja zapachów,1,Poznaj podstawowe składniki,false
+Destylacja zapachów,2,Naucz się procesu destylacji,false
+Destylacja zapachów,3,Wykonaj pierwszą destylację,false
+Destylacja zapachów,4,Stwórz własną kompozycję zapachową,false
+Destylacja zapachów,5,Zrób własne perfumy,false
+Detekcja metali,1,Wybierz odpowiedni wykrywacz,false
+Detekcja metali,2,Naucz się obsługi sprzętu,false
+Detekcja metali,3,Wykonaj pierwsze poszukiwania,false
+Detekcja metali,4,Znajdź pierwszy wartościowy przedmiot,false
+Detekcja metali,5,Dołącz do grupy poszukiwaczy,false
+Dogtrekking,1,Przygotuj sprzęt i psa do trekkingu,false
+Dogtrekking,2,Ukończ pierwszy szlak 5km,false
+Dogtrekking,3,Weź udział w zawodach dogtrekkingu,false
+Eksperymenty chemiczne,1,Przygotuj bezpieczne stanowisko laboratoryjne,false
+Eksperymenty chemiczne,2,Przeprowadź pierwszy prosty eksperyment,false
+Eksperymenty chemiczne,3,Stwórz dziennik eksperymentów,false
+Filmowanie amatorskie,1,Naucz się podstaw obsługi kamery,false
+Filmowanie amatorskie,2,Nakręć pierwszy krótki film,false
+Filmowanie amatorskie,3,Zmontuj materiał filmowy,false
+Filozofia,1,Przeczytaj wprowadzenie do filozofii,false
+Filozofia,2,Weź udział w dyskusji filozoficznej,false
+Filozofia,3,Napisz pierwszy esej filozoficzny,false
+Fitness,1,Ustal plan treningowy,false
+Fitness,2,Opanuj podstawowe ćwiczenia,false
+Fitness,3,Osiągnij pierwszy cel treningowy,false
+Fotografia,1,Poznaj zasady kompozycji,false
+Fotografia,2,Opanuj tryb manualny,false
+Fotografia,3,Stwórz pierwsze portfolio,false
+Fotografia analogowa,1,Zdobądź i poznaj aparat analogowy,false
+Fotografia analogowa,2,Wywołaj pierwszy film,false
+Fotografia analogowa,3,Zrób własne odbitki,false
+Freediving,1,Przejść kurs bezpieczeństwa,false
+Freediving,2,Opanuj techniki oddychania,false
+Freediving,3,Wykonaj pierwszy głęboki nurek,false
+Genealogia,1,Zbierz informacje o rodzinie,false
+Genealogia,2,Stwórz pierwsze drzewo genealogiczne,false
+Genealogia,3,Odwiedź archiwum w poszukiwaniu dokumentów,false
+Geocaching,1,Załóż konto i poznaj aplikację,false
+Geocaching,2,Znajdź pierwszą skrytkę,false
+Geocaching,3,Załóż własną skrytkę,false
+Gotowanie,1,Opanuj podstawowe techniki krojenia,false
+Gotowanie,2,Ugotuj pierwsze danie główne,false
+Gotowanie,3,Przygotuj trzydaniowy obiad,false
+Gra na gitarze,1,Naucz się podstawowych akordów,false
+Gra na gitarze,2,Opanuj pierwszą piosenkę,false
+Gra na gitarze,3,Zagraj pierwszy koncert,false
+Gra na perkusji,1,Poznaj podstawowy beat,false
+Gra na perkusji,2,Opanuj koordynację rąk i nóg,false
+Gra na perkusji,3,Zagraj z zespołem,false
+Gra na pianinie,1,Poznaj podstawy nut i klawiszy,false
+Gra na pianinie,2,Zagraj pierwszy utwór,false
+Gra na pianinie,3,Wykonaj koncert dla rodziny,false
+Gra na ukulele,1,Naucz się podstawowych chwytów,false
+Gra na ukulele,2,Zagraj pierwszą piosenkę,false
+Gra na ukulele,3,Wystąp przed publiką,false
+Grafika komputerowa,1,Opanuj podstawy programu graficznego,false
+Grafika komputerowa,2,Stwórz pierwsze logo,false
+Grafika komputerowa,3,Przygotuj projekt na zlecenie,false
+Grafika warsztatowa,1,Poznaj techniki graficzne,false
+Grafika warsztatowa,2,Wykonaj pierwszą matrycę,false
+Grafika warsztatowa,3,Zrób serię odbitek,false
+Gry komputerowe,1,Wybierz gatunek gier,false
+Gry komputerowe,2,Ukończ pierwszą grę,false
+Gry komputerowe,3,Weź udział w turnieju,false
+Gry planszowe,1,Poznaj zasady popularnych gier,false
+Gry planszowe,2,Zorganizuj wieczór gier,false
+Gry planszowe,3,Weź udział w konwencie,false
+Historia sztuki,1,Poznaj główne epoki w sztuce,false
+Historia sztuki,2,Odwiedź pierwsze muzeum,false
+Historia sztuki,3,Przygotuj prezentację o ulubionym artyście,false
+Hodowla egzotycznych ptaków,1,Przygotuj odpowiednie pomieszczenie,false
+Hodowla egzotycznych ptaków,2,Zdobądź pierwszego ptaka,false
+Hodowla egzotycznych ptaków,3,Rozmnóż pierwszą parę,false
+Hodowla gadów,1,Zbuduj odpowiednie terrarium,false
+Hodowla gadów,2,Wprowadź pierwszego gada,false
+Hodowla gadów,3,Stwórz optymalne warunki bytowe,false
+Hodowla jedwabników,1,Przygotuj przestrzeń hodowlaną,false
+Hodowla jedwabników,2,Rozpocznij hodowlę pierwszych larw,false
+Hodowla jedwabników,3,Uzyskaj pierwszy kokon,false
+Hodowla mikroliści,1,Przygotuj system uprawy,false
+Hodowla mikroliści,2,Wykonaj pierwszy wysiew,false
+Hodowla mikroliści,3,Zbierz pierwszy plon,false
+Hodowla motyli,1,Stwórz odpowiednie środowisko,false
+Hodowla motyli,2,Zdobądź pierwsze gąsienice,false
+Hodowla motyli,3,Przeprowadź przez cykl życiowy,false
+Hodowla mrówek,1,Zbuduj formikarium,false
+Hodowla mrówek,2,Zdobądź pierwszą królową,false
+Hodowla mrówek,3,Rozwiń pierwszą kolonię,false
+Hodowla pszczół,1,Ukończ kurs pszczelarski,false
+Hodowla pszczół,2,Załóż pierwszy ul,false
+Hodowla pszczół,3,Zbierz pierwszy miód,false
+Inżynieria dźwięku,1,Poznaj podstawy akustyki,false
+Inżynieria dźwięku,2,Skonfiguruj sprzęt nagraniowy,false
+Inżynieria dźwięku,3,Zrealizuj pierwszą sesję nagraniową,false
+Jazda na deskorolce,1,Opanuj podstawy utrzymania równowagi,false
+Jazda na deskorolce,2,Naucz się pierwszych trików,false
+Jazda na deskorolce,3,Wykonaj pierwszy ollie,false
+Jazda na monocyklu,1,Naucz się wsiadać,false
+Jazda na monocyklu,2,Przejedź 10 metrów,false
+Jazda na monocyklu,3,Wykonaj podstawowe triki,false
+Jazda na rolkach,1,Opanuj podstawy zachowania równowagi,false
+Jazda na rolkach,2,Naucz się hamowania,false
+Jazda na rolkach,3,Wykonaj pierwszy slalom,false
+Jazda na rowerze,1,Wybierz odpowiedni rower,false
+Jazda na rowerze,2,Poznaj zasady bezpieczeństwa,false
+Jazda na rowerze,3,Przejedź pierwszą dłuższą trasę,false
+Joga,1,Poznaj podstawowe asany,false
+Joga,2,Opanuj prawidłowe oddychanie,false
+Joga,3,Wykonaj pierwszą samodzielną sekwencję,false
+Kajakarstwo ekstremalne,1,Ukończ podstawowy kurs kajakarski,false
+Kajakarstwo ekstremalne,2,Opanuj techniki eskimoski,false
+Kajakarstwo ekstremalne,3,Przepłyń pierwszy trudny odcinek,false
+Kaligrafia,1,Poznaj podstawowe style pisma,false
+Kaligrafia,2,Opanuj technikę pisania,false
+Kaligrafia,3,Stwórz własną kompozycję,false
+Kartografia amatorska,1,Poznaj podstawy tworzenia map,false
+Kartografia amatorska,2,Sporządź pierwszą mapę terenu,false
+Kartografia amatorska,3,Stwórz mapę z legendą i skalą,false
+Kickboxing,1,Naucz się podstawowej gardy,false
+Kickboxing,2,Opanuj podstawowe kopnięcia,false
+Kickboxing,3,Weź udział w sparingu,false
+Kolarstwo górskie,1,Dobierz odpowiedni rower górski,false
+Kolarstwo górskie,2,Opanuj technikę jazdy w terenie,false
+Kolarstwo górskie,3,Pokonaj pierwszy trudny szlak,false
+Kolekcjonowanie znaczków,1,Rozpocznij pierwszą kolekcję tematyczną,false
+Kolekcjonowanie znaczków,2,Naucz się oceniać stan znaczków,false
+Kolekcjonowanie znaczków,3,Weź udział w giełdzie filatelistycznej,false
+LARP,1,Stwórz pierwszą postać,false
+LARP,2,Przygotuj kostium,false
+LARP,3,Weź udział w pierwszym wydarzeniu,false
+Lutowanie i elektronika,1,Zdobądź podstawowy sprzęt do lutowania,false
+Lutowanie i elektronika,2,Wykonaj pierwsze połączenia,false
+Lutowanie i elektronika,3,Zbuduj prosty obwód elektroniczny,false
+Łowienie owadów i ich obserwacja,1,Skompletuj sprzęt do łowienia owadów,false
+Łowienie owadów i ich obserwacja,2,Złap pierwsze okazy,false
+Łowienie owadów i ich obserwacja,3,Stwórz kolekcję z opisami,false
+Łucznictwo,1,Poznaj zasady bezpieczeństwa i sprzęt,false
+Łucznictwo,2,Naucz się prawidłowej postawy,false
+Łucznictwo,3,Traf do celu z 20 metrów,false
+Majsterkowanie,1,Skompletuj podstawowe narzędzia,false
+Majsterkowanie,2,Wykonaj pierwszą naprawę,false
+Majsterkowanie,3,Zrealizuj własny projekt,false
+Malowanie,1,Poznaj podstawowe techniki,false
+Malowanie,2,Stwórz pierwszą kompozycję,false
+Malowanie,3,Zorganizuj własną wystawę,false
+Malowanie akwarelami,1,Opanuj podstawowe techniki akwarelowe,false
+Malowanie akwarelami,2,Namaluj pierwszy pejzaż,false
+Malowanie akwarelami,3,Stwórz serię obrazów,false
+Malowanie olejami,1,Przygotuj stanowisko malarskie,false
+Malowanie olejami,2,Wykonaj pierwszą martwą naturę,false
+Malowanie olejami,3,Namaluj portret,false
+Medytacja,1,Naucz się podstawowych technik oddychania,false
+Medytacja,2,Ustal codzienną rutynę,false
+Medytacja,3,Wykonaj pierwszą długą sesję,false
+Mikroskopia amatorska,1,Wybierz odpowiedni mikroskop,false
+Mikroskopia amatorska,2,Przygotuj pierwsze preparaty,false
+Mikroskopia amatorska,3,Wykonaj dokumentację fotograficzną,false
+Modelarstwo,1,Złóż pierwszy prosty model,false
+Modelarstwo,2,Pomaluj model zgodnie z instrukcją,false
+Modelarstwo,3,Wykonaj własne modyfikacje,false
+Modelowanie 3D,1,Opanuj podstawy programu do modelowania,false
+Modelowanie 3D,2,Stwórz pierwszy model 3D,false
+Modelowanie 3D,3,Wydrukuj model na drukarce 3D,false
+Naprawa starych mebli,1,Zdobądź podstawowe narzędzia stolarskie,false
+Naprawa starych mebli,2,Wykonaj pierwszą prostą renowację,false
+Naprawa starych mebli,3,Odnów mebel zabytkowy,false
+Nauka AI i machine learning,1,Poznaj podstawy programowania w Pythonie,false
+Nauka AI i machine learning,2,Stwórz pierwszy model ML,false
+Nauka AI i machine learning,3,Zrealizuj projekt z uczeniem maszynowym,false
+Nauka języków obcych,1,Ustal poziom znajomości języka,false
+Nauka języków obcych,2,Rozpocznij codzienną praktykę,false
+Nauka języków obcych,3,Przeprowadź pierwszą konwersację,false
+Nauka kodowania,1,Wybierz pierwszy język programowania,false
+Nauka kodowania,2,Napisz pierwszy program,false
+Nauka kodowania,3,Stwórz własny projekt,false
+Nauka sztuczek magicznych,1,Opanuj podstawową manipulację kartami,false
+Nauka sztuczek magicznych,2,Wykonaj pierwszą sztuczkę,false
+Nauka sztuczek magicznych,3,Przygotuj pokaz magii,false
+Nurkowanie jaskiniowe,1,Zdobądź zaawansowany certyfikat nurkowy,false
+Nurkowanie jaskiniowe,2,Przejdź kurs nurkowania jaskiniowego,false
+Nurkowanie jaskiniowe,3,Wykonaj pierwszy nurek jaskiniowy,false
+Nurkowanie z akwalungiem,1,Ukończ kurs podstawowy,false
+Nurkowanie z akwalungiem,2,Zdobądź certyfikat OWD,false
+Nurkowanie z akwalungiem,3,Wykonaj pierwszy samodzielny nurek,false
+Obróbka wideo,1,Poznaj program do montażu,false
+Obróbka wideo,2,Zmontuj pierwszy film,false
+Obróbka wideo,3,Dodaj efekty specjalne,false
+Obróbka zdjęć,1,Opanuj podstawy programu graficznego,false
+Obróbka zdjęć,2,Wykonaj pierwszą zaawansowaną edycję,false
+Obróbka zdjęć,3,Przygotuj profesjonalne portfolio,false
+Obserwacja dzikich zwierząt,1,Naucz się rozpoznawać ślady zwierząt,false
+Obserwacja dzikich zwierząt,2,Wykonaj pierwszą dokumentację fotograficzną,false
+Obserwacja dzikich zwierząt,3,Przeprowadź całonocną obserwację,false
+Obserwacja ptaków,1,Zdobądź lornetkę i atlas ptaków,false
+Obserwacja ptaków,2,Zidentyfikuj 10 gatunków ptaków,false
+Obserwacja ptaków,3,Weź udział w zorganizowanym ptakoliczeniu,false
+Oglądanie filmów,1,Stwórz listę filmów do obejrzenia,false
+Oglądanie filmów,2,Poznaj podstawy analizy filmowej,false
+Oglądanie filmów,3,Napisz pierwszą recenzję,false
+Oglądanie gwiazd,1,Poznaj podstawowe gwiazdozbiory,false
+Oglądanie gwiazd,2,Kup pierwszy teleskop,false
+Oglądanie gwiazd,3,Zidentyfikuj planety i obiekty głębokiego nieba,false
+Oglądanie seriali,1,Wybierz gatunek seriali,false
+Oglądanie seriali,2,Ukończ pierwszy sezon wybranego serialu,false
+Oglądanie seriali,3,Dołącz do grupy dyskusyjnej,false
+Organizowanie festynów lokalnych,1,Zaplanuj pierwszy mały event,false
+Organizowanie festynów lokalnych,2,Zbierz zespół organizacyjny,false
+Organizowanie festynów lokalnych,3,Zorganizuj festyn,false
+Organizowanie wydarzeń,1,Stwórz plan pierwszego wydarzenia,false
+Organizowanie wydarzeń,2,Skompletuj potrzebne pozwolenia,false
+Organizowanie wydarzeń,3,Przeprowadź pierwsze wydarzenie,false
+Origami,1,Poznaj podstawowe zgięcia,false
+Origami,2,Wykonaj proste modele,false
+Origami,3,Stwórz złożoną kompozycję,false
+Paleontologia amatorska,1,Poznaj podstawy geologii,false
+Paleontologia amatorska,2,Weź udział w pierwszych wykopaliskach,false
+Paleontologia amatorska,3,Znajdź pierwszą skamieniałość,false
+Paralotniarstwo,1,Ukończ kurs teoretyczny,false
+Paralotniarstwo,2,Wykonaj pierwszy lot z instruktorem,false
+Paralotniarstwo,3,Zdobądź licencję pilota,false
+Parkour,1,Opanuj bezpieczne lądowanie,false
+Parkour,2,Naucz się podstawowych przeskoków,false
+Parkour,3,Wykonaj pierwszą płynną sekwencję,false
+Pieczenie,1,Upiecz pierwsze ciasto,false
+Pieczenie,2,Opanuj techniki dekorowania,false
+Pieczenie,3,Przygotuj tort okolicznościowy,false
+Pieczenie chleba na zakwasie,1,Przygotuj własny zakwas,false
+Pieczenie chleba na zakwasie,2,Upiecz pierwszy chleb,false
+Pieczenie chleba na zakwasie,3,Eksperymentuj z różnymi mąkami,false
+Pielęgnacja ogrodu,1,Zaplanuj przestrzeń ogrodową,false
+Pielęgnacja ogrodu,2,Posadź pierwsze rośliny,false
+Pielęgnacja ogrodu,3,Stwórz własną kompozycję ogrodową,false
+Pilates,1,Poznaj podstawowe pozycje,false
+Pilates,2,Ustal rutynę ćwiczeń,false
+Pilates,3,Wykonaj zaawansowaną sekwencję,false
+Pisanie bloga,1,Wybierz tematykę bloga,false
+Pisanie bloga,2,Opublikuj pierwsze artykuły,false
+Pisanie bloga,3,Zbuduj społeczność czytelników,false
+Pisanie listów odręcznych,1,Wybierz odpowiednie przybory do pisania,false
+Pisanie listów odręcznych,2,Napisz pierwszy list,false
+Pisanie listów odręcznych,3,Opanuj sztukę kaligrafii,false
+Pisanie opowiadań,1,Stwórz zarys pierwszej historii,false
+Pisanie opowiadań,2,Napisz krótkie opowiadanie,false
+Pisanie opowiadań,3,Opublikuj swoje dzieło,false
+Pisanie poezji,1,Poznaj podstawowe środki poetyckie,false
+Pisanie poezji,2,Napisz pierwszy wiersz,false
+Pisanie poezji,3,Weź udział w slam poetry,false
+Pisanie scenariuszy,1,Poznaj format scenariusza,false
+Pisanie scenariuszy,2,Napisz pierwszą scenę,false
+Pisanie scenariuszy,3,Ukończ pełny scenariusz,false
