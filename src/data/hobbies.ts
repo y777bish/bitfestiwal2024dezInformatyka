@@ -369,7 +369,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "degustacja_kawy_herbaty": {
     "id": "degustacja_kawy_herbaty",
     "name": "Degustacja kawy/herbaty",
-    "category": "kulinaria",
+    "category": "kulinaria_i_napoje",
     "description": "Sztuka smakowania i oceniania różnych odmian kawy i herbaty. To hobby obejmuje rozwijanie wyrafinowanego podniebienia i zrozumienie niuansów metod parzenia, pochodzenia i profili smakowych.",
     "imageUrl": "/images/degustacja_kawy_herbaty.jpeg",
     "attributes": {
@@ -442,7 +442,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "kolekcjonowanie_figurek": {
     "id": "kolekcjonowanie_figurek",
     "name": "Kolekcjonowanie figurek",
-    "category": "kolekcjonerstwo",
+    "category": "kolekcjonerstwo_i_antyki",
     "description": "Systematyczne zbieranie i dbanie o miniaturowe figurki z różnych gatunków lub motywów. To hobby obejmuje badanie, pozyskiwanie i eksponowanie kolekcjonerskich figurek oraz zrozumienie ich historycznego lub kulturowego znaczenia.",
     "imageUrl": "/images/kolekcjonowanie_figurek.jpeg",
     "attributes": {
@@ -505,9 +505,9 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       },
       {
         "id": "3",
-        "name": "Kolekcjonerstwo",
+        "name": "kolekcjonerstwo_i_antyki",
         "description": "Historia kolekcjonerstwa figurek",
-        "url": "https://wikipedia.org/wiki/Kolekcjonerstwo",
+        "url": "https://wikipedia.org/wiki/kolekcjonerstwo_i_antyki",
         "type": "wikipedia"
       }
     ]
@@ -515,7 +515,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "kolekcjonowanie_monet": {
     "id": "kolekcjonowanie_monet",
     "name": "Kolekcjonowanie monet",
-    "category": "kolekcjonerstwo",
+    "category": "kolekcjonerstwo_i_antyki",
     "description": "Systematyczne zbieranie i studiowanie monet z różnych okresów i regionów. To hobby łączy badania historyczne z emocjami związanymi z znajdowaniem rzadkich okazów i zrozumieniem ich monetarnego i kulturowego znaczenia.",
     "imageUrl": "/images/kolekcjonowanie_monet.jpeg",
     "attributes": {
@@ -661,7 +661,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "tworzenie_aplikacji_mobilnych": {
     "id": "tworzenie_aplikacji_mobilnych",
     "name": "Tworzenie aplikacji mobilnych",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Rozwój aplikacji na urządzenia mobilne przy użyciu języków programowania i narzędzi deweloperskich. Ten kreatywny proces obejmuje projektowanie interfejsów użytkownika, pisanie kodu i rozwiązywanie wyzwań technicznych.",
     "imageUrl": "/images/tworzenie_aplikacji_mobilnych.jpeg",
     "attributes": {
@@ -734,7 +734,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "tworzenie_stron_internetowych": {
     "id": "tworzenie_stron_internetowych",
     "name": "Tworzenie stron internetowych",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Projektowanie i budowanie stron internetowych przy użyciu różnych technologii i języków programowania. Ta dziedzina łączy umiejętności techniczne z projektowaniem wizualnym i zrozumieniem potrzeb użytkownika.",
     "imageUrl": "/images/tworzenie_stron_internetowych.jpeg",
     "attributes": {
@@ -953,7 +953,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "animacja_poklatkowa": {
     "id": "animacja_poklatkowa",
     "name": "Animacja poklatkowa",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Tworzenie filmów animowanych poprzez wykonywanie serii pojedynczych zdjęć. Ta forma sztuki wymaga cierpliwości i precyzji w tworzeniu płynnego ruchu z nieruchomych obiektów.",
     "imageUrl": "/images/animacja_poklatkowa.jpeg",
     "attributes": {
@@ -2194,7 +2194,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "degustacja_win": {
     "id": "degustacja_win",
     "name": "Degustacja win",
-    "category": "kulinaria",
+    "category": "kulinaria_i_napoje",
     "description": "Profesjonalne smakowanie i ocenianie różnych rodzajów win. To hobby wymaga rozwijania wyrafinowanego podniebienia i znajomości winiarstwa.",
     "imageUrl": "/images/degustacja_win.jpeg",
     "attributes": {
@@ -2267,7 +2267,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "dekorowanie_ciast_artystycznych": {
     "id": "dekorowanie_ciast_artystycznych",
     "name": "Dekorowanie ciast artystycznych",
-    "category": "kulinaria",
+    "category": "kulinaria_i_napoje",
     "description": "Tworzenie ozdobnych wypieków z wykorzystaniem różnych technik dekoracyjnych. To hobby łączy umiejętności cukiernicze z artystyczną ekspresją.",
     "imageUrl": "/images/dekorowanie_ciast_artystycznych.jpeg",
     "attributes": {
@@ -2413,7 +2413,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "detekcja_metali_poszukiwanie_skarbów": {
     "id": "detekcja_metali_poszukiwanie_skarbów",
     "name": "Detekcja metali (poszukiwanie skarbów)",
-    "category": "kolekcjonerstwo",
+    "category": "kolekcjonerstwo_i_antyki",
     "description": "Poszukiwanie metalowych przedmiotów w ziemi za pomocą wykrywacza metali. To hobby łączy eksplorację z możliwością odkrycia historycznych artefaktów.",
     "imageUrl": "/images/detekcja_metali_poszukiwanie_skarbów.jpeg",
     "attributes": {
@@ -2526,7 +2526,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "filmowanie_amatorskie": {
     "id": "filmowanie_amatorskie",
     "name": "Filmowanie amatorskie",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Tworzenie własnych materiałów filmowych przy użyciu różnych technik i sprzętu. To hobby łączy umiejętności techniczne z artystyczną wizją.",
     "imageUrl": "/images/filmowanie_amatorskie.jpeg",
     "attributes": {
@@ -3030,7 +3030,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "gotowanie": {
     "id": "gotowanie",
     "name": "Gotowanie",
-    "category": "kulinaria",
+    "category": "kulinaria_i_napoje",
     "description": "Przyrządzanie potraw z różnych składników i według różnych przepisów. To hobby pozwala na kulinarną ekspresję i eksperymentowanie z różnymi smakami.",
     "imageUrl": "/images/gotowanie.jpeg",
     "attributes": {
@@ -3345,7 +3345,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "grafika_komputerowa": {
     "id": "grafika_komputerowa",
     "name": "Grafika komputerowa",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Tworzenie i edycja obrazów cyfrowych przy użyciu specjalistycznego oprogramowania. To hobby łączy umiejętności techniczne z artystyczną wizją.",
     "imageUrl": "/images/grafika_komputerowa.jpeg",
     "attributes": {
@@ -3850,7 +3850,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "id": "hodowla_mikroliści",
     "name": "Hodowla mikroliści",
     "category": "przyroda_i_ogrodnictwo",
-    "description": "Uprawa młodych roślin jadalnych w początkowej fazie wzrostu. To hobby łączy ogrodnictwo z kulinariami.",
+    "description": "Uprawa młodych roślin jadalnych w początkowej fazie wzrostu. To hobby łączy ogrodnictwo z kulinaria_i_napojemi.",
     "imageUrl": "/images/hodowla_mikroliści.jpeg",
     "attributes": {
       "physicalActivityLevel": 2,
@@ -4025,7 +4025,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "inżynieria_dźwięku": {
     "id": "inżynieria_dźwięku",
     "name": "Inżynieria dźwięku",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Nagrywanie, miksowanie i produkcja materiałów dźwiękowych. To hobby wymaga dobrego słuchu muzycznego i znajomości sprzętu audio.",
     "imageUrl": "/images/inżynieria_dźwięku.jpeg",
     "attributes": {
@@ -4680,7 +4680,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "kolekcjonowanie_znaczków": {
     "id": "kolekcjonowanie_znaczków",
     "name": "Kolekcjonowanie znaczków",
-    "category": "kolekcjonerstwo",
+    "category": "kolekcjonerstwo_i_antyki",
     "description": "Zbieranie i katalogowanie znaczków pocztowych z różnych okresów i krajów. To hobby wymaga wiedzy filatelistycznej i systematyczności.",
     "imageUrl": "/images/kolekcjonowanie_znaczków.jpeg",
     "attributes": {
@@ -5436,7 +5436,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "modelowanie_3d": {
     "id": "modelowanie_3d",
     "name": "Modelowanie 3D",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Tworzenie trójwymiarowych modeli cyfrowych przy użyciu specjalistycznego oprogramowania. To hobby łączy umiejętności techniczne z artystyczną wizją.",
     "imageUrl": "/images/modelowanie_3d.jpeg",
     "attributes": {
@@ -5562,7 +5562,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "nauka_ai_i_machine_learning": {
     "id": "nauka_ai_i_machine_learning",
     "name": "Nauka AI i machine learning",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Studiowanie i praktyczne zastosowanie sztucznej inteligencji i uczenia maszynowego. To hobby wymaga znajomości programowania i matematyki.",
     "imageUrl": "/images/nauka_ai_i_machine_learning.jpeg",
     "attributes": {
@@ -5688,7 +5688,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "nauka_kodowania": {
     "id": "nauka_kodowania",
     "name": "Nauka kodowania",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Nauka programowania w różnych językach komputerowych. To hobby rozwija logiczne myślenie i umiejętność rozwiązywania problemów.",
     "imageUrl": "/images/nauka_kodowania.jpeg",
     "attributes": {
@@ -5940,7 +5940,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "obróbka_wideo": {
     "id": "obróbka_wideo",
     "name": "Obróbka wideo",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Edycja i montaż materiałów filmowych przy użyciu specjalistycznego oprogramowania. To hobby wymaga kreatywności i znajomości technik filmowych.",
     "imageUrl": "/images/obróbka_wideo.jpeg",
     "attributes": {
@@ -6003,7 +6003,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "obróbka_zdjęć": {
     "id": "obróbka_zdjęć",
     "name": "Obróbka zdjęć",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Cyfrowa edycja i modyfikacja fotografii przy użyciu programów graficznych. To hobby pozwala na twórcze przekształcanie zdjęć i tworzenie unikalnych obrazów.",
     "imageUrl": "/images/obróbka_zdjęć.jpeg",
     "attributes": {
@@ -6759,7 +6759,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "pieczenie": {
     "id": "pieczenie",
     "name": "Pieczenie",
-    "category": "kulinaria",
+    "category": "kulinaria_i_napoje",
     "description": "Przygotowywanie różnego rodzaju wypieków i deserów. To hobby pozwala na kulinarną kreację i dzielenie się efektami z innymi.",
     "imageUrl": "/images/pieczenie.jpeg",
     "attributes": {
@@ -6822,7 +6822,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "pieczenie_chleba_na_zakwasie": {
     "id": "pieczenie_chleba_na_zakwasie",
     "name": "Pieczenie chleba na zakwasie",
-    "category": "kulinaria",
+    "category": "kulinaria_i_napoje",
     "description": "Wypiekanie tradycyjnego chleba z wykorzystaniem naturalnego zakwasu. To hobby wymaga cierpliwości i zrozumienia procesu fermentacji.",
     "imageUrl": "/images/pieczenie_chleba_na_zakwasie.jpeg",
     "attributes": {
@@ -7011,7 +7011,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "pisanie_bloga": {
     "id": "pisanie_bloga",
     "name": "Pisanie bloga",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Prowadzenie własnej strony internetowej z regularnymi wpisami na wybrane tematy. To hobby pozwala dzielić się wiedzą i przemyśleniami z innymi.",
     "imageUrl": "/images/pisanie_bloga.jpeg",
     "attributes": {
@@ -7467,7 +7467,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "rogramowanie": {
     "id": "rogramowanie",
     "name": "rogramowanie",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Tworzenie programów komputerowych w różnych językach programowania. To hobby rozwija logiczne myślenie i umiejętność rozwiązywania problemów.",
     "imageUrl": "/images/rogramowanie.jpeg",
     "attributes": {
@@ -7492,7 +7492,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "projektowanie_gier": {
     "id": "projektowanie_gier",
     "name": "Projektowanie gier",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Tworzenie własnych gier komputerowych lub planszowych. To hobby łączy umiejętności programistyczne z kreatywnym projektowaniem.",
     "imageUrl": "/images/projektowanie_gier.jpeg",
     "attributes": {
@@ -7774,7 +7774,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "prowadzenie_kanału_youtube": {
     "id": "prowadzenie_kanału_youtube",
     "name": "Prowadzenie kanału YouTube",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Tworzenie i publikowanie własnych materiałów wideo w internecie. To hobby wymaga umiejętności filmowych i zdolności prezentacyjnych.",
     "imageUrl": "/images/prowadzenie_kanału_youtube.jpeg",
     "attributes": {
@@ -7821,7 +7821,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "prowadzenie_podcastu": {
     "id": "prowadzenie_podcastu",
     "name": "Prowadzenie podcastu",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Nagrywanie i publikowanie własnych audycji dźwiękowych. To hobby wymaga umiejętności komunikacyjnych i podstawowej wiedzy technicznej.",
     "imageUrl": "/images/prowadzenie_podcastu.jpeg",
     "attributes": {
@@ -8056,7 +8056,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "ręczne_wytwarzanie_makaronu": {
     "id": "ręczne_wytwarzanie_makaronu",
     "name": "Ręczne wytwarzanie makaronu",
-    "category": "kulinaria",
+    "category": "kulinaria_i_napoje",
     "description": "Przygotowywanie różnych rodzajów makaronu od podstaw. To hobby łączy umiejętności kulinarne z tradycyjnym rzemiosłem.",
     "imageUrl": "/images/ręczne_wytwarzanie_makaronu.jpeg",
     "attributes": {
@@ -8197,7 +8197,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "robotyka": {
     "id": "robotyka",
     "name": "Robotyka",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Budowanie i programowanie robotów z różnych komponentów. To hobby łączy wiedzę z elektroniki, mechaniki i programowania.",
     "imageUrl": "/images/robotyka.jpeg",
     "attributes": {
@@ -8291,7 +8291,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "rozwój_umiejętności_barmańskich": {
     "id": "rozwój_umiejętności_barmańskich",
     "name": "Rozwój umiejętności barmańskich",
-    "category": "kulinaria",
+    "category": "kulinaria_i_napoje",
     "description": "Nauka przygotowywania i serwowania napojów i koktajli. To hobby łączy wiedzę o napojach z umiejętnościami pokazowymi i obsługą klienta.",
     "imageUrl": "/images/rozwój_umiejętności_barmańskich.jpeg",
     "attributes": {
@@ -8808,7 +8808,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "streamowanie_gier": {
     "id": "streamowanie_gier",
     "name": "Streamowanie gier",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Transmitowanie na żywo rozgrywki w gry komputerowe dla widzów online. To hobby wymaga umiejętności technicznych i zdolności entertainera.",
     "imageUrl": "/images/streamowanie_gier.jpeg",
     "attributes": {
@@ -9325,7 +9325,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "testowanie_oprogramowania": {
     "id": "testowanie_oprogramowania",
     "name": "Testowanie oprogramowania",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Sprawdzanie działania programów komputerowych i wyszukiwanie błędów. To hobby wymaga dokładności i umiejętności analitycznego myślenia.",
     "imageUrl": "/images/testowanie_oprogramowania.jpeg",
     "attributes": {
@@ -9466,7 +9466,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "tworzenie_chatbotów": {
     "id": "tworzenie_chatbotów",
     "name": "Tworzenie chatbotów",
-    "category": "technologia",
+    "category": "technologia_i_media",
     "description": "Programowanie automatycznych systemów konwersacyjnych. To hobby wymaga znajomości programowania i zasad sztucznej inteligencji.",
     "imageUrl": "/images/tworzenie_chatbotów.jpeg",
     "attributes": {
@@ -9504,7 +9504,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       {
         "id": "3",
         "name": "Chatbot",
-        "description": "Technologia chatbotów",
+        "description": "technologia_i_media chatbotów",
         "url": "https://wikipedia.org/wiki/Chatbot",
         "type": "wikipedia"
       }
@@ -10478,7 +10478,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "wspólne_gotowanie": {
     "id": "wspólne_gotowanie",
     "name": "Wspólne gotowanie",
-    "category": "kulinaria",
+    "category": "kulinaria_i_napoje",
     "description": "Przygotowywanie posiłków w grupie znajomych lub rodziny. To hobby łączy przyjemność gotowania z aspektami społecznymi.",
     "imageUrl": "/images/wspólne_gotowanie.jpeg",
     "attributes": {
@@ -10515,9 +10515,9 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       },
       {
         "id": "3",
-        "name": "Kulinaria",
+        "name": "kulinaria_i_napoje",
         "description": "Techniki gotowania",
-        "url": "https://wikipedia.org/wiki/Kulinaria",
+        "url": "https://wikipedia.org/wiki/kulinaria_i_napoje",
         "type": "wikipedia"
       }
     ]
@@ -10619,7 +10619,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "zbieranie_minerałów_i_kamieni_szlachetnych": {
     "id": "zbieranie_minerałów_i_kamieni_szlachetnych",
     "name": "Zbieranie minerałów i kamieni szlachetnych",
-    "category": "kolekcjonerstwo",
+    "category": "kolekcjonerstwo_i_antyki",
     "description": "Kolekcjonowanie i identyfikacja różnych rodzajów minerałów. To hobby wymaga wiedzy geologicznej i umiejętności rozpoznawania skał.",
     "imageUrl": "/images/zbieranie_minerałów_i_kamieni_szlachetnych.jpeg",
     "attributes": {
@@ -10713,7 +10713,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "zbieranie_starych_map": {
     "id": "zbieranie_starych_map",
     "name": "Zbieranie starych map",
-    "category": "kolekcjonerstwo",
+    "category": "kolekcjonerstwo_i_antyki",
     "description": "Kolekcjonowanie historycznych map i atlasów. To hobby wymaga wiedzy kartograficznej i historycznej.",
     "imageUrl": "/images/zbieranie_starych_map.jpeg",
     "attributes": {

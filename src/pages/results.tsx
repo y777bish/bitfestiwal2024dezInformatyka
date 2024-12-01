@@ -165,7 +165,7 @@ export default function HobbyDetail() {
           <div className="flex flex-row flex-wrap gap-6">
             {result.filter(({ label }: any) => label !== mainResultLabel).map((hobby: any) => {
               const data = hobbiesData[hobby.label];
-              console.log(data, categoryLookup[data.category])
+              console.log(data.category, categoryLookup[data.category])
               return (
 
               <div key={hobby.label} onClick={() => handleQuickHobby(hobby.label)} className="min-w-[25%] relative h-40 flex-grow flex-shrink-0 basis-[1/4] bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-110 hover:cursor-pointer">
