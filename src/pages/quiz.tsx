@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import Layout from "../components/Layout";
 import { questions } from "../data/questions";
 import { HobbyDetail } from "@/types/hobby";
+import Link from "next/link";
 
 const knn = getKnn();
 
@@ -73,6 +74,36 @@ export default function Quiz() {
   }
 
   console.log({ treeData, k: knn.eliminateWithPredicted(currentAnswers), c: knn.predict(currentAnswers), d: knn.eliminateVisual(currentAnswers) })
+
+  const gotoCategory = (categoryId: string) => {
+    router.push({
+      pathname: `/category/${categoryId}`,
+      query: {
+        savedAnswers: JSON.stringify(currentAnswers),
+      },
+    });
+  }
+
+  const handleQuickHobby = (mainResultLabel: string) => {
+    console.log({ mainResultLabel })
+    router.push({
+      pathname: `/results`,
+      query: {
+        mainResultLabel,
+        savedAnswers: JSON.stringify(currentAnswers),
+      },
+    });
+  }
+
+  const handleRemaining = (categoryId: string) => {
+    router.push({
+      pathname: `/category/${categoryId}`,
+      query: {
+        answers: JSON.stringify(currentAnswers),
+        savedAnswers: JSON.stringify(currentAnswers),
+      },
+    });
+  }
 
   return (
     <Layout>
@@ -217,33 +248,36 @@ export default function Quiz() {
                 <>
                   {categoryNode.nodes.length !== 0 ? (
                     <>
-                    <div
-                      className={`p-4 rounded ${categoryNode.color.indicator}`}
-                      key={categoryNode.id}
-                    >
-                      {categoryNode.text}
-                    </div>
-                    {categoryNode.nodes.slice(0, 5).map((hobbyNode: HobbyDetail) => (
                       <div
-                        className="pl-8 flex gap-4"  
-                        key={hobbyNode.name}
+                        onClick={() => gotoCategory(categoryNode.id)}
+                        className={`p-4 rounded cursor-pointer ${categoryNode.color.indicator}`}
+                        key={categoryNode.id}
                       >
-                        <div className={`p-1 ${categoryNode.color.indicator}`}></div>
-                        {hobbyNode.name}
+                        {categoryNode.text}
                       </div>
-                    ))}
-                    {categoryNode.nodes.length > 5 && (
-                      <div
-                        className="pl-8 flex gap-4"  
-                      >
-                        <div className={`p-1 ${categoryNode.color.indicator}`}></div>
-                        wyświetl {categoryNode.nodes.length - 5} schowanych
-                      </div>
-                    )}
-                  </>
-                ) : null}
-              </>
-            ))}
+                      {categoryNode.nodes.slice(0, 5).map((hobbyNode: HobbyDetail) => (
+                        <div
+                          onClick={() => handleQuickHobby(hobbyNode.id)}
+                          className="pl-8 flex gap-4 cursor-pointer"  
+                          key={hobbyNode.name}
+                        >
+                          <div className={`p-1 ${categoryNode.color.indicator}`}></div>
+                          {hobbyNode.name}
+                        </div>
+                      ))}
+                      {categoryNode.nodes.length > 5 && (
+                        <div
+                          onClick={() => handleRemaining(categoryNode.id)}
+                          className="pl-8 flex gap-4 cursor-pointer"  
+                        >
+                          <div className={`p-1 ${categoryNode.color.indicator}`}></div>
+                          Wyświetl wszystkie ({categoryNode.nodes.length - 5} więcej)
+                        </div>
+                      )}
+                    </>
+                  ) : null}
+                </>
+              ))}
             </div>
           </div>
         </div>

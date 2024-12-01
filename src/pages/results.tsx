@@ -7,23 +7,24 @@ import { useState } from "react";
 import Layout from "../components/Layout";
 import { hobbiesData } from "../data/hobbies";
 import { categoryLookup } from "@/data/categories";
+import { getKnn } from "@/utils/predict-hobby";
+
+const knn = getKnn()
 
 export default function HobbyDetail() {
   const router = useRouter();
   const knnResultString = router.query.knnResult as string;
   const answersString = router.query.answers as string;
   const mainResultLabel = router.query.mainResultLabel as string;
-
-  const result = knnResultString ? JSON.parse(knnResultString) : [];
-  const answers = answersString ? JSON.parse(answersString) : [];
+  const hobby = Object.values(hobbiesData).find(({ id }) => id === mainResultLabel);
   const [tasks, setTasks] = useState<Task[]>([]);
+  const savedAnswersString = router.query.savedAnswers as string;
 
-  if (!knnResultString) {
+  if (!hobbiesData[mainResultLabel]) {
     return null
   }
-  const hobbyLabel = mainResultLabel;
-  console.log({ hobbyLabel })
-  const hobby = Object.values(hobbiesData).find(({ id }) => id === hobbyLabel);
+  const result = knnResultString ? JSON.parse(knnResultString) : knn.predict(Object.values(hobbiesData[mainResultLabel].attributes));
+  const answers = answersString ? JSON.parse(answersString) : [];
 
   if (!hobby) {
     return (
@@ -45,16 +46,29 @@ export default function HobbyDetail() {
 
   console.log({ answers })
 
-  const handleSwitchResult = (mainResultLabel: string) => {
+  const handleQuickHobby = (mainResultLabel: string) => {
+    console.log({ mainResultLabel })
+    router.push({
+      pathname: `/results`,
+      query: {
+        mainResultLabel,
+      },
+    });
+  }
+
+
+  const savedAnswers = savedAnswersString ? JSON.parse(savedAnswersString) : null
+
+  const handleBack = () => {
     router.push(
       {
-        pathname: "/results",
-        query: { ...router.query, mainResultLabel },
+        pathname: "/quiz",
+        query: { answers: JSON.stringify(savedAnswers) },
       },
       undefined,
-      { shallow: true, scroll: true },
+      { shallow: true },
     );
-  }
+  };
 
   return (
     <Layout>
@@ -76,7 +90,29 @@ export default function HobbyDetail() {
             {hobby.name}
           </h1>
         </div>
-
+        {savedAnswers && (
+        <button
+          onClick={handleBack}
+          className="my-8 flex items-center text-indigo-600 hover:text-indigo-800 transition-colors"
+          aria-label="Wróć do poprzedniego pytania"
+        >
+          <svg
+            className="w-5 h-5 mr-2"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M15 19l-7-7 7-7"
+            />
+          </svg>
+          wróć do quizu
+        </button>
+      )}
         {/* Attributes Grid */}
         <div className="bg-white rounded-xl shadow-lg p-6">
           <h2 className="text-2xl font-bold text-gray-900 flex items-center">
@@ -104,19 +140,21 @@ export default function HobbyDetail() {
                     {value as number}/4
                   </span>
                 </div>
-                <div className="mt-1 flex items-center">
-                  {[1, 2, 3, 4].map((level) => (
-                    <div
-                      key={level}
-                      className={`h-2 w-4 mr-1 rounded-full ${
-                        level <= answers[index] ? "bg-emerald-500" : "bg-gray-200"
-                      }`}
-                    />
-                  ))}
-                  <span className="ml-2 text-sm font-medium text-gray-700">
-                    {answers[index]}/4
-                  </span>
-                </div>
+                {answersString && (
+                  <div className="mt-1 flex items-center">
+                    {[1, 2, 3, 4].map((level) => (
+                      <div
+                        key={level}
+                        className={`h-2 w-4 mr-1 rounded-full ${
+                          level <= answers[index] ? "bg-emerald-500" : "bg-gray-200"
+                        }`}
+                      />
+                    ))}
+                    <span className="ml-2 text-sm font-medium text-gray-700">
+                      {answers[index]}/4
+                    </span>
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -129,7 +167,7 @@ export default function HobbyDetail() {
               console.log(hobby.label, categoryLookup[data.category])
               return (
 
-              <div key={hobby.label} onClick={() => handleSwitchResult(hobby.label)} className="min-w-[25%] relative h-40 flex-grow flex-shrink-0 basis-[1/4] bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-110 hover:cursor-pointer">
+              <div key={hobby.label} onClick={() => handleQuickHobby(hobby.label)} className="min-w-[25%] relative h-40 flex-grow flex-shrink-0 basis-[1/4] bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-110 hover:cursor-pointer">
                 <div className={`p-2 ${categoryLookup[data.category].color.bg}`} />
                 <Image
                   src={hobby.imageUrl}
