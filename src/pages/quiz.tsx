@@ -1,4 +1,5 @@
 import { getKnn } from "@/utils/predict-hobby";
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useAuth } from "@clerk/nextjs";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 import { useRouter } from "next/router";
@@ -39,7 +40,7 @@ export default function Quiz() {
         query: {
           answers: JSON.stringify(currentAnswers),
           knnResult: JSON.stringify(knnresults),
-          mainResultLabel: knnresults[0].label,
+          mainResultLabel: knnresults[0].label
         },
       });
       return;
@@ -70,6 +71,8 @@ export default function Quiz() {
   if (!isLoaded || !userId) {
     return null;
   }
+
+  console.log({ treeData, k: knn.eliminateWithPredicted(currentAnswers), c: knn.predict(currentAnswers), d: knn.eliminateVisual(currentAnswers) })
 
   return (
     <Layout>
