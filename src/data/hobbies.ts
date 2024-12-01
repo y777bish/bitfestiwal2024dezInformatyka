@@ -1,4 +1,4 @@
-import { HobbyDetail } from "../types/hobby";
+import { HobbyDetail } from '../types/hobby';
 
 export const hobbiesData: Record<string, HobbyDetail> = {
   "krzyżówki_łamigłówki_logiczne": {
@@ -77,7 +77,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "narciarstwo": {
     "id": "narciarstwo",
     "name": "Narciarstwo",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Sport zimowy polegający na jeździe na nartach po śniegu. Ta aktywność łączy ćwiczenia fizyczne z emocjami związanymi z jazdą w dół stoku i wymaga opanowania równowagi oraz techniki.",
     "imageUrl": "/images/narciarstwo.jpeg",
     "attributes": {
@@ -150,8 +150,8 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "wyrób_świec_mydeł": {
     "id": "wyrób_świec_mydeł",
     "name": "Wyrób świec / mydeł",
-    "category": "rzemioslo",
-    "description": "rzemioslo polegające na ręcznym wytwarzaniu świec i mydeł z różnych materiałów. Ten kreatywny proces pozwala na eksperymentowanie z różnymi zapachami, kolorami i kształtami, tworząc praktyczne przedmioty.",
+    "category": "rzemiosło",
+    "description": "Rzemiosło polegające na ręcznym wytwarzaniu świec i mydeł z różnych materiałów. Ten kreatywny proces pozwala na eksperymentowanie z różnymi zapachami, kolorami i kształtami, tworząc praktyczne przedmioty.",
     "imageUrl": "/images/wyrób_świec_mydeł.jpeg",
     "attributes": {
       "physicalActivityLevel": 2,
@@ -223,7 +223,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "windsurfing": {
     "id": "windsurfing",
     "name": "Windsurfing",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Sport wodny łączący elementy surfingu i żeglarstwa przy użyciu deski z żaglem. Ta dynamiczna aktywność wymaga równowagi, siły i zrozumienia warunków wiatrowych.",
     "imageUrl": "/images/windsurfing.jpeg",
     "attributes": {
@@ -296,7 +296,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "tradycyjne_sporty_walki": {
     "id": "tradycyjne_sporty_walki",
     "name": "Tradycyjne sporty walki",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Starożytne formy walki uprawiane dla sprawności fizycznej, samoobrony i rozwoju duchowego. Te dyscypliny często łączą techniki fizyczne z zasadami filozoficznymi i dyscypliną mentalną.",
     "imageUrl": "/images/tradycyjne_sporty_walki.jpeg",
     "attributes": {
@@ -369,7 +369,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "degustacja_kawy_herbaty": {
     "id": "degustacja_kawy_herbaty",
     "name": "Degustacja kawy/herbaty",
-    "category": "kulinaria_i_napoje",
+    "category": "kulinaria",
     "description": "Sztuka smakowania i oceniania różnych odmian kawy i herbaty. To hobby obejmuje rozwijanie wyrafinowanego podniebienia i zrozumienie niuansów metod parzenia, pochodzenia i profili smakowych.",
     "imageUrl": "/images/degustacja_kawy_herbaty.jpeg",
     "attributes": {
@@ -442,7 +442,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "kolekcjonowanie_figurek": {
     "id": "kolekcjonowanie_figurek",
     "name": "Kolekcjonowanie figurek",
-    "category": "kolekcjonerstwo_i_antyki",
+    "category": "kolekcjonerstwo",
     "description": "Systematyczne zbieranie i dbanie o miniaturowe figurki z różnych gatunków lub motywów. To hobby obejmuje badanie, pozyskiwanie i eksponowanie kolekcjonerskich figurek oraz zrozumienie ich historycznego lub kulturowego znaczenia.",
     "imageUrl": "/images/kolekcjonowanie_figurek.jpeg",
     "attributes": {
@@ -505,9 +505,9 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       },
       {
         "id": "3",
-        "name": "kolekcjonerstwo_i_antyki",
+        "name": "Kolekcjonerstwo",
         "description": "Historia kolekcjonerstwa figurek",
-        "url": "https://wikipedia.org/wiki/kolekcjonerstwo_i_antyki",
+        "url": "https://wikipedia.org/wiki/Kolekcjonerstwo",
         "type": "wikipedia"
       }
     ]
@@ -515,7 +515,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "kolekcjonowanie_monet": {
     "id": "kolekcjonowanie_monet",
     "name": "Kolekcjonowanie monet",
-    "category": "kolekcjonerstwo_i_antyki",
+    "category": "kolekcjonerstwo",
     "description": "Systematyczne zbieranie i studiowanie monet z różnych okresów i regionów. To hobby łączy badania historyczne z emocjami związanymi z znajdowaniem rzadkich okazów i zrozumieniem ich monetarnego i kulturowego znaczenia.",
     "imageUrl": "/images/kolekcjonowanie_monet.jpeg",
     "attributes": {
@@ -588,8 +588,8 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "robótki_ręczne_szydełkowanie_haftowanie": {
     "id": "robótki_ręczne_szydełkowanie_haftowanie",
     "name": "Robótki ręczne (szydełkowanie haftowanie)",
-    "category": "rzemioslo",
-    "description": "Tworzenie dekoracyjnych i funkcjonalnych przedmiotów przy użyciu technik robótek ręcznych. To tradycyjne rzemioslo pozwala na osobistą ekspresję podczas tworzenia unikalnych tekstyliów.",
+    "category": "sztuka",
+    "description": "Tworzenie dekoracyjnych i funkcjonalnych przedmiotów przy użyciu technik robótek ręcznych. To tradycyjne rzemiosło pozwala na osobistą ekspresję podczas tworzenia unikalnych tekstyliów.",
     "imageUrl": "/images/robótki_ręczne_szydełkowanie_haftowanie.jpeg",
     "attributes": {
       "physicalActivityLevel": 2,
@@ -661,7 +661,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "tworzenie_aplikacji_mobilnych": {
     "id": "tworzenie_aplikacji_mobilnych",
     "name": "Tworzenie aplikacji mobilnych",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Rozwój aplikacji na urządzenia mobilne przy użyciu języków programowania i narzędzi deweloperskich. Ten kreatywny proces obejmuje projektowanie interfejsów użytkownika, pisanie kodu i rozwiązywanie wyzwań technicznych.",
     "imageUrl": "/images/tworzenie_aplikacji_mobilnych.jpeg",
     "attributes": {
@@ -734,7 +734,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "tworzenie_stron_internetowych": {
     "id": "tworzenie_stron_internetowych",
     "name": "Tworzenie stron internetowych",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Projektowanie i budowanie stron internetowych przy użyciu różnych technologii i języków programowania. Ta dziedzina łączy umiejętności techniczne z projektowaniem wizualnym i zrozumieniem potrzeb użytkownika.",
     "imageUrl": "/images/tworzenie_stron_internetowych.jpeg",
     "attributes": {
@@ -953,7 +953,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "animacja_poklatkowa": {
     "id": "animacja_poklatkowa",
     "name": "Animacja poklatkowa",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Tworzenie filmów animowanych poprzez wykonywanie serii pojedynczych zdjęć. Ta forma sztuki wymaga cierpliwości i precyzji w tworzeniu płynnego ruchu z nieruchomych obiektów.",
     "imageUrl": "/images/animacja_poklatkowa.jpeg",
     "attributes": {
@@ -1026,7 +1026,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "astrofotografia": {
     "id": "astrofotografia",
     "name": "Astrofotografia",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Fotografowanie obiektów astronomicznych i zjawisk na niebie. To hobby łączy wiedzę astronomiczną z zaawansowanymi technikami fotograficznymi.",
     "imageUrl": "/images/astrofotografia.jpeg",
     "attributes": {
@@ -1099,7 +1099,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "badanie_archiwów_lokalnych": {
     "id": "badanie_archiwów_lokalnych",
     "name": "Badanie archiwów lokalnych",
-    "category": "edukacja_i_rozwoj",
+    "category": "edukacja",
     "description": "Eksploracja i analiza historycznych dokumentów i zapisków w lokalnych archiwach. To hobby pozwala odkrywać fascynujące historie i fakty z przeszłości lokalnej społeczności.",
     "imageUrl": "/images/badanie_archiwów_lokalnych.jpeg",
     "attributes": {
@@ -1245,7 +1245,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "bieganie": {
     "id": "bieganie",
     "name": "Bieganie",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Forma aktywności fizycznej polegająca na przemieszczaniu się biegiem. To uniwersalne hobby pomaga poprawić kondycję i może być uprawiane praktycznie wszędzie.",
     "imageUrl": "/images/bieganie.jpeg",
     "attributes": {
@@ -1391,7 +1391,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "boks": {
     "id": "boks",
     "name": "Boks",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Sport walki polegający na pojedynku na pięści według określonych zasad. Ta dyscyplina rozwija nie tylko sprawność fizyczną, ale także mentalną.",
     "imageUrl": "/images/boks.jpeg",
     "attributes": {
@@ -1464,8 +1464,8 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "bookbinding_artystyczny": {
     "id": "bookbinding_artystyczny",
     "name": "Bookbinding artystyczny",
-    "category": "rzemioslo",
-    "description": "Ręczne oprawianie i tworzenie książek z wykorzystaniem tradycyjnych technik introligatorskich. To rzemioslo łączy funkcjonalność z artystyczną ekspresją.",
+    "category": "sztuka",
+    "description": "Ręczne oprawianie i tworzenie książek z wykorzystaniem tradycyjnych technik introligatorskich. To rzemiosło łączy funkcjonalność z artystyczną ekspresją.",
     "imageUrl": "/images/bookbinding_artystyczny.jpeg",
     "attributes": {
       "physicalActivityLevel": 2,
@@ -1537,7 +1537,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "budowanie_domków_dla_ptaków": {
     "id": "budowanie_domków_dla_ptaków",
     "name": "Budowanie domków dla ptaków",
-    "category": "rzemioslo",
+    "category": "rzemiosło",
     "description": "Projektowanie i konstrukcja schronień dla ptaków z różnych materiałów. To hobby łączy pracę manualną z troską o lokalne środowisko naturalne.",
     "imageUrl": "/images/budowanie_domków_dla_ptaków.jpeg",
     "attributes": {
@@ -1610,7 +1610,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "budowanie_i_malowanie_figurek_do_gier": {
     "id": "budowanie_i_malowanie_figurek_do_gier",
     "name": "Budowanie i malowanie figurek do gier",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Tworzenie i malowanie miniaturowych figurek wykorzystywanych w grach. To hobby wymaga precyzji i cierpliwości w oddawaniu najmniejszych detali.",
     "imageUrl": "/images/budowanie_i_malowanie_figurek_do_gier.jpeg",
     "attributes": {
@@ -1683,7 +1683,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "budowanie_modeli_kolejek": {
     "id": "budowanie_modeli_kolejek",
     "name": "Budowanie modeli kolejek",
-    "category": "rzemioslo",
+    "category": "rzemiosło",
     "description": "Konstruowanie miniaturowych modeli kolei i związanej z nimi infrastruktury. To hobby pozwala na tworzenie szczegółowych dioram i całych systemów kolejowych.",
     "imageUrl": "/images/budowanie_modeli_kolejek.jpeg",
     "attributes": {
@@ -1756,7 +1756,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "budowanie_rakiet_amatorskich": {
     "id": "budowanie_rakiet_amatorskich",
     "name": "Budowanie rakiet amatorskich",
-    "category": "rzemioslo",
+    "category": "rzemiosło",
     "description": "Projektowanie i budowa małych rakiet na potrzeby rekreacyjne. To hobby łączy wiedzę techniczną z praktycznymi umiejętnościami konstrukcyjnymi.",
     "imageUrl": "/images/budowanie_rakiet_amatorskich.jpeg",
     "attributes": {
@@ -1902,7 +1902,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "chór": {
     "id": "chór",
     "name": "Chór",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Grupowe śpiewanie w zorganizowanym zespole wokalnym. To hobby rozwija umiejętności muzyczne i oferuje możliwość występów publicznych.",
     "imageUrl": "/images/chór.jpeg",
     "attributes": {
@@ -1975,7 +1975,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "cosplay": {
     "id": "cosplay",
     "name": "Cosplay",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Przebieranie się i wcielanie w postacie z gier, filmów czy komiksów. To hobby łączy krawiectwo, charakteryzację i elementy aktorstwa.",
     "imageUrl": "/images/cosplay.jpeg",
     "attributes": {
@@ -2048,7 +2048,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "czytanie_książek": {
     "id": "czytanie_książek",
     "name": "Czytanie książek",
-    "category": "edukacja_i_rozwoj",
+    "category": "edukacja",
     "description": "Regularne czytanie różnorodnej literatury dla przyjemności i rozwoju. To hobby poszerza horyzonty i rozwija wyobraźnię.",
     "imageUrl": "/images/czytanie_książek.jpeg",
     "attributes": {
@@ -2194,7 +2194,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "degustacja_win": {
     "id": "degustacja_win",
     "name": "Degustacja win",
-    "category": "kulinaria_i_napoje",
+    "category": "kulinaria",
     "description": "Profesjonalne smakowanie i ocenianie różnych rodzajów win. To hobby wymaga rozwijania wyrafinowanego podniebienia i znajomości winiarstwa.",
     "imageUrl": "/images/degustacja_win.jpeg",
     "attributes": {
@@ -2267,7 +2267,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "dekorowanie_ciast_artystycznych": {
     "id": "dekorowanie_ciast_artystycznych",
     "name": "Dekorowanie ciast artystycznych",
-    "category": "kulinaria_i_napoje",
+    "category": "kulinaria",
     "description": "Tworzenie ozdobnych wypieków z wykorzystaniem różnych technik dekoracyjnych. To hobby łączy umiejętności cukiernicze z artystyczną ekspresją.",
     "imageUrl": "/images/dekorowanie_ciast_artystycznych.jpeg",
     "attributes": {
@@ -2340,7 +2340,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "destylacja_zapachów": {
     "id": "destylacja_zapachów",
     "name": "Destylacja zapachów",
-    "category": "rzemioslo",
+    "category": "rzemiosło",
     "description": "Tworzenie własnych kompozycji zapachowych poprzez proces destylacji. To hobby wymaga wiedzy chemicznej i zrozumienia właściwości różnych składników.",
     "imageUrl": "/images/destylacja_zapachów.jpeg",
     "attributes": {
@@ -2413,7 +2413,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "detekcja_metali_poszukiwanie_skarbów": {
     "id": "detekcja_metali_poszukiwanie_skarbów",
     "name": "Detekcja metali (poszukiwanie skarbów)",
-    "category": "kolekcjonerstwo_i_antyki",
+    "category": "kolekcjonerstwo",
     "description": "Poszukiwanie metalowych przedmiotów w ziemi za pomocą wykrywacza metali. To hobby łączy eksplorację z możliwością odkrycia historycznych artefaktów.",
     "imageUrl": "/images/detekcja_metali_poszukiwanie_skarbów.jpeg",
     "attributes": {
@@ -2432,13 +2432,13 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "initialCost": 3,
       "ongoingCost": 2
     },
-    tasks: [],
-    sources: [],
+    "tasks": [],
+    "sources": []
   },
   "dogtrekking": {
     "id": "dogtrekking",
     "name": "Dogtrekking",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Długodystansowe wędrówki z psem w terenie. To hobby łączy aktywność fizyczną z budowaniem więzi ze zwierzęciem.",
     "imageUrl": "/images/dogtrekking.jpeg",
     "attributes": {
@@ -2457,13 +2457,51 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "initialCost": 3,
       "ongoingCost": 3
     },
-    tasks: [],
-    sources: [],
+    "tasks": [
+      {
+        "id": "1",
+        "title": "Przygotuj sprzęt i psa do trekkingu",
+        "isCompleted": false
+      },
+      {
+        "id": "2",
+        "title": "Ukończ pierwszy szlak 5km",
+        "isCompleted": false
+      },
+      {
+        "id": "3",
+        "title": "Weź udział w zawodach dogtrekkingu",
+        "isCompleted": false
+      }
+    ],
+    "sources": [
+      {
+        "id": "1",
+        "name": "DogSport",
+        "description": "Sporty z psami",
+        "url": "https://youtube.com/dogsport",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "Dogtrekking.pl",
+        "description": "Portal o sporcie z psami",
+        "url": "https://dogtrekking.pl",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Dogtrekking",
+        "description": "Zasady i techniki",
+        "url": "https://wikipedia.org/wiki/Dogtrekking",
+        "type": "wikipedia"
+      }
+    ]
   },
   "eksperymenty_chemiczne": {
     "id": "eksperymenty_chemiczne",
     "name": "Eksperymenty chemiczne",
-    "category": "edukacja_i_rozwoj",
+    "category": "edukacja",
     "description": "Przeprowadzanie bezpiecznych doświadczeń chemicznych w warunkach domowych. To hobby rozwija zrozumienie procesów chemicznych i umiejętności laboratoryjne.",
     "imageUrl": "/images/eksperymenty_chemiczne.jpeg",
     "attributes": {
@@ -2526,7 +2564,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "filmowanie_amatorskie": {
     "id": "filmowanie_amatorskie",
     "name": "Filmowanie amatorskie",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Tworzenie własnych materiałów filmowych przy użyciu różnych technik i sprzętu. To hobby łączy umiejętności techniczne z artystyczną wizją.",
     "imageUrl": "/images/filmowanie_amatorskie.jpeg",
     "attributes": {
@@ -2589,7 +2627,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "filozofia": {
     "id": "filozofia",
     "name": "Filozofia",
-    "category": "edukacja_i_rozwoj",
+    "category": "edukacja",
     "description": "Studiowanie i rozważanie fundamentalnych pytań o istnienie, wiedzę i wartości. To hobby rozwija krytyczne myślenie i głębsze zrozumienie życia.",
     "imageUrl": "/images/filozofia.jpeg",
     "attributes": {
@@ -2652,7 +2690,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "fitness": {
     "id": "fitness",
     "name": "Fitness",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Regularne ćwiczenia fizyczne mające na celu poprawę kondycji i sylwetki. To hobby pomaga utrzymać zdrowie i dobre samopoczucie.",
     "imageUrl": "/images/fitness.jpeg",
     "attributes": {
@@ -2715,7 +2753,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "fotografia": {
     "id": "fotografia",
     "name": "Fotografia",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Tworzenie obrazów przy pomocy aparatu fotograficznego. To hobby pozwala na artystyczne wyrażanie się poprzez uchwycenie wyjątkowych momentów.",
     "imageUrl": "/images/fotografia.jpeg",
     "attributes": {
@@ -2778,7 +2816,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "fotografia_analogowa": {
     "id": "fotografia_analogowa",
     "name": "Fotografia analogowa",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Tworzenie zdjęć przy użyciu tradycyjnych aparatów na kliszę fotograficzną. To hobby wymaga zrozumienia technik ciemniowych i cierpliwości w procesie wywoływania zdjęć.",
     "imageUrl": "/images/fotografia_analogowa.jpeg",
     "attributes": {
@@ -2904,7 +2942,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "genealogia": {
     "id": "genealogia",
     "name": "Genealogia",
-    "category": "edukacja_i_rozwoj",
+    "category": "edukacja",
     "description": "Badanie historii rodziny i tworzenie drzewa genealogicznego. To hobby pozwala odkryć własne korzenie i lepiej zrozumieć historię własnej rodziny.",
     "imageUrl": "/images/genealogia.jpeg",
     "attributes": {
@@ -3030,7 +3068,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "gotowanie": {
     "id": "gotowanie",
     "name": "Gotowanie",
-    "category": "kulinaria_i_napoje",
+    "category": "kulinaria",
     "description": "Przyrządzanie potraw z różnych składników i według różnych przepisów. To hobby pozwala na kulinarną ekspresję i eksperymentowanie z różnymi smakami.",
     "imageUrl": "/images/gotowanie.jpeg",
     "attributes": {
@@ -3093,7 +3131,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "gra_na_gitarze": {
     "id": "gra_na_gitarze",
     "name": "Gra na gitarze",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Nauka i wykonywanie utworów muzycznych na gitarze. To hobby rozwija umiejętności muzyczne i może prowadzić do występów solowych lub zespołowych.",
     "imageUrl": "/images/gra_na_gitarze.jpeg",
     "attributes": {
@@ -3156,7 +3194,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "gra_na_perkusji": {
     "id": "gra_na_perkusji",
     "name": "Gra na perkusji",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Nauka gry na zestawie perkusyjnym i tworzenie rytmów. To hobby wymaga poczucia rytmu i koordynacji ruchowej.",
     "imageUrl": "/images/gra_na_perkusji.jpeg",
     "attributes": {
@@ -3219,7 +3257,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "gra_na_pianinie": {
     "id": "gra_na_pianinie",
     "name": "Gra na pianinie",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Nauka i wykonywanie utworów muzycznych na pianinie lub fortepianie. To hobby rozwija koordynację obu rąk i wrażliwość muzyczną.",
     "imageUrl": "/images/gra_na_pianinie.jpeg",
     "attributes": {
@@ -3282,7 +3320,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "gra_na_ukulele": {
     "id": "gra_na_ukulele",
     "name": "Gra na ukulele",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Nauka gry na małym, czterostrunowym instrumencie pochodzącym z Hawajów. To przyjemne hobby jest stosunkowo łatwe do rozpoczęcia i świetnie nadaje się do akompaniamentu.",
     "imageUrl": "/images/gra_na_ukulele.jpeg",
     "attributes": {
@@ -3345,7 +3383,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "grafika_komputerowa": {
     "id": "grafika_komputerowa",
     "name": "Grafika komputerowa",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Tworzenie i edycja obrazów cyfrowych przy użyciu specjalistycznego oprogramowania. To hobby łączy umiejętności techniczne z artystyczną wizją.",
     "imageUrl": "/images/grafika_komputerowa.jpeg",
     "attributes": {
@@ -3408,8 +3446,8 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "grafika_warsztatowa": {
     "id": "grafika_warsztatowa",
     "name": "Grafika warsztatowa",
-    "category": "rzemioslo",
-    "description": "Tworzenie odbitek graficznych przy użyciu tradycyjnych technik drukarskich. To rzemioslo wymaga znajomości różnych metod i materiałów graficznych.",
+    "category": "sztuka",
+    "description": "Tworzenie odbitek graficznych przy użyciu tradycyjnych technik drukarskich. To rzemiosło wymaga znajomości różnych metod i materiałów graficznych.",
     "imageUrl": "/images/grafika_warsztatowa.jpeg",
     "attributes": {
       "physicalActivityLevel": 2,
@@ -3597,7 +3635,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "historia_sztuki": {
     "id": "historia_sztuki",
     "name": "Historia sztuki",
-    "category": "edukacja_i_rozwoj",
+    "category": "edukacja",
     "description": "Studiowanie rozwoju sztuki na przestrzeni dziejów i różnych kultur. To hobby pozwala lepiej zrozumieć kontekst kulturowy i artystyczny różnych epok.",
     "imageUrl": "/images/historia_sztuki.jpeg",
     "attributes": {
@@ -3850,7 +3888,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
     "id": "hodowla_mikroliści",
     "name": "Hodowla mikroliści",
     "category": "przyroda_i_ogrodnictwo",
-    "description": "Uprawa młodych roślin jadalnych w początkowej fazie wzrostu. To hobby łączy ogrodnictwo z kulinaria_i_napojemi.",
+    "description": "Uprawa młodych roślin jadalnych w początkowej fazie wzrostu. To hobby łączy ogrodnictwo z kulinariami.",
     "imageUrl": "/images/hodowla_mikroliści.jpeg",
     "attributes": {
       "physicalActivityLevel": 2,
@@ -3868,8 +3906,46 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "initialCost": 2,
       "ongoingCost": 2
     },
-    tasks: [],
-    sources: [],
+    "tasks": [
+      {
+        "id": "1",
+        "title": "Przygotuj system uprawy",
+        "isCompleted": false
+      },
+      {
+        "id": "2",
+        "title": "Wykonaj pierwszy wysiew",
+        "isCompleted": false
+      },
+      {
+        "id": "3",
+        "title": "Zbierz pierwszy plon",
+        "isCompleted": false
+      }
+    ],
+    "sources": [
+      {
+        "id": "1",
+        "name": "MicrogreensGuru",
+        "description": "Uprawa mikroliści w domu",
+        "url": "https://youtube.com/microgeensguru",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "Mikrolistki.pl",
+        "description": "Portal o uprawie mikroliści",
+        "url": "https://mikrolistki.pl",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Mikroliście",
+        "description": "Uprawa i zastosowanie",
+        "url": "https://wikipedia.org/wiki/Mikrolistki",
+        "type": "wikipedia"
+      }
+    ]
   },
   "hodowla_motyli": {
     "id": "hodowla_motyli",
@@ -3893,8 +3969,46 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "initialCost": 3,
       "ongoingCost": 3
     },
-    tasks: [],
-    sources: [],
+    "tasks": [
+      {
+        "id": "1",
+        "title": "Stwórz odpowiednie środowisko",
+        "isCompleted": false
+      },
+      {
+        "id": "2",
+        "title": "Zdobądź pierwsze gąsienice",
+        "isCompleted": false
+      },
+      {
+        "id": "3",
+        "title": "Przeprowadź przez cykl życiowy",
+        "isCompleted": false
+      }
+    ],
+    "sources": [
+      {
+        "id": "1",
+        "name": "ButterflyBreeding",
+        "description": "Hodowla motyli od podstaw",
+        "url": "https://youtube.com/butterflybreeding",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "Motyle.net",
+        "description": "Portal o hodowli motyli",
+        "url": "https://motyle.net",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Hodowla motyli",
+        "description": "Techniki hodowli motyli",
+        "url": "https://wikipedia.org/wiki/Hodowla_motyli",
+        "type": "wikipedia"
+      }
+    ]
   },
   "hodowla_mrówek": {
     "id": "hodowla_mrówek",
@@ -4025,7 +4139,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "inżynieria_dźwięku": {
     "id": "inżynieria_dźwięku",
     "name": "Inżynieria dźwięku",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Nagrywanie, miksowanie i produkcja materiałów dźwiękowych. To hobby wymaga dobrego słuchu muzycznego i znajomości sprzętu audio.",
     "imageUrl": "/images/inżynieria_dźwięku.jpeg",
     "attributes": {
@@ -4044,7 +4158,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "initialCost": 4,
       "ongoingCost": 2
     },
-    tasks: [
+    "tasks": [
       {
         "id": "1",
         "title": "Poznaj podstawy akustyki",
@@ -4088,7 +4202,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "jazda_na_deskorolce": {
     "id": "jazda_na_deskorolce",
     "name": "Jazda na deskorolce",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Sport polegający na jeździe i wykonywaniu trików na deskorolce. To hobby rozwija równowagę, koordynację i odwagę.",
     "imageUrl": "/images/jazda_na_deskorolce.jpeg",
     "attributes": {
@@ -4151,7 +4265,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "jazda_na_monocyklu": {
     "id": "jazda_na_monocyklu",
     "name": "Jazda na monocyklu",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Poruszanie się na jednokołowym rowerze wymagające dobrej równowagi. To nietypowe hobby przyciąga uwagę i rozwija koordynację ruchową.",
     "imageUrl": "/images/jazda_na_monocyklu.jpeg",
     "attributes": {
@@ -4170,13 +4284,51 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "initialCost": 2,
       "ongoingCost": 1
     },
-    tasks: [],
-    sources: [],
+    "tasks": [
+      {
+        "id": "1",
+        "title": "Naucz się wsiadać",
+        "isCompleted": false
+      },
+      {
+        "id": "2",
+        "title": "Przejedź 10 metrów",
+        "isCompleted": false
+      },
+      {
+        "id": "3",
+        "title": "Wykonaj podstawowe triki",
+        "isCompleted": false
+      }
+    ],
+    "sources": [
+      {
+        "id": "1",
+        "name": "UniCycling",
+        "description": "Nauka jazdy na monocyklu",
+        "url": "https://youtube.com/unicycling",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "Monocykl.pl",
+        "description": "Portal o jeździe na monocyklu",
+        "url": "https://monocykl.pl",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Monocykl",
+        "description": "Historia i rodzaje",
+        "url": "https://wikipedia.org/wiki/Monocykl",
+        "type": "wikipedia"
+      }
+    ]
   },
   "jazda_na_rolkach": {
     "id": "jazda_na_rolkach",
     "name": "Jazda na rolkach",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Sport polegający na jeździe na łyżworolkach. To dynamiczne hobby łączy przyjemność z aktywnym spędzaniem czasu.",
     "imageUrl": "/images/jazda_na_rolkach.jpeg",
     "attributes": {
@@ -4239,7 +4391,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "jazda_na_rowerze": {
     "id": "jazda_na_rowerze",
     "name": "Jazda na rowerze",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Przemieszczanie się i eksploracja terenu przy pomocy roweru. To wszechstronne hobby łączy aktywność fizyczną z możliwością poznawania nowych miejsc.",
     "imageUrl": "/images/jazda_na_rowerze.jpeg",
     "attributes": {
@@ -4302,7 +4454,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "joga": {
     "id": "joga",
     "name": "Joga",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Praktyka łącząca ćwiczenia fizyczne z elementami medytacji i kontroli oddechu. To hobby pomaga w utrzymaniu równowagi ciała i umysłu.",
     "imageUrl": "/images/joga.jpeg",
     "attributes": {
@@ -4428,7 +4580,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "kaligrafia": {
     "id": "kaligrafia",
     "name": "Kaligrafia",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Artystyczne pisanie z dbałością o formę każdej litery. To hobby wymaga cierpliwości i precyzji w tworzeniu pięknych napisów.",
     "imageUrl": "/images/kaligrafia.jpeg",
     "attributes": {
@@ -4491,7 +4643,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "kartografia_amatorska": {
     "id": "kartografia_amatorska",
     "name": "Kartografia amatorska",
-    "category": "edukacja_i_rozwoj",
+    "category": "edukacja",
     "description": "Tworzenie i analizowanie map różnych obszarów. To hobby łączy wiedzę geograficzną z umiejętnościami artystycznymi i technicznymi.",
     "imageUrl": "/images/kartografia_amatorska.jpeg",
     "attributes": {
@@ -4554,7 +4706,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "kickboxing": {
     "id": "kickboxing",
     "name": "Kickboxing",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Sport walki łączący techniki bokserskie z kopnięciami. Ta dyscyplina rozwija sprawność fizyczną i umiejętności samoobrony.",
     "imageUrl": "/images/kickboxing.jpeg",
     "attributes": {
@@ -4617,7 +4769,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "kolarstwo_górskie": {
     "id": "kolarstwo_górskie",
     "name": "Kolarstwo górskie",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Jazda na rowerze po trudnych terenach górskich i leśnych. Ten sport wymaga dobrej kondycji i umiejętności technicznych.",
     "imageUrl": "/images/kolarstwo_górskie.jpeg",
     "attributes": {
@@ -4680,7 +4832,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "kolekcjonowanie_znaczków": {
     "id": "kolekcjonowanie_znaczków",
     "name": "Kolekcjonowanie znaczków",
-    "category": "kolekcjonerstwo_i_antyki",
+    "category": "kolekcjonerstwo",
     "description": "Zbieranie i katalogowanie znaczków pocztowych z różnych okresów i krajów. To hobby wymaga wiedzy filatelistycznej i systematyczności.",
     "imageUrl": "/images/kolekcjonowanie_znaczków.jpeg",
     "attributes": {
@@ -4806,7 +4958,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "lutowanie_i_elektronika": {
     "id": "lutowanie_i_elektronika",
     "name": "Lutowanie i elektronika",
-    "category": "rzemioslo",
+    "category": "rzemiosło",
     "description": "Tworzenie i naprawa układów elektronicznych przy użyciu lutownicy. To hobby wymaga podstawowej wiedzy z elektroniki i precyzji manualnej.",
     "imageUrl": "/images/lutowanie_i_elektronika.jpeg",
     "attributes": {
@@ -4932,7 +5084,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "łucznictwo": {
     "id": "łucznictwo",
     "name": "Łucznictwo",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Sport polegający na strzelaniu z łuku do celu. To hobby wymaga skupienia, precyzji i regularnego treningu.",
     "imageUrl": "/images/łucznictwo.jpeg",
     "attributes": {
@@ -4995,7 +5147,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "majsterkowanie": {
     "id": "majsterkowanie",
     "name": "Majsterkowanie",
-    "category": "rzemioslo",
+    "category": "rzemiosło",
     "description": "Samodzielne wykonywanie napraw i projektów technicznych. To hobby rozwija zdolności manualne i wiedzę techniczną.",
     "imageUrl": "/images/majsterkowanie.jpeg",
     "attributes": {
@@ -5058,7 +5210,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "malowanie": {
     "id": "malowanie",
     "name": "Malowanie",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Tworzenie obrazów przy użyciu różnych technik malarskich. To hobby pozwala na swobodną ekspresję artystyczną i rozwój kreatywności.",
     "imageUrl": "/images/malowanie.jpeg",
     "attributes": {
@@ -5121,7 +5273,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "malowanie_akwarelami": {
     "id": "malowanie_akwarelami",
     "name": "Malowanie akwarelami",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Tworzenie obrazów przy użyciu farb wodnych na specjalnym papierze. Ta technika wymaga delikatności i zrozumienia zachowania wody i pigmentów.",
     "imageUrl": "/images/malowanie_akwarelami.jpeg",
     "attributes": {
@@ -5184,7 +5336,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "malowanie_olejami": {
     "id": "malowanie_olejami",
     "name": "Malowanie olejami",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Tworzenie obrazów przy użyciu farb olejnych na płótnie. Ta tradycyjna technika malarska pozwala na tworzenie wielowarstwowych dzieł z bogatą teksturą.",
     "imageUrl": "/images/malowanie_olejami.jpeg",
     "attributes": {
@@ -5247,7 +5399,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "medytacja": {
     "id": "medytacja",
     "name": "Medytacja",
-    "category": "edukacja_i_rozwoj",
+    "category": "edukacja",
     "description": "Praktyka skupienia umysłu i osiągania wewnętrznego spokoju. To hobby pomaga w redukcji stresu i lepszym poznaniu siebie.",
     "imageUrl": "/images/medytacja.jpeg",
     "attributes": {
@@ -5310,7 +5462,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "mikroskopia_amatorska": {
     "id": "mikroskopia_amatorska",
     "name": "Mikroskopia amatorska",
-    "category": "edukacja_i_rozwoj",
+    "category": "edukacja",
     "description": "Obserwacja mikroskopowa różnych preparatów i organizmów. To hobby pozwala odkrywać fascynujący świat niedostrzegalny gołym okiem.",
     "imageUrl": "/images/mikroskopia_amatorska.jpeg",
     "attributes": {
@@ -5373,7 +5525,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "modelarstwo": {
     "id": "modelarstwo",
     "name": "Modelarstwo",
-    "category": "rzemioslo",
+    "category": "rzemiosło",
     "description": "Budowanie miniaturowych modeli pojazdów, budynków lub innych obiektów. To hobby wymaga cierpliwości i precyzji w oddawaniu szczegółów.",
     "imageUrl": "/images/modelarstwo.jpeg",
     "attributes": {
@@ -5436,7 +5588,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "modelowanie_3d": {
     "id": "modelowanie_3d",
     "name": "Modelowanie 3D",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Tworzenie trójwymiarowych modeli cyfrowych przy użyciu specjalistycznego oprogramowania. To hobby łączy umiejętności techniczne z artystyczną wizją.",
     "imageUrl": "/images/modelowanie_3d.jpeg",
     "attributes": {
@@ -5499,7 +5651,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "naprawa_starych_mebli": {
     "id": "naprawa_starych_mebli",
     "name": "Naprawa starych mebli",
-    "category": "rzemioslo",
+    "category": "rzemiosło",
     "description": "Odnawianie i restauracja używanych mebli. To hobby wymaga wiedzy o materiałach i technikach stolarskich oraz cierpliwości.",
     "imageUrl": "/images/naprawa_starych_mebli.jpeg",
     "attributes": {
@@ -5562,7 +5714,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "nauka_ai_i_machine_learning": {
     "id": "nauka_ai_i_machine_learning",
     "name": "Nauka AI i machine learning",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Studiowanie i praktyczne zastosowanie sztucznej inteligencji i uczenia maszynowego. To hobby wymaga znajomości programowania i matematyki.",
     "imageUrl": "/images/nauka_ai_i_machine_learning.jpeg",
     "attributes": {
@@ -5625,7 +5777,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "nauka_języków_obcych": {
     "id": "nauka_języków_obcych",
     "name": "Nauka języków obcych",
-    "category": "edukacja_i_rozwoj",
+    "category": "edukacja",
     "description": "Poznawanie nowych języków i kultur poprzez systematyczną naukę. To hobby otwiera nowe możliwości komunikacji i poznawania świata.",
     "imageUrl": "/images/nauka_języków_obcych.jpeg",
     "attributes": {
@@ -5688,7 +5840,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "nauka_kodowania": {
     "id": "nauka_kodowania",
     "name": "Nauka kodowania",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Nauka programowania w różnych językach komputerowych. To hobby rozwija logiczne myślenie i umiejętność rozwiązywania problemów.",
     "imageUrl": "/images/nauka_kodowania.jpeg",
     "attributes": {
@@ -5940,7 +6092,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "obróbka_wideo": {
     "id": "obróbka_wideo",
     "name": "Obróbka wideo",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Edycja i montaż materiałów filmowych przy użyciu specjalistycznego oprogramowania. To hobby wymaga kreatywności i znajomości technik filmowych.",
     "imageUrl": "/images/obróbka_wideo.jpeg",
     "attributes": {
@@ -6003,7 +6155,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "obróbka_zdjęć": {
     "id": "obróbka_zdjęć",
     "name": "Obróbka zdjęć",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Cyfrowa edycja i modyfikacja fotografii przy użyciu programów graficznych. To hobby pozwala na twórcze przekształcanie zdjęć i tworzenie unikalnych obrazów.",
     "imageUrl": "/images/obróbka_zdjęć.jpeg",
     "attributes": {
@@ -6255,7 +6407,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "oglądanie_gwiazd": {
     "id": "oglądanie_gwiazd",
     "name": "Oglądanie gwiazd",
-    "category": "edukacja_i_rozwoj",
+    "category": "edukacja",
     "description": "Obserwacja nocnego nieba i obiektów astronomicznych. To hobby wymaga podstawowej wiedzy astronomicznej i odpowiedniego sprzętu.",
     "imageUrl": "/images/oglądanie_gwiazd.jpeg",
     "attributes": {
@@ -6507,7 +6659,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "origami": {
     "id": "origami",
     "name": "Origami",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Japońska sztuka składania papieru w trójwymiarowe formy. To hobby rozwija cierpliwość i przestrzenną wyobraźnię.",
     "imageUrl": "/images/origami.jpeg",
     "attributes": {
@@ -6570,7 +6722,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "paleontologia_amatorska": {
     "id": "paleontologia_amatorska",
     "name": "Paleontologia amatorska",
-    "category": "edukacja_i_rozwoj",
+    "category": "edukacja",
     "description": "Poszukiwanie i badanie skamieniałości oraz śladów prehistorycznego życia. To hobby wymaga wiedzy geologicznej i cierpliwości w poszukiwaniach.",
     "imageUrl": "/images/paleontologia_amatorska.jpeg",
     "attributes": {
@@ -6696,7 +6848,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "parkour": {
     "id": "parkour",
     "name": "Parkour",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Pokonywanie przeszkód w miejskim środowisku poprzez bieganie, skakanie i wspinanie. To hobby rozwija sprawność fizyczną i kreatywne myślenie o przestrzeni.",
     "imageUrl": "/images/parkour.jpeg",
     "attributes": {
@@ -6759,7 +6911,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "pieczenie": {
     "id": "pieczenie",
     "name": "Pieczenie",
-    "category": "kulinaria_i_napoje",
+    "category": "kulinaria",
     "description": "Przygotowywanie różnego rodzaju wypieków i deserów. To hobby pozwala na kulinarną kreację i dzielenie się efektami z innymi.",
     "imageUrl": "/images/pieczenie.jpeg",
     "attributes": {
@@ -6822,7 +6974,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "pieczenie_chleba_na_zakwasie": {
     "id": "pieczenie_chleba_na_zakwasie",
     "name": "Pieczenie chleba na zakwasie",
-    "category": "kulinaria_i_napoje",
+    "category": "kulinaria",
     "description": "Wypiekanie tradycyjnego chleba z wykorzystaniem naturalnego zakwasu. To hobby wymaga cierpliwości i zrozumienia procesu fermentacji.",
     "imageUrl": "/images/pieczenie_chleba_na_zakwasie.jpeg",
     "attributes": {
@@ -6948,7 +7100,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "pilates": {
     "id": "pilates",
     "name": "Pilates",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "System ćwiczeń fizycznych rozwijających siłę i elastyczność ciała. To hobby pomaga w utrzymaniu prawidłowej postawy i kontroli nad ciałem.",
     "imageUrl": "/images/pilates.jpeg",
     "attributes": {
@@ -7011,7 +7163,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "pisanie_bloga": {
     "id": "pisanie_bloga",
     "name": "Pisanie bloga",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Prowadzenie własnej strony internetowej z regularnymi wpisami na wybrane tematy. To hobby pozwala dzielić się wiedzą i przemyśleniami z innymi.",
     "imageUrl": "/images/pisanie_bloga.jpeg",
     "attributes": {
@@ -7074,7 +7226,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "pisanie_listów_odręcznych": {
     "id": "pisanie_listów_odręcznych",
     "name": "Pisanie listów odręcznych",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Komponowanie i wysyłanie tradycyjnych listów pisanych ręcznie. To hobby kultywuje tradycyjną formę komunikacji i rozwija sztukę pięknego pisania.",
     "imageUrl": "/images/pisanie_listów_odręcznych.jpeg",
     "attributes": {
@@ -7137,7 +7289,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "pisanie_opowiadań": {
     "id": "pisanie_opowiadań",
     "name": "Pisanie opowiadań",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Tworzenie krótkich form literackich własnego autorstwa. To hobby rozwija kreatywność i umiejętność formułowania myśli.",
     "imageUrl": "/images/pisanie_opowiadań.jpeg",
     "attributes": {
@@ -7200,7 +7352,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "pisanie_poezji": {
     "id": "pisanie_poezji",
     "name": "Pisanie poezji",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Tworzenie utworów poetyckich wyrażających emocje i przemyślenia. To hobby pozwala na artystyczną ekspresję w formie słownej.",
     "imageUrl": "/images/pisanie_poezji.jpeg",
     "attributes": {
@@ -7263,7 +7415,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "pisanie_scenariuszy": {
     "id": "pisanie_scenariuszy",
     "name": "Pisanie scenariuszy",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Tworzenie tekstów będących podstawą produkcji filmowych lub teatralnych. To hobby wymaga znajomości struktury dramaturgicznej i umiejętności budowania dialogów.",
     "imageUrl": "/images/pisanie_scenariuszy.jpeg",
     "attributes": {
@@ -7326,7 +7478,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "pływanie": {
     "id": "pływanie",
     "name": "Pływanie",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Uprawianie sportu wodnego polegającego na poruszaniu się w wodzie. To hobby poprawia kondycję i jest przyjazne dla stawów.",
     "imageUrl": "/images/pływanie.jpeg",
     "attributes": {
@@ -7373,7 +7525,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "polowanie_na_zorze_polarne": {
     "id": "polowanie_na_zorze_polarne",
     "name": "Polowanie na zorze polarne",
-    "category": "edukacja_i_rozwoj",
+    "category": "edukacja",
     "description": "Obserwacja i fotografowanie zjawiska zorzy polarnej. To hobby wymaga planowania podróży i znajomości warunków astronomicznych.",
     "imageUrl": "/images/polowanie_na_zorze_polarne.jpeg",
     "attributes": {
@@ -7420,7 +7572,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "produkcja_naturalnych_perfum": {
     "id": "produkcja_naturalnych_perfum",
     "name": "Produkcja naturalnych perfum",
-    "category": "rzemioslo",
+    "category": "rzemiosło",
     "description": "Tworzenie własnych kompozycji zapachowych z naturalnych składników. To hobby wymaga dobrego zmysłu węchu i wiedzy o właściwościach olejków eterycznych.",
     "imageUrl": "/images/produkcja_naturalnych_perfum.jpeg",
     "attributes": {
@@ -7467,7 +7619,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "rogramowanie": {
     "id": "rogramowanie",
     "name": "rogramowanie",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Tworzenie programów komputerowych w różnych językach programowania. To hobby rozwija logiczne myślenie i umiejętność rozwiązywania problemów.",
     "imageUrl": "/images/rogramowanie.jpeg",
     "attributes": {
@@ -7486,13 +7638,13 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "initialCost": 2,
       "ongoingCost": 1
     },
-    tasks: [],
-    sources: [],
+    "tasks": [],
+    "sources": []
   },
   "projektowanie_gier": {
     "id": "projektowanie_gier",
     "name": "Projektowanie gier",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Tworzenie własnych gier komputerowych lub planszowych. To hobby łączy umiejętności programistyczne z kreatywnym projektowaniem.",
     "imageUrl": "/images/projektowanie_gier.jpeg",
     "attributes": {
@@ -7539,7 +7691,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "projektowanie_tatuaży": {
     "id": "projektowanie_tatuaży",
     "name": "Projektowanie tatuaży",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Tworzenie unikatowych wzorów przeznaczonych do wykonania w formie tatuażu. To hobby wymaga zdolności artystycznych i znajomości technik tatuażu.",
     "imageUrl": "/images/projektowanie_tatuaży.jpeg",
     "attributes": {
@@ -7586,7 +7738,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "projektowanie_ubrań": {
     "id": "projektowanie_ubrań",
     "name": "Projektowanie ubrań",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Tworzenie własnych projektów odzieży i dodatków. To hobby wymaga znajomości trendów w modzie i podstaw krawiectwa.",
     "imageUrl": "/images/projektowanie_ubrań.jpeg",
     "attributes": {
@@ -7633,7 +7785,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "projektowanie_wnętrz": {
     "id": "projektowanie_wnętrz",
     "name": "Projektowanie wnętrz",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Planowanie i aranżacja przestrzeni mieszkalnych i użytkowych. To hobby wymaga zmysłu estetycznego i znajomości zasad kompozycji.",
     "imageUrl": "/images/projektowanie_wnętrz.jpeg",
     "attributes": {
@@ -7680,7 +7832,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "projektowanie_zabawek": {
     "id": "projektowanie_zabawek",
     "name": "Projektowanie zabawek",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Tworzenie koncepcji i prototypów zabawek dla dzieci. To hobby łączy kreatywność z wiedzą o bezpieczeństwie i rozwoju dzieci.",
     "imageUrl": "/images/projektowanie_zabawek.jpeg",
     "attributes": {
@@ -7774,7 +7926,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "prowadzenie_kanału_youtube": {
     "id": "prowadzenie_kanału_youtube",
     "name": "Prowadzenie kanału YouTube",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Tworzenie i publikowanie własnych materiałów wideo w internecie. To hobby wymaga umiejętności filmowych i zdolności prezentacyjnych.",
     "imageUrl": "/images/prowadzenie_kanału_youtube.jpeg",
     "attributes": {
@@ -7821,7 +7973,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "prowadzenie_podcastu": {
     "id": "prowadzenie_podcastu",
     "name": "Prowadzenie podcastu",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Nagrywanie i publikowanie własnych audycji dźwiękowych. To hobby wymaga umiejętności komunikacyjnych i podstawowej wiedzy technicznej.",
     "imageUrl": "/images/prowadzenie_podcastu.jpeg",
     "attributes": {
@@ -7962,7 +8114,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "renowacja_antyków": {
     "id": "renowacja_antyków",
     "name": "Renowacja antyków",
-    "category": "rzemioslo",
+    "category": "rzemiosło",
     "description": "Przywracanie dawnego blasku starym przedmiotom i meblom. To hobby wymaga wiedzy o technikach konserwatorskich i cierpliwości.",
     "imageUrl": "/images/renowacja_antyków.jpeg",
     "attributes": {
@@ -8009,7 +8161,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "ręczne_oprawianie_książek": {
     "id": "ręczne_oprawianie_książek",
     "name": "Ręczne oprawianie książek",
-    "category": "rzemioslo",
+    "category": "rzemiosło",
     "description": "Tworzenie opraw książkowych metodami tradycyjnymi. To rzemieślnicze hobby wymaga precyzji i znajomości technik introligatorskich.",
     "imageUrl": "/images/ręczne_oprawianie_książek.jpeg",
     "attributes": {
@@ -8056,7 +8208,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "ręczne_wytwarzanie_makaronu": {
     "id": "ręczne_wytwarzanie_makaronu",
     "name": "Ręczne wytwarzanie makaronu",
-    "category": "kulinaria_i_napoje",
+    "category": "kulinaria",
     "description": "Przygotowywanie różnych rodzajów makaronu od podstaw. To hobby łączy umiejętności kulinarne z tradycyjnym rzemiosłem.",
     "imageUrl": "/images/ręczne_wytwarzanie_makaronu.jpeg",
     "attributes": {
@@ -8103,7 +8255,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "robienie_albumów_ze_zdjęciami": {
     "id": "robienie_albumów_ze_zdjęciami",
     "name": "Robienie albumów ze zdjęciami",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Tworzenie fizycznych albumów ze zdjęciami z wykorzystaniem technik scrapbookingu. To hobby pozwala kreatywnie prezentować wspomnienia.",
     "imageUrl": "/images/robienie_albumów_ze_zdjęciami.jpeg",
     "attributes": {
@@ -8150,7 +8302,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "robienie_eksperymentów_naukowych_w_domu": {
     "id": "robienie_eksperymentów_naukowych_w_domu",
     "name": "Robienie eksperymentów naukowych w domu",
-    "category": "edukacja_i_rozwoj",
+    "category": "edukacja",
     "description": "Przeprowadzanie prostych doświadczeń naukowych w warunkach domowych. To hobby rozwija zrozumienie zjawisk naukowych i umiejętność obserwacji.",
     "imageUrl": "/images/robienie_eksperymentów_naukowych_w_domu.jpeg",
     "attributes": {
@@ -8197,7 +8349,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "robotyka": {
     "id": "robotyka",
     "name": "Robotyka",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Budowanie i programowanie robotów z różnych komponentów. To hobby łączy wiedzę z elektroniki, mechaniki i programowania.",
     "imageUrl": "/images/robotyka.jpeg",
     "attributes": {
@@ -8244,7 +8396,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "rozwiązywanie_starych_zagadek_historycznych": {
     "id": "rozwiązywanie_starych_zagadek_historycznych",
     "name": "Rozwiązywanie starych zagadek historycznych",
-    "category": "edukacja_i_rozwoj",
+    "category": "edukacja",
     "description": "Badanie i próby rozwiązywania niewyjaśnionych zagadek z przeszłości. To hobby wymaga umiejętności analitycznych i wiedzy historycznej.",
     "imageUrl": "/images/rozwiązywanie_starych_zagadek_historycznych.jpeg",
     "attributes": {
@@ -8291,7 +8443,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "rozwój_umiejętności_barmańskich": {
     "id": "rozwój_umiejętności_barmańskich",
     "name": "Rozwój umiejętności barmańskich",
-    "category": "kulinaria_i_napoje",
+    "category": "kulinaria",
     "description": "Nauka przygotowywania i serwowania napojów i koktajli. To hobby łączy wiedzę o napojach z umiejętnościami pokazowymi i obsługą klienta.",
     "imageUrl": "/images/rozwój_umiejętności_barmańskich.jpeg",
     "attributes": {
@@ -8338,7 +8490,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "rysowanie": {
     "id": "rysowanie",
     "name": "Rysowanie",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Tworzenie obrazów przy użyciu ołówków, kredek lub piór. To hobby rozwija zdolności artystyczne i spostrzegawczość.",
     "imageUrl": "/images/rysowanie.jpeg",
     "attributes": {
@@ -8357,8 +8509,8 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "initialCost": 2,
       "ongoingCost": 2
     },
-    tasks: [],
-    sources: [
+    "tasks": [],
+    "sources": [
       {
         "id": "1",
         "name": "DrawingArt",
@@ -8385,7 +8537,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "rysowanie_mandali": {
     "id": "rysowanie_mandali",
     "name": "Rysowanie mandali",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Tworzenie symetrycznych, geometrycznych wzorów o charakterze medytacyjnym. To hobby łączy aspekty artystyczne z relaksacją i koncentracją.",
     "imageUrl": "/images/rysowanie_mandali.jpeg",
     "attributes": {
@@ -8432,7 +8584,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "rzeźbienie_w_drewnie": {
     "id": "rzeźbienie_w_drewnie",
     "name": "Rzeźbienie w drewnie",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Tworzenie form artystycznych poprzez obróbkę drewna. To hobby wymaga cierpliwości, umiejętności manualnych i znajomości właściwości materiału.",
     "imageUrl": "/images/rzeźbienie_w_drewnie.jpeg",
     "attributes": {
@@ -8479,7 +8631,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "rzeźbienie_w_glinie": {
     "id": "rzeźbienie_w_glinie",
     "name": "Rzeźbienie w glinie",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Kształtowanie form przestrzennych z gliny ceramicznej. To hobby pozwala na swobodną ekspresję artystyczną w trójwymiarze.",
     "imageUrl": "/images/rzeźbienie_w_glinie.jpeg",
     "attributes": {
@@ -8526,7 +8678,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "scrapbooking": {
     "id": "scrapbooking",
     "name": "Scrapbooking",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Tworzenie i dekorowanie albumów ze zdjęciami i pamiątkami. To kreatywne hobby pozwala na artystyczne dokumentowanie wspomnień.",
     "imageUrl": "/images/scrapbooking.jpeg",
     "attributes": {
@@ -8573,7 +8725,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "składanie_modeli_z_papieru_papercraft": {
     "id": "składanie_modeli_z_papieru_papercraft",
     "name": "Składanie modeli z papieru (papercraft)",
-    "category": "rzemioslo",
+    "category": "rzemiosło",
     "description": "Tworzenie trójwymiarowych modeli poprzez wycinanie i składanie papieru. To hobby wymaga precyzji i umiejętności przestrzennego myślenia.",
     "imageUrl": "/images/składanie_modeli_z_papieru_papercraft.jpeg",
     "attributes": {
@@ -8667,7 +8819,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "slacklining": {
     "id": "slacklining",
     "name": "Slacklining",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Chodzenie po taśmie rozpiętej między dwoma punktami. To hobby rozwija równowagę, koncentrację i siłę mięśni całego ciała.",
     "imageUrl": "/images/slacklining.jpeg",
     "attributes": {
@@ -8808,7 +8960,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "streamowanie_gier": {
     "id": "streamowanie_gier",
     "name": "Streamowanie gier",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Transmitowanie na żywo rozgrywki w gry komputerowe dla widzów online. To hobby wymaga umiejętności technicznych i zdolności entertainera.",
     "imageUrl": "/images/streamowanie_gier.jpeg",
     "attributes": {
@@ -8855,7 +9007,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "strzelectwo": {
     "id": "strzelectwo",
     "name": "Strzelectwo",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Sport polegający na strzelaniu do celu z różnych rodzajów broni. To hobby wymaga skupienia, precyzji i znajomości zasad bezpieczeństwa.",
     "imageUrl": "/images/strzelectwo.jpeg",
     "attributes": {
@@ -8949,7 +9101,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "survival": {
     "id": "survival",
     "name": "Survival",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Nauka technik przetrwania w dzikich warunkach. To hobby rozwija samodzielność i umiejętności radzenia sobie w trudnych sytuacjach.",
     "imageUrl": "/images/survival.jpeg",
     "attributes": {
@@ -8996,7 +9148,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "survival_w_górach": {
     "id": "survival_w_górach",
     "name": "Survival w górach",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Praktykowanie technik przetrwania w środowisku górskim. To wymagające hobby łączy umiejętności survivalowe ze znajomością specyfiki gór.",
     "imageUrl": "/images/survival_w_górach.jpeg",
     "attributes": {
@@ -9090,7 +9242,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "sztuka_kintsugi": {
     "id": "sztuka_kintsugi",
     "name": "Sztuka kintsugi",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Japońska sztuka naprawiania ceramiki przy użyciu złota lub srebra. To hobby uczy cierpliwości i dostrzegania piękna w niedoskonałościach.",
     "imageUrl": "/images/sztuka_kintsugi.jpeg",
     "attributes": {
@@ -9137,7 +9289,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "sztuka_przetrwania_w_dżungli": {
     "id": "sztuka_przetrwania_w_dżungli",
     "name": "Sztuka przetrwania w dżungli",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Nauka technik przetrwania w środowisku tropikalnym. To wymagające hobby wymaga znajomości specyfiki dżungli i umiejętności adaptacji.",
     "imageUrl": "/images/sztuka_przetrwania_w_dżungli.jpeg",
     "attributes": {
@@ -9184,7 +9336,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "szycie": {
     "id": "szycie",
     "name": "Szycie",
-    "category": "rzemioslo",
+    "category": "rzemiosło",
     "description": "Tworzenie ubrań i innych tekstyliów przy użyciu maszyny do szycia lub ręcznie. To hobby pozwala na realizację własnych projektów odzieżowych i rozwija kreatywność.",
     "imageUrl": "/images/szycie.jpeg",
     "attributes": {
@@ -9231,7 +9383,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "taniec": {
     "id": "taniec",
     "name": "Taniec",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Ekspresja ruchowa w rytm muzyki w różnych stylach tanecznych. To hobby rozwija koordynację ruchową i poczucie rytmu.",
     "imageUrl": "/images/taniec.jpeg",
     "attributes": {
@@ -9278,7 +9430,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "testowanie_kosmetyków_diy": {
     "id": "testowanie_kosmetyków_diy",
     "name": "Testowanie kosmetyków DIY",
-    "category": "rzemioslo",
+    "category": "rzemiosło",
     "description": "Tworzenie i wypróbowywanie własnych kosmetyków z naturalnych składników. To hobby wymaga wiedzy o składnikach i zasadach bezpieczeństwa.",
     "imageUrl": "/images/testowanie_kosmetyków_diy.jpeg",
     "attributes": {
@@ -9325,7 +9477,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "testowanie_oprogramowania": {
     "id": "testowanie_oprogramowania",
     "name": "Testowanie oprogramowania",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Sprawdzanie działania programów komputerowych i wyszukiwanie błędów. To hobby wymaga dokładności i umiejętności analitycznego myślenia.",
     "imageUrl": "/images/testowanie_oprogramowania.jpeg",
     "attributes": {
@@ -9372,8 +9524,8 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "tkactwo_artystyczne": {
     "id": "tkactwo_artystyczne",
     "name": "Tkactwo artystyczne",
-    "category": "rzemioslo",
-    "description": "Tworzenie tkanin na krośnie poprzez przeplatanie nici. To tradycyjne rzemioslo pozwala na tworzenie unikalnych tekstyliów.",
+    "category": "sztuka",
+    "description": "Tworzenie tkanin na krośnie poprzez przeplatanie nici. To tradycyjne rzemiosło pozwala na tworzenie unikalnych tekstyliów.",
     "imageUrl": "/images/tkactwo_artystyczne.jpeg",
     "attributes": {
       "physicalActivityLevel": 2,
@@ -9419,7 +9571,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "tworzenie_biżuterii": {
     "id": "tworzenie_biżuterii",
     "name": "Tworzenie biżuterii",
-    "category": "rzemioslo",
+    "category": "rzemiosło",
     "description": "Projektowanie i wykonywanie własnej biżuterii z różnych materiałów. To hobby pozwala na wyrażenie własnego stylu poprzez tworzenie unikalnych ozdób.",
     "imageUrl": "/images/tworzenie_biżuterii.jpeg",
     "attributes": {
@@ -9466,7 +9618,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "tworzenie_chatbotów": {
     "id": "tworzenie_chatbotów",
     "name": "Tworzenie chatbotów",
-    "category": "technologia_i_media",
+    "category": "technologia",
     "description": "Programowanie automatycznych systemów konwersacyjnych. To hobby wymaga znajomości programowania i zasad sztucznej inteligencji.",
     "imageUrl": "/images/tworzenie_chatbotów.jpeg",
     "attributes": {
@@ -9504,7 +9656,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       {
         "id": "3",
         "name": "Chatbot",
-        "description": "technologia_i_media chatbotów",
+        "description": "Technologia chatbotów",
         "url": "https://wikipedia.org/wiki/Chatbot",
         "type": "wikipedia"
       }
@@ -9513,7 +9665,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "tworzenie_drzewek_genealogicznych": {
     "id": "tworzenie_drzewek_genealogicznych",
     "name": "Tworzenie drzewek genealogicznych",
-    "category": "edukacja_i_rozwoj",
+    "category": "edukacja",
     "description": "Badanie i dokumentowanie historii rodzinnej w formie graficznej. To hobby wymaga cierpliwości w poszukiwaniu informacji genealogicznych.",
     "imageUrl": "/images/tworzenie_drzewek_genealogicznych.jpeg",
     "attributes": {
@@ -9607,7 +9759,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "tworzenie_ilustracji_książkowych": {
     "id": "tworzenie_ilustracji_książkowych",
     "name": "Tworzenie ilustracji książkowych",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Tworzenie obrazów i rysunków do książek. To hobby wymaga talentu artystycznego i umiejętności interpretacji tekstu.",
     "imageUrl": "/images/tworzenie_ilustracji_książkowych.jpeg",
     "attributes": {
@@ -9654,7 +9806,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "tworzenie_lampionów": {
     "id": "tworzenie_lampionów",
     "name": "Tworzenie lampionów",
-    "category": "rzemioslo",
+    "category": "rzemiosło",
     "description": "Wykonywanie dekoracyjnych źródeł światła z różnych materiałów. To hobby łączy rękodzieło z tworzeniem nastrojowego oświetlenia.",
     "imageUrl": "/images/tworzenie_lampionów.jpeg",
     "attributes": {
@@ -9748,7 +9900,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "tworzenie_rzeźb_z_metalu": {
     "id": "tworzenie_rzeźb_z_metalu",
     "name": "Tworzenie rzeźb z metalu",
-    "category": "rzemioslo",
+    "category": "sztuka",
     "description": "Kształtowanie form artystycznych z metalu poprzez różne techniki obróbki. To wymagające hobby łączy umiejętności techniczne z artystyczną wizją.",
     "imageUrl": "/images/tworzenie_rzeźb_z_metalu.jpeg",
     "attributes": {
@@ -9889,7 +10041,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "udział_w_maratonach": {
     "id": "udział_w_maratonach",
     "name": "Udział w maratonach",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Bieganie na długich dystansach i udział w zawodach biegowych. To wymagające hobby wymaga systematycznego treningu i dobrej kondycji.",
     "imageUrl": "/images/udział_w_maratonach.jpeg",
     "attributes": {
@@ -10002,8 +10154,30 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "initialCost": 2,
       "ongoingCost": 2
     },
-    tasks: [],
-    sources: []
+    "tasks": [],
+    "sources": [
+      {
+        "id": "1",
+        "name": "PuzzleMaster",
+        "description": "Techniki układania puzzli",
+        "url": "https://youtube.com/puzzlemaster",
+        "type": "youtube"
+      },
+      {
+        "id": "2",
+        "name": "Puzzle.info",
+        "description": "Portal o puzzlach",
+        "url": "https://puzzle.info",
+        "type": "article"
+      },
+      {
+        "id": "3",
+        "name": "Puzzle",
+        "description": "Historia i rodzaje",
+        "url": "https://wikipedia.org/wiki/Puzzle",
+        "type": "wikipedia"
+      }
+    ]
   },
   "uprawa_bonsai": {
     "id": "uprawa_bonsai",
@@ -10272,11 +10446,11 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "type": "youtube"
       },
       {
-        id: "2",
-        name: "SkateBoard.pl",
-        description: "Portal deskorolkowy",
-        url: "https://skateboard.pl",
-        type: "article",
+        "id": "2",
+        "name": "Warcaby.pl",
+        "description": "Portal o warcabach",
+        "url": "https://warcaby.pl",
+        "type": "article"
       },
       {
         "id": "3",
@@ -10290,7 +10464,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "wędkowanie": {
     "id": "wędkowanie",
     "name": "Wędkowanie",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Łowienie ryb przy użyciu wędki i różnych technik połowu. To hobby wymaga cierpliwości i znajomości zachowań ryb.",
     "imageUrl": "/images/wędkowanie.jpeg",
     "attributes": {
@@ -10337,7 +10511,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "wolontariat": {
     "id": "wolontariat",
     "name": "Wolontariat",
-    "category": "edukacja_i_rozwoj",
+    "category": "edukacja",
     "description": "Dobrowolna pomoc innym ludziom lub organizacjom. To hobby rozwija empatię i umiejętności społeczne.",
     "imageUrl": "/images/wolontariat.jpeg",
     "attributes": {
@@ -10478,7 +10652,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "wspólne_gotowanie": {
     "id": "wspólne_gotowanie",
     "name": "Wspólne gotowanie",
-    "category": "kulinaria_i_napoje",
+    "category": "kulinaria",
     "description": "Przygotowywanie posiłków w grupie znajomych lub rodziny. To hobby łączy przyjemność gotowania z aspektami społecznymi.",
     "imageUrl": "/images/wspólne_gotowanie.jpeg",
     "attributes": {
@@ -10515,9 +10689,9 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       },
       {
         "id": "3",
-        "name": "kulinaria_i_napoje",
+        "name": "Kulinaria",
         "description": "Techniki gotowania",
-        "url": "https://wikipedia.org/wiki/kulinaria_i_napoje",
+        "url": "https://wikipedia.org/wiki/Kulinaria",
         "type": "wikipedia"
       }
     ]
@@ -10525,7 +10699,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "wyprawy_kajakowe": {
     "id": "wyprawy_kajakowe",
     "name": "Wyprawy kajakowe",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Podróżowanie kajakiem po rzekach i jeziorach. To hobby łączy aktywność fizyczną z eksploracją przyrody.",
     "imageUrl": "/images/wyprawy_kajakowe.jpeg",
     "attributes": {
@@ -10572,7 +10746,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "zajęcia_taneczne_grupowe": {
     "id": "zajęcia_taneczne_grupowe",
     "name": "Zajęcia taneczne grupowe",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Uczestnictwo w zorganizowanych zajęciach tanecznych. To hobby rozwija koordynację ruchową i umiejętności społeczne.",
     "imageUrl": "/images/zajęcia_taneczne_grupowe.jpeg",
     "attributes": {
@@ -10619,7 +10793,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "zbieranie_minerałów_i_kamieni_szlachetnych": {
     "id": "zbieranie_minerałów_i_kamieni_szlachetnych",
     "name": "Zbieranie minerałów i kamieni szlachetnych",
-    "category": "kolekcjonerstwo_i_antyki",
+    "category": "kolekcjonerstwo",
     "description": "Kolekcjonowanie i identyfikacja różnych rodzajów minerałów. To hobby wymaga wiedzy geologicznej i umiejętności rozpoznawania skał.",
     "imageUrl": "/images/zbieranie_minerałów_i_kamieni_szlachetnych.jpeg",
     "attributes": {
@@ -10713,7 +10887,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "zbieranie_starych_map": {
     "id": "zbieranie_starych_map",
     "name": "Zbieranie starych map",
-    "category": "kolekcjonerstwo_i_antyki",
+    "category": "kolekcjonerstwo",
     "description": "Kolekcjonowanie historycznych map i atlasów. To hobby wymaga wiedzy kartograficznej i historycznej.",
     "imageUrl": "/images/zbieranie_starych_map.jpeg",
     "attributes": {
@@ -10807,8 +10981,8 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "złotnictwo": {
     "id": "złotnictwo",
     "name": "Złotnictwo",
-    "category": "rzemioslo",
-    "description": "Tworzenie biżuterii i ozdób z metali szlachetnych. To wymagające rzemioslo wymaga precyzji i znajomości technik jubilerskich.",
+    "category": "rzemiosło",
+    "description": "Tworzenie biżuterii i ozdób z metali szlachetnych. To wymagające rzemiosło wymaga precyzji i znajomości technik jubilerskich.",
     "imageUrl": "/images/złotnictwo.jpeg",
     "attributes": {
       "physicalActivityLevel": 2,
@@ -10854,7 +11028,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "zorbing": {
     "id": "zorbing",
     "name": "Zorbing",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Sport polegający na toczeniu się w przezroczystej kuli po zboczu. To nietypowe hobby dostarcza dużo adrenaliny i zabawy.",
     "imageUrl": "/images/zorbing.jpeg",
     "attributes": {
@@ -10901,7 +11075,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "żonglowanie": {
     "id": "żonglowanie",
     "name": "Żonglowanie",
-    "category": "sport_i_aktywnosc_fizyczna",
+    "category": "aktywność_fizyczna",
     "description": "Manipulowanie wieloma przedmiotami w powietrzu. To hobby rozwija koordynację ruchową i koncentrację.",
     "imageUrl": "/images/żonglowanie.jpeg",
     "attributes": {
