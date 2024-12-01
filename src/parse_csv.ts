@@ -5,6 +5,7 @@ import { HobbyAttributes, HobbyDetail, Source, Task } from "./types/hobby";
 interface CSVHobbyRow {
   Hobby: string;
   Category: string;
+  Description: string;
   "Physical Activity Level": string;
   "Time Consumption": string;
   Sociability: string;
@@ -49,6 +50,8 @@ const hobbiesData = parse(fs.readFileSync("hobbies.csv", "utf8"), {
   columns: true,
   skip_empty_lines: true,
   encoding: "utf8",
+  delimiter: ";",
+  bom: true,
 }) as CSVHobbyRow[];
 
 const tasksData = parse(fs.readFileSync("tasks.csv", "utf8"), {
@@ -111,12 +114,14 @@ hobbiesData.forEach((row) => {
       type: source.Type,
     }));
 
+  console.log(createHobbyId(row.Category));
+
   // Create the hobby detail object
   hobbyDetails[hobbyId] = {
     id: hobbyId,
-    name: cleanedRow.Hobby,
-    category: createHobbyId(cleanedRow.Category),
-    description: `${cleanedRow.Hobby} to fascynujące hobby, które pozwala...`, // Placeholder description
+    name: row.Hobby,
+    category: row.Category,
+    description: row.Description,
     imageUrl: `/api/placeholder/800/400`,
     attributes,
     tasks,
