@@ -1099,7 +1099,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "badanie_archiwów_lokalnych": {
     "id": "badanie_archiwów_lokalnych",
     "name": "Badanie archiwów lokalnych",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Eksploracja i analiza historycznych dokumentów i zapisków w lokalnych archiwach. To hobby pozwala odkrywać fascynujące historie i fakty z przeszłości lokalnej społeczności.",
     "imageUrl": "/images/badanie_archiwów_lokalnych.jpeg",
     "attributes": {
@@ -2048,7 +2048,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "czytanie_książek": {
     "id": "czytanie_książek",
     "name": "Czytanie książek",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Regularne czytanie różnorodnej literatury dla przyjemności i rozwoju. To hobby poszerza horyzonty i rozwija wyobraźnię.",
     "imageUrl": "/images/czytanie_książek.jpeg",
     "attributes": {
@@ -2501,7 +2501,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "eksperymenty_chemiczne": {
     "id": "eksperymenty_chemiczne",
     "name": "Eksperymenty chemiczne",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Przeprowadzanie bezpiecznych doświadczeń chemicznych w warunkach domowych. To hobby rozwija zrozumienie procesów chemicznych i umiejętności laboratoryjne.",
     "imageUrl": "/images/eksperymenty_chemiczne.jpeg",
     "attributes": {
@@ -2627,7 +2627,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "filozofia": {
     "id": "filozofia",
     "name": "Filozofia",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Studiowanie i rozważanie fundamentalnych pytań o istnienie, wiedzę i wartości. To hobby rozwija krytyczne myślenie i głębsze zrozumienie życia.",
     "imageUrl": "/images/filozofia.jpeg",
     "attributes": {
@@ -2942,7 +2942,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "genealogia": {
     "id": "genealogia",
     "name": "Genealogia",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Badanie historii rodziny i tworzenie drzewa genealogicznego. To hobby pozwala odkryć własne korzenie i lepiej zrozumieć historię własnej rodziny.",
     "imageUrl": "/images/genealogia.jpeg",
     "attributes": {
@@ -3635,7 +3635,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "historia_sztuki": {
     "id": "historia_sztuki",
     "name": "Historia sztuki",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Studiowanie rozwoju sztuki na przestrzeni dziejów i różnych kultur. To hobby pozwala lepiej zrozumieć kontekst kulturowy i artystyczny różnych epok.",
     "imageUrl": "/images/historia_sztuki.jpeg",
     "attributes": {
@@ -4643,7 +4643,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "kartografia_amatorska": {
     "id": "kartografia_amatorska",
     "name": "Kartografia amatorska",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Tworzenie i analizowanie map różnych obszarów. To hobby łączy wiedzę geograficzną z umiejętnościami artystycznymi i technicznymi.",
     "imageUrl": "/images/kartografia_amatorska.jpeg",
     "attributes": {
@@ -5399,7 +5399,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "medytacja": {
     "id": "medytacja",
     "name": "Medytacja",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Praktyka skupienia umysłu i osiągania wewnętrznego spokoju. To hobby pomaga w redukcji stresu i lepszym poznaniu siebie.",
     "imageUrl": "/images/medytacja.jpeg",
     "attributes": {
@@ -5462,7 +5462,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "mikroskopia_amatorska": {
     "id": "mikroskopia_amatorska",
     "name": "Mikroskopia amatorska",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Obserwacja mikroskopowa różnych preparatów i organizmów. To hobby pozwala odkrywać fascynujący świat niedostrzegalny gołym okiem.",
     "imageUrl": "/images/mikroskopia_amatorska.jpeg",
     "attributes": {
@@ -5777,7 +5777,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "nauka_języków_obcych": {
     "id": "nauka_języków_obcych",
     "name": "Nauka języków obcych",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Poznawanie nowych języków i kultur poprzez systematyczną naukę. To hobby otwiera nowe możliwości komunikacji i poznawania świata.",
     "imageUrl": "/images/nauka_języków_obcych.jpeg",
     "attributes": {
@@ -6407,7 +6407,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "oglądanie_gwiazd": {
     "id": "oglądanie_gwiazd",
     "name": "Oglądanie gwiazd",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Obserwacja nocnego nieba i obiektów astronomicznych. To hobby wymaga podstawowej wiedzy astronomicznej i odpowiedniego sprzętu.",
     "imageUrl": "/images/oglądanie_gwiazd.jpeg",
     "attributes": {
@@ -6722,7 +6722,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "paleontologia_amatorska": {
     "id": "paleontologia_amatorska",
     "name": "Paleontologia amatorska",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Poszukiwanie i badanie skamieniałości oraz śladów prehistorycznego życia. To hobby wymaga wiedzy geologicznej i cierpliwości w poszukiwaniach.",
     "imageUrl": "/images/paleontologia_amatorska.jpeg",
     "attributes": {
@@ -7525,7 +7525,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "polowanie_na_zorze_polarne": {
     "id": "polowanie_na_zorze_polarne",
     "name": "Polowanie na zorze polarne",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Obserwacja i fotografowanie zjawiska zorzy polarnej. To hobby wymaga planowania podróży i znajomości warunków astronomicznych.",
     "imageUrl": "/images/polowanie_na_zorze_polarne.jpeg",
     "attributes": {
@@ -8302,7 +8302,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "robienie_eksperymentów_naukowych_w_domu": {
     "id": "robienie_eksperymentów_naukowych_w_domu",
     "name": "Robienie eksperymentów naukowych w domu",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Przeprowadzanie prostych doświadczeń naukowych w warunkach domowych. To hobby rozwija zrozumienie zjawisk naukowych i umiejętność obserwacji.",
     "imageUrl": "/images/robienie_eksperymentów_naukowych_w_domu.jpeg",
     "attributes": {
@@ -8396,7 +8396,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "rozwiązywanie_starych_zagadek_historycznych": {
     "id": "rozwiązywanie_starych_zagadek_historycznych",
     "name": "Rozwiązywanie starych zagadek historycznych",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Badanie i próby rozwiązywania niewyjaśnionych zagadek z przeszłości. To hobby wymaga umiejętności analitycznych i wiedzy historycznej.",
     "imageUrl": "/images/rozwiązywanie_starych_zagadek_historycznych.jpeg",
     "attributes": {
@@ -9665,7 +9665,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "tworzenie_drzewek_genealogicznych": {
     "id": "tworzenie_drzewek_genealogicznych",
     "name": "Tworzenie drzewek genealogicznych",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Badanie i dokumentowanie historii rodzinnej w formie graficznej. To hobby wymaga cierpliwości w poszukiwaniu informacji genealogicznych.",
     "imageUrl": "/images/tworzenie_drzewek_genealogicznych.jpeg",
     "attributes": {
@@ -10511,7 +10511,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
   "wolontariat": {
     "id": "wolontariat",
     "name": "Wolontariat",
-    "category": "edukacja",
+    "category": "edukacja_i_rozwoj",
     "description": "Dobrowolna pomoc innym ludziom lub organizacjom. To hobby rozwija empatię i umiejętności społeczne.",
     "imageUrl": "/images/wolontariat.jpeg",
     "attributes": {
