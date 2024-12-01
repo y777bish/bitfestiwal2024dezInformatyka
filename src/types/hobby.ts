@@ -38,4 +38,5 @@ export interface HobbyDetail {
   attributes: HobbyAttributes;
   tasks: Task[];
   sources: Source[];
+  twitterHandle?: string;
 }

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { ReactNode, useState } from "react";
 import { Menu, X } from "lucide-react";
+import ThemeToggle from "./ThemeToggle";
 
 interface LayoutProps {
   children: ReactNode;
@@ -38,9 +39,9 @@ export default function Layout({ children }: LayoutProps) {
   }
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-cream-light dark:bg-cream-dark transition-colors duration-200">
       <nav
-        className="bg-sunset shadow-sm"
+        className="bg-sunset-light dark:bg-sunset-dark shadow-sm transition-colors duration-200"
         role="navigation"
         aria-label="Menu główne"
       >
@@ -49,7 +50,7 @@ export default function Layout({ children }: LayoutProps) {
             <div className="flex items-center space-x-8">
               <Link
                 href="/"
-                className="text-xl font-semibold text-forest"
+                className="text-xl font-semibold text-forest-light dark:text-forest-dark transition-colors duration-200"
                 aria-label="Strona główna HobbyFinder"
               >
                 HobbyFinder
@@ -61,9 +62,9 @@ export default function Layout({ children }: LayoutProps) {
                   href="/dashboard"
                   className={`${
                     router.pathname === "/dashboard"
-                      ? "text-forest"
-                      : "text-forest hover:text-gray-700"
-                  } px-3 py-2 rounded-md text-sm font-medium`}
+                      ? "text-forest-light dark:text-forest-dark"
+                      : "text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"
+                  } px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
                   aria-current={
                     router.pathname === "/dashboard" ? "page" : undefined
                   }
@@ -74,9 +75,9 @@ export default function Layout({ children }: LayoutProps) {
                   href="/quiz"
                   className={`${
                     router.pathname === "/quiz"
-                      ? "text-forest"
-                      : "text-gray-500 hover:text-gray-700"
-                  } px-3 py-2 rounded-md text-sm font-medium`}
+                      ? "text-forest-light dark:text-forest-dark"
+                      : "text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"
+                  } px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200`}
                   aria-current={
                     router.pathname === "/quiz" ? "page" : undefined
                   }
@@ -86,31 +87,38 @@ export default function Layout({ children }: LayoutProps) {
               </div>
             </div>
 
-            {/* Hamburger Menu Button */}
-            <button
-              className="md:hidden p-2 rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100"
-              onClick={toggleMenu}
-              aria-expanded={isMenuOpen}
-              aria-controls="mobile-menu"
-              aria-label={isMenuOpen ? "Zamknij menu" : "Otwórz menu"}
-            >
-              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
-
-            {/* Desktop User Info and Logout */}
+            {/* Desktop User Info, Theme Toggle, and Logout */}
             <div className="hidden md:flex items-center space-x-4">
-              <span className="text-gray-700" role="status">
+              <span
+                className="text-gray-700 dark:text-gray-300 transition-colors duration-200"
+                role="status"
+              >
                 {user?.emailAddresses[0]?.emailAddress?.split("@")[0]
                   ? `Witaj, ${
                       user.emailAddresses[0]?.emailAddress?.split("@")[0]
                     }`
                   : "Witaj!"}
               </span>
+              <ThemeToggle />
               <button
                 onClick={handleSignOut}
-                className="text-gray-500 hover:text-red-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                className="text-gray-500 dark:text-gray-400 hover:text-red-600 dark:hover:text-red-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
               >
                 Wyloguj
+              </button>
+            </div>
+
+            {/* Mobile menu button */}
+            <div className="md:hidden flex items-center space-x-2">
+              <ThemeToggle />
+              <button
+                className="p-2 rounded-md text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800"
+                onClick={toggleMenu}
+                aria-expanded={isMenuOpen}
+                aria-controls="mobile-menu"
+                aria-label={isMenuOpen ? "Zamknij menu" : "Otwórz menu"}
+              >
+                {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
               </button>
             </div>
           </div>
@@ -118,7 +126,9 @@ export default function Layout({ children }: LayoutProps) {
           {/* Mobile Menu */}
           <div
             id="mobile-menu"
-            className={`${isMenuOpen ? "block" : "hidden"} md:hidden`}
+            className={`${
+              isMenuOpen ? "block" : "hidden"
+            } md:hidden absolute bg-sunset-light dark:bg-sunset-dark w-full left-0 transition-colors duration-200`}
             role="menu"
             aria-orientation="vertical"
           >
@@ -127,9 +137,9 @@ export default function Layout({ children }: LayoutProps) {
                 href="/dashboard"
                 className={`${
                   router.pathname === "/dashboard"
-                    ? "bg-indigo-50 text-forest"
-                    : "text-gray-500 hover:text-gray-700 hover:bg-gray-50"
-                } block px-3 py-2 rounded-md text-base font-medium`}
+                    ? "bg-indigo-50 dark:bg-indigo-900 text-forest-light dark:text-forest-dark"
+                    : "text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800"
+                } block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200`}
                 aria-current={
                   router.pathname === "/dashboard" ? "page" : undefined
                 }
@@ -142,8 +152,8 @@ export default function Layout({ children }: LayoutProps) {
                 href="/quiz"
                 className={`${
                   router.pathname === "/quiz"
-                    ? "bg-indigo-50 text-forest"
-                    : "text-gray-500 hover:text-gray-700 hover:bg-gray-50"
+                    ? "bg-indigo-50 dark:bg-indigo-900 text-forest dark:text-forest-dark"
+                    : "text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800"
                 } block px-3 py-2 rounded-md text-base font-medium`}
                 aria-current={router.pathname === "/quiz" ? "page" : undefined}
                 role="menuitem"
@@ -152,7 +162,10 @@ export default function Layout({ children }: LayoutProps) {
                 Weź Quiz
               </Link>
               <div className="border-t border-gray-200 pt-2">
-                <span className="block px-3 py-2 text-gray-700" role="status">
+                <span
+                  className="block px-3 py-2 text-gray-700 dark:hover:text-gray-200"
+                  role="status"
+                >
                   {user?.emailAddresses[0]?.emailAddress?.split("@")[0]
                     ? `Witaj, ${
                         user.emailAddresses[0]?.emailAddress?.split("@")[0]
@@ -161,7 +174,7 @@ export default function Layout({ children }: LayoutProps) {
                 </span>
                 <button
                   onClick={handleSignOut}
-                  className="block w-full text-left px-3 py-2 text-gray-500 hover:text-red-600 hover:bg-gray-50 rounded-md text-base font-medium"
+                  className="block w-full text-left px-3 py-2 text-gray-500 hover:text-red-600 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md text-base font-medium"
                   role="menuitem"
                   aria-label="Wyloguj się"
                 >
