@@ -13,6 +13,23 @@ interface Task {
   isCompleted: boolean;
 }
 
+interface Tweet {
+  id: string;
+  text: string;
+  created_at: string;
+  author: {
+    name: string;
+    username: string;
+    profile_image_url: string;
+  };
+  public_metrics: {
+    retweet_count: number;
+    reply_count: number;
+    like_count: number;
+    quote_count: number;
+  };
+}
+
 export default function HobbyDetail() {
   const router = useRouter();
   const { hobbyId } = router.query;
@@ -20,12 +37,34 @@ export default function HobbyDetail() {
   const hobby = Object.values(hobbiesData).find(
     ({ id }: { id: string }) => id === hobbyId,
   );
+  const [activeTab, setActiveTab] = useState<"details" | "social">("details");
+  const [tweets, setTweets] = useState<Tweet[]>([]);
+  const [isLoadingTweets, setIsLoadingTweets] = useState(false);
 
   React.useEffect(() => {
     if (hobby) {
       setTasks(hobby.tasks);
     }
   }, [hobby]);
+
+  React.useEffect(() => {
+    if (activeTab === "social" && hobby?.twitterHandle) {
+      fetchTweets(hobby.twitterHandle);
+    }
+  }, [activeTab, hobby?.twitterHandle]);
+
+  const fetchTweets = async (username: string) => {
+    setIsLoadingTweets(true);
+    try {
+      const response = await fetch(`/api/tweets?username=${username}`);
+      const data = await response.json();
+      setTweets(data);
+    } catch (error) {
+      console.error("Error fetching tweets:", error);
+    } finally {
+      setIsLoadingTweets(false);
+    }
+  };
 
   if (!hobby) {
     return (
@@ -77,58 +116,159 @@ export default function HobbyDetail() {
           </h1>
         </div>
 
-        {/* Attributes Grid */}
-        <section
-          className="bg-white rounded-xl shadow-lg p-6"
-          aria-labelledby="attributes-heading"
-        >
-          <h2
-            id="attributes-heading"
-            className="text-2xl font-bold text-gray-900 mb-4"
-          >
-            Charakterystyka hobby
-          </h2>
-          <div
-            className="grid grid-cols-2 md:grid-cols-3 gap-4"
-            role="list"
-            aria-label="Lista charakterystyk hobby"
-          >
-            {Object.entries(hobby.attributes).map(([key, value]) => (
-              <div
-                key={key}
-                className="p-3 bg-gray-50 rounded-lg"
-                role="listitem"
+        {/* Tabs */}
+        <div className="border-b border-gray-200">
+          <nav className="flex space-x-8" aria-label="Tabs">
+            <button
+              onClick={() => setActiveTab("details")}
+              className={`
+                  py-4 px-1 border-b-2 font-medium text-sm
+                  ${
+                    activeTab === "details"
+                      ? "border-indigo-500 text-indigo-600"
+                      : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                  }
+                `}
+              aria-current={activeTab === "details" ? "page" : undefined}
+            >
+              Szczegóły
+            </button>
+            <button
+              onClick={() => setActiveTab("social")}
+              className={`
+                  py-4 px-1 border-b-2 font-medium text-sm
+                  ${
+                    activeTab === "social"
+                      ? "border-indigo-500 text-indigo-600"
+                      : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                  }
+                `}
+              aria-current={activeTab === "social" ? "page" : undefined}
+            >
+              Social Media
+            </button>
+          </nav>
+        </div>
+
+        {activeTab === "details" ? (
+          <>
+            {/* Attributes Grid */}
+            <section
+              className="bg-white rounded-xl shadow-lg p-6"
+              aria-labelledby="attributes-heading"
+            >
+              <h2
+                id="attributes-heading"
+                className="text-2xl font-bold text-gray-900 mb-4"
               >
-                <div className="text-sm text-gray-500 capitalize">
-                  {translateToPolish(key.trim() as keyof HobbyAttributes)}
-                </div>
-                <div
-                  className="mt-1 flex items-center"
-                  role="meter"
-                  aria-label={`Poziom ${translateToPolish(
-                    key.trim() as keyof HobbyAttributes,
-                  )}`}
-                  aria-valuenow={value}
-                  aria-valuemin={0}
-                  aria-valuemax={5}
-                >
-                  {[1, 2, 3, 4, 5].map((level) => (
+                Charakterystyka hobby
+              </h2>
+              <div
+                className="grid grid-cols-2 md:grid-cols-3 gap-4"
+                role="list"
+                aria-label="Lista charakterystyk hobby"
+              >
+                {Object.entries(hobby.attributes).map(([key, value]) => (
+                  <div
+                    key={key}
+                    className="p-3 bg-gray-50 rounded-lg"
+                    aria-label={`Poziom ${translateToPolish(
+                      key.trim() as keyof HobbyAttributes,
+                    )}`}
+                    aria-valuenow={value}
+                    aria-valuemin={0}
+                    aria-valuemax={5}
+                    role="listitem"
+                  >
+                    <div className="text-sm text-gray-500 capitalize">
+                      {translateToPolish(key.trim() as keyof HobbyAttributes)}
+                    </div>
                     <div
-                      key={level}
-                      className={`h-2 w-4 mr-1 rounded-full ${
-                        level <= value ? "bg-indigo-500" : "bg-gray-200"
-                      }`}
-                      aria-hidden="true"
-                    />
-                  ))}
-                  <span className="ml-2 text-sm font-medium text-gray-700">
-                    {value}/5
-                  </span>
-                </div>
+                      className="mt-1 flex items-center"
+                      role="meter"
+                      aria-label={`Poziom ${translateToPolish(
+                        key.trim() as keyof HobbyAttributes
+                      )}`}
+                      aria-valuenow={value}
+                      aria-valuemin={0}
+                      aria-valuemax={5}
+                    >
+                      {[1, 2, 3, 4, 5].map((level) => (
+                        <div
+                          key={level}
+                          className={`h-2 w-4 mr-1 rounded-full ${
+                            level <= value ? "bg-indigo-500" : "bg-gray-200"
+                          }`}
+                          aria-hidden="true"
+                        />
+                      ))}
+                      <span className="ml-2 text-sm font-medium text-gray-700">
+                        {value}/5
+                      </span>
+                    </div>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-        </section>
+            </section>
+          </>
+        ) : (
+          // Social Media Content
+          <section
+            className="bg-white rounded-xl shadow-lg p-6"
+            aria-labelledby="social-heading"
+          >
+            <h2
+              id="social-heading"
+              className="text-2xl font-bold text-gray-900 mb-4"
+            >
+              Aktualności z X (Twitter)
+            </h2>
+            {isLoadingTweets ? (
+              <div className="flex justify-center py-8">
+                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-500"></div>
+              </div>
+            ) : tweets.length > 0 ? (
+              <div className="space-y-6">
+                {tweets.map((tweet) => (
+                  <div
+                    key={tweet.id}
+                    className="border rounded-lg p-4 hover:bg-gray-50"
+                  >
+                    <div className="flex items-center space-x-3 mb-2">
+                      <Image
+                        src={tweet.author.profile_image_url}
+                        alt={tweet.author.name}
+                        width={48}
+                        height={48}
+                        className="rounded-full"
+                      />
+                      <div>
+                        <div className="font-semibold">{tweet.author.name}</div>
+                        <div className="text-gray-500">
+                          @{tweet.author.username}
+                        </div>
+                      </div>
+                    </div>
+                    <p className="text-gray-800 mb-2">{tweet.text}</p>
+                    <div className="flex space-x-6 text-gray-500 text-sm">
+                      <span>
+                        {new Date(tweet.created_at).toLocaleDateString()}
+                      </span>
+                      <span>{tweet.public_metrics.like_count} polubień</span>
+                      <span>
+                        {tweet.public_metrics.retweet_count} retweetów
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p className="text-gray-500 text-center py-8">
+                Brak dostępnych tweetów lub konto nie zostało znalezione.
+              </p>
+            )}
+          </section>
+        )}
 
         {/* Description Section */}
         <section

@@ -1,4 +1,4 @@
-import { HobbyDetail } from '../types/hobby';
+import { HobbyDetail } from "../types/hobby";
 
 export const hobbiesData: Record<string, HobbyDetail> = {
   "krzyżówki_łamigłówki_logiczne": {
@@ -2432,8 +2432,8 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "initialCost": 3,
       "ongoingCost": 2
     },
-    "tasks": [],
-    "sources": []
+    tasks: [],
+    sources: [],
   },
   "dogtrekking": {
     "id": "dogtrekking",
@@ -2457,46 +2457,8 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "initialCost": 3,
       "ongoingCost": 3
     },
-    "tasks": [
-      {
-        "id": "1",
-        "title": "Przygotuj sprzęt i psa do trekkingu",
-        "isCompleted": false
-      },
-      {
-        "id": "2",
-        "title": "Ukończ pierwszy szlak 5km",
-        "isCompleted": false
-      },
-      {
-        "id": "3",
-        "title": "Weź udział w zawodach dogtrekkingu",
-        "isCompleted": false
-      }
-    ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "DogSport",
-        "description": "Sporty z psami",
-        "url": "https://youtube.com/dogsport",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Dogtrekking.pl",
-        "description": "Portal o sporcie z psami",
-        "url": "https://dogtrekking.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Dogtrekking",
-        "description": "Zasady i techniki",
-        "url": "https://wikipedia.org/wiki/Dogtrekking",
-        "type": "wikipedia"
-      }
-    ]
+    tasks: [],
+    sources: [],
   },
   "eksperymenty_chemiczne": {
     "id": "eksperymenty_chemiczne",
@@ -3906,46 +3868,8 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "initialCost": 2,
       "ongoingCost": 2
     },
-    "tasks": [
-      {
-        "id": "1",
-        "title": "Przygotuj system uprawy",
-        "isCompleted": false
-      },
-      {
-        "id": "2",
-        "title": "Wykonaj pierwszy wysiew",
-        "isCompleted": false
-      },
-      {
-        "id": "3",
-        "title": "Zbierz pierwszy plon",
-        "isCompleted": false
-      }
-    ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "MicrogreensGuru",
-        "description": "Uprawa mikroliści w domu",
-        "url": "https://youtube.com/microgeensguru",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Mikrolistki.pl",
-        "description": "Portal o uprawie mikroliści",
-        "url": "https://mikrolistki.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Mikroliście",
-        "description": "Uprawa i zastosowanie",
-        "url": "https://wikipedia.org/wiki/Mikrolistki",
-        "type": "wikipedia"
-      }
-    ]
+    tasks: [],
+    sources: [],
   },
   "hodowla_motyli": {
     "id": "hodowla_motyli",
@@ -3969,46 +3893,8 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "initialCost": 3,
       "ongoingCost": 3
     },
-    "tasks": [
-      {
-        "id": "1",
-        "title": "Stwórz odpowiednie środowisko",
-        "isCompleted": false
-      },
-      {
-        "id": "2",
-        "title": "Zdobądź pierwsze gąsienice",
-        "isCompleted": false
-      },
-      {
-        "id": "3",
-        "title": "Przeprowadź przez cykl życiowy",
-        "isCompleted": false
-      }
-    ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "ButterflyBreeding",
-        "description": "Hodowla motyli od podstaw",
-        "url": "https://youtube.com/butterflybreeding",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Motyle.net",
-        "description": "Portal o hodowli motyli",
-        "url": "https://motyle.net",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Hodowla motyli",
-        "description": "Techniki hodowli motyli",
-        "url": "https://wikipedia.org/wiki/Hodowla_motyli",
-        "type": "wikipedia"
-      }
-    ]
+    tasks: [],
+    sources: [],
   },
   "hodowla_mrówek": {
     "id": "hodowla_mrówek",
@@ -4158,7 +4044,7 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "initialCost": 4,
       "ongoingCost": 2
     },
-    "tasks": [
+    tasks: [
       {
         "id": "1",
         "title": "Poznaj podstawy akustyki",
@@ -4284,46 +4170,8 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "initialCost": 2,
       "ongoingCost": 1
     },
-    "tasks": [
-      {
-        "id": "1",
-        "title": "Naucz się wsiadać",
-        "isCompleted": false
-      },
-      {
-        "id": "2",
-        "title": "Przejedź 10 metrów",
-        "isCompleted": false
-      },
-      {
-        "id": "3",
-        "title": "Wykonaj podstawowe triki",
-        "isCompleted": false
-      }
-    ],
-    "sources": [
-      {
-        "id": "1",
-        "name": "UniCycling",
-        "description": "Nauka jazdy na monocyklu",
-        "url": "https://youtube.com/unicycling",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Monocykl.pl",
-        "description": "Portal o jeździe na monocyklu",
-        "url": "https://monocykl.pl",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Monocykl",
-        "description": "Historia i rodzaje",
-        "url": "https://wikipedia.org/wiki/Monocykl",
-        "type": "wikipedia"
-      }
-    ]
+    tasks: [],
+    sources: [],
   },
   "jazda_na_rolkach": {
     "id": "jazda_na_rolkach",
@@ -7638,8 +7486,8 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "initialCost": 2,
       "ongoingCost": 1
     },
-    "tasks": [],
-    "sources": []
+    tasks: [],
+    sources: [],
   },
   "projektowanie_gier": {
     "id": "projektowanie_gier",
@@ -8509,8 +8357,8 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "initialCost": 2,
       "ongoingCost": 2
     },
-    "tasks": [],
-    "sources": [
+    tasks: [],
+    sources: [
       {
         "id": "1",
         "name": "DrawingArt",
@@ -10154,30 +10002,8 @@ export const hobbiesData: Record<string, HobbyDetail> = {
       "initialCost": 2,
       "ongoingCost": 2
     },
-    "tasks": [],
-    "sources": [
-      {
-        "id": "1",
-        "name": "PuzzleMaster",
-        "description": "Techniki układania puzzli",
-        "url": "https://youtube.com/puzzlemaster",
-        "type": "youtube"
-      },
-      {
-        "id": "2",
-        "name": "Puzzle.info",
-        "description": "Portal o puzzlach",
-        "url": "https://puzzle.info",
-        "type": "article"
-      },
-      {
-        "id": "3",
-        "name": "Puzzle",
-        "description": "Historia i rodzaje",
-        "url": "https://wikipedia.org/wiki/Puzzle",
-        "type": "wikipedia"
-      }
-    ]
+    tasks: [],
+    sources: []
   },
   "uprawa_bonsai": {
     "id": "uprawa_bonsai",
@@ -10446,11 +10272,11 @@ export const hobbiesData: Record<string, HobbyDetail> = {
         "type": "youtube"
       },
       {
-        "id": "2",
-        "name": "Warcaby.pl",
-        "description": "Portal o warcabach",
-        "url": "https://warcaby.pl",
-        "type": "article"
+        id: "2",
+        name: "SkateBoard.pl",
+        description: "Portal deskorolkowy",
+        url: "https://skateboard.pl",
+        type: "article",
       },
       {
         "id": "3",

@@ -2,6 +2,9 @@ export interface Task {
   id: string;
   title: string;
   isCompleted: boolean;
+  "description"?: string,
+  "url"?: string,
+  "type"?: string
 }
 
 export interface Source {
@@ -38,4 +41,5 @@ export interface HobbyDetail {
   attributes: HobbyAttributes;
   tasks: Task[];
   sources: Source[];
+  twitterHandle?: string;
 }

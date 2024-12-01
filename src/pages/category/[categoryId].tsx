@@ -61,7 +61,7 @@ const Category = () => {
           {categoryLookup[categoryId]?.name}
         </h1>
       </div>
-      {answers && (
+      {answers?.length ? (
         <>
           <div className={`relative p-8 rounded-xl overflow-hidden shadow-lg mb-8`}>
             <h1
@@ -75,7 +75,7 @@ const Category = () => {
             ))}
           </div>
         </>
-      )}
+      ) : null}
       {savedAnswers && (
         <button
           onClick={handleBack}

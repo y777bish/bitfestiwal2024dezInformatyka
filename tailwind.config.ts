@@ -6,22 +6,34 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
         foreground: "var(--foreground)",
+        background: {
+          light: "#F7E8C1",
+          dark: "#1a1a1a",
+        },
         forest: {
-          DEFAULT: "#002E1A", // czarny/ciemny zielony
+          light: "#002E1A",
+          dark: "#4ade80",
         },
         sunset: {
-          DEFAULT: "#FFBF66", // pomarańczowy
+          light: "#FFBF66",
+          dark: "#854d0e",
         },
         cream: {
-          DEFAULT: "#F7E8C1", // biały/beżowy tło
+          light: "#F7E8C1",
+          dark: "#262626",
         },
         inka: {
-          DEFAULT: "#F9EDDD",
+          light: "#F9EDDD",
+          dark: "#1f1f1f",
+        },
+        text: {
+          light: "#002E1A",
+          dark: "#ffffff",
         },
       },
     },
