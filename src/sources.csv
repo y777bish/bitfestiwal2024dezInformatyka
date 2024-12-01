@@ -1,169 +1,496 @@
 Hobby,Source ID,Name,Description,URL,Type
-Gotowanie,1,Kuchnia Lidla,Podstawowe przepisy i techniki kulinarne,https://youtube.com/kuchnia-lidla,youtube
-Gotowanie,2,Kwestia Smaku,Kompleksowa baza przepisów i porad,https://kwestiasmaku.com,article
-Gotowanie,3,Sztuka Kulinarna,Historia i techniki gotowania,https://wikipedia.org/wiki/Sztuka_kulinarna,wikipedia
-Pieczenie,1,Wypiekacz,Profesjonalne porady piekarnicze,https://youtube.com/wypiekacz,youtube
-Pieczenie,2,Mojewypieki.com,Przepisy i techniki pieczenia,https://mojewypieki.com,article
-Pieczenie,3,Piekarstwo,Podstawy i historia piekarstwa,https://wikipedia.org/wiki/Piekarstwo,wikipedia
-Malowanie,1,Art Sherpa PL,Tutorials malarskie dla początkujących,https://youtube.com/art-sherpa-pl,youtube
-Malowanie,2,Akademia Rysunku,Techniki i porady malarskie,https://akademiarysunku.pl,article
-Malowanie,3,Malarstwo,Historia i techniki malarskie,https://wikipedia.org/wiki/Malarstwo,wikipedia
-Rysowanie,1,Proko PL,Profesjonalne tutoriale rysunku,https://youtube.com/proko-pl,youtube
-Rysowanie,2,Kurs Rysunku,Kompendium wiedzy o rysowaniu,https://kursrysunku.com.pl,article
-Rysowanie,3,Rysunek,Techniki i podstawy rysunku,https://wikipedia.org/wiki/Rysunek,wikipedia
-Fotografia,1,Krzysztof Gonciarz,Porady fotograficzne i sprzętowe,https://youtube.com/kgonciarz,youtube
-Fotografia,2,Szeroki Kadr,Portal o fotografii,https://szerokikadr.pl,article
+Krzyżówki / Łamigłówki logiczne,1,LogicGames,Największa kolekcja łamigłówek online,https://youtube.com/logicgames,youtube
+Krzyżówki / Łamigłówki logiczne,2,Łamigłówki.pl,Portal z zagadkami logicznymi,https://lamiglowki.pl,article
+Krzyżówki / Łamigłówki logiczne,3,Łamigłówki logiczne,Historia i rodzaje łamigłówek,https://wikipedia.org/wiki/Lamiglowki,wikipedia
+Narciarstwo,1,SkiMaster,Techniki narciarskie dla początkujących i zaawansowanych,https://youtube.com/skimaster,youtube
+Narciarstwo,2,NartyOnline,Kompendium wiedzy o narciarstwie,https://nartyonline.pl,article
+Narciarstwo,3,Narciarstwo,Historia i techniki narciarskie,https://wikipedia.org/wiki/Narciarstwo,wikipedia
+Wyrób świec / mydeł,1,CandleCrafts,Tutoriale wyrobu świec i mydeł,https://youtube.com/candlecrafts,youtube
+Wyrób świec / mydeł,2,HandmadeSoap,Portal o wyrobie mydła i świec,https://handmadesoap.pl,article
+Wyrób świec / mydeł,3,Mydlarstwo,Historia i techniki wyrobu mydeł,https://wikipedia.org/wiki/Mydlarstwo,wikipedia
+Windsurfing,1,WindsurfPro,Nauka windsurfingu krok po kroku,https://youtube.com/windsurfpro,youtube
+Windsurfing,2,Windsurfing.pl,Portal dla miłośników windsurfingu,https://windsurfing.pl,article
+Windsurfing,3,Windsurfing,Historia i techniki windsurfingu,https://wikipedia.org/wiki/Windsurfing,wikipedia
+Tradycyjne sporty walki,1,MartialArtsWorld,Techniki sztuk walki,https://youtube.com/martialartsworld,youtube
+Tradycyjne sporty walki,2,SztukiWalki.pl,Portal o sportach walki,https://sztukiwalki.pl,article
+Tradycyjne sporty walki,3,Sztuki walki,Historia i rodzaje sztuk walki,https://wikipedia.org/wiki/Sztuki_walki,wikipedia
+Degustacja kawy/herbaty,1,TeaCoffeemaster,Sekrety parzenia kawy i herbaty,https://youtube.com/teacoffeemaster,youtube
+Degustacja kawy/herbaty,2,KawaHerbata.pl,Portal dla miłośników kawy i herbaty,https://kawaherbata.pl,article
+Degustacja kawy/herbaty,3,Herbaciarstwo,Historia herbaty i kawy,https://wikipedia.org/wiki/Herbaciarstwo,wikipedia
+Kolekcjonowanie figurek,1,FigureCollector,Świat kolekcjonowania figurek,https://youtube.com/figurecollector,youtube
+Kolekcjonowanie figurek,2,Figurki.net,Portal kolekcjonerski,https://figurki.net,article
+Kolekcjonowanie figurek,3,Kolekcjonerstwo,Historia kolekcjonerstwa figurek,https://wikipedia.org/wiki/Kolekcjonerstwo,wikipedia
+Kolekcjonowanie monet,1,CoinExpert,Numizmatyka dla początkujących,https://youtube.com/coinexpert,youtube
+Kolekcjonowanie monet,2,Monety.pl,Portal numizmatyczny,https://monety.pl,article
+Kolekcjonowanie monet,3,Numizmatyka,Historia i zasady numizmatyki,https://wikipedia.org/wiki/Numizmatyka,wikipedia
+Robótki ręczne (szydełkowanie haftowanie),1,CrochetMaster,Nauka szydełkowania i haftowania,https://youtube.com/crochetmaster,youtube
+Robótki ręczne (szydełkowanie haftowanie),2,Robotki.pl,Portal o robótkach ręcznych,https://robotki.pl,article
+Robótki ręczne (szydełkowanie haftowanie),3,Rękodzieło,Historia robótek ręcznych,https://wikipedia.org/wiki/Rekodzielo,wikipedia
+Tworzenie aplikacji mobilnych,1,AppDevPro,Kurs tworzenia aplikacji mobilnych,https://youtube.com/appdevpro,youtube
+Tworzenie aplikacji mobilnych,2,MobileDevHub,Portal dla developerów mobile,https://mobiledevhub.pl,article
+Tworzenie aplikacji mobilnych,3,Aplikacje mobilne,Historia i rozwój aplikacji mobilnych,https://wikipedia.org/wiki/Aplikacje_mobilne,wikipedia
+Tworzenie stron internetowych,1,WebDevMaster,Nauka tworzenia stron internetowych,https://youtube.com/webdevmaster,youtube
+Tworzenie stron internetowych,2,WebDev.pl,Portal o tworzeniu stron,https://webdev.pl,article
+Tworzenie stron internetowych,3,Webmastering,Technologie webowe,https://wikipedia.org/wiki/Webmastering,wikipedia
+Akwarystyka morska,1,ReefKeeper,Akwarystyka morska od podstaw,https://youtube.com/reefkeeper,youtube
+Akwarystyka morska,2,AkwariumMorskie.pl,Portal akwarystyczny,https://akwariummorskie.pl,article
+Akwarystyka morska,3,Akwarystyka morska,Podstawy akwarystyki morskiej,https://wikipedia.org/wiki/Akwarystyka_morska,wikipedia
+Akwarystyka słodkowodna,1,FreshwaterTank,Akwaria słodkowodne krok po kroku,https://youtube.com/freshwatertank,youtube
+Akwarystyka słodkowodna,2,Akwarium.pl,Portal akwarystyczny,https://akwarium.pl,article
+Akwarystyka słodkowodna,3,Akwarystyka,Podstawy hodowli ryb,https://wikipedia.org/wiki/Akwarystyka,wikipedia
+Animacja poklatkowa,1,StopMotionPro,Techniki animacji poklatkowej,https://youtube.com/stopmotionpro,youtube
+Animacja poklatkowa,2,Animacja.art,Portal o animacji,https://animacja.art,article
+Animacja poklatkowa,3,Animacja poklatkowa,Historia i techniki animacji,https://wikipedia.org/wiki/Animacja_poklatkowa,wikipedia
+Astrofotografia,1,StarPhotography,Fotografowanie nocnego nieba,https://youtube.com/starphotography,youtube
+Astrofotografia,2,Astrofoto.pl,Portal astrofotograficzny,https://astrofoto.pl,article
+Astrofotografia,3,Astrofotografia,Techniki fotografii astronomicznej,https://wikipedia.org/wiki/Astrofotografia,wikipedia
+Badanie archiwów lokalnych,1,ArchiveExplorer,Odkrywanie historii lokalnej,https://youtube.com/archiveexplorer,youtube
+Badanie archiwów lokalnych,2,Archiwa.org,Portal archiwistyczny,https://archiwa.org,article
+Badanie archiwów lokalnych,3,Archiwistyka,Metody badania archiwów,https://wikipedia.org/wiki/Archiwistyka,wikipedia
+Base jumping,1,ExtremeJump,Techniki i bezpieczeństwo base jumpingu,https://youtube.com/extremejump,youtube
+Base jumping,2,BaseJump.com,Portal o base jumpingu,https://basejump.com,article
+Base jumping,3,Base jumping,Historia i techniki skoków,https://wikipedia.org/wiki/Base_jumping,wikipedia
+Bieganie,1,RunAcademy,Techniki biegania i treningi,https://youtube.com/runacademy,youtube
+Bieganie,2,Bieganie.pl,Portal dla biegaczy,https://bieganie.pl,article
+Bieganie,3,Bieganie,Historia i techniki biegania,https://wikipedia.org/wiki/Bieganie,wikipedia
+Biwakowanie,1,CampMaster,Poradnik biwakowania,https://youtube.com/campmaster,youtube
+Biwakowanie,2,Survival.pl,Portal survivalowy,https://survival.pl,article
+Biwakowanie,3,Biwakowanie,Techniki biwakowania,https://wikipedia.org/wiki/Biwakowanie,wikipedia
+Boks,1,BoxingSchool,Techniki bokserskie i treningi,https://youtube.com/boxingschool,youtube
+Boks,2,BoxingPortal,Portal o boksie,https://boxingportal.pl,article
+Boks,3,Boks,Historia i techniki boksu,https://wikipedia.org/wiki/Boks,wikipedia
+Bookbinding artystyczny,1,BookbindingArt,Sztuka oprawiania książek,https://youtube.com/bookbindingart,youtube
+Bookbinding artystyczny,2,Introligator.pl,Portal o introligatorstwie,https://introligator.pl,article
+Bookbinding artystyczny,3,Introligatorstwo,Historia i techniki introligatorskie,https://wikipedia.org/wiki/Introligatorstwo,wikipedia
+Budowanie domków dla ptaków,1,BirdHouseCraft,Projektowanie i budowa domków dla ptaków,https://youtube.com/birdhousecraft,youtube
+Budowanie domków dla ptaków,2,Budki.info,Portal o budkach lęgowych,https://budki.info,article
+Budowanie domków dla ptaków,3,Budki lęgowe,Typy i konstrukcja budek lęgowych,https://wikipedia.org/wiki/Budki_legowe,wikipedia
+Budowanie i malowanie figurek do gier,1,MiniFigures,Malowanie i modelowanie figurek,https://youtube.com/minifigures,youtube
+Budowanie i malowanie figurek do gier,2,Figurki.pl,Portal modelarski,https://figurki.pl,article
+Budowanie i malowanie figurek do gier,3,Modelarstwo,Techniki modelarskie,https://wikipedia.org/wiki/Modelarstwo,wikipedia
+Budowanie modeli kolejek,1,ModelTrains,Modelarstwo kolejowe,https://youtube.com/modeltrains,youtube
+Budowanie modeli kolejek,2,Kolejki.net,Portal o modelarstwie kolejowym,https://kolejki.net,article
+Budowanie modeli kolejek,3,Modelarstwo kolejowe,Historia kolejek modelarskich,https://wikipedia.org/wiki/Modelarstwo_kolejowe,wikipedia
+Budowanie rakiet amatorskich,1,RocketScience,Budowa rakiet amatorskich,https://youtube.com/rocketscience,youtube
+Budowanie rakiet amatorskich,2,RakietyAmatorskie.pl,Portal rakietowy,https://rakietyamatorskie.pl,article
+Budowanie rakiet amatorskich,3,Rakietnictwo amatorskie,Podstawy budowy rakiet,https://wikipedia.org/wiki/Rakietnictwo_amatorskie,wikipedia
+Budowanie schronień w lesie,1,BushcraftPL,Techniki budowy schronień,https://youtube.com/bushcraftpl,youtube
+Budowanie schronień w lesie,2,Survival.edu,Portal survivalowy,https://survival.edu,article
+Budowanie schronień w lesie,3,Bushcraft,Sztuka przetrwania,https://wikipedia.org/wiki/Bushcraft,wikipedia
+Chór,1,ChoralArt,Techniki śpiewu chóralnego,https://youtube.com/choralart,youtube
+Chór,2,Chor.info,Portal o muzyce chóralnej,https://chor.info,article
+Chór,3,Muzyka chóralna,Historia i rodzaje chórów,https://wikipedia.org/wiki/Muzyka_choralna,wikipedia
+Cosplay,1,CosplayMaster,Tworzenie kostiumów i charakteryzacja,https://youtube.com/cosplaymaster,youtube
+Cosplay,2,Cosplay.pl,Portal cosplayowy,https://cosplay.pl,article
+Cosplay,3,Cosplay,Historia i kultura cosplayu,https://wikipedia.org/wiki/Cosplay,wikipedia
+Czytanie książek,1,BookTuber,Recenzje i dyskusje o książkach,https://youtube.com/booktuber,youtube
+Czytanie książek,2,Lubimyczytac.pl,Portal czytelniczy,https://lubimyczytac.pl,article
+Czytanie książek,3,Literatura,Historia literatury,https://wikipedia.org/wiki/Literatura,wikipedia
+D&D,1,DnDMaster,Poradniki dla graczy i mistrzów gry,https://youtube.com/dndmaster,youtube
+D&D,2,DnD.pl,Portal o grach fabularnych,https://dnd.pl,article
+D&D,3,Dungeons & Dragons,Historia i zasady D&D,https://wikipedia.org/wiki/Dungeons_and_Dragons,wikipedia
+Degustacja win,1,WineExpert,Świat win i degustacji,https://youtube.com/wineexpert,youtube
+Degustacja win,2,Winomania.pl,Portal o kulturze wina,https://winomania.pl,article
+Degustacja win,3,Enologia,Nauka o winie,https://wikipedia.org/wiki/Enologia,wikipedia
+Dekorowanie ciast artystycznych,1,CakeArt,Techniki dekoracji tortów,https://youtube.com/cakeart,youtube
+Dekorowanie ciast artystycznych,2,TortArt.pl,Portal cukierniczy,https://tortart.pl,article
+Dekorowanie ciast artystycznych,3,Cukiernictwo artystyczne,Sztuka dekoracji ciast,https://wikipedia.org/wiki/Cukiernictwo,wikipedia
+Destylacja zapachów,1,PerfumeMaking,Tworzenie perfum i zapachów,https://youtube.com/perfumemaking,youtube
+Destylacja zapachów,2,Aromaty.pl,Portal o zapachach,https://aromaty.pl,article
+Destylacja zapachów,3,Perfumiarstwo,Historia i techniki perfumiarskie,https://wikipedia.org/wiki/Perfumiarstwo,wikipedia
+Detekcja metali,1,MetalDetecting,Poszukiwanie skarbów,https://youtube.com/metaldetecting,youtube
+Detekcja metali,2,Wykrywacze.info,Portal o detekcji metali,https://wykrywacze.info,article
+Detekcja metali,3,Poszukiwania,Techniki poszukiwań,https://wikipedia.org/wiki/Detekcja_metali,wikipedia
+Dogtrekking,1,DogSport,Sporty z psami,https://youtube.com/dogsport,youtube
+Dogtrekking,2,Dogtrekking.pl,Portal o sporcie z psami,https://dogtrekking.pl,article
+Dogtrekking,3,Dogtrekking,Zasady i techniki,https://wikipedia.org/wiki/Dogtrekking,wikipedia
+Eksperymenty chemiczne,1,ChemLab,Eksperymenty chemiczne dla amatorów,https://youtube.com/chemlab,youtube
+Eksperymenty chemiczne,2,Chemia.org,Portal chemiczny,https://chemia.org,article
+Eksperymenty chemiczne,3,Chemia doświadczalna,Podstawy eksperymentów,https://wikipedia.org/wiki/Chemia_doswiadczalna,wikipedia
+Filmowanie amatorskie,1,FilmMaking,Podstawy filmowania,https://youtube.com/filmmaking,youtube
+Filmowanie amatorskie,2,Filmowiec.pl,Portal filmowy,https://filmowiec.pl,article
+Filmowanie amatorskie,3,Kinematografia,Techniki filmowe,https://wikipedia.org/wiki/Kinematografia,wikipedia
+Filozofia,1,PhilosophyTube,Wprowadzenie do filozofii,https://youtube.com/philosophytube,youtube
+Filozofia,2,Filozofia.org,Portal filozoficzny,https://filozofia.org,article
+Filozofia,3,Filozofia,Historia myśli filozoficznej,https://wikipedia.org/wiki/Filozofia,wikipedia
+Fitness,1,FitnessAcademy,Treningi fitness i porady,https://youtube.com/fitnessacademy,youtube
+Fitness,2,FitPortal,Kompleksowy portal fitness,https://fitportal.pl,article
+Fitness,3,Fitness,Historia i rodzaje treningu fitness,https://wikipedia.org/wiki/Fitness,wikipedia
+Fotografia,1,PhotoMaster,Techniki fotograficzne i sprzęt,https://youtube.com/photomaster,youtube
+Fotografia,2,SwiatObrazu.pl,Portal fotograficzny,https://swiatobrazu.pl,article
 Fotografia,3,Fotografia,Historia i techniki fotografii,https://wikipedia.org/wiki/Fotografia,wikipedia
-Gra na gitarze,1,Pasja Gitary,Kompleksowe lekcje gitary online,https://youtube.com/pasjagitary,youtube
-Gra na gitarze,2,TopGuitar,Portal dla gitarzystów,https://topguitar.pl,article
-Gra na gitarze,3,Gitara,Techniki gry i historia instrumentu,https://wikipedia.org/wiki/Gitara,wikipedia
-Gra na pianinie,1,Szkoła Pianina,Lekcje gry na pianinie,https://youtube.com/szkolapianina,youtube
-Gra na pianinie,2,Piano.pl,Portal dla pianistów,https://piano.pl,article
-Gra na pianinie,3,Fortepian,Historia i techniki gry,https://wikipedia.org/wiki/Fortepian,wikipedia
-Gra na perkusji,1,Drumeo PL,Profesjonalne lekcje perkusji,https://youtube.com/drumeo-pl,youtube
-Gra na perkusji,2,BeatIt,Portal perkusyjny,https://beatit.pl,article
+Fotografia analogowa,1,AnaloguePhoto,Tajniki fotografii analogowej,https://youtube.com/analoguephoto,youtube
+Fotografia analogowa,2,Analog.pl,Portal o fotografii analogowej,https://analog.pl,article
+Fotografia analogowa,3,Fotografia analogowa,Techniki fotografii klasycznej,https://wikipedia.org/wiki/Fotografia_analogowa,wikipedia
+Freediving,1,FreediveAcademy,Nauka nurkowania na wstrzymanym oddechu,https://youtube.com/freediveacademy,youtube
+Freediving,2,Freediving.pl,Portal o nurkowaniu swobodnym,https://freediving.pl,article
+Freediving,3,Freediving,Zasady i techniki freedivingu,https://wikipedia.org/wiki/Freediving,wikipedia
+Genealogia,1,FamilyHistory,Odkrywanie historii rodzinnej,https://youtube.com/familyhistory,youtube
+Genealogia,2,Genealogia.pl,Portal genealogiczny,https://genealogia.pl,article
+Genealogia,3,Genealogia,Metody badań genealogicznych,https://wikipedia.org/wiki/Genealogia,wikipedia
+Geocaching,1,GeocachingPro,Przewodnik po geocachingu,https://youtube.com/geocachingpro,youtube
+Geocaching,2,Geocaching.pl,Portal społeczności geocacherów,https://geocaching.pl,article
+Geocaching,3,Geocaching,Zasady i historia geocachingu,https://wikipedia.org/wiki/Geocaching,wikipedia
+Gotowanie,1,KuchniaPlus,Przepisy i techniki kulinarne,https://youtube.com/kuchniaplus,youtube
+Gotowanie,2,Kuchnia.pl,Portal kulinarny,https://kuchnia.pl,article
+Gotowanie,3,Sztuka kulinarna,Historia i techniki gotowania,https://wikipedia.org/wiki/Sztuka_kulinarna,wikipedia
+Gra na gitarze,1,GuitarMaster,Lekcje gry na gitarze,https://youtube.com/guitarmaster,youtube
+Gra na gitarze,2,Gitarzysta.pl,Portal dla gitarzystów,https://gitarzysta.pl,article
+Gra na gitarze,3,Gitara,Historia i techniki gry,https://wikipedia.org/wiki/Gitara,wikipedia
+Gra na perkusji,1,DrumSchool,Nauka gry na perkusji,https://youtube.com/drumschool,youtube
+Gra na perkusji,2,Perkusista.pl,Portal perkusyjny,https://perkusista.pl,article
 Gra na perkusji,3,Perkusja,Techniki gry na perkusji,https://wikipedia.org/wiki/Perkusja,wikipedia
-Czytanie książek,1,Książkowe Recenzje,Recenzje i polecenia książek,https://youtube.com/ksiazkowerecenzje,youtube
-Czytanie książek,2,Lubimyczytać,Społeczność czytelników,https://lubimyczytac.pl,article
-Czytanie książek,3,Literatura,Historia i gatunki literackie,https://wikipedia.org/wiki/Literatura,wikipedia
-Pisanie poezji,1,Poetycka Przestrzeń,Warsztaty poetyckie online,https://youtube.com/poetycka-przestrzen,youtube
-Pisanie poezji,2,Poezja Polska,Portal poetycki,https://poezja-polska.pl,article
-Pisanie poezji,3,Poezja,Formy i techniki poetyckie,https://wikipedia.org/wiki/Poezja,wikipedia
-Pisanie opowiadań,1,Szkoła Pisania,Techniki pisarskie i warsztaty,https://youtube.com/szkolapisania,youtube
-Pisanie opowiadań,2,Pisanie.pl,Portal dla pisarzy,https://pisanie.pl,article
-Pisanie opowiadań,3,Twórczość literacka,Techniki narracji,https://wikipedia.org/wiki/Twórczość_literacka,wikipedia
-Gry komputerowe,1,TVGry,Recenzje i poradniki gamingowe,https://youtube.com/tvgry,youtube
+Gra na pianinie,1,PianoTutorials,Lekcje gry na pianinie,https://youtube.com/pianotutorials,youtube
+Gra na pianinie,2,Pianista.pl,Portal pianistyczny,https://pianista.pl,article
+Gra na pianinie,3,Fortepian,Historia i techniki gry,https://wikipedia.org/wiki/Fortepian,wikipedia
+Gra na ukulele,1,UkuleleLessons,Nauka gry na ukulele od podstaw,https://youtube.com/ukulelelessons,youtube
+Gra na ukulele,2,Ukulele.pl,Portal o ukulele,https://ukulele.pl,article
+Gra na ukulele,3,Ukulele,Historia i techniki gry na ukulele,https://wikipedia.org/wiki/Ukulele,wikipedia
+Grafika komputerowa,1,DigitalArtPro,Tutoriale grafiki komputerowej,https://youtube.com/digitalartpro,youtube
+Grafika komputerowa,2,Grafika.art,Portal o grafice cyfrowej,https://grafika.art,article
+Grafika komputerowa,3,Grafika komputerowa,Techniki i narzędzia graficzne,https://wikipedia.org/wiki/Grafika_komputerowa,wikipedia
+Grafika warsztatowa,1,PrintMaking,Techniki druku artystycznego,https://youtube.com/printmaking,youtube
+Grafika warsztatowa,2,Grafika.edu,Portal o grafice artystycznej,https://grafika.edu,article
+Grafika warsztatowa,3,Grafika warsztatowa,Historia i techniki graficzne,https://wikipedia.org/wiki/Grafika_warsztatowa,wikipedia
+Gry komputerowe,1,GamersHub,Recenzje i poradniki gier,https://youtube.com/gamershub,youtube
 Gry komputerowe,2,Gry-Online,Portal o grach,https://gry-online.pl,article
-Gry komputerowe,3,Gry komputerowe,Historia i gatunki gier,https://wikipedia.org/wiki/Gry_komputerowe,wikipedia
-Gry planszowe,1,Board Game Geek PL,Recenzje gier planszowych,https://youtube.com/boardgamegeek-pl,youtube
-Gry planszowe,2,Planszowy.pl,Portal o grach planszowych,https://planszowy.pl,article
+Gry komputerowe,3,Gry komputerowe,Historia i rozwój gier,https://wikipedia.org/wiki/Gry_komputerowe,wikipedia
+Gry planszowe,1,BoardGameGeek,Recenzje gier planszowych,https://youtube.com/boardgamegeek,youtube
+Gry planszowe,2,Planszowki.pl,Portal o grach planszowych,https://planszowki.pl,article
 Gry planszowe,3,Gry planszowe,Historia i rodzaje gier,https://wikipedia.org/wiki/Gry_planszowe,wikipedia
-Układanie puzzli,1,Puzzle Masters,Techniki układania puzzli,https://youtube.com/puzzle-masters,youtube
-Układanie puzzli,2,Puzzlowanie.pl,Portal dla miłośników puzzli,https://puzzlowanie.pl,article
-Układanie puzzli,3,Puzzle,Historia i rodzaje puzzli,https://wikipedia.org/wiki/Puzzle,wikipedia
-Oglądanie filmów,1,Na Gałęzi,Recenzje filmowe i analizy,https://youtube.com/nagalezi,youtube
-Oglądanie filmów,2,Filmweb,Portal filmowy z recenzjami,https://filmweb.pl,article
-Oglądanie filmów,3,Kinematografia,Historia i teoria filmu,https://wikipedia.org/wiki/Kinematografia,wikipedia
-Oglądanie seriali,1,Serial Killers,Recenzje i polecenia seriali,https://youtube.com/serialkillers,youtube
-Oglądanie seriali,2,Serialowa,Portal o serialach,https://serialowa.pl,article
-Oglądanie seriali,3,Serial telewizyjny,Historia i gatunki seriali,https://wikipedia.org/wiki/Serial_telewizyjny,wikipedia
-Słuchanie muzyki,1,NewOnce,Wywiady i recenzje muzyczne,https://youtube.com/newonce,youtube
-Słuchanie muzyki,2,Musicology,Portal muzyczny,https://musicology.pl,article
-Słuchanie muzyki,3,Muzyka,Historia i teoria muzyki,https://wikipedia.org/wiki/Muzyka,wikipedia
-Medytacja,1,Spokój Umysłu,Przewodnik po medytacji,https://youtube.com/spokoj-umyslu,youtube
-Medytacja,2,Medytacja.pl,Techniki medytacyjne,https://medytacja.pl,article
-Medytacja,3,Medytacja,Historia i rodzaje medytacji,https://wikipedia.org/wiki/Medytacja,wikipedia
-Joga,1,Joga w domu,Praktyczne zajęcia jogi,https://youtube.com/jogawdomu,youtube
-Joga,2,Joga Portal,Wiedza o jodze,https://jogaportal.pl,article
+Historia sztuki,1,ArtHistory,Wykłady o historii sztuki,https://youtube.com/arthistory,youtube
+Historia sztuki,2,Artinfo.pl,Portal o sztuce,https://artinfo.pl,article
+Historia sztuki,3,Historia sztuki,Okresy i style w sztuce,https://wikipedia.org/wiki/Historia_sztuki,wikipedia
+Hodowla egzotycznych ptaków,1,ExoticBirds,Hodowla ptaków egzotycznych,https://youtube.com/exoticbirds,youtube
+Hodowla egzotycznych ptaków,2,Ptaki.info,Portal o ptakach egzotycznych,https://ptaki.info,article
+Hodowla egzotycznych ptaków,3,Ptaki egzotyczne,Gatunki i hodowla,https://wikipedia.org/wiki/Ptaki_egzotyczne,wikipedia
+Hodowla gadów,1,ReptileCare,Opieka nad gadami,https://youtube.com/reptilecare,youtube
+Hodowla gadów,2,TerraBlog,Portal terrarystyczny,https://terrablog.pl,article
+Hodowla gadów,3,Terrarystyka,Hodowla gadów w terrarium,https://wikipedia.org/wiki/Terrarystyka,wikipedia
+Hodowla jedwabników,1,SilkwormBreeding,Hodowla jedwabników krok po kroku,https://youtube.com/silkwormbreeding,youtube
+Hodowla jedwabników,2,Jedwabniki.info,Portal o hodowli jedwabników,https://jedwabniki.info,article
+Hodowla jedwabników,3,Jedwabnik morwowy,Biologia i hodowla,https://wikipedia.org/wiki/Jedwabnik_morwowy,wikipedia
+Hodowla mikroliści,1,MicrogreensGuru,Uprawa mikroliści w domu,https://youtube.com/microgeensguru,youtube
+Hodowla mikroliści,2,Mikrolistki.pl,Portal o uprawie mikroliści,https://mikrolistki.pl,article
+Hodowla mikroliści,3,Mikroliście,Uprawa i zastosowanie,https://wikipedia.org/wiki/Mikrolistki,wikipedia
+Hodowla motyli,1,ButterflyBreeding,Hodowla motyli od podstaw,https://youtube.com/butterflybreeding,youtube
+Hodowla motyli,2,Motyle.net,Portal o hodowli motyli,https://motyle.net,article
+Hodowla motyli,3,Hodowla motyli,Techniki hodowli motyli,https://wikipedia.org/wiki/Hodowla_motyli,wikipedia
+Hodowla mrówek,1,AntKeeping,Formikarium i hodowla mrówek,https://youtube.com/antkeeping,youtube
+Hodowla mrówek,2,Mrowki.pl,Portal o hodowli mrówek,https://mrowki.pl,article
+Hodowla mrówek,3,Mrówki,Biologia i hodowla mrówek,https://wikipedia.org/wiki/Mrowki,wikipedia
+Hodowla pszczół,1,BeekeepingBasics,Pszczelarstwo dla początkujących,https://youtube.com/beekeepingbasics,youtube
+Hodowla pszczół,2,Pszczoly.info,Portal pszczelarski,https://pszczoly.info,article
+Hodowla pszczół,3,Pszczelarstwo,Historia i techniki,https://wikipedia.org/wiki/Pszczelarstwo,wikipedia
+Inżynieria dźwięku,1,SoundEngineering,Podstawy inżynierii dźwięku,https://youtube.com/soundengineering,youtube
+Inżynieria dźwięku,2,AudioTech.pl,Portal o technice audio,https://audiotech.pl,article
+Inżynieria dźwięku,3,Inżynieria dźwięku,Techniki i narzędzia,https://wikipedia.org/wiki/Inzynieria_dzwieku,wikipedia
+Jazda na deskorolce,1,SkateSchool,Szkoła jazdy na deskorolce,https://youtube.com/skateschool,youtube
+Jazda na deskorolce,2,Skate.pl,Portal deskorolkowy,https://skate.pl,article
+Jazda na deskorolce,3,Skateboarding,Historia i techniki,https://wikipedia.org/wiki/Skateboarding,wikipedia
+Jazda na monocyklu,1,UniCycling,Nauka jazdy na monocyklu,https://youtube.com/unicycling,youtube
+Jazda na monocyklu,2,Monocykl.pl,Portal o jeździe na monocyklu,https://monocykl.pl,article
+Jazda na monocyklu,3,Monocykl,Historia i rodzaje,https://wikipedia.org/wiki/Monocykl,wikipedia
+Jazda na rolkach,1,InlineSkating,Techniki jazdy na rolkach,https://youtube.com/inlineskating,youtube
+Jazda na rolkach,2,Rolki.info,Portal o jeździe na rolkach,https://rolki.info,article
+Jazda na rolkach,3,Wrotkarstwo,Historia i techniki,https://wikipedia.org/wiki/Wrotkarstwo,wikipedia
+Jazda na rowerze,1,CyclingPro,Porady rowerowe i techniki,https://youtube.com/cyclingpro,youtube
+Jazda na rowerze,2,Rower.com,Portal rowerowy,https://rower.com,article
+Jazda na rowerze,3,Kolarstwo,Historia i rodzaje,https://wikipedia.org/wiki/Kolarstwo,wikipedia
+Joga,1,YogaSpace,Praktyka jogi dla każdego,https://youtube.com/yogaspace,youtube
+Joga,2,JogaOnline.pl,Portal o jodze i medytacji,https://jogaonline.pl,article
 Joga,3,Joga,Historia i style jogi,https://wikipedia.org/wiki/Joga,wikipedia
-Wędkowanie,1,Wędkarski Świat,Techniki i porady wędkarskie,https://youtube.com/wedkarski-swiat,youtube
-Wędkowanie,2,Wędkarz Polski,Portal wędkarski,https://wedkarz-polski.pl,article
-Wędkowanie,3,Wędkarstwo,Metody i techniki wędkowania,https://wikipedia.org/wiki/Wędkarstwo,wikipedia
-Wspinaczka górska,1,Wspinanie.pl TV,Porady wspinaczkowe,https://youtube.com/wspinanie-tv,youtube
-Wspinaczka górska,2,8a.pl,Portal wspinaczkowy,https://8a.pl,article
-Wspinaczka górska,3,Wspinaczka,Techniki wspinaczkowe,https://wikipedia.org/wiki/Wspinaczka,wikipedia
-Pływanie,1,Swim.pl,Techniki pływackie,https://youtube.com/swim-pl,youtube
-Pływanie,2,Pływanie Sport,Portal o pływaniu,https://plywanie-sport.pl,article
-Pływanie,3,Pływanie,Style i techniki pływania,https://wikipedia.org/wiki/Pływanie,wikipedia
-Bieganie,1,Bieganie.pl TV,Porady dla biegaczy,https://youtube.com/bieganie-tv,youtube
-Bieganie,2,Bieganie.pl,Portal biegowy,https://bieganie.pl,article
-Bieganie,3,Bieganie,Techniki i historia biegania,https://wikipedia.org/wiki/Bieganie,wikipedia
-Jazda na rowerze,1,MTB-XC.pl,Porady rowerowe,https://youtube.com/mtb-xc,youtube
-Jazda na rowerze,2,BikeWorld,Portal rowerowy,https://bikeworld.pl,article
-Jazda na rowerze,3,Kolarstwo,Historia i techniki jazdy,https://wikipedia.org/wiki/Kolarstwo,wikipedia
-Jazda na rolkach,1,Roller School,Szkoła jazdy na rolkach,https://youtube.com/roller-school,youtube
-Jazda na rolkach,2,Rolki Online,Portal o rolkach,https://rolki-online.pl,article
-Jazda na rolkach,3,Wrotkarstwo,Techniki jazdy na rolkach,https://wikipedia.org/wiki/Wrotkarstwo,wikipedia
-Jazda na deskorolce,1,Skate School PL,Nauka trików na deskorolce,https://youtube.com/skateschool-pl,youtube
-Jazda na deskorolce,2,SkateBoard.pl,Portal deskorolkowy,https://skateboard.pl,article
-Jazda na deskorolce,3,Skateboarding,Historia i techniki jazdy,https://wikipedia.org/wiki/Skateboarding,wikipedia
-Spacery w naturze,1,Leśne Wędrówki,Przewodnik po szlakach,https://youtube.com/lesne-wedrowki,youtube
-Spacery w naturze,2,Poznaj Naturę,Portal przyrodniczy,https://poznajnature.pl,article
-Spacery w naturze,3,Nordic Walking,Techniki chodzenia,https://wikipedia.org/wiki/Nordic_walking,wikipedia
-Pielęgnacja ogrodu,1,Twój Ogród,Porady ogrodnicze,https://youtube.com/twoj-ogrod,youtube
-Pielęgnacja ogrodu,2,Ogrodnik Online,Portal ogrodniczy,https://ogrodnik-online.pl,article
+Kajakarstwo ekstremalne,1,ExtremeKayak,Techniki kajakarstwa ekstremalnego,https://youtube.com/extremekayak,youtube
+Kajakarstwo ekstremalne,2,KajakExtreme.pl,Portal o kajakarstwie ekstremalnym,https://kajakextreme.pl,article
+Kajakarstwo ekstremalne,3,Kajakarstwo,Sporty kajakowe,https://wikipedia.org/wiki/Kajakarstwo,wikipedia
+Kaligrafia,1,CalligraphyArt,Sztuka kaligrafii,https://youtube.com/calligraphyart,youtube
+Kaligrafia,2,Kaligrafia.pl,Portal o kaligrafii,https://kaligrafia.pl,article
+Kaligrafia,3,Kaligrafia,Historia i style pisma,https://wikipedia.org/wiki/Kaligrafia,wikipedia
+Kartografia amatorska,1,MapMaking,Tworzenie map dla początkujących,https://youtube.com/mapmaking,youtube
+Kartografia amatorska,2,MapyAmatorskie.pl,Portal kartograficzny,https://mapyamatorskie.pl,article
+Kartografia amatorska,3,Kartografia,Podstawy tworzenia map,https://wikipedia.org/wiki/Kartografia,wikipedia
+Kickboxing,1,KickboxingAcademy,Techniki kickboxingu,https://youtube.com/kickboxingacademy,youtube
+Kickboxing,2,Kickboxing.pl,Portal o kickboxingu,https://kickboxing.pl,article
+Kickboxing,3,Kickboxing,Historia i style,https://wikipedia.org/wiki/Kickboxing,wikipedia
+Kolarstwo górskie,1,MTBTechniques,Techniki jazdy MTB,https://youtube.com/mtbtechniques,youtube
+Kolarstwo górskie,2,MTBnews.pl,Portal o kolarstwie górskim,https://mtbnews.pl,article
+Kolarstwo górskie,3,Kolarstwo górskie,Historia i dyscypliny,https://wikipedia.org/wiki/Kolarstwo_gorskie,wikipedia
+Kolekcjonowanie znaczków,1,StampCollecting,Świat filatelistyki,https://youtube.com/stampcollecting,youtube
+Kolekcjonowanie znaczków,2,Filatelistyka.pl,Portal filatelistyczny,https://filatelistyka.pl,article
+Kolekcjonowanie znaczków,3,Filatelistyka,Historia znaczków pocztowych,https://wikipedia.org/wiki/Filatelistyka,wikipedia
+LARP,1,LARPMaking,Tworzenie i organizacja LARP-ów,https://youtube.com/larpmaking,youtube
+LARP,2,Larpy.pl,Portal o grach LARP,https://larpy.pl,article
+LARP,3,LARP,Historia i rodzaje LARP-ów,https://wikipedia.org/wiki/LARP,wikipedia
+Lutowanie i elektronika,1,SolderMaster,Techniki lutowania,https://youtube.com/soldermaster,youtube
+Lutowanie i elektronika,2,Elektronika.net,Portal elektroniczny,https://elektronika.net,article
+Lutowanie i elektronika,3,Lutowanie,Techniki lutowania,https://wikipedia.org/wiki/Lutowanie,wikipedia
+Łowienie owadów i ich obserwacja,1,InsectHunting,Techniki łowienia i obserwacji owadów,https://youtube.com/insecthunting,youtube
+Łowienie owadów i ich obserwacja,2,Entomologia.pl,Portal entomologiczny,https://entomologia.pl,article
+Łowienie owadów i ich obserwacja,3,Entomologia,Nauka o owadach,https://wikipedia.org/wiki/Entomologia,wikipedia
+Łucznictwo,1,ArcheryMaster,Techniki strzelania z łuku,https://youtube.com/archerymaster,youtube
+Łucznictwo,2,Lucznictwo.net,Portal łuczniczy,https://lucznictwo.net,article
+Łucznictwo,3,Łucznictwo,Historia i techniki,https://wikipedia.org/wiki/Lucznictwo,wikipedia
+Majsterkowanie,1,DIYmaster,Projekty DIY i majsterkowanie,https://youtube.com/diymaster,youtube
+Majsterkowanie,2,Majsterkowo.pl,Portal dla majsterkowiczów,https://majsterkowo.pl,article
+Majsterkowanie,3,Majsterkowanie,Techniki i narzędzia,https://wikipedia.org/wiki/Majsterkowanie,wikipedia
+Malowanie,1,PaintingTutorials,Techniki malarskie,https://youtube.com/paintingtutorials,youtube
+Malowanie,2,Malowanie.art,Portal o malarstwie,https://malowanie.art,article
+Malowanie,3,Malarstwo,Historia i techniki,https://wikipedia.org/wiki/Malarstwo,wikipedia
+Malowanie akwarelami,1,WatercolorArt,Malowanie akwarelą,https://youtube.com/watercolorart,youtube
+Malowanie akwarelami,2,Akwarele.pl,Portal o akwarelach,https://akwarele.pl,article
+Malowanie akwarelami,3,Akwarela,Techniki akwarelowe,https://wikipedia.org/wiki/Akwarela,wikipedia
+Malowanie olejami,1,OilPainting,Techniki malarstwa olejnego,https://youtube.com/oilpainting,youtube
+Malowanie olejami,2,Oleje.art,Portal o malarstwie olejnym,https://oleje.art,article
+Malowanie olejami,3,Malarstwo olejne,Historia i techniki,https://wikipedia.org/wiki/Malarstwo_olejne,wikipedia
+Medytacja,1,MeditationGuide,Przewodnik po medytacji,https://youtube.com/meditationguide,youtube
+Medytacja,2,Medytacja.pl,Portal o medytacji,https://medytacja.pl,article
+Medytacja,3,Medytacja,Techniki medytacyjne,https://wikipedia.org/wiki/Medytacja,wikipedia
+Mikroskopia amatorska,1,MicroscopePro,Świat mikroskopii,https://youtube.com/microscopepro,youtube
+Mikroskopia amatorska,2,Mikroskopia.net,Portal mikroskopowy,https://mikroskopia.net,article
+Mikroskopia amatorska,3,Mikroskopia,Techniki mikroskopowe,https://wikipedia.org/wiki/Mikroskopia,wikipedia
+Modelarstwo,1,ScaleModeling,Techniki modelarskie,https://youtube.com/scalemodeling,youtube
+Modelarstwo,2,Modelarz.pl,Portal modelarski,https://modelarz.pl,article
+Modelarstwo,3,Modelarstwo,Historia i techniki,https://wikipedia.org/wiki/Modelarstwo,wikipedia
+Modelowanie 3D,1,Blender3D,Modelowanie 3D w Blenderze,https://youtube.com/blender3d,youtube
+Modelowanie 3D,2,3DModeling.pl,Portal o modelowaniu 3D,https://3dmodeling.pl,article
+Modelowanie 3D,3,Grafika 3D,Techniki modelowania 3D,https://wikipedia.org/wiki/Grafika_3D,wikipedia
+Naprawa starych mebli,1,FurnitureRestoration,Renowacja mebli krok po kroku,https://youtube.com/furniturerestoration,youtube
+Naprawa starych mebli,2,Renowacje.pl,Portal o renowacji mebli,https://renowacje.pl,article
+Naprawa starych mebli,3,Renowacja mebli,Techniki renowacji,https://wikipedia.org/wiki/Renowacja_mebli,wikipedia
+Nauka AI i machine learning,1,AILearning,Kurs sztucznej inteligencji,https://youtube.com/ailearning,youtube
+Nauka AI i machine learning,2,MachineLearning.pl,Portal o uczeniu maszynowym,https://machinelearning.pl,article
+Nauka AI i machine learning,3,Sztuczna inteligencja,Podstawy AI,https://wikipedia.org/wiki/Sztuczna_inteligencja,wikipedia
+Nauka języków obcych,1,LanguageMaster,Techniki nauki języków,https://youtube.com/languagemaster,youtube
+Nauka języków obcych,2,Lingwista.pl,Portal językowy,https://lingwista.pl,article
+Nauka języków obcych,3,Glottodydaktyka,Nauka o uczeniu się języków,https://wikipedia.org/wiki/Glottodydaktyka,wikipedia
+Nauka kodowania,1,CodeMaster,Programowanie od podstaw,https://youtube.com/codemaster,youtube
+Nauka kodowania,2,Kodowanie.pl,Portal programistyczny,https://kodowanie.pl,article
+Nauka kodowania,3,Programowanie,Podstawy kodowania,https://wikipedia.org/wiki/Programowanie,wikipedia
+Nauka sztuczek magicznych,1,MagicTricks,Nauka iluzji i sztuczek,https://youtube.com/magictricks,youtube
+Nauka sztuczek magicznych,2,Magia.info,Portal o iluzji,https://magia.info,article
+Nauka sztuczek magicznych,3,Iluzjonizm,Historia i techniki,https://wikipedia.org/wiki/Iluzjonizm,wikipedia
+Nurkowanie jaskiniowe,1,CaveDiving,Techniki nurkowania jaskiniowego,https://youtube.com/cavediving,youtube
+Nurkowanie jaskiniowe,2,JaskinioweDiving.pl,Portal o nurkowaniu jaskiniowym,https://jaskiniowediving.pl,article
+Nurkowanie jaskiniowe,3,Nurkowanie jaskiniowe,Zasady bezpieczeństwa,https://wikipedia.org/wiki/Nurkowanie_jaskiniowe,wikipedia
+Nurkowanie z akwalungiem,1,ScubaPro,Nauka nurkowania,https://youtube.com/scubapro,youtube
+Nurkowanie z akwalungiem,2,Nurkowanie.pl,Portal nurkowy,https://nurkowanie.pl,article
+Nurkowanie z akwalungiem,3,Nurkowanie,Techniki nurkowania,https://wikipedia.org/wiki/Nurkowanie,wikipedia
+Obróbka wideo,1,VideoEditing,Montaż i efekty specjalne,https://youtube.com/videoediting,youtube
+Obróbka wideo,2,Montaz.pl,Portal o montażu wideo,https://montaz.pl,article
+Obróbka wideo,3,Montaż filmowy,Techniki montażu,https://wikipedia.org/wiki/Montaz_filmowy,wikipedia
+Obróbka zdjęć,1,PhotoEditPro,Profesjonalna obróbka zdjęć,https://youtube.com/photoeditpro,youtube
+Obróbka zdjęć,2,Fotoblogia.pl,Portal o edycji zdjęć,https://fotoblogia.pl,article
+Obróbka zdjęć,3,Fotografia cyfrowa,Techniki obróbki cyfrowej,https://wikipedia.org/wiki/Fotografia_cyfrowa,wikipedia
+Obserwacja dzikich zwierząt,1,WildlifeWatch,Techniki obserwacji zwierząt,https://youtube.com/wildlifewatch,youtube
+Obserwacja dzikich zwierząt,2,DzikaPolska.pl,Portal przyrodniczy,https://dzikapolska.pl,article
+Obserwacja dzikich zwierząt,3,Obserwacja przyrody,Metody obserwacji,https://wikipedia.org/wiki/Obserwacja_przyrody,wikipedia
+Obserwacja ptaków,1,BirdWatching,Przewodnik ornitologiczny,https://youtube.com/birdwatching,youtube
+Obserwacja ptaków,2,Ptaki.info,Portal ornitologiczny,https://ptaki.info,article
+Obserwacja ptaków,3,Ornitologia,Nauka o ptakach,https://wikipedia.org/wiki/Ornitologia,wikipedia
+Oglądanie filmów,1,MovieCritic,Recenzje i analizy filmowe,https://youtube.com/moviecritic,youtube
+Oglądanie filmów,2,Filmweb.pl,Portal filmowy,https://filmweb.pl,article
+Oglądanie filmów,3,Kinematografia,Historia kina,https://wikipedia.org/wiki/Kinematografia,wikipedia
+Oglądanie gwiazd,1,StarGazing,Astronomia dla początkujących,https://youtube.com/stargazing,youtube
+Oglądanie gwiazd,2,Astronomia.pl,Portal astronomiczny,https://astronomia.pl,article
+Oglądanie gwiazd,3,Astronomia amatorska,Podstawy obserwacji,https://wikipedia.org/wiki/Astronomia_amatorska,wikipedia
+Oglądanie seriali,1,SerialCritic,Recenzje seriali,https://youtube.com/serialcritic,youtube
+Oglądanie seriali,2,Serialowa.pl,Portal o serialach,https://serialowa.pl,article
+Oglądanie seriali,3,Serial telewizyjny,Historia seriali,https://wikipedia.org/wiki/Serial_telewizyjny,wikipedia
+Organizowanie festynów lokalnych,1,EventPlanning,Organizacja imprez,https://youtube.com/eventplanning,youtube
+Organizowanie festynów lokalnych,2,Festyny.info,Portal eventowy,https://festyny.info,article
+Organizowanie festynów lokalnych,3,Imprezy masowe,Organizacja wydarzeń,https://wikipedia.org/wiki/Imprezy_masowe,wikipedia
+Organizowanie wydarzeń,1,EventMaster,Profesjonalna organizacja eventów,https://youtube.com/eventmaster,youtube
+Organizowanie wydarzeń,2,EventManager.pl,Portal dla organizatorów,https://eventmanager.pl,article
+Organizowanie wydarzeń,3,Event management,Zarządzanie wydarzeniami,https://wikipedia.org/wiki/Event_management,wikipedia
+Origami,1,OrigamiArt,Sztuka składania papieru,https://youtube.com/origamiart,youtube
+Origami,2,Origami.pl,Portal o origami,https://origami.pl,article
+Origami,3,Origami,Historia i techniki,https://wikipedia.org/wiki/Origami,wikipedia
+Paleontologia amatorska,1,FossilHunting,Poszukiwanie skamieniałości,https://youtube.com/fossilhunting,youtube
+Paleontologia amatorska,2,Paleontologia.org,Portal paleontologiczny,https://paleontologia.org,article
+Paleontologia amatorska,3,Paleontologia,Podstawy paleontologii,https://wikipedia.org/wiki/Paleontologia,wikipedia
+Paralotniarstwo,1,ParaglideSchool,Szkoła paralotniarska,https://youtube.com/paraglideschool,youtube
+Paralotniarstwo,2,Paralotnie.pl,Portal paralotniarzy,https://paralotnie.pl,article
+Paralotniarstwo,3,Paralotniarstwo,Zasady i techniki,https://wikipedia.org/wiki/Paralotniarstwo,wikipedia
+Parkour,1,ParkourAcademy,Techniki parkour i freerun,https://youtube.com/parkouracademy,youtube
+Parkour,2,Parkour.pl,Portal o parkour,https://parkour.pl,article
+Parkour,3,Parkour,Historia i techniki,https://wikipedia.org/wiki/Parkour,wikipedia
+Pieczenie,1,BakingPro,Profesjonalne wypieki,https://youtube.com/bakingpro,youtube
+Pieczenie,2,Piekarnia.info,Portal o pieczeniu,https://piekarnia.info,article
+Pieczenie,3,Piekarnictwo,Techniki wypieku,https://wikipedia.org/wiki/Piekarnictwo,wikipedia
+Pieczenie chleba na zakwasie,1,SourdoughBaking,Wypiek chleba na zakwasie,https://youtube.com/sourdoughbaking,youtube
+Pieczenie chleba na zakwasie,2,Zakwas.pl,Portal o chlebie,https://zakwas.pl,article
+Pieczenie chleba na zakwasie,3,Chleb na zakwasie,Historia i techniki,https://wikipedia.org/wiki/Chleb_na_zakwasie,wikipedia
+Pielęgnacja ogrodu,1,GardenMaster,Porady ogrodnicze,https://youtube.com/gardenmaster,youtube
+Pielęgnacja ogrodu,2,Ogrodinfo.pl,Portal ogrodniczy,https://ogrodinfo.pl,article
 Pielęgnacja ogrodu,3,Ogrodnictwo,Techniki ogrodnicze,https://wikipedia.org/wiki/Ogrodnictwo,wikipedia
-Uprawa roślin domowych,1,Rośliny Doniczkowe,Pielęgnacja roślin domowych,https://youtube.com/rosliny-doniczkowe,youtube
-Uprawa roślin domowych,2,Zielony Parapet,Portal o roślinach domowych,https://zielonyparapet.pl,article
-Uprawa roślin domowych,3,Rośliny pokojowe,Gatunki i pielęgnacja,https://wikipedia.org/wiki/Rośliny_pokojowe,wikipedia
-Kolekcjonowanie znaczków,1,Filatelistyka PL,Świat znaczków pocztowych,https://youtube.com/filatelistyka-pl,youtube
-Kolekcjonowanie znaczków,2,Polski Związek Filatelistów,Portal filatelistyczny,https://pzf.pl,article
-Kolekcjonowanie znaczków,3,Filatelistyka,Historia i rodzaje znaczków,https://wikipedia.org/wiki/Filatelistyka,wikipedia
-Kolekcjonowanie monet,1,Numizmatyka TV,Świat monet,https://youtube.com/numizmatyka-tv,youtube
-Kolekcjonowanie monet,2,Numizmatyka Online,Portal numizmatyczny,https://numizmatyka-online.pl,article
-Kolekcjonowanie monet,3,Numizmatyka,Historia i rodzaje monet,https://wikipedia.org/wiki/Numizmatyka,wikipedia
-Kolekcjonowanie figurek,1,Figurkowy Świat,Recenzje i kolekcje figurek,https://youtube.com/figurkowy-swiat,youtube
-Kolekcjonowanie figurek,2,Hobby Figurki,Portal kolekcjonerski,https://hobbyfigurki.pl,article
-Kolekcjonowanie figurek,3,Kolekcjonerstwo,Podstawy kolekcjonerstwa,https://wikipedia.org/wiki/Kolekcjonerstwo,wikipedia
-Szachy,1,Szachowa Szkoła,Lekcje szachowe,https://youtube.com/szachowa-szkola,youtube
+Pilates,1,PilatesStudio,Ćwiczenia pilates,https://youtube.com/pilatesstudio,youtube
+Pilates,2,Pilates.pl,Portal o pilatesie,https://pilates.pl,article
+Pilates,3,Pilates,Metoda i ćwiczenia,https://wikipedia.org/wiki/Pilates,wikipedia
+Pisanie bloga,1,BloggingTips,Porady dla blogerów,https://youtube.com/bloggingtips,youtube
+Pisanie bloga,2,Blog.pl,Portal dla blogerów,https://blog.pl,article
+Pisanie bloga,3,Blogowanie,Podstawy blogowania,https://wikipedia.org/wiki/Blog,wikipedia
+Pisanie listów odręcznych,1,HandwritingArt,Sztuka pisania odręcznego,https://youtube.com/handwritingart,youtube
+Pisanie listów odręcznych,2,Listy.art,Portal o epistolografii,https://listy.art,article
+Pisanie listów odręcznych,3,Epistolografia,Historia pisania listów,https://wikipedia.org/wiki/Epistolografia,wikipedia
+Pisanie opowiadań,1,CreativeWriting,Warsztaty pisarskie online,https://youtube.com/creativewriting,youtube
+Pisanie opowiadań,2,Pisanie.pl,Portal dla pisarzy,https://pisanie.pl,article
+Pisanie opowiadań,3,Twórczość literacka,Techniki pisania,https://wikipedia.org/wiki/Tworczość_literacka,wikipedia
+Pisanie poezji,1,PoetryWorkshop,Warsztaty poetyckie,https://youtube.com/poetryworkshop,youtube
+Pisanie poezji,2,Poezja.art,Portal poetycki,https://poezja.art,article
+Pisanie poezji,3,Poezja,Historia i formy,https://wikipedia.org/wiki/Poezja,wikipedia
+Pisanie scenariuszy,1,Screenwriting,Nauka pisania scenariuszy,https://youtube.com/screenwriting,youtube
+Pisanie scenariuszy,2,Scenariusz.pl,Portal dla scenarzystów,https://scenariusz.pl,article
+Pisanie scenariuszy,3,Scenariusz filmowy,Zasady pisania,https://wikipedia.org/wiki/Scenariusz_filmowy,wikipedia
+Pływanie,1,SwimTechniques,Techniki pływackie,https://youtube.com/swimtechniques,youtube
+Pływanie,2,Plywanie.pl,Portal pływacki,https://plywanie.pl,article
+Pływanie,3,Pływanie,Style i techniki,https://wikipedia.org/wiki/Plywanie,wikipedia
+Polowanie na zorze polarne,1,AuroraHunting,Fotografowanie zorzy polarnej,https://youtube.com/aurorahunting,youtube
+Polowanie na zorze polarne,2,Zorza.info,Portal o zorzach,https://zorza.info,article
+Polowanie na zorze polarne,3,Zorza polarna,Zjawisko zorzy,https://wikipedia.org/wiki/Zorza_polarna,wikipedia
+Produkcja naturalnych perfum,1,NaturalPerfumery,Tworzenie perfum naturalnych,https://youtube.com/naturalperfumery,youtube
+Produkcja naturalnych perfum,2,Perfumy.net,Portal perfumiarski,https://perfumy.net,article
+Produkcja naturalnych perfum,3,Perfumiarstwo,Sztuka tworzenia perfum,https://wikipedia.org/wiki/Perfumiarstwo,wikipedia
+Programowanie,1,CodingGuru,Nauka programowania,https://youtube.com/codingguru,youtube
+Programowanie,2,Programista.pl,Portal programistyczny,https://programista.pl,article
+Programowanie,3,Programowanie komputerów,Podstawy programowania,https://wikipedia.org/wiki/Programowanie_komputerow,wikipedia
+Projektowanie gier,1,GameDesign,Projektowanie gier od podstaw,https://youtube.com/gamedesign,youtube
+Projektowanie gier,2,GameDev.pl,Portal twórców gier,https://gamedev.pl,article
+Projektowanie gier,3,Projektowanie gier,Podstawy game designu,https://wikipedia.org/wiki/Projektowanie_gier,wikipedia
+Projektowanie tatuaży,1,TattooDesign,Projektowanie tatuaży,https://youtube.com/tattoodesign,youtube
+Projektowanie tatuaży,2,Tatuaze.art,Portal o tatuażach,https://tatuaze.art,article
+Projektowanie tatuaży,3,Tatuaż,Historia i style,https://wikipedia.org/wiki/Tatuaz,wikipedia
+Projektowanie ubrań,1,FashionDesign,Projektowanie mody od podstaw,https://youtube.com/fashiondesign,youtube
+Projektowanie ubrań,2,Moda.net,Portal o projektowaniu mody,https://moda.net,article
+Projektowanie ubrań,3,Projektowanie mody,Historia i techniki,https://wikipedia.org/wiki/Projektowanie_mody,wikipedia
+Projektowanie wnętrz,1,InteriorDesign,Projektowanie wnętrz dla początkujących,https://youtube.com/interiordesign,youtube
+Projektowanie wnętrz,2,Wnetrza.pl,Portal o projektowaniu wnętrz,https://wnetrza.pl,article
+Projektowanie wnętrz,3,Architektura wnętrz,Zasady projektowania,https://wikipedia.org/wiki/Architektura_wnetrz,wikipedia
+Projektowanie zabawek,1,ToyDesign,Projektowanie zabawek,https://youtube.com/toydesign,youtube
+Projektowanie zabawek,2,Zabawki.info,Portal o zabawkach,https://zabawki.info,article
+Projektowanie zabawek,3,Zabawki,Historia i projektowanie,https://wikipedia.org/wiki/Zabawki,wikipedia
+Prowadzenie farmy jedwabników,1,SilkFarming,Hodowla jedwabników,https://youtube.com/silkfarming,youtube
+Prowadzenie farmy jedwabników,2,Jedwab.info,Portal o hodowli jedwabników,https://jedwab.info,article
+Prowadzenie farmy jedwabników,3,Hodowla jedwabników,Podstawy hodowli,https://wikipedia.org/wiki/Hodowla_jedwabnikow,wikipedia
+Prowadzenie kanału YouTube,1,YouTubeCreators,Prowadzenie kanału YouTube,https://youtube.com/youtubecreators,youtube
+Prowadzenie kanału YouTube,2,Creators.pl,Portal dla twórców,https://creators.pl,article
+Prowadzenie kanału YouTube,3,YouTube,Platforma wideo,https://wikipedia.org/wiki/YouTube,wikipedia
+Prowadzenie podcastu,1,PodcastingPro,Tworzenie podcastów,https://youtube.com/podcastingpro,youtube
+Prowadzenie podcastu,2,Podcast.pl,Portal o podcastach,https://podcast.pl,article
+Prowadzenie podcastu,3,Podcasty,Historia i techniki,https://wikipedia.org/wiki/Podcast,wikipedia
+Przygody w lesie,1,ForestAdventures,Przygody w lesie,https://youtube.com/forestadventures,youtube
+Przygody w lesie,2,Survival.pl,Portal survivalowy,https://survival.pl,article
+Przygody w lesie,3,Survival,Sztuka przetrwania,https://wikipedia.org/wiki/Survival,wikipedia
+Rekonstrukcja historyczna,1,HistoricalReenatcment,Rekonstrukcje historyczne,https://youtube.com/historicalreenactment,youtube
+Rekonstrukcja historyczna,2,Rekonstrukcje.pl,Portal rekonstruktorów,https://rekonstrukcje.pl,article
+Rekonstrukcja historyczna,3,Rekonstrukcja historyczna,Historia i metody,https://wikipedia.org/wiki/Rekonstrukcja_historyczna,wikipedia
+Renowacja antyków,1,AntiqueRestoration,Renowacja mebli antycznych,https://youtube.com/antiquerestoration,youtube
+Renowacja antyków,2,Antyki.info,Portal o renowacji,https://antyki.info,article
+Renowacja antyków,3,Renowacja,Techniki renowacji,https://wikipedia.org/wiki/Renowacja,wikipedia
+Ręczne oprawianie książek,1,Bookbinding,Sztuka oprawiania książek,https://youtube.com/bookbinding,youtube
+Ręczne oprawianie książek,2,Introligator.pl,Portal introligatorski,https://introligator.pl,article
+Ręczne oprawianie książek,3,Introligatorstwo,Historia i techniki,https://wikipedia.org/wiki/Introligatorstwo,wikipedia
+Ręczne wytwarzanie makaronu,1,PastaMaking,Domowy makaron od podstaw,https://youtube.com/pastamaking,youtube
+Ręczne wytwarzanie makaronu,2,Makaron.info,Portal o makaronie,https://makaron.info,article
+Ręczne wytwarzanie makaronu,3,Makaron,Historia i rodzaje,https://wikipedia.org/wiki/Makaron,wikipedia
+Robienie albumów ze zdjęciami,1,Scrapbooking,Tworzenie albumów,https://youtube.com/scrapbooking,youtube
+Robienie albumów ze zdjęciami,2,AlbumyFoto.pl,Portal o albumach,https://albumyfoto.pl,article
+Robienie albumów ze zdjęciami,3,Album fotograficzny,Techniki tworzenia,https://wikipedia.org/wiki/Album_fotograficzny,wikipedia
+Robienie eksperymentów naukowych w domu,1,HomeScienceLab,Eksperymenty domowe,https://youtube.com/homesciencelab,youtube
+Robienie eksperymentów naukowych w domu,2,Eksperymenty.edu,Portal edukacyjny,https://eksperymenty.edu,article
+Robienie eksperymentów naukowych w domu,3,Eksperymenty naukowe,Metodologia eksperymentów,https://wikipedia.org/wiki/Eksperymenty_naukowe,wikipedia
+Robotyka,1,RoboticsMaster,Podstawy robotyki,https://youtube.com/roboticsmaster,youtube
+Robotyka,2,Robotyka.info,Portal robotyczny,https://robotyka.info,article
+Robotyka,3,Robotyka,Historia i zastosowania,https://wikipedia.org/wiki/Robotyka,wikipedia
+Rozwiązywanie starych zagadek historycznych,1,HistoricalMysteries,Zagadki historii,https://youtube.com/historicalmysteries,youtube
+Rozwiązywanie starych zagadek historycznych,2,Zagadki.pl,Portal historyczny,https://zagadki.pl,article
+Rozwiązywanie starych zagadek historycznych,3,Zagadki historyczne,Metodologia badań,https://wikipedia.org/wiki/Zagadki_historyczne,wikipedia
+Rozwój umiejętności barmańskich,1,Bartending,Sztuka barmańska,https://youtube.com/bartending,youtube
+Rozwój umiejętności barmańskich,2,Barman.pl,Portal barmański,https://barman.pl,article
+Rozwój umiejętności barmańskich,3,Bartending,Historia i techniki,https://wikipedia.org/wiki/Bartending,wikipedia
+Rysowanie,1,DrawingArt,Techniki rysunku,https://youtube.com/drawingart,youtube
+Rysowanie,2,Rysunek.art,Portal o rysunku,https://rysunek.art,article
+Rysowanie,3,Rysunek,Historia i techniki,https://wikipedia.org/wiki/Rysunek,wikipedia
+Rysowanie mandali,1,MandalaArt,Sztuka rysowania mandali,https://youtube.com/mandalaart,youtube
+Rysowanie mandali,2,Mandale.pl,Portal o mandalach,https://mandale.pl,article
+Rysowanie mandali,3,Mandala,Historia i symbolika,https://wikipedia.org/wiki/Mandala,wikipedia
+Rzeźbienie w drewnie,1,WoodCarving,Rzeźbienie w drewnie dla początkujących,https://youtube.com/woodcarving,youtube
+Rzeźbienie w drewnie,2,Rzezba.info,Portal o rzeźbieniu,https://rzezba.info,article
+Rzeźbienie w drewnie,3,Rzeźbiarstwo w drewnie,Techniki rzeźbienia,https://wikipedia.org/wiki/Rzezba_w_drewnie,wikipedia
+Rzeźbienie w glinie,1,ClaySculpting,Rzeźba w glinie od podstaw,https://youtube.com/claysculpting,youtube
+Rzeźbienie w glinie,2,Ceramika.art,Portal ceramiczny,https://ceramika.art,article
+Rzeźbienie w glinie,3,Ceramika artystyczna,Historia i techniki,https://wikipedia.org/wiki/Ceramika_artystyczna,wikipedia
+Scrapbooking,1,ScrapbookingArt,Techniki scrapbookingu,https://youtube.com/scrapbookingart,youtube
+Scrapbooking,2,Scrapbooking.pl,Portal dla scraporów,https://scrapbooking.pl,article
+Scrapbooking,3,Scrapbooking,Historia i techniki,https://wikipedia.org/wiki/Scrapbooking,wikipedia
+Składanie modeli z papieru (papercraft),1,Papercraft,Modelarstwo papierowe,https://youtube.com/papercraft,youtube
+Składanie modeli z papieru (papercraft),2,Papercraft.pl,Portal modelarski,https://papercraft.pl,article
+Składanie modeli z papieru (papercraft),3,Modelarstwo papierowe,Techniki składania,https://wikipedia.org/wiki/Modelarstwo_papierowe,wikipedia
+Skoki spadochronowe,1,Skydiving,Nauka skoków spadochronowych,https://youtube.com/skydiving,youtube
+Skoki spadochronowe,2,Spadochron.pl,Portal spadochronowy,https://spadochron.pl,article
+Skoki spadochronowe,3,Spadochroniarstwo,Historia i techniki,https://wikipedia.org/wiki/Spadochroniarstwo,wikipedia
+Slacklining,1,SlacklinePro,Nauka slackline,https://youtube.com/slacklinepro,youtube
+Slacklining,2,Slackline.pl,Portal o slackline,https://slackline.pl,article
+Slacklining,3,Slacklining,Techniki i bezpieczeństwo,https://wikipedia.org/wiki/Slacklining,wikipedia
+Słuchanie muzyki,1,MusicAppreciation,Poznawanie muzyki,https://youtube.com/musicappreciation,youtube
+Słuchanie muzyki,2,Muzyka.info,Portal muzyczny,https://muzyka.info,article
+Słuchanie muzyki,3,Muzyka,Historia i gatunki,https://wikipedia.org/wiki/Muzyka,wikipedia
+Spacery w naturze,1,NatureWalking,Spacery i wędrówki,https://youtube.com/naturewalking,youtube
+Spacery w naturze,2,Spacery.pl,Portal przyrodniczy,https://spacery.pl,article
+Spacery w naturze,3,Nordic walking,Techniki chodzenia,https://wikipedia.org/wiki/Nordic_walking,wikipedia
+Streamowanie gier,1,StreamingPro,Jak zostać streamerem,https://youtube.com/streamingpro,youtube
+Streamowanie gier,2,Streaming.pl,Portal dla streamerów,https://streaming.pl,article
+Streamowanie gier,3,Streaming,Poradnik streamowania,https://wikipedia.org/wiki/Streaming,wikipedia
+Strzelectwo,1,ShootingSports,Podstawy strzelectwa sportowego,https://youtube.com/shootingsports,youtube
+Strzelectwo,2,Strzelectwo.pl,Portal strzelecki,https://strzelectwo.pl,article
+Strzelectwo,3,Strzelectwo sportowe,Historia i techniki,https://wikipedia.org/wiki/Strzelectwo_sportowe,wikipedia
+Sudoku,1,SudokuMaster,Strategie rozwiązywania sudoku,https://youtube.com/sudokumaster,youtube
+Sudoku,2,Sudoku.pl,Portal łamigłówek,https://sudoku.pl,article
+Sudoku,3,Sudoku,Historia i zasady,https://wikipedia.org/wiki/Sudoku,wikipedia
+Survival,1,SurvivalSkills,Techniki przetrwania,https://youtube.com/survivalskills,youtube
+Survival,2,Survival.pl,Portal survivalowy,https://survival.pl,article
+Survival,3,Survival,Sztuka przetrwania,https://wikipedia.org/wiki/Survival,wikipedia
+Survival w górach,1,MountainSurvival,Przetrwanie w górach,https://youtube.com/mountainsurvival,youtube
+Survival w górach,2,GorskiSurvival.pl,Portal górski,https://gorskisurvival.pl,article
+Survival w górach,3,Turystyka górska,Bezpieczeństwo w górach,https://wikipedia.org/wiki/Turystyka_gorska,wikipedia
+Szachy,1,ChessMaster,Nauka szachów,https://youtube.com/chessmaster,youtube
 Szachy,2,Szachy.pl,Portal szachowy,https://szachy.pl,article
-Szachy,3,Szachy,Historia i zasady gry,https://wikipedia.org/wiki/Szachy,wikipedia
-Warcaby,1,Warcaby Online,Nauka gry w warcaby,https://youtube.com/warcaby-online,youtube
-Warcaby,2,Warcaby.pl,Portal o warcabach,https://warcaby.pl,article
-Warcaby,3,Warcaby,Zasady i strategie gry,https://wikipedia.org/wiki/Warcaby,wikipedia
-Nauka języków obcych,1,Poliglota,Metody nauki języków,https://youtube.com/poliglota,youtube
-Nauka języków obcych,2,Językowy Portal,Materiały do nauki,https://jezykowy.pl,article
-Nauka języków obcych,3,Glottodydaktyka,Metody nauczania języków,https://wikipedia.org/wiki/Glottodydaktyka,wikipedia
-Jazda na deskorolce,1,Skate School PL,Nauka trików na deskorolce,https://youtube.com/skateschool-pl,youtube
-Jazda na deskorolce,2,SkateBoard.pl,Portal deskorolkowy,https://skateboard.pl,article
-Jazda na deskorolce,3,Skateboarding,Historia i techniki jazdy,https://wikipedia.org/wiki/Skateboarding,wikipedia
-Spacery w naturze,1,Leśne Wędrówki,Przewodnik po szlakach,https://youtube.com/lesne-wedrowki,youtube
-Spacery w naturze,2,Poznaj Naturę,Portal przyrodniczy,https://poznajnature.pl,article
-Spacery w naturze,3,Nordic Walking,Techniki chodzenia,https://wikipedia.org/wiki/Nordic_walking,wikipedia
-Pielęgnacja ogrodu,1,Twój Ogród,Porady ogrodnicze,https://youtube.com/twoj-ogrod,youtube
-Pielęgnacja ogrodu,2,Ogrodnik Online,Portal ogrodniczy,https://ogrodnik-online.pl,article
-Pielęgnacja ogrodu,3,Ogrodnictwo,Techniki ogrodnicze,https://wikipedia.org/wiki/Ogrodnictwo,wikipedia
-Uprawa roślin domowych,1,Rośliny Doniczkowe,Pielęgnacja roślin domowych,https://youtube.com/rosliny-doniczkowe,youtube
-Uprawa roślin domowych,2,Zielony Parapet,Portal o roślinach domowych,https://zielonyparapet.pl,article
-Uprawa roślin domowych,3,Rośliny pokojowe,Gatunki i pielęgnacja,https://wikipedia.org/wiki/Rośliny_pokojowe,wikipedia
-Kolekcjonowanie znaczków,1,Filatelistyka PL,Świat znaczków pocztowych,https://youtube.com/filatelistyka-pl,youtube
-Kolekcjonowanie znaczków,2,Polski Związek Filatelistów,Portal filatelistyczny,https://pzf.pl,article
-Kolekcjonowanie znaczków,3,Filatelistyka,Historia i rodzaje znaczków,https://wikipedia.org/wiki/Filatelistyka,wikipedia
-Kolekcjonowanie monet,1,Numizmatyka TV,Świat monet,https://youtube.com/numizmatyka-tv,youtube
-Kolekcjonowanie monet,2,Numizmatyka Online,Portal numizmatyczny,https://numizmatyka-online.pl,article
-Kolekcjonowanie monet,3,Numizmatyka,Historia i rodzaje monet,https://wikipedia.org/wiki/Numizmatyka,wikipedia
-Kolekcjonowanie figurek,1,Figurkowy Świat,Recenzje i kolekcje figurek,https://youtube.com/figurkowy-swiat,youtube
-Kolekcjonowanie figurek,2,Hobby Figurki,Portal kolekcjonerski,https://hobbyfigurki.pl,article
-Kolekcjonowanie figurek,3,Kolekcjonerstwo,Podstawy kolekcjonerstwa,https://wikipedia.org/wiki/Kolekcjonerstwo,wikipedia
-Szachy,1,Szachowa Szkoła,Lekcje szachowe,https://youtube.com/szachowa-szkola,youtube
-Szachy,2,Szachy.pl,Portal szachowy,https://szachy.pl,article
-Szachy,3,Szachy,Historia i zasady gry,https://wikipedia.org/wiki/Szachy,wikipedia
-Warcaby,1,Warcaby Online,Nauka gry w warcaby,https://youtube.com/warcaby-online,youtube
-Warcaby,2,Warcaby.pl,Portal o warcabach,https://warcaby.pl,article
-Warcaby,3,Warcaby,Zasady i strategie gry,https://wikipedia.org/wiki/Warcaby,wikipedia
-Nauka języków obcych,1,Poliglota,Metody nauki języków,https://youtube.com/poliglota,youtube
-Nauka języków obcych,2,Językowy Portal,Materiały do nauki,https://jezykowy.pl,article
-Nauka języków obcych,3,Glottodydaktyka,Metody nauczania języków,https://wikipedia.org/wiki/Glottodydaktyka,wikipedia
-Taniec,1,Szkoła Tańca Online,Kursy różnych stylów tańca,https://youtube.com/szkola-tanca,youtube
+Szachy,3,Szachy,Historia i strategie,https://wikipedia.org/wiki/Szachy,wikipedia
+Sztuka kintsugi,1,KintsugiArt,Naprawa ceramiki złotem,https://youtube.com/kintsugiart,youtube
+Sztuka kintsugi,2,Kintsugi.art,Portal o kintsugi,https://kintsugi.art,article
+Sztuka kintsugi,3,Kintsugi,Japońska sztuka naprawy,https://wikipedia.org/wiki/Kintsugi,wikipedia
+Sztuka przetrwania w dżungli,1,JungleSurvival,Przetrwanie w dżungli,https://youtube.com/junglesurvival,youtube
+Sztuka przetrwania w dżungli,2,JungleCraft.pl,Portal survivalowy,https://junglecraft.pl,article
+Sztuka przetrwania w dżungli,3,Survival w dżungli,Techniki przetrwania,https://wikipedia.org/wiki/Survival_w_dzungli,wikipedia
+Szycie,1,SewingArt,Nauka szycia,https://youtube.com/sewingart,youtube
+Szycie,2,Szycie.pl,Portal o szyciu,https://szycie.pl,article
+Szycie,3,Krawiectwo,Historia i techniki,https://wikipedia.org/wiki/Krawiectwo,wikipedia
+Taniec,1,DanceAcademy,Nauka tańca,https://youtube.com/danceacademy,youtube
 Taniec,2,Taniec.pl,Portal taneczny,https://taniec.pl,article
-Taniec,3,Taniec,Historia i style tańca,https://wikipedia.org/wiki/Taniec,wikipedia
-Fitness,1,Fitness po polsku,Treningi i porady,https://youtube.com/fitness-po-polsku,youtube
-Fitness,2,Fabryka Siły,Portal fitness,https://fabrykasily.pl,article
-Fitness,3,Fitness,Metody treningu,https://wikipedia.org/wiki/Fitness,wikipedia
-Pilates,1,Pilates w domu,Ćwiczenia pilates,https://youtube.com/pilates-w-domu,youtube
-Pilates,2,Pilates Portal,Techniki i porady,https://pilatesportal.pl,article
-Pilates,3,Pilates,Metoda i zasady,https://wikipedia.org/wiki/Pilates,wikipedia
-Łucznictwo,1,Łucznik TV,Techniki strzelania z łuku,https://youtube.com/lucznik-tv,youtube
-Łucznictwo,2,Łucznictwo Sport,Portal łuczniczy,https://lucznictwo-sport.pl,article
-Łucznictwo,3,Łucznictwo,Historia i techniki,https://wikipedia.org/wiki/Łucznictwo,wikipedia
-Strzelectwo,1,Strzelectwo Sportowe,Porady strzeleckie,https://youtube.com/strzelectwo-sportowe,youtube
-Strzelectwo,2,Strzelnica.pl,Portal strzelecki,https://strzelnica.pl,article
-Strzelectwo,3,Strzelectwo sportowe,Zasady i techniki,https://wikipedia.org/wiki/Strzelectwo_sportowe,wikipedia
-Boks,1,Boks Polska,Techniki bokserskie,https://youtube.com/boks-polska,youtube
-Boks,2,Boxing.pl,Portal bokserski,https://boxing.pl,article
-Boks,3,Boks,Historia i techniki,https://wikipedia.org/wiki/Boks,wikipedia
-Karate,1,Karate Way,Droga karate,https://youtube.com/karate-way,youtube
-Karate,2,Karate Portal,Sztuki walki,https://karateportal.pl,article
-Karate,3,Karate,Style i techniki,https://wikipedia.org/wiki/Karate,wikipedia
-Kickboxing,1,Kickboxing PL,Treningi i techniki,https://youtube.com/kickboxing-pl,youtube
-Kickboxing,2,Fight Portal,Portal sportów walki,https://fightportal.pl,article
-Kickboxing,3,Kickboxing,Zasady i techniki,https://wikipedia.org/wiki/Kickboxing,wikipedia
-Judo,1,Judo TV,Techniki judo,https://youtube.com/judo-tv,youtube
-Judo,2,Judo Sport,Portal judoków,https://judosport.pl,article
-Judo,3,Judo,Historia i techniki,https://wikipedia.org/wiki/Judo,wikipedia
-Modelarstwo,1,Modelarz PL,Porady modelarskie,https://youtube.com/modelarz-pl,youtube
-Modelarstwo,2,Modelarstwo.pl,Portal modelarski,https://modelarstwo.pl,article
-Modelarstwo,3,Modelarstwo,Techniki i rodzaje,https://wikipedia.org/wiki/Modelarstwo,wikipedia
-Budowanie domków dla ptaków,1,Ptasi Azyl,Projekty budek lęgowych,https://youtube.com/ptasi-azyl,youtube
-Budowanie domków dla ptaków,2,Ptasia Edukacja,Porady ornitologiczne,https://ptasiaedukacja.pl,article
-Budowanie domków dla ptaków,3,Budki lęgowe,Rodzaje i konstrukcja,https://wikipedia.org/wiki/Budka_lęgowa,wikipedia
+Taniec,3,Taniec,Style i historia,https://wikipedia.org/wiki/Taniec,wikipedia
+Testowanie kosmetyków DIY,1,DIYCosmetics,Tworzenie kosmetyków domowych,https://youtube.com/diycosmetics,youtube
+Testowanie kosmetyków DIY,2,KosmetykiNaturalne.pl,Portal kosmetyczny,https://kosmetykinaturalne.pl,article
+Testowanie kosmetyków DIY,3,Kosmetyki naturalne,Składniki i receptury,https://wikipedia.org/wiki/Kosmetyki_naturalne,wikipedia
+Testowanie oprogramowania,1,TestingPro,Podstawy testowania,https://youtube.com/testingpro,youtube
+Testowanie oprogramowania,2,Tester.pl,Portal dla testerów,https://tester.pl,article
+Testowanie oprogramowania,3,Testowanie oprogramowania,Metodologie testów,https://wikipedia.org/wiki/Testowanie_oprogramowania,wikipedia
+Tkactwo artystyczne,1,WeavingArt,Sztuka tkania,https://youtube.com/weavingart,youtube
+Tkactwo artystyczne,2,Tkactwo.art,Portal tkacki,https://tkactwo.art,article
+Tkactwo artystyczne,3,Tkactwo,Historia i techniki,https://wikipedia.org/wiki/Tkactwo,wikipedia
+Tworzenie biżuterii,1,JewelryMaking,Tworzenie biżuterii,https://youtube.com/jewelrymaking,youtube
+Tworzenie biżuterii,2,Bizuteria.info,Portal jubilerski,https://bizuteria.info,article
+Tworzenie biżuterii,3,Jubilerstwo,Techniki jubilerskie,https://wikipedia.org/wiki/Jubilerstwo,wikipedia
+Tworzenie chatbotów,1,ChatbotDev,Tworzenie chatbotów,https://youtube.com/chatbotdev,youtube
+Tworzenie chatbotów,2,Chatboty.pl,Portal o chatbotach,https://chatboty.pl,article
+Tworzenie chatbotów,3,Chatbot,Technologia chatbotów,https://wikipedia.org/wiki/Chatbot,wikipedia
+Tworzenie drzewek genealogicznych,1,FamilyTree,Genealogia praktyczna,https://youtube.com/familytree,youtube
+Tworzenie drzewek genealogicznych,2,Genealogia.pl,Portal genealogiczny,https://genealogia.pl,article
+Tworzenie drzewek genealogicznych,3,Genealogia,Badania genealogiczne,https://wikipedia.org/wiki/Genealogia,wikipedia
+Tworzenie escape roomów,1,EscapeRoomDesign,Projektowanie escape roomów,https://youtube.com/escaperoomdesign,youtube
+Tworzenie escape roomów,2,EscapeRoom.pl,Portal o escape roomach,https://escaperoom.pl,article
+Tworzenie escape roomów,3,Escape room,Historia i projektowanie,https://wikipedia.org/wiki/Escape_room,wikipedia
+Tworzenie ilustracji książkowych,1,BookIllustration,Ilustracja książkowa,https://youtube.com/bookillustration,youtube
+Tworzenie ilustracji książkowych,2,Ilustracje.art,Portal dla ilustratorów,https://ilustracje.art,article
+Tworzenie ilustracji książkowych,3,Ilustracja książkowa,Techniki ilustracji,https://wikipedia.org/wiki/Ilustracja_ksiazkowa,wikipedia
+Tworzenie lampionów,1,LanternMaking,Tworzenie lampionów,https://youtube.com/lanternmaking,youtube
+Tworzenie lampionów,2,Lampiony.art,Portal artystyczny,https://lampiony.art,article
+Tworzenie lampionów,3,Lampiony,Historia i techniki,https://wikipedia.org/wiki/Lampiony,wikipedia

@@ -1,18 +1,20 @@
+import { getKnn } from "@/utils/predict-hobby";
 import { useAuth } from "@clerk/nextjs";
+import { useAutoAnimate } from "@formkit/auto-animate/react";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Layout from "../components/Layout";
 import { questions } from "../data/questions";
-import { getKnn } from "@/utils/predict-hobby";
 
-const knn = getKnn()
-import { useAutoAnimate } from '@formkit/auto-animate/react';
+const knn = getKnn();
 
 export default function Quiz() {
   const [currentAnswers, setCurrentAnswers] = useState<number[]>([]);
   const router = useRouter();
   const { isLoaded, userId } = useAuth();
-  const [treeData, setTreeData] = useState(knn.eliminateWithPredicted(currentAnswers))
+  const [treeData, setTreeData] = useState(
+    knn.eliminateWithPredicted(currentAnswers),
+  );
   const currentQuestionIndex = currentAnswers.length;
   const currentQuestion = questions[currentQuestionIndex];
   const progress = (currentQuestionIndex / questions.length) * 100;
@@ -48,7 +50,7 @@ export default function Quiz() {
         query: { answers: JSON.stringify(currentAnswers) },
       },
       undefined,
-      { shallow: true }
+      { shallow: true },
     );
   };
 
@@ -234,15 +236,13 @@ export default function Quiz() {
           </div>
         </div>
 
-        <div className="flex-[2]  ">
+        <div className="flex-[2] text-black">
           Znaleźliśmy {treeData.length} hobby dopasowanych do Twoich wymagań
           <div ref={animationParent} className="flex flex-col gap-4  w-2xl">
-            {treeData.map(v => (
-              <div
-                className="outline outline-emerald-600 p-4 rounded"
-                key={v}
-              >
-                {v[0].toUpperCase()}{v.replace('_', ' ').slice(1)}
+            {treeData.map((v) => (
+              <div className="outline outline-emerald-600 p-4 rounded" key={v}>
+                {v[0].toUpperCase()}
+                {v.replaceAll("_", " ").slice(1)}
               </div>
             ))}
           </div>

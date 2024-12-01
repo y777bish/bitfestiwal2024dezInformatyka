@@ -68,24 +68,27 @@ const hobbyDetails: Record<string, HobbyDetail> = {};
 
 // Process each hobby
 hobbiesData.forEach((row) => {
-  const hobbyId = createHobbyId(row.Hobby);
+  const cleanedRow = Object.fromEntries(
+    Object.entries(row).map(([key, value]) => [key.trim(), value]),
+  );
+  const hobbyId = createHobbyId(cleanedRow["Hobby"]);
 
   // Create attributes object
   const attributes: HobbyAttributes = {
-    physicalActivityLevel: parseInt(row["Physical Activity Level"]),
-    timeConsumption: parseInt(row["Time Consumption"]),
-    sociability: parseInt(row.Sociability),
-    mobility: parseInt(row.Mobility),
-    competition: parseInt(row.Competition),
-    relaxationLevel: parseInt(row["Relaxation Level"]),
-    monetizationPotential: parseInt(row["Monetization Potential"]),
-    noiseLevel: parseInt(row["Noise Level"]),
-    environmentalImpact: parseInt(row["Environmental Impact"]),
-    mentalHealthImpact: parseInt(row["Mental Health Impact"]),
-    physicalHealthImpact: parseInt(row["Physical Health Impact"]),
-    artisticExpression: parseInt(row["Artistic Expression"]),
-    initialCost: parseInt(row["Initial Cost"]),
-    ongoingCost: parseInt(row["Ongoing Cost"]),
+    physicalActivityLevel: parseInt(cleanedRow["Physical Activity Level"]),
+    timeConsumption: parseInt(cleanedRow["Time Consumption"]),
+    sociability: parseInt(cleanedRow.Sociability),
+    mobility: parseInt(cleanedRow.Mobility),
+    competition: parseInt(cleanedRow.Competition),
+    relaxationLevel: parseInt(cleanedRow["Relaxation Level"]),
+    monetizationPotential: parseInt(cleanedRow["Monetization Potential"]),
+    noiseLevel: parseInt(cleanedRow["Noise Level"]),
+    environmentalImpact: parseInt(cleanedRow["Environmental Impact"]),
+    mentalHealthImpact: parseInt(cleanedRow["Mental Health Impact"]),
+    physicalHealthImpact: parseInt(cleanedRow["Physical Health Impact"]),
+    artisticExpression: parseInt(cleanedRow["Artistic Expression"]),
+    initialCost: parseInt(cleanedRow["Initial Cost"]),
+    ongoingCost: parseInt(cleanedRow["Ongoing Cost"]),
   };
 
   // Get tasks for this hobby
@@ -108,14 +111,12 @@ hobbiesData.forEach((row) => {
       type: source.Type,
     }));
 
-  console.log(hobbyId);
-
   // Create the hobby detail object
   hobbyDetails[hobbyId] = {
     id: hobbyId,
-    name: row.Hobby,
-    category: createHobbyId(row.Category),
-    description: `${row.Hobby} to fascynujące hobby, które pozwala...`, // Placeholder description
+    name: cleanedRow.Hobby,
+    category: createHobbyId(cleanedRow.Category),
+    description: `${cleanedRow.Hobby} to fascynujące hobby, które pozwala...`, // Placeholder description
     imageUrl: `/api/placeholder/800/400`,
     attributes,
     tasks,

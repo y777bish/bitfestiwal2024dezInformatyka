@@ -4,61 +4,61 @@ export const questions: Question[] = [
   {
     id: 1,
     question: "Jaki poziom aktywności fizycznej preferujesz?",
-    options: ["Bardzo duży", "Duży", "Mały", "Bardzo mały"],
+    options: ["Bardzo mały", "Mały", "Duży", "Bardzo duży"],
   },
   {
     id: 2,
     question: "Ile czasu w tygodniu możesz poświęcić na swoją aktywność?",
     options: [
-      "Ponad 10 godzin",
-      "5-10 godzin",
-      "2-5 godzin",
       "Mniej niż 2 godziny",
+      "2-5 godzin",
+      "5-10 godzin",
+      "Ponad 10 godzin",
     ],
   },
   {
     id: 3,
     question: "Jak ważna jest dla Ciebie interakcja z innymi ludźmi?",
     options: [
-      "Bardzo ważna, lubię spędzać czas z innymi",
-      "Średnio, czasem wolę spokój",
-      "Niezbyt, preferuję samotność",
       "Wcale, wolę spędzać czas samodzielnie",
+      "Niezbyt, preferuję samotność",
+      "Średnio, czasem wolę spokój",
+      "Bardzo ważna, lubię spędzać czas z innymi",
     ],
   },
   {
     id: 4,
     question: "Jak dużą mobilność chciałbyś mieć w swojej aktywności?",
-    options: ["Bardzo dużą", "Średnią", "Niewielką", "Bardzo małą"],
+    options: ["Bardzo małą", "Niewielką", "Średnią", "Bardzo dużą"],
   },
   {
     id: 5,
     question: "Jak ważna jest dla Ciebie rywalizacja?",
     options: [
-      "Bardzo ważna, lubię rywalizować",
-      "Średnio, czasem rywalizuję",
-      "Nie lubię rywalizacji",
       "Wcale, nie interesuje mnie rywalizacja",
+      "Nie lubię rywalizacji",
+      "Średnio, czasem rywalizuję",
+      "Bardzo ważna, lubię rywalizować",
     ],
   },
   {
     id: 6,
     question: "Jak ważny jest dla Ciebie poziom relaksu i odpoczynku?",
     options: [
-      "Bardzo ważny, szukam odpoczynku",
-      "Średnio ważny",
-      "Nie zależy mi na tym",
       "Wcale, nie szukam odpoczynku",
+      "Nie zależy mi na tym",
+      "Średnio ważny",
+      "Bardzo ważny, szukam odpoczynku",
     ],
   },
   {
     id: 7,
     question: "Czy chcesz, aby Twoja aktywność mogła generować dochód?",
     options: [
-      "Tak, bardzo mi zależy na zarobkach",
-      "Może być, jeśli się pojawią",
-      "Raczej nie, to nie jest dla mnie priorytet",
       "Wcale, nie zależy mi na zarobkach",
+      "Raczej nie, to nie jest dla mnie priorytet",
+      "Może być, jeśli się pojawią",
+      "Tak, bardzo mi zależy na zarobkach",
     ],
   },
   {
@@ -66,10 +66,10 @@ export const questions: Question[] = [
     question:
       "Jak ważny jest dla Ciebie poziom hałasu w otoczeniu podczas aktywności?",
     options: [
-      "Bardzo ważny, wolę ciszę",
-      "Średnio ważny, lubię umiarkowany hałas",
-      "Nie przeszkadza mi hałas",
       "Wcale, im głośniej, tym lepiej",
+      "Nie przeszkadza mi hałas",
+      "Średnio ważny, lubię umiarkowany hałas",
+      "Bardzo ważny, wolę ciszę",
     ],
   },
   {
@@ -77,10 +77,10 @@ export const questions: Question[] = [
     question:
       "Jak ważny jest dla Ciebie wpływ Twojej aktywności na środowisko?",
     options: [
-      "Bardzo ważny, chcę dbać o środowisko",
-      "Średnio ważny, ale nie jest to kluczowe",
-      "Niezbyt ważny",
       "Wcale, nie interesuje mnie wpływ na środowisko",
+      "Niezbyt ważny",
+      "Średnio ważny, ale nie jest to kluczowe",
+      "Bardzo ważny, chcę dbać o środowisko",
     ],
   },
   {
@@ -88,10 +88,10 @@ export const questions: Question[] = [
     question:
       "Jak bardzo zależy Ci na wpływie Twojej aktywności na zdrowie psychiczne?",
     options: [
-      "Bardzo zależy, chcę poprawić swoje samopoczucie",
-      "Średnio zależy, może to być przy okazji",
-      "Niezbyt zależy",
       "Wcale, nie interesuje mnie to",
+      "Niezbyt zależy",
+      "Średnio zależy, może to być przy okazji",
+      "Bardzo zależy, chcę poprawić swoje samopoczucie",
     ],
   },
   {
@@ -99,10 +99,10 @@ export const questions: Question[] = [
     question:
       "Jak bardzo zależy Ci na wpływie Twojej aktywności na zdrowie fizyczne?",
     options: [
-      "Bardzo zależy, chcę poprawić swoją kondycję",
-      "Średnio zależy",
-      "Niezbyt zależy",
       "Wcale, nie interesuje mnie to",
+      "Niezbyt zależy",
+      "Średnio zależy",
+      "Bardzo zależy, chcę poprawić swoją kondycję",
     ],
   },
   {
@@ -110,10 +110,10 @@ export const questions: Question[] = [
     question:
       "Jak ważny jest dla Ciebie element kreatywności w Twoich aktywnościach?",
     options: [
-      "Bardzo ważny, chcę wyrażać siebie",
-      "Średnio ważny",
-      "Nie zależy mi na tym",
       "Wcale, nie potrzebuję kreatywności",
+      "Nie zależy mi na tym",
+      "Średnio ważny",
+      "Bardzo ważny, chcę wyrażać siebie",
     ],
   },
   {
@@ -121,10 +121,10 @@ export const questions: Question[] = [
     question:
       "Jakie są Twoje oczekiwania względem początkowych kosztów związanych z aktywnością?",
     options: [
-      "Chciałbym, aby początkowy koszt był wysoki, jeśli to hobby mnie interesuje",
-      "Średnie koszty są okej",
-      "Wolałbym niski koszt początkowy",
       "Bardzo niski, wolę tanie rozwiązania",
+      "Wolałbym niski koszt początkowy",
+      "Średnie koszty są okej",
+      "Chciałbym, aby początkowy koszt był wysoki, jeśli to hobby mnie interesuje",
     ],
   },
   {
@@ -132,10 +132,10 @@ export const questions: Question[] = [
     question:
       "Jakie są Twoje oczekiwania względem bieżących kosztów utrzymania aktywności?",
     options: [
-      "Bardzo wysokie, hobby nie musi być tanie",
-      "Średnie koszty",
-      "Niskie koszty",
       "Bardzo niskie koszty, wolę oszczędzać",
+      "Niskie koszty",
+      "Średnie koszty",
+      "Bardzo wysokie, hobby nie musi być tanie",
     ],
   },
 ];
